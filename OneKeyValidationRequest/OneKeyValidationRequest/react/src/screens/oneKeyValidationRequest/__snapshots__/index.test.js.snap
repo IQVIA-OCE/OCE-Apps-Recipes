@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OneKeyValidationRequest Should render OneKeyValidationRequest component 1`] = `
+<RCTScrollView>
+  <View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+    >
+      <View
+        style={
+          Object {
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginBottom": 10,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 15,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "30%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginBottom": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "marginRight": 3,
+                    }
+                  }
+                >
+                  Record Type
+                </Text>
+              </Text>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignSelf": "stretch",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  pointerEvents="box-only"
+                  testID="ios_touchable_wrapper"
+                >
+                  <TextInput
+                    allowFontScaling={true}
+                    editable={false}
+                    rejectResponderTermination={true}
+                    style={
+                      Array [
+                        Object {
+                          "borderColor": "#bdbdbd",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                          "color": "black",
+                          "fontSize": 16,
+                          "padding": 11,
+                          "paddingRight": 30,
+                          "width": "100%",
+                        },
+                        Object {
+                          "color": "#C7C7CD",
+                        },
+                      ]
+                    }
+                    underlineColorAndroid="transparent"
+                    value="Choose a Record Type"
+                  />
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "position": "absolute",
+                          "right": 0,
+                        },
+                        Object {
+                          "right": 12,
+                          "top": 10,
+                        },
+                      ]
+                    }
+                    testID="icon_container"
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "black",
+                            "fontSize": 24,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+                <Modal
+                  hardwareAccelerated={false}
+                  onDismiss={[Function]}
+                  onOrientationChange={[Function]}
+                  supportedOrientations={
+                    Array [
+                      "portrait",
+                      "landscape",
+                    ]
+                  }
+                  testID="ios_modal"
+                  transparent={true}
+                  visible={false}
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                    testID="ios_modal_top"
+                  />
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#EFF1F2",
+                          "borderTopColor": "#919498",
+                          "borderTopWidth": 0.5,
+                          "flexDirection": "row",
+                          "height": 44,
+                          "justifyContent": "space-between",
+                          "paddingHorizontal": 10,
+                          "zIndex": 2,
+                        },
+                        undefined,
+                      ]
+                    }
+                    testID="input_accessory_view"
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        isTVSelectable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderColor": "#D0D4DB",
+                                "borderRightWidth": 1.5,
+                                "borderTopWidth": 1.5,
+                                "height": 15,
+                                "width": 15,
+                              },
+                              undefined,
+                              Object {
+                                "marginLeft": 11,
+                                "transform": Array [
+                                  Object {
+                                    "translateY": 4,
+                                  },
+                                  Object {
+                                    "rotate": "-45deg",
+                                  },
+                                ],
+                              },
+                              undefined,
+                              Object {},
+                            ]
+                          }
+                        />
+                      </View>
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        isTVSelectable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderColor": "#D0D4DB",
+                                "borderRightWidth": 1.5,
+                                "borderTopWidth": 1.5,
+                                "height": 15,
+                                "width": 15,
+                              },
+                              undefined,
+                              Object {
+                                "marginLeft": 22,
+                                "transform": Array [
+                                  Object {
+                                    "translateY": -5,
+                                  },
+                                  Object {
+                                    "rotate": "135deg",
+                                  },
+                                ],
+                              },
+                              undefined,
+                              Object {},
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      hitSlop={
+                        Object {
+                          "bottom": 4,
+                          "left": 4,
+                          "right": 4,
+                          "top": 4,
+                        }
+                      }
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      testID="done_button"
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "#007AFE",
+                              "fontSize": 15,
+                              "fontWeight": "bold",
+                              "paddingRight": 2,
+                              "paddingTop": 1,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Done
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "#D0D4DB",
+                          "justifyContent": "center",
+                        },
+                        Object {
+                          "height": 215,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View>
+                      <RCTPicker
+                        items={
+                          Array [
+                            Object {
+                              "label": "Choose a Record Type",
+                              "textColor": undefined,
+                              "value": null,
+                            },
+                          ]
+                        }
+                        onChange={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        selectedIndex={0}
+                        style={
+                          Array [
+                            Object {
+                              "height": 216,
+                            },
+                            undefined,
+                          ]
+                        }
+                        testID="ios_picker"
+                      />
+                    </View>
+                  </View>
+                </Modal>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": "30%",
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "width": "30%",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignContent": "center",
+            "backgroundColor": "rgba(255,255,255,0.7)",
+            "flexDirection": "row",
+            "height": "100%",
+            "justifyContent": "center",
+            "position": "absolute",
+            "width": "100%",
+            "zIndex": 100,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#7c7f81",
+              "fontSize": 15,
+              "paddingTop": 20,
+              "position": "absolute",
+              "top": "50%",
+            }
+          }
+        >
+          Fetching countries...
+        </Text>
+      </View>
+    </RCTSafeAreaView>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5D3EC22B86DE20D771981AD /* Pods_WidgetCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C71543C0E0AF7CB8504A9F /* Pods_WidgetCharts.framework */; };
+		FF1F6CFA23C5E29600A83B1F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1F6CF923C5E29600A83B1F /* Security.framework */; };
+		FF1F6CFC23C5E29600A83B1F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1F6CFB23C5E29600A83B1F /* MapKit.framework */; };
+		FF1F6CFF23C5E29600A83B1F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6CFE23C5E29600A83B1F /* Podfile */; };
+		FF1F6D0123C5E29600A83B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F6D0023C5E29600A83B1F /* AppDelegate.swift */; };
+		FF1F6D0423C5E29600A83B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D0223C5E29600A83B1F /* Main.storyboard */; };
+		FF1F6D0723C5E29600A83B1F /* App.js in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D0623C5E29600A83B1F /* App.js */; };
+		FF1F6D0923C5E29600A83B1F /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D0823C5E29600A83B1F /* app.json */; };
+		FF1F6D0B23C5E29600A83B1F /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D0A23C5E29600A83B1F /* index.js */; };
+		FF1F6D0D23C5E29700A83B1F /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D0C23C5E29700A83B1F /* package.json */; };
+		FF1F6D0F23C5E29700A83B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F6D0E23C5E29700A83B1F /* ViewController.swift */; };
+		FF1F6D1123C5E29700A83B1F /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1023C5E29700A83B1F /* metroBundler.config.json */; };
+		FF1F6D1423C5E29700A83B1F /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1323C5E29700A83B1F /* unzip-react.sh */; };
+		FF1F6D1623C5E29700A83B1F /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1523C5E29700A83B1F /* start-npm.sh */; };
+		FF1F6D1823C5E29700A83B1F /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1723C5E29700A83B1F /* install-react-tools.sh */; };
+		FF1F6D1A23C5E29700A83B1F /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1923C5E29700A83B1F /* bootconfig.plist */; };
+		FF1F6D1C23C5E29900A83B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1B23C5E29900A83B1F /* Assets.xcassets */; };
+		FF1F6D1F23C5E29900A83B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1F6D1D23C5E29900A83B1F /* LaunchScreen.storyboard */; };
+		FF1F6D2223C5E29900A83B1F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F6D2123C5E29900A83B1F /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44C71543C0E0AF7CB8504A9F /* Pods_WidgetCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WidgetCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFD81E1D68DCD5E9029D9A6 /* Pods-WidgetCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetCharts.release.xcconfig"; path = "Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts.release.xcconfig"; sourceTree = "<group>"; };
+		D75593ED4CD485C1028A2C18 /* Pods-WidgetCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetCharts.debug.xcconfig"; path = "Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1F6CF623C5E29600A83B1F /* WidgetCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1F6CF923C5E29600A83B1F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF1F6CFB23C5E29600A83B1F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF1F6CFE23C5E29600A83B1F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FF1F6D0023C5E29600A83B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF1F6D0323C5E29600A83B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1F6D0623C5E29600A83B1F /* App.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = App.js; sourceTree = "<group>"; };
+		FF1F6D0823C5E29600A83B1F /* app.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
+		FF1F6D0A23C5E29600A83B1F /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		FF1F6D0C23C5E29700A83B1F /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		FF1F6D0E23C5E29700A83B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF1F6D1023C5E29700A83B1F /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FF1F6D1323C5E29700A83B1F /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FF1F6D1523C5E29700A83B1F /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FF1F6D1723C5E29700A83B1F /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FF1F6D1923C5E29700A83B1F /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FF1F6D1B23C5E29900A83B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1F6D1E23C5E29900A83B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF1F6D2023C5E29900A83B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1F6D2123C5E29900A83B1F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1F6CF123C5E29600A83B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1F6CFC23C5E29600A83B1F /* MapKit.framework in Frameworks */,
+				FF1F6CFA23C5E29600A83B1F /* Security.framework in Frameworks */,
+				E5D3EC22B86DE20D771981AD /* Pods_WidgetCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26262B9E2DDE79883FCF7569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75593ED4CD485C1028A2C18 /* Pods-WidgetCharts.debug.xcconfig */,
+				BFFD81E1D68DCD5E9029D9A6 /* Pods-WidgetCharts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF1F6CEB23C5E29600A83B1F = {
+			isa = PBXGroup;
+			children = (
+				FF1F6CFD23C5E29600A83B1F /* WidgetCharts */,
+				FF1F6CF823C5E29600A83B1F /* Frameworks */,
+				FF1F6CF723C5E29600A83B1F /* Products */,
+				26262B9E2DDE79883FCF7569 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1F6CF723C5E29600A83B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F6CF623C5E29600A83B1F /* WidgetCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1F6CF823C5E29600A83B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F6CF923C5E29600A83B1F /* Security.framework */,
+				FF1F6CFB23C5E29600A83B1F /* MapKit.framework */,
+				44C71543C0E0AF7CB8504A9F /* Pods_WidgetCharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1F6CFD23C5E29600A83B1F /* WidgetCharts */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F6CFE23C5E29600A83B1F /* Podfile */,
+				FF1F6D0023C5E29600A83B1F /* AppDelegate.swift */,
+				FF1F6D0223C5E29600A83B1F /* Main.storyboard */,
+				FF1F6D0E23C5E29700A83B1F /* ViewController.swift */,
+				FF1F6D1023C5E29700A83B1F /* metroBundler.config.json */,
+				FF1F6D1B23C5E29900A83B1F /* Assets.xcassets */,
+				FF1F6D1D23C5E29900A83B1F /* LaunchScreen.storyboard */,
+				FF1F6D2023C5E29900A83B1F /* Info.plist */,
+				FF1F6D2123C5E29900A83B1F /* main.swift */,
+				FF1F6D0523C5E29600A83B1F /* react */,
+				FF1F6D1223C5E29700A83B1F /* Supporting Files */,
+			);
+			path = WidgetCharts;
+			sourceTree = "<group>";
+		};
+		FF1F6D0523C5E29600A83B1F /* react */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F6D0623C5E29600A83B1F /* App.js */,
+				FF1F6D0823C5E29600A83B1F /* app.json */,
+				FF1F6D0A23C5E29600A83B1F /* index.js */,
+				FF1F6D0C23C5E29700A83B1F /* package.json */,
+			);
+			path = react;
+			sourceTree = "<group>";
+		};
+		FF1F6D1223C5E29700A83B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F6D1323C5E29700A83B1F /* unzip-react.sh */,
+				FF1F6D1523C5E29700A83B1F /* start-npm.sh */,
+				FF1F6D1723C5E29700A83B1F /* install-react-tools.sh */,
+				FF1F6D1923C5E29700A83B1F /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1F6CF523C5E29600A83B1F /* WidgetCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1F6D2523C5E29900A83B1F /* Build configuration list for PBXNativeTarget "WidgetCharts" */;
+			buildPhases = (
+				1B20EF2526212D100B37B06E /* [CP] Check Pods Manifest.lock */,
+				FF1F6CF023C5E29600A83B1F /* Sources */,
+				FF1F6CF123C5E29600A83B1F /* Frameworks */,
+				FF1F6CF223C5E29600A83B1F /* Resources */,
+				FF1F6CF323C5E29600A83B1F /* Start npm */,
+				FF1F6CF423C5E29600A83B1F /* Bundle React Native code and images */,
+				884478C3AD4F6426C70A7607 /* [CP] Embed Pods Frameworks */,
+				02312019A753D3EF06E6DDAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetCharts;
+			productName = WidgetCharts;
+			productReference = FF1F6CF623C5E29600A83B1F /* WidgetCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1F6CEC23C5E29600A83B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OCE;
+				TargetAttributes = {
+					FF1F6CF523C5E29600A83B1F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FF1F6CEF23C5E29600A83B1F /* Build configuration list for PBXProject "WidgetCharts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1F6CEB23C5E29600A83B1F;
+			productRefGroup = FF1F6CF723C5E29600A83B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1F6CF523C5E29600A83B1F /* WidgetCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1F6CF223C5E29600A83B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1F6D0B23C5E29600A83B1F /* index.js in Resources */,
+				FF1F6D1423C5E29700A83B1F /* unzip-react.sh in Resources */,
+				FF1F6D1823C5E29700A83B1F /* install-react-tools.sh in Resources */,
+				FF1F6CFF23C5E29600A83B1F /* Podfile in Resources */,
+				FF1F6D0D23C5E29700A83B1F /* package.json in Resources */,
+				FF1F6D0923C5E29600A83B1F /* app.json in Resources */,
+				FF1F6D0723C5E29600A83B1F /* App.js in Resources */,
+				FF1F6D1F23C5E29900A83B1F /* LaunchScreen.storyboard in Resources */,
+				FF1F6D1A23C5E29700A83B1F /* bootconfig.plist in Resources */,
+				FF1F6D0423C5E29600A83B1F /* Main.storyboard in Resources */,
+				FF1F6D1623C5E29700A83B1F /* start-npm.sh in Resources */,
+				FF1F6D1C23C5E29900A83B1F /* Assets.xcassets in Resources */,
+				FF1F6D1123C5E29700A83B1F /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02312019A753D3EF06E6DDAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B20EF2526212D100B37B06E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WidgetCharts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		884478C3AD4F6426C70A7607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1F6CF323C5E29600A83B1F /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		FF1F6CF423C5E29600A83B1F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1F6CF023C5E29600A83B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1F6D0F23C5E29700A83B1F /* ViewController.swift in Sources */,
+				FF1F6D0123C5E29600A83B1F /* AppDelegate.swift in Sources */,
+				FF1F6D2223C5E29900A83B1F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF1F6D0223C5E29600A83B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1F6D0323C5E29600A83B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF1F6D1D23C5E29900A83B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1F6D1E23C5E29900A83B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1F6D2323C5E29900A83B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF1F6D2423C5E29900A83B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1F6D2623C5E29900A83B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75593ED4CD485C1028A2C18 /* Pods-WidgetCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WidgetCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.WidgetCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF1F6D2723C5E29900A83B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFD81E1D68DCD5E9029D9A6 /* Pods-WidgetCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WidgetCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.WidgetCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1F6CEF23C5E29600A83B1F /* Build configuration list for PBXProject "WidgetCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1F6D2323C5E29900A83B1F /* Debug */,
+				FF1F6D2423C5E29900A83B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1F6D2523C5E29900A83B1F /* Build configuration list for PBXNativeTarget "WidgetCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1F6D2623C5E29900A83B1F /* Debug */,
+				FF1F6D2723C5E29900A83B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1F6CEC23C5E29600A83B1F /* Project object */;
+}

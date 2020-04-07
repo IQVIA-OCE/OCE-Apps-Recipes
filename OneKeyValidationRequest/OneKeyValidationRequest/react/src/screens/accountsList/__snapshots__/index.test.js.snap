@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountsList Should render AccountsList component 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#c0c0c0",
+        "fontSize": 20,
+        "height": "100%",
+        "paddingVertical": 30,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    No Data Found
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": false,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "paddingTop": 5,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

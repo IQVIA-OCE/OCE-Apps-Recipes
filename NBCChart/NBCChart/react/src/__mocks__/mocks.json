@@ -1,0 +1,77 @@
+{
+  "AccountItem": {
+    "itemData": {
+      "Id": "a1j2D000000MNHhQAO2",
+      "OCE__Account__r": {
+        "Id": "001f400000BV5hoAAD",
+        "OCE__Specialty__c": "Dermatology",
+        "OCE__PrimaryAccountAddress__r": null,
+        "LastName": null,
+        "attributes": {
+          "url": "/services/data/v43.0/sobjects/Account/001f400000BV5hoAAD",
+          "type": "Account"
+        },
+        "OCE__ParentAccount__r": null,
+        "Name": "AG Berufs-Umweltderm e.V."
+      },
+      "OCE__Rank__c": 10,
+      "attributes": {
+        "type": "OCE__NextBestCustomer__c",
+        "url": "/services/data/v43.0/sobjects/OCE__NextBestCustomer__c/a1j2D000000MNHhQAO"
+      },
+      "OCE__TotalScore__c": 0,
+      "OCE__NbcData__c": "{\"scores\":{\"isTarget\":0,\"recentlyCalled\":0},\"metrics\":{\"isTarget\":false,\"recentlyCalled\":\"DATA_NOT_AVAILABLE\"},\"customLabels\":{}}",
+      "index": 10
+    },
+    "columns": [
+      {
+        "id": "SampleEligibility",
+        "title": "Sample eligibility",
+        "accessor": "OCE__Account__r.OCE__PrimaryAccountAddress__r.OCE__SampleEligibilityStatus__c",
+        "isSortable": true
+      },
+      {
+        "id": "NextBestTime",
+        "title": "Next best time",
+        "accessor": "OCE__Account__r.OCE__PrimaryAccountAddress__r.OCE__BestTime__c",
+        "isSortable": false
+      },
+      {
+        "id": "Rank",
+        "title": "Rank",
+        "accessor": "OCE__Rank__c",
+        "isSortable": true,
+        "type": "number"
+      }
+    ]
+  },
+  "NBCAccountData": {
+    "Id": "a1j2D000000MNHWQA4",
+    "OCE__Account__r": {
+      "Id": "001f400000BV4YUAA1",
+      "OCE__Specialty__c": "Cardiovascular diseases",
+      "OCE__PrimaryAccountAddress__r": null,
+      "LastName": "Behroz",
+      "attributes": {
+        "url": "/services/data/v43.0/sobjects/Account/001f400000BV4YUAA1",
+        "type": "Account"
+      },
+      "OCE__ParentAccount__r": {
+        "Name": "Dr. Behroz",
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v43.0/sobjects/Account/001f400000BV4VeAAL"
+        }
+      },
+      "Name": "Abdullah Behroz"
+    },
+    "OCE__Rank__c": 1,
+    "attributes": {
+      "type": "OCE__NextBestCustomer__c",
+      "url": "/services/data/v43.0/sobjects/OCE__NextBestCustomer__c/a1j2D000000MNHWQA4"
+    },
+    "OCE__TotalScore__c": 50,
+    "OCE__NbcData__c": "{\"scores\":{\"isTarget\":50,\"recentlyCalled\":0},\"metrics\":{\"isTarget\":true,\"recentlyCalled\":\"DATA_NOT_AVAILABLE\"},\"customLabels\":{}}",
+    "index": 0
+  }
+}

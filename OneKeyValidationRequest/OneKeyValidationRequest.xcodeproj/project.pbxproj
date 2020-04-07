@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21CFC4C44D80490080368D43 /* Pods_OneKeyValidationRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E531B7F40F077460FB11CBED /* Pods_OneKeyValidationRequest.framework */; };
+		FF18A9F423C6303F0089F0DB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF18A9F323C6303F0089F0DB /* Security.framework */; };
+		FF18A9F623C6303F0089F0DB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF18A9F523C6303F0089F0DB /* MapKit.framework */; };
+		FF18A9F923C6303F0089F0DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF18A9F823C6303F0089F0DB /* Podfile */; };
+		FF18A9FB23C6303F0089F0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18A9FA23C6303F0089F0DB /* AppDelegate.swift */; };
+		FF18A9FE23C6303F0089F0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF18A9FC23C6303F0089F0DB /* Main.storyboard */; };
+		FF18AA0123C6303F0089F0DB /* App.js in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0023C6303F0089F0DB /* App.js */; };
+		FF18AA0323C6303F0089F0DB /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0223C6303F0089F0DB /* app.json */; };
+		FF18AA0523C6303F0089F0DB /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0423C6303F0089F0DB /* index.js */; };
+		FF18AA0723C6303F0089F0DB /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0623C6303F0089F0DB /* package.json */; };
+		FF18AA0923C6303F0089F0DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18AA0823C6303F0089F0DB /* ViewController.swift */; };
+		FF18AA0B23C6303F0089F0DB /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0A23C6303F0089F0DB /* metroBundler.config.json */; };
+		FF18AA0E23C6303F0089F0DB /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0D23C6303F0089F0DB /* unzip-react.sh */; };
+		FF18AA1023C6303F0089F0DB /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA0F23C6303F0089F0DB /* start-npm.sh */; };
+		FF18AA1223C6303F0089F0DB /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA1123C6303F0089F0DB /* install-react-tools.sh */; };
+		FF18AA1423C6303F0089F0DB /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA1323C6303F0089F0DB /* bootconfig.plist */; };
+		FF18AA1623C630400089F0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA1523C630400089F0DB /* Assets.xcassets */; };
+		FF18AA1923C630400089F0DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF18AA1723C630400089F0DB /* LaunchScreen.storyboard */; };
+		FF18AA1C23C630400089F0DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18AA1B23C630400089F0DB /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827243DA89F7E99420EB3EB9 /* Pods-OneKeyValidationRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKeyValidationRequest.debug.xcconfig"; path = "Target Support Files/Pods-OneKeyValidationRequest/Pods-OneKeyValidationRequest.debug.xcconfig"; sourceTree = "<group>"; };
+		D073141DA8A333B15CA624B1 /* Pods-OneKeyValidationRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKeyValidationRequest.release.xcconfig"; path = "Target Support Files/Pods-OneKeyValidationRequest/Pods-OneKeyValidationRequest.release.xcconfig"; sourceTree = "<group>"; };
+		E531B7F40F077460FB11CBED /* Pods_OneKeyValidationRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneKeyValidationRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF18A9F023C6303F0089F0DB /* OneKeyValidationRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneKeyValidationRequest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF18A9F323C6303F0089F0DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF18A9F523C6303F0089F0DB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF18A9F823C6303F0089F0DB /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FF18A9FA23C6303F0089F0DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF18A9FD23C6303F0089F0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF18AA0023C6303F0089F0DB /* App.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = App.js; sourceTree = "<group>"; };
+		FF18AA0223C6303F0089F0DB /* app.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
+		FF18AA0423C6303F0089F0DB /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		FF18AA0623C6303F0089F0DB /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		FF18AA0823C6303F0089F0DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF18AA0A23C6303F0089F0DB /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FF18AA0D23C6303F0089F0DB /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FF18AA0F23C6303F0089F0DB /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FF18AA1123C6303F0089F0DB /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FF18AA1323C6303F0089F0DB /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FF18AA1523C630400089F0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF18AA1823C630400089F0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF18AA1A23C630400089F0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF18AA1B23C630400089F0DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF18A9EB23C6303F0089F0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF18A9F623C6303F0089F0DB /* MapKit.framework in Frameworks */,
+				FF18A9F423C6303F0089F0DB /* Security.framework in Frameworks */,
+				21CFC4C44D80490080368D43 /* Pods_OneKeyValidationRequest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09175C227508C0B057E8EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				827243DA89F7E99420EB3EB9 /* Pods-OneKeyValidationRequest.debug.xcconfig */,
+				D073141DA8A333B15CA624B1 /* Pods-OneKeyValidationRequest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF18A9E523C6303F0089F0DB = {
+			isa = PBXGroup;
+			children = (
+				FF18A9F723C6303F0089F0DB /* OneKeyValidationRequest */,
+				FF18A9F223C6303F0089F0DB /* Frameworks */,
+				FF18A9F123C6303F0089F0DB /* Products */,
+				D09175C227508C0B057E8EE8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FF18A9F123C6303F0089F0DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF18A9F023C6303F0089F0DB /* OneKeyValidationRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF18A9F223C6303F0089F0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF18A9F323C6303F0089F0DB /* Security.framework */,
+				FF18A9F523C6303F0089F0DB /* MapKit.framework */,
+				E531B7F40F077460FB11CBED /* Pods_OneKeyValidationRequest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF18A9F723C6303F0089F0DB /* OneKeyValidationRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FF18A9F823C6303F0089F0DB /* Podfile */,
+				FF18A9FA23C6303F0089F0DB /* AppDelegate.swift */,
+				FF18A9FC23C6303F0089F0DB /* Main.storyboard */,
+				FF18AA0823C6303F0089F0DB /* ViewController.swift */,
+				FF18AA0A23C6303F0089F0DB /* metroBundler.config.json */,
+				FF18AA1523C630400089F0DB /* Assets.xcassets */,
+				FF18AA1723C630400089F0DB /* LaunchScreen.storyboard */,
+				FF18AA1A23C630400089F0DB /* Info.plist */,
+				FF18AA1B23C630400089F0DB /* main.swift */,
+				FF18A9FF23C6303F0089F0DB /* react */,
+				FF18AA0C23C6303F0089F0DB /* Supporting Files */,
+			);
+			path = OneKeyValidationRequest;
+			sourceTree = "<group>";
+		};
+		FF18A9FF23C6303F0089F0DB /* react */ = {
+			isa = PBXGroup;
+			children = (
+				FF18AA0023C6303F0089F0DB /* App.js */,
+				FF18AA0223C6303F0089F0DB /* app.json */,
+				FF18AA0423C6303F0089F0DB /* index.js */,
+				FF18AA0623C6303F0089F0DB /* package.json */,
+			);
+			path = react;
+			sourceTree = "<group>";
+		};
+		FF18AA0C23C6303F0089F0DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF18AA0D23C6303F0089F0DB /* unzip-react.sh */,
+				FF18AA0F23C6303F0089F0DB /* start-npm.sh */,
+				FF18AA1123C6303F0089F0DB /* install-react-tools.sh */,
+				FF18AA1323C6303F0089F0DB /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF18A9EF23C6303F0089F0DB /* OneKeyValidationRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF18AA1F23C630400089F0DB /* Build configuration list for PBXNativeTarget "OneKeyValidationRequest" */;
+			buildPhases = (
+				17979D3653F3D080AC42ADB8 /* [CP] Check Pods Manifest.lock */,
+				FF18A9EA23C6303F0089F0DB /* Sources */,
+				FF18A9EB23C6303F0089F0DB /* Frameworks */,
+				FF18A9EC23C6303F0089F0DB /* Resources */,
+				FF18A9ED23C6303F0089F0DB /* Start npm */,
+				FF18A9EE23C6303F0089F0DB /* Bundle React Native code and images */,
+				430C9373D0D63198585B2C5B /* [CP] Embed Pods Frameworks */,
+				0B22084C4DA084BF27EB6560 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneKeyValidationRequest;
+			productName = OneKeyValidationRequest;
+			productReference = FF18A9F023C6303F0089F0DB /* OneKeyValidationRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF18A9E623C6303F0089F0DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OCE;
+				TargetAttributes = {
+					FF18A9EF23C6303F0089F0DB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FF18A9E923C6303F0089F0DB /* Build configuration list for PBXProject "OneKeyValidationRequest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF18A9E523C6303F0089F0DB;
+			productRefGroup = FF18A9F123C6303F0089F0DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF18A9EF23C6303F0089F0DB /* OneKeyValidationRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF18A9EC23C6303F0089F0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF18AA0523C6303F0089F0DB /* index.js in Resources */,
+				FF18AA0E23C6303F0089F0DB /* unzip-react.sh in Resources */,
+				FF18AA1223C6303F0089F0DB /* install-react-tools.sh in Resources */,
+				FF18A9F923C6303F0089F0DB /* Podfile in Resources */,
+				FF18AA0723C6303F0089F0DB /* package.json in Resources */,
+				FF18AA0323C6303F0089F0DB /* app.json in Resources */,
+				FF18AA0123C6303F0089F0DB /* App.js in Resources */,
+				FF18AA1923C630400089F0DB /* LaunchScreen.storyboard in Resources */,
+				FF18AA1423C6303F0089F0DB /* bootconfig.plist in Resources */,
+				FF18A9FE23C6303F0089F0DB /* Main.storyboard in Resources */,
+				FF18AA1023C6303F0089F0DB /* start-npm.sh in Resources */,
+				FF18AA1623C630400089F0DB /* Assets.xcassets in Resources */,
+				FF18AA0B23C6303F0089F0DB /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B22084C4DA084BF27EB6560 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneKeyValidationRequest/Pods-OneKeyValidationRequest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17979D3653F3D080AC42ADB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneKeyValidationRequest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430C9373D0D63198585B2C5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneKeyValidationRequest/Pods-OneKeyValidationRequest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF18A9ED23C6303F0089F0DB /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		FF18A9EE23C6303F0089F0DB /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF18A9EA23C6303F0089F0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF18AA0923C6303F0089F0DB /* ViewController.swift in Sources */,
+				FF18A9FB23C6303F0089F0DB /* AppDelegate.swift in Sources */,
+				FF18AA1C23C630400089F0DB /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF18A9FC23C6303F0089F0DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF18A9FD23C6303F0089F0DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF18AA1723C630400089F0DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF18AA1823C630400089F0DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF18AA1D23C630400089F0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF18AA1E23C630400089F0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF18AA2023C630400089F0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827243DA89F7E99420EB3EB9 /* Pods-OneKeyValidationRequest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneKeyValidationRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.OneKeyValidationRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF18AA2123C630400089F0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D073141DA8A333B15CA624B1 /* Pods-OneKeyValidationRequest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneKeyValidationRequest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.OneKeyValidationRequest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF18A9E923C6303F0089F0DB /* Build configuration list for PBXProject "OneKeyValidationRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF18AA1D23C630400089F0DB /* Debug */,
+				FF18AA1E23C630400089F0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF18AA1F23C630400089F0DB /* Build configuration list for PBXNativeTarget "OneKeyValidationRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF18AA2023C630400089F0DB /* Debug */,
+				FF18AA2123C630400089F0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF18A9E623C6303F0089F0DB /* Project object */;
+}

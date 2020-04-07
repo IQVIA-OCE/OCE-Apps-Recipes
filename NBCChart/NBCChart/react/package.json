@@ -1,0 +1,50 @@
+{
+    "name": "OCEPlugin",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "mkdir -p ./ios; node node_modules/react-native/local-cli/cli.js bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios/'; rm -rf ios.zip; zip -r ios.zip ./ios;",
+        "start": "yarn react-native start --port=8084 --reset-cache",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@babel/core": "*",
+        "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#1.0.0",
+        "expo": "34.0.1",
+        "jest": "24.9.0",
+        "jest-file-snapshot": "0.3.8",
+        "react": "16.9.0",
+        "react-native": "0.61.2",
+        "react-native-gesture-handler": "^1.4.1",
+        "react-native-renderer": "15.5.3",
+        "react-native-vector-icons": "^6.6.0",
+        "react-navigation": "^4.0.5",
+        "react-navigation-stack": "^1.7.3",
+        "react-test-renderer": "16.12.0",
+        "throttle-debounce": "^2.1.0",
+        "ts-jest": "^24.3.0",
+        "victory-native": "^33.0.0"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.8.0"
+    },
+    "jest": {
+        "preset": "react-native",
+        "cacheDirectory": "./cache/jest",
+        "setupFiles": [
+            "./__mocks__/Database/DatabaseManager.js",
+            "./__mocks__/Database/LogACallManager.js",
+            "./__mocks__/EnvironmentData/EnvironmentData.js",
+            "./__mocks__/EnvironmentData/EnvironmentData.js",
+            "./__mocks__/Localization/localization.native.js",
+            "./__mocks__/Logger/logger.js",
+            "./__mocks__/Navigation/ScreenNavigator.js",
+            "./__mocks__/sf/sfnetapi.js",
+            "./__mocks__/RNDocumentPicker.js",
+            "./__mocks__/LayoutBridge.js"
+        ],
+        "transformIgnorePatterns": [
+            "node_modules/(?!react-native|victory-*|@react-native-community|apollo-react-native)"
+        ]
+    }
+}
