@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListItem Should render ProductListItem component 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#DADADA",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#4D4D4D",
+            "marginBottom": 5,
+            "marginLeft": 5,
+          }
+        }
+      >
+        productName
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "borderRadius": 10,
+              "flexDirection": "row",
+              "paddingHorizontal": 6,
+              "paddingVertical": 2,
+            },
+            Object {
+              "borderRadius": 15,
+              "fontSize": 16,
+              "paddingHorizontal": 8,
+              "paddingVertical": 6,
+            },
+            Object {
+              "backgroundColor": "#ecebea",
+              "marginRight": 5,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 12,
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000",
+              },
+            ]
+          }
+        >
+          name
+        </Text>
+      </View>
+    </View>
+    <View />
+  </View>
+</View>
+`;
+
+exports[`ProductListItem Should render ProductListItem component lock 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#DADADA",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#4D4D4D",
+            "marginBottom": 5,
+            "marginLeft": 5,
+          }
+        }
+      >
+        productName
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "borderRadius": 10,
+              "flexDirection": "row",
+              "paddingHorizontal": 6,
+              "paddingVertical": 2,
+            },
+            Object {
+              "borderRadius": 15,
+              "fontSize": 16,
+              "paddingHorizontal": 8,
+              "paddingVertical": 6,
+            },
+            Object {
+              "backgroundColor": "#ecebea",
+              "marginRight": 5,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 12,
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000",
+              },
+            ]
+          }
+        >
+          name
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#8D8D8D",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ProductListItem Should render ProductListItem component selected 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#DADADA",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#4D4D4D",
+            "marginBottom": 5,
+            "marginLeft": 5,
+          }
+        }
+      >
+        productName
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "borderRadius": 10,
+              "flexDirection": "row",
+              "paddingHorizontal": 6,
+              "paddingVertical": 2,
+            },
+            Object {
+              "borderRadius": 15,
+              "fontSize": 16,
+              "paddingHorizontal": 8,
+              "paddingVertical": 6,
+            },
+            Object {
+              "backgroundColor": "#ecebea",
+              "marginRight": 5,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 12,
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "#000",
+              },
+            ]
+          }
+        >
+          name
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#009F0B",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
