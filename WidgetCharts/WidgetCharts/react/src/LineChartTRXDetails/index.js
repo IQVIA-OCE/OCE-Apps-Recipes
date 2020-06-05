@@ -41,9 +41,9 @@ export default class LineChartTRXDetails extends React.Component {
 
     fetchMarketsList = () => {
         const {territory} = this.state;
-        const {recordTypeId} = this.props;
+        const {recordId} = this.props;
         
-        let filter = recordTypeId ? `And OCE__Account__c = '${recordTypeId}'` : `And OCE__Territory__c = '${territory.name}'`
+        let filter = recordId ? `And OCE__Account__c = '${recordId}'` : `And OCE__Territory__c = '${territory.name}'`
         this.setState({loading: true});
 
         return new Promise((resolve, reject) => {
@@ -82,8 +82,8 @@ export default class LineChartTRXDetails extends React.Component {
 
     fetchMarketData = () => {
         const { territory, market } = this.state;
-        const { recordTypeId } = this.props;
-        let filter = recordTypeId ? `And OCE__Territory__c = '${territory.name}' And OCE__Account__c = '${recordTypeId}'` : `And OCE__Territory__c = '${territory.name}'`
+        const { recordId } = this.props;
+        let filter = recordId ? `And OCE__Territory__c = '${territory.name}' And OCE__Account__c = '${recordId}'` : `And OCE__Territory__c = '${territory.name}'`
         this.setState({loading: true});
         
         return new Promise((resolve, reject) => {

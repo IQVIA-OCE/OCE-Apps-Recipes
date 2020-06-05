@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7DD85D1AE2E473AC70AB210 /* Pods_NBCCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D4A8770531BBFDF198CBA1 /* Pods_NBCCharts.framework */; };
+		FF72CCD1240D11CD00065299 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72CCD0240D11CD00065299 /* Security.framework */; };
+		FF72CCD3240D11CD00065299 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72CCD2240D11CD00065299 /* MapKit.framework */; };
+		FF72CCD6240D11CD00065299 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCD5240D11CD00065299 /* Podfile */; };
+		FF72CCD8240D11CD00065299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72CCD7240D11CD00065299 /* AppDelegate.swift */; };
+		FF72CCDB240D11CD00065299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCD9240D11CD00065299 /* Main.storyboard */; };
+		FF72CCDD240D11CD00065299 /* react in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCDC240D11CD00065299 /* react */; };
+		FF72CCDF240D11CD00065299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72CCDE240D11CD00065299 /* ViewController.swift */; };
+		FF72CCE1240D11CD00065299 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE0240D11CD00065299 /* metroBundler.config.json */; };
+		FF72CCE4240D11CD00065299 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE3240D11CD00065299 /* unzip-react.sh */; };
+		FF72CCE6240D11CD00065299 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE5240D11CD00065299 /* start-npm.sh */; };
+		FF72CCE8240D11CD00065299 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE7240D11CD00065299 /* install-react-tools.sh */; };
+		FF72CCEA240D11CD00065299 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE9240D11CD00065299 /* bootconfig.plist */; };
+		FF72CCEC240D11CF00065299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCEB240D11CF00065299 /* Assets.xcassets */; };
+		FF72CCEF240D11CF00065299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCED240D11CF00065299 /* LaunchScreen.storyboard */; };
+		FF72CCF2240D11CF00065299 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72CCF1240D11CF00065299 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F6EC245E6E8DDFD696B59F6 /* Pods-NBCCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.release.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.release.xcconfig"; sourceTree = "<group>"; };
+		89BE68AEAEF75735FCF19410 /* Pods-NBCCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.debug.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D4A8770531BBFDF198CBA1 /* Pods_NBCCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBCCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF72CCCD240D11CD00065299 /* NBCCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBCCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF72CCD0240D11CD00065299 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF72CCD2240D11CD00065299 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF72CCD5240D11CD00065299 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FF72CCD7240D11CD00065299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF72CCDA240D11CD00065299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF72CCDC240D11CD00065299 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FF72CCDE240D11CD00065299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF72CCE0240D11CD00065299 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FF72CCE3240D11CD00065299 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FF72CCE5240D11CD00065299 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FF72CCE7240D11CD00065299 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FF72CCE9240D11CD00065299 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FF72CCEB240D11CF00065299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF72CCEE240D11CF00065299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF72CCF0240D11CF00065299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF72CCF1240D11CF00065299 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF72CCC8240D11CD00065299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72CCD3240D11CD00065299 /* MapKit.framework in Frameworks */,
+				FF72CCD1240D11CD00065299 /* Security.framework in Frameworks */,
+				A7DD85D1AE2E473AC70AB210 /* Pods_NBCCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAF949B0EBFF79B8F458DB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89BE68AEAEF75735FCF19410 /* Pods-NBCCharts.debug.xcconfig */,
+				4F6EC245E6E8DDFD696B59F6 /* Pods-NBCCharts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF72CCC2240D11CD00065299 = {
+			isa = PBXGroup;
+			children = (
+				FF72CCD4240D11CD00065299 /* NBCCharts */,
+				FF72CCCF240D11CD00065299 /* Frameworks */,
+				FF72CCCE240D11CD00065299 /* Products */,
+				4EAF949B0EBFF79B8F458DB7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FF72CCCE240D11CD00065299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF72CCCD240D11CD00065299 /* NBCCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF72CCCF240D11CD00065299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF72CCD0240D11CD00065299 /* Security.framework */,
+				FF72CCD2240D11CD00065299 /* MapKit.framework */,
+				D6D4A8770531BBFDF198CBA1 /* Pods_NBCCharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF72CCD4240D11CD00065299 /* NBCCharts */ = {
+			isa = PBXGroup;
+			children = (
+				FF72CCD5240D11CD00065299 /* Podfile */,
+				FF72CCD7240D11CD00065299 /* AppDelegate.swift */,
+				FF72CCD9240D11CD00065299 /* Main.storyboard */,
+				FF72CCDC240D11CD00065299 /* react */,
+				FF72CCDE240D11CD00065299 /* ViewController.swift */,
+				FF72CCE0240D11CD00065299 /* metroBundler.config.json */,
+				FF72CCEB240D11CF00065299 /* Assets.xcassets */,
+				FF72CCED240D11CF00065299 /* LaunchScreen.storyboard */,
+				FF72CCF0240D11CF00065299 /* Info.plist */,
+				FF72CCF1240D11CF00065299 /* main.swift */,
+				FF72CCE2240D11CD00065299 /* Supporting Files */,
+			);
+			path = NBCCharts;
+			sourceTree = "<group>";
+		};
+		FF72CCE2240D11CD00065299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF72CCE3240D11CD00065299 /* unzip-react.sh */,
+				FF72CCE5240D11CD00065299 /* start-npm.sh */,
+				FF72CCE7240D11CD00065299 /* install-react-tools.sh */,
+				FF72CCE9240D11CD00065299 /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF72CCCC240D11CD00065299 /* NBCCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF72CCF5240D11CF00065299 /* Build configuration list for PBXNativeTarget "NBCCharts" */;
+			buildPhases = (
+				C01190739EDD26F9F5CA20C9 /* [CP] Check Pods Manifest.lock */,
+				FF72CCC7240D11CD00065299 /* Sources */,
+				FF72CCC8240D11CD00065299 /* Frameworks */,
+				FF72CCC9240D11CD00065299 /* Resources */,
+				FF72CCCA240D11CD00065299 /* Start npm */,
+				FF72CCCB240D11CD00065299 /* Bundle React Native code and images */,
+				2F52E40AAAB5435ADD4B834D /* [CP] Embed Pods Frameworks */,
+				01451E288A01CD7B79CD5A3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBCCharts;
+			productName = NBCCharts;
+			productReference = FF72CCCD240D11CD00065299 /* NBCCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF72CCC3240D11CD00065299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OCE;
+				TargetAttributes = {
+					FF72CCCC240D11CD00065299 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FF72CCC6240D11CD00065299 /* Build configuration list for PBXProject "NBCCharts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF72CCC2240D11CD00065299;
+			productRefGroup = FF72CCCE240D11CD00065299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF72CCCC240D11CD00065299 /* NBCCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF72CCC9240D11CD00065299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72CCDD240D11CD00065299 /* react in Resources */,
+				FF72CCE6240D11CD00065299 /* start-npm.sh in Resources */,
+				FF72CCE8240D11CD00065299 /* install-react-tools.sh in Resources */,
+				FF72CCEF240D11CF00065299 /* LaunchScreen.storyboard in Resources */,
+				FF72CCD6240D11CD00065299 /* Podfile in Resources */,
+				FF72CCEA240D11CD00065299 /* bootconfig.plist in Resources */,
+				FF72CCDB240D11CD00065299 /* Main.storyboard in Resources */,
+				FF72CCE4240D11CD00065299 /* unzip-react.sh in Resources */,
+				FF72CCEC240D11CF00065299 /* Assets.xcassets in Resources */,
+				FF72CCE1240D11CD00065299 /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01451E288A01CD7B79CD5A3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F52E40AAAB5435ADD4B834D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01190739EDD26F9F5CA20C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NBCCharts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF72CCCA240D11CD00065299 /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		FF72CCCB240D11CD00065299 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF72CCC7240D11CD00065299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF72CCDF240D11CD00065299 /* ViewController.swift in Sources */,
+				FF72CCD8240D11CD00065299 /* AppDelegate.swift in Sources */,
+				FF72CCF2240D11CF00065299 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF72CCD9240D11CD00065299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF72CCDA240D11CD00065299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF72CCED240D11CF00065299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF72CCEE240D11CF00065299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF72CCF3240D11CF00065299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF72CCF4240D11CF00065299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF72CCF6240D11CF00065299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BE68AEAEF75735FCF19410 /* Pods-NBCCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBCCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.NBCCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF72CCF7240D11CF00065299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6EC245E6E8DDFD696B59F6 /* Pods-NBCCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBCCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.NBCCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF72CCC6240D11CD00065299 /* Build configuration list for PBXProject "NBCCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF72CCF3240D11CF00065299 /* Debug */,
+				FF72CCF4240D11CF00065299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF72CCF5240D11CF00065299 /* Build configuration list for PBXNativeTarget "NBCCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF72CCF6240D11CF00065299 /* Debug */,
+				FF72CCF7240D11CF00065299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF72CCC3240D11CD00065299 /* Project object */;
+}

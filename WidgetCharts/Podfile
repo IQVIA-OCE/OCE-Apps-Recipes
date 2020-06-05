@@ -6,5 +6,5 @@ end
 
 target 'WidgetCharts' do
   use_frameworks!
-  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "7.0.7"
+  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "7.0.9"
 end
