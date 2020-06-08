@@ -1,0 +1,10 @@
+install! 'cocoapods', :disable_input_output_paths => true
+
+post_install do |installer|
+    system("sh \"./SamplesManagement/Supporting Files/unzip-react.sh\" --pods-path=\"./Pods/OCE\"")
+end
+
+target 'SamplesManagement' do
+  use_frameworks!
+  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "8.0.3"
+end

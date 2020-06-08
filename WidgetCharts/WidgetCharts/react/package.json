@@ -24,6 +24,12 @@
         "transformIgnorePatterns": [
           "node_modules/(?!react-native|victory-*|@react-native-community|apollo-react-native)"
         ],
+        "collectCoverageFrom": [
+          "App.{js,jsx}",
+          "src/**/*.{js,jsx}",
+          "!<rootDir>/node_modules/",
+          "!<rootDir>/bridge/"
+        ],
         "setupFiles": [
           "./__mocks__/EnvironmentData/EnvironmentData.js",
           "./__mocks__/sf/sfnetapi.js",

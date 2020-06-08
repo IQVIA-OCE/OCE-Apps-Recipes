@@ -73,8 +73,8 @@ export default class App extends Component {
                         <SegmentedControl value="Call">Calls Per Month</SegmentedControl>
                     </SegmentedControl.Row>
 
-                    { selectedChart === "Sales" && <LineChartTRXDetails recordTypeId={recordId} connectionStatus={connectionStatus}/> }
-                    { selectedChart === "Call" && <StackedBarChartCallDetails instanceId={instanceId} recordTypeId={recordId} connectionStatus={connectionStatus}/>}
+                    { selectedChart === "Sales" && <LineChartTRXDetails recordId={recordId} connectionStatus={connectionStatus}/> }
+                    { selectedChart === "Call" && <StackedBarChartCallDetails instanceId={instanceId} recordId={recordId} connectionStatus={connectionStatus}/>}
                 </View>
             </Provider>
         );
