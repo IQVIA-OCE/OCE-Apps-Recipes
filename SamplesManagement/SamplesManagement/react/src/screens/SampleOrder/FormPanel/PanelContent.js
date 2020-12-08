@@ -11,7 +11,7 @@ import {
   getFieldHelperText,
 } from '../utils';
 
-const PanelContent = () => {
+const PanelContent = ({ readonly }) => {
   const context = useFormikContext();
   const { values, handleChange, setFieldValue, errors, touched } = context;
 
@@ -23,7 +23,15 @@ const PanelContent = () => {
     <View style={styles.container}>
       <View style={styles.col}>
         {useHandleData(locations)(data => {
-          return (
+          return readonly ? (
+            <TextInput
+              label="Ship To"
+              value={values.fields.shipTo ? values.fields.shipTo.label : ''}
+              fullWidth
+              readonly
+              style={styles.readonlyField}
+            />
+          ) : (
             <Select
               label="Ship To"
               placeholder={'-None-'}
@@ -50,6 +58,8 @@ const PanelContent = () => {
           value={values.fields.comments}
           multiline
           fullWidth
+          readonly={readonly}
+          style={readonly ? styles.readonlyWithBorder : styles.field}
         />
       </View>
     </View>
@@ -72,6 +82,14 @@ const styles = StyleSheet.create({
   },
   field: {
     marginBottom: 15,
+  },
+  readonlyField: {
+    marginBottom: 18,
+  },
+  readonlyWithBorder: {
+    marginBottom: 10,
+    borderBottomWidth: 0.5,
+    borderColor: '#D9D9D9',
   },
 });
 

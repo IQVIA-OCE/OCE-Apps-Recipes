@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import { TextInput } from 'apollo-react-native';
 import { useFormikContext } from 'formik';
 
-const PanelContent = () => {
+const PanelContent = ({ readonly }) => {
   const context = useFormikContext();
   const { values, setFieldValue } = context;
 
@@ -16,6 +16,8 @@ const PanelContent = () => {
           value={values.fields.comments}
           multiline
           fullWidth
+          readonly={readonly}
+          style={readonly ? styles.readonlyFieldWithBorder : null}
         />
       </View>
       <View
@@ -41,6 +43,11 @@ const styles = StyleSheet.create({
   },
   field: {
     marginBottom: 15,
+  },
+  readonlyFieldWithBorder: {
+    marginBottom: 10,
+    borderBottomWidth: 0.5,
+    borderColor: '#D9D9D9',
   },
 });
 

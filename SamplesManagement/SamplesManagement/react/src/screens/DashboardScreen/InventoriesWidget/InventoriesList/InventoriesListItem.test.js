@@ -1,6 +1,7 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import renderer, { act } from 'react-test-renderer';
 import InventoriesListItem from './InventoriesListItem';
+import { TouchableOpacity } from 'react-native';
 
 let item;
 
@@ -16,8 +17,16 @@ describe('InventoriesListItem', () => {
   });
 
   it('Should render InventoriesListItem component', () => {
-    const tree = renderer.create(<InventoriesListItem item={item} />).toJSON();
+    const navigate = jest.fn();
+    const tree = renderer.create(
+      <InventoriesListItem item={item} navigation={{ navigate }} />
+    );
 
-    expect(tree).toMatchSnapshot();
+    act(() => {
+      tree.root.findAllByType(TouchableOpacity)[0].props.onPress();
+    });
+
+    expect(navigate).toBeCalledTimes(1);
+    expect(tree.toJSON()).toMatchSnapshot();
   });
 });

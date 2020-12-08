@@ -85,9 +85,8 @@ exports[`ReasonCell should render properly 1`] = `
                   Object {
                     "color": "#000000",
                     "fontFamily": "System",
-                    "fontSize": 18,
+                    "fontSize": 16,
                     "fontWeight": "400",
-                    "paddingLeft": 8,
                   },
                 ]
               }
@@ -298,9 +297,8 @@ exports[`ReasonCell should render properly 2`] = `
                   Object {
                     "color": "#000000",
                     "fontFamily": "System",
-                    "fontSize": 18,
+                    "fontSize": 16,
                     "fontWeight": "400",
-                    "paddingLeft": 8,
                   },
                 ]
               }

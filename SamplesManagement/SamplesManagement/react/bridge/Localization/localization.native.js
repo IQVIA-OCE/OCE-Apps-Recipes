@@ -8,38 +8,85 @@
 
 "use strict";
 
-import { NativeModules } from "react-native";
+import { NativeEventEmitter, NativeModules } from "react-native";
+import { environment } from "../EnvironmentData/EnvironmentData";
 
-const LocalizationBridge = NativeModules.LocalizationBridge;
 
-function allLocalizationKeys(): Array<string> {
-    let items = [];
+class LocalizationData {
 
-    for (const key in LocalizationBridge) {
-        items.push(key);
+    metadataBridgeEmitter = undefined
+    data = undefined
+
+    constructor() {
+
+        try {
+
+            if (!this.metadataBridgeEmitter) {
+                this.metadataBridgeEmitter = new NativeEventEmitter(NativeModules.MetadataUpdatesBridge);
+            }
+
+            const listener = this.metadataBridgeEmitter.addListener(
+                //event name
+                'MetadataChangedEvent',
+                () => this.getLocalizationData()
+            );
+
+            this.getLocalizationData()
+
+        } catch(error) {
+            //it's ok. We are on version 7.x
+        }
+
     }
 
-    return items;
+    getLocalizationData() {
+        NativeModules.LocalizationBridge.getLocalizationData().then(function(localizationData) {
+            this.data = localizationData
+        }.bind(this))
+    }
+
+}
+
+
+const localizationData = new LocalizationData();
+
+function allLocalizationKeys(): Array<string> {
+    var dataObject = NativeModules.LocalizationBridge
+    if (localizationData.data) {
+        dataObject = localizationData.data
+    }
+    let keys = [];
+
+    for (const key in dataObject) {
+        keys.push(key);
+    }
+
+    return keys;
 }
 
 function localized(key: string, defaultValue: string): string {
-    const formattedKey = key.toLowerCase();
-
-    if (key in LocalizationBridge) {
-        return LocalizationBridge[key];
+    var dataObject = NativeModules.LocalizationBridge
+    if (localizationData.data) {
+        dataObject = localizationData.data
     }
 
-    const namespace = NativeModules.EnvironmentDataBridge.namespace;
+    const formattedKey = key.toLowerCase();
+
+    if (key in dataObject) {
+        return dataObject[key];
+    }
+
+    const namespace = environment.namespace();
     const keyWithNamespace = namespace + formattedKey;
 
-    if (keyWithNamespace in LocalizationBridge) {
-        return LocalizationBridge[keyWithNamespace];
+    if (keyWithNamespace in dataObject) {
+        return dataObject[keyWithNamespace];
     }
 
     const keyWithLowercaseNamespace = namespace.toLowerCase() + formattedKey;
 
-    if (keyWithLowercaseNamespace in LocalizationBridge) {
-        return LocalizationBridge[keyWithLowercaseNamespace];
+    if (keyWithLowercaseNamespace in dataObject) {
+        return dataObject[keyWithLowercaseNamespace];
     }
 
     return defaultValue;

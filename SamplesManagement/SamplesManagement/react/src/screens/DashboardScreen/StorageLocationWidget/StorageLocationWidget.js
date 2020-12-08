@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Card, IconButton, Text } from 'apollo-react-native';
+import { Card, IconButton, Text, themeGrey } from 'apollo-react-native';
 import { environment } from '../../../../bridge/EnvironmentData/EnvironmentData.native';
 import { useFetcher, useHandleData } from '../../../hooks';
 import { fetchDefaultLocation } from '../../../api/StorageLocation';
@@ -32,6 +32,7 @@ const StorageLocationWidget = ({ navigation }) => {
             onPress={() => {
               navigation.navigate('StorageLocationList');
             }}
+            color={themeGrey[700]}
           />
         )}
       />

@@ -54,6 +54,16 @@ exports[`PanelHeader should render properly 1`] = `
               Object {
                 "opacity": 1,
               },
+              Object {
+                "elevation": 10,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 5,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.34,
+                "shadowRadius": 6.27,
+              },
             ]
           }
         >
@@ -96,6 +106,7 @@ exports[`PanelHeader should render properly 1`] = `
                   "flexDirection": "row",
                   "height": 40,
                   "minHeight": 40,
+                  "overflow": "hidden",
                   "paddingBottom": 0,
                   "paddingTop": 0,
                 }
@@ -108,11 +119,13 @@ exports[`PanelHeader should render properly 1`] = `
                 keyboardType="default"
                 maxResizableWidth={750}
                 minHeight={60}
-                minWidth={176}
+                minWidth={0}
                 onBlur={[Function]}
                 onChange={[Function]}
                 onChangeText={[Function]}
                 onFocus={[Function]}
+                paddingLeft={8}
+                paddingRight={8}
                 placeholder=""
                 placeholderTextColor="rgba(0, 0, 0, 0.54)"
                 rejectResponderTermination={true}
@@ -122,16 +135,7 @@ exports[`PanelHeader should render properly 1`] = `
                 style={
                   Array [
                     Object {
-                      "elevation": 5,
                       "margin": 0,
-                      "paddingLeft": 8,
-                      "shadowColor": "#000",
-                      "shadowOffset": Object {
-                        "height": 2,
-                        "width": 0,
-                      },
-                      "shadowOpacity": 0.25,
-                      "shadowRadius": 3.84,
                       "textAlign": "left",
                       "zIndex": 5,
                     },
@@ -140,8 +144,9 @@ exports[`PanelHeader should render properly 1`] = `
                       "fontFamily": "System",
                       "fontSize": 16,
                       "fontWeight": undefined,
-                      "height": "95%",
-                      "paddingRight": 0,
+                      "height": 40,
+                      "minHeight": 0,
+                      "paddingVertical": 5,
                       "textAlignVertical": "center",
                       "width": "100%",
                     },
@@ -258,9 +263,8 @@ exports[`PanelHeader should render properly 1`] = `
                     Object {
                       "color": "rgba(0, 0, 0, 0.4)",
                       "fontFamily": "System",
-                      "fontSize": 18,
+                      "fontSize": 16,
                       "fontWeight": "400",
-                      "paddingLeft": 8,
                     },
                   ]
                 }
@@ -410,6 +414,16 @@ exports[`PanelHeader should render properly 1`] = `
             Object {
               "opacity": 1,
             },
+            Object {
+              "elevation": 10,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 5,
+                "width": 0,
+              },
+              "shadowOpacity": 0.34,
+              "shadowRadius": 6.27,
+            },
           ]
         }
       >
@@ -450,6 +464,7 @@ exports[`PanelHeader should render properly 1`] = `
                 "flexDirection": "row",
                 "height": 40,
                 "minHeight": 40,
+                "overflow": "hidden",
                 "paddingBottom": 0,
                 "paddingTop": 0,
               }
@@ -460,26 +475,18 @@ exports[`PanelHeader should render properly 1`] = `
               editable={true}
               maxResizableWidth={750}
               minHeight={60}
-              minWidth={176}
+              minWidth={0}
               onBlur={[Function]}
-              onChangeText={[Function]}
               onFocus={[Function]}
+              paddingLeft={8}
+              paddingRight={40}
               placeholderTextColor="rgba(0, 0, 0, 0.54)"
               rejectResponderTermination={true}
               selectionColor="#0768FD"
               style={
                 Array [
                   Object {
-                    "elevation": 5,
                     "margin": 0,
-                    "paddingLeft": 8,
-                    "shadowColor": "#000",
-                    "shadowOffset": Object {
-                      "height": 2,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.25,
-                    "shadowRadius": 3.84,
                     "textAlign": "left",
                     "zIndex": 5,
                   },
@@ -488,8 +495,9 @@ exports[`PanelHeader should render properly 1`] = `
                     "fontFamily": "System",
                     "fontSize": 16,
                     "fontWeight": undefined,
-                    "height": "95%",
-                    "paddingRight": 40,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingVertical": 5,
                     "textAlignVertical": "center",
                     "width": "100%",
                   },
@@ -579,6 +587,16 @@ exports[`PanelHeader should render properly 1`] = `
           Object {
             "opacity": 1,
           },
+          Object {
+            "elevation": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 6.27,
+          },
         ]
       }
     >
@@ -619,6 +637,7 @@ exports[`PanelHeader should render properly 1`] = `
               "flexDirection": "row",
               "height": 40,
               "minHeight": 40,
+              "overflow": "hidden",
               "paddingBottom": 0,
               "paddingTop": 0,
             }
@@ -629,26 +648,19 @@ exports[`PanelHeader should render properly 1`] = `
             editable={true}
             maxResizableWidth={750}
             minHeight={60}
-            minWidth={176}
+            minWidth={0}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
             placeholderTextColor="rgba(0, 0, 0, 0.54)"
             rejectResponderTermination={true}
             selectionColor="#0768FD"
             style={
               Array [
                 Object {
-                  "elevation": 5,
                   "margin": 0,
-                  "paddingLeft": 8,
-                  "shadowColor": "#000",
-                  "shadowOffset": Object {
-                    "height": 2,
-                    "width": 0,
-                  },
-                  "shadowOpacity": 0.25,
-                  "shadowRadius": 3.84,
                   "textAlign": "left",
                   "zIndex": 5,
                 },
@@ -657,8 +669,9 @@ exports[`PanelHeader should render properly 1`] = `
                   "fontFamily": "System",
                   "fontSize": 16,
                   "fontWeight": undefined,
-                  "height": "95%",
-                  "paddingRight": 0,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
                 },
@@ -696,6 +709,16 @@ exports[`PanelHeader should render properly 1`] = `
           Object {
             "opacity": 1,
           },
+          Object {
+            "elevation": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 6.27,
+          },
         ]
       }
     >
@@ -713,8 +736,8 @@ exports[`PanelHeader should render properly 1`] = `
           Array [
             Object {
               "borderColor": "#D9D9D9",
-              "borderRadius": 4,
-              "borderWidth": 1,
+              "borderRadius": 0,
+              "borderWidth": 0,
             },
             Object {
               "borderWidth": 0,
@@ -730,6 +753,7 @@ exports[`PanelHeader should render properly 1`] = `
               "flexDirection": "row",
               "height": 40,
               "minHeight": 40,
+              "overflow": "hidden",
               "paddingBottom": 0,
               "paddingTop": 0,
             }
@@ -740,27 +764,18 @@ exports[`PanelHeader should render properly 1`] = `
             editable={false}
             maxResizableWidth={750}
             minHeight={60}
-            minWidth={176}
+            minWidth={0}
             onBlur={[Function]}
-            onChangeText={[Function]}
             onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
             placeholderTextColor="rgba(0, 0, 0, 0.54)"
-            readonly={true}
             rejectResponderTermination={true}
             selectionColor="#0768FD"
             style={
               Array [
                 Object {
-                  "elevation": 5,
                   "margin": 0,
-                  "paddingLeft": 8,
-                  "shadowColor": "#000",
-                  "shadowOffset": Object {
-                    "height": 2,
-                    "width": 0,
-                  },
-                  "shadowOpacity": 0.25,
-                  "shadowRadius": 3.84,
                   "textAlign": "left",
                   "zIndex": 5,
                 },
@@ -769,8 +784,9 @@ exports[`PanelHeader should render properly 1`] = `
                   "fontFamily": "System",
                   "fontSize": 16,
                   "fontWeight": undefined,
-                  "height": "95%",
-                  "paddingRight": 0,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
                 },
@@ -794,6 +810,16 @@ exports[`PanelHeader should render properly 1`] = `
           },
           Object {
             "opacity": 1,
+          },
+          Object {
+            "elevation": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 6.27,
           },
         ]
       }
@@ -835,6 +861,7 @@ exports[`PanelHeader should render properly 1`] = `
               "flexDirection": "row",
               "height": 40,
               "minHeight": 40,
+              "overflow": "hidden",
               "paddingBottom": 0,
               "paddingTop": 0,
             }
@@ -845,26 +872,19 @@ exports[`PanelHeader should render properly 1`] = `
             editable={true}
             maxResizableWidth={750}
             minHeight={60}
-            minWidth={176}
+            minWidth={0}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
             placeholderTextColor="rgba(0, 0, 0, 0.54)"
             rejectResponderTermination={true}
             selectionColor="#0768FD"
             style={
               Array [
                 Object {
-                  "elevation": 5,
                   "margin": 0,
-                  "paddingLeft": 8,
-                  "shadowColor": "#000",
-                  "shadowOffset": Object {
-                    "height": 2,
-                    "width": 0,
-                  },
-                  "shadowOpacity": 0.25,
-                  "shadowRadius": 3.84,
                   "textAlign": "left",
                   "zIndex": 5,
                 },
@@ -873,8 +893,9 @@ exports[`PanelHeader should render properly 1`] = `
                   "fontFamily": "System",
                   "fontSize": 16,
                   "fontWeight": undefined,
-                  "height": "95%",
-                  "paddingRight": 0,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
                 },
@@ -892,9 +913,21 @@ exports[`PanelHeader should render properly 1`] = `
           Object {
             "width": "100%",
           },
-          undefined,
+          Object {
+            "marginBottom": 15,
+          },
           Object {
             "opacity": 1,
+          },
+          Object {
+            "elevation": 10,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 5,
+              "width": 0,
+            },
+            "shadowOpacity": 0.34,
+            "shadowRadius": 6.27,
           },
         ]
       }
@@ -927,6 +960,7 @@ exports[`PanelHeader should render properly 1`] = `
               "flexDirection": "row",
               "height": 80,
               "minHeight": 80,
+              "overflow": "hidden",
               "paddingBottom": 0,
               "paddingTop": 0,
             }
@@ -937,27 +971,20 @@ exports[`PanelHeader should render properly 1`] = `
             editable={true}
             maxResizableWidth={750}
             minHeight={60}
-            minWidth={176}
+            minWidth={0}
             multiline={true}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
             placeholderTextColor="rgba(0, 0, 0, 0.54)"
             rejectResponderTermination={true}
             selectionColor="#0768FD"
             style={
               Array [
                 Object {
-                  "elevation": 5,
                   "margin": 0,
-                  "paddingLeft": 8,
-                  "shadowColor": "#000",
-                  "shadowOffset": Object {
-                    "height": 2,
-                    "width": 0,
-                  },
-                  "shadowOpacity": 0.25,
-                  "shadowRadius": 3.84,
                   "textAlign": "left",
                   "zIndex": 5,
                 },
@@ -966,8 +993,9 @@ exports[`PanelHeader should render properly 1`] = `
                   "fontFamily": "System",
                   "fontSize": 16,
                   "fontWeight": undefined,
-                  "height": "95%",
-                  "paddingRight": 0,
+                  "height": 80,
+                  "minHeight": 0,
+                  "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
                 },

@@ -1,12 +1,17 @@
 import React from 'react';
-import SampleTransaction from './SampleTransaction';
+import SampleTransaction, {
+  markTransactionAsDuplicate,
+} from './SampleTransaction';
 import { AppContext } from '../../../AppContext';
 import { useFetcher, useBanner, useBoolean } from '../../hooks';
 import renderer, { act } from 'react-test-renderer';
 import initialFormValues from './initialFormValues';
 import { Button } from 'apollo-react-native';
 
-import { saveFormDetails } from '../../api/SampleTransaction';
+import {
+  saveTransaction,
+  fetchSampleProducts,
+} from '../../api/SampleTransaction';
 import { Formik } from 'formik';
 import { TouchableOpacity } from 'react-native';
 
@@ -14,6 +19,18 @@ jest.mock('../../hooks');
 jest.mock('../../api/SampleTransaction');
 jest.mock('../../../bridge/EnvironmentData/EnvironmentData.native');
 jest.mock('./initialFormValues');
+
+jest.mock('moment', () => {
+  const mMoment = {
+    format: jest.fn(() => 'Sep 2 2020 09:53 am'),
+    add: jest.fn().mockReturnThis(),
+  };
+  const fn = jest.fn(newMoment => {
+    return mMoment;
+  });
+
+  return fn;
+});
 
 const products = [
   {
@@ -40,13 +57,33 @@ const products = [
   },
 ];
 
-const navigation = {
-  getParam: jest.fn().mockReturnValue({
-    DeveloperName: 'AcknowledgementOfShipment',
-    Name: 'Name',
+const navigationToViewMode = {
+  getParam: jest.fn().mockImplementation((value, defaultValue) => {
+    if (value == 'readonly') return true;
+    if (value == 'recordType')
+      return {
+        DeveloperName: 'AcknowledgementOfShipment',
+        Name: 'Name',
+      };
+
+    return defaultValue;
   }),
   navigate: jest.fn(),
 };
+const navigationToEditMode = {
+  getParam: jest.fn().mockImplementation((value, defaultValue) => {
+    if (value == 'recordType')
+      return {
+        DeveloperName: 'AcknowledgementOfShipment',
+        Name: 'Name',
+      };
+    if (value == 'id') return 'id';
+
+    return defaultValue;
+  }),
+  navigate: jest.fn(),
+};
+
 const setBanner = jest.fn();
 const useBannerValue = [
   { variant: '', message: '', visible: false, icon: '' },
@@ -61,6 +98,10 @@ describe('SampleTransaction', () => {
     jest.useRealTimers();
   });
   beforeEach(() => {
+    useFetcher.mockReturnValueOnce([
+      { data: { DeveloperName: 'Disbursement' }, loading: false },
+      { handleFetch: jest.fn() },
+    ]);
     useFetcher.mockReturnValue([
       { data: products, loading: false },
       { handleFetch: jest.fn() },
@@ -83,21 +124,34 @@ describe('SampleTransaction', () => {
       user: { Name: 'name', Id: undefined },
     };
 
-    saveFormDetails.mockResolvedValue([{ id: '1' }]);
+    saveTransaction.mockResolvedValue([{ id: '1' }]);
   });
 
-  it('should render component', async () => {
+  it('should render component in edit mode', async () => {
     const promise = Promise.resolve();
     const tree = renderer.create(
       <AppContext.Provider value={{ username: 'name' }}>
-        <SampleTransaction navigation={navigation} />
+        <SampleTransaction navigation={navigationToEditMode} />
       </AppContext.Provider>
     );
 
-
-    act(() => tree.root.findAllByType(TouchableOpacity)[2].props.onPress());
     act(() => tree.root.findAllByType(Button)[0].props.onPress());
-    expect(navigation.navigate).toBeCalledWith('Dashboard');
+    expect(navigationToEditMode.navigate).toBeCalledWith('Dashboard');
+
+    await act(() => promise);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('should render component in view mode', async () => {
+    const promise = Promise.resolve();
+    const tree = renderer.create(
+      <AppContext.Provider value={{ username: 'name' }}>
+        <SampleTransaction navigation={navigationToViewMode} />
+      </AppContext.Provider>
+    );
+
+    act(() => tree.root.findAllByType(Button)[0].props.onPress());
+    expect(navigationToViewMode.navigate).toBeCalledWith('Dashboard');
 
     await act(() => promise);
     expect(tree.toJSON()).toMatchSnapshot();
@@ -107,7 +161,7 @@ describe('SampleTransaction', () => {
     const promise = Promise.resolve();
     const tree = renderer.create(
       <AppContext.Provider value={{ username: 'name' }}>
-        <SampleTransaction navigation={navigation} />
+        <SampleTransaction navigation={navigationToEditMode} />
       </AppContext.Provider>
     );
 
@@ -124,11 +178,31 @@ describe('SampleTransaction', () => {
     });
   });
 
+  it('should delete transaction', async () => {
+    const promise = Promise.resolve();
+    const tree = renderer.create(
+      <AppContext.Provider value={{ username: 'name' }}>
+        <SampleTransaction navigation={navigationToViewMode} />
+      </AppContext.Provider>
+    );
+
+    act(() => tree.root.findAllByType(Button)[2].props.onPress());
+
+    await act(() => promise);
+    expect(tree.toJSON()).toMatchSnapshot();
+    expect(setBanner).toBeCalledWith({
+      icon: 'checkbox-marked-circle',
+      message: 'Successfully deleted.',
+      variant: 'success',
+      visible: true,
+    });
+  });
+
   it('should submit component', async () => {
     const promise = Promise.resolve();
     const tree = renderer.create(
       <AppContext.Provider value={{ username: 'name' }}>
-        <SampleTransaction navigation={navigation} />
+        <SampleTransaction navigation={navigationToEditMode} />
       </AppContext.Provider>
     );
 
@@ -137,11 +211,25 @@ describe('SampleTransaction', () => {
       async () =>
         await tree.root.findByType(Formik).props.onSubmit({
           products: [{}],
-          recordType: { DeveloperName: 'DeveloperName' },
+          recordType: { DeveloperName: 'AcknowledgementOfShipment', Id: '1' },
+          fields: {
+            status: 'In Progress',
+            transactionRep: { Id: '1' },
+            toSalesRep: { value: 'toSalesRep' },
+            toSalesRepTerritory: 'toSalesRepTerritory',
+            territory: { name: 'Territory' },
+            conditionOfPackage: { label: 'label' },
+            transactionRep: { Id: '1' },
+            user: {
+              Id: '1',
+            },
+          },
         })
     );
-    jest.advanceTimersByTime(1500);
-    expect(navigation.navigate).toBeCalledWith('Dashboard');
+    expect(saveTransaction()).resolves.toEqual([{ id: '1' }]);
+    jest.advanceTimersByTime(3000);
+
+    expect(navigationToEditMode.navigate).toBeCalledWith('Dashboard');
 
     expect(tree.toJSON()).toMatchSnapshot();
 
@@ -149,11 +237,16 @@ describe('SampleTransaction', () => {
     await act(
       async () =>
         await tree.root.findByType(Formik).props.onSubmit({
-          products: [{}],
-          recordType: { DeveloperName: 'TransferOut' },
+          products: [{ sampleProductId: 'sampleProductId', quantity: '1' }],
+          recordType: { DeveloperName: 'AcknowledgementOfShipment', Id: '1' },
           fields: {
+            status: 'In Progress',
+            transactionRep: { Id: '1' },
             toSalesRep: { value: 'toSalesRep' },
             toSalesRepTerritory: 'toSalesRepTerritory',
+            territory: { name: 'Territory' },
+            conditionOfPackage: { label: 'label' },
+            transactionRep: { Id: '1' },
             user: {
               Id: '1',
             },
@@ -161,6 +254,5 @@ describe('SampleTransaction', () => {
         })
     );
     await act(() => promise);
-    expect(saveFormDetails).toHaveBeenCalled();
   });
 });

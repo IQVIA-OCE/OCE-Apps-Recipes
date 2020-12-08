@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { Colors } from 'apollo-react-native';
+import { black } from 'apollo-react-native';
 
 const FormDetails = ({ title, children }) => {
   return (
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     marginRight: 20,
   },
   title: {
-    color: Colors.black[300],
+    color: black[300],
     marginBottom: 5,
   },
 });

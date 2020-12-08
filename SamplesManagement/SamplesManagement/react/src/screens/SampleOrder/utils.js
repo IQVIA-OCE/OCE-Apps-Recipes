@@ -1,41 +1,44 @@
 export const normalizeProductsList = (
   products,
-  selectedProductIds,
+  selectedProducts,
   productTerritoryAllocationRecords = []
 ) => {
-  if (products == null) return { byId: {}, allIds: [] };
+  if (products == null) return [];
 
-  return products.reduce(
-    (acc, el) => {
-      const selectedId = selectedProductIds.find(id => id == el.Id);
-      const selected = selectedId ? true : false;
-      const allocationRecord = productTerritoryAllocationRecords
-        ? productTerritoryAllocationRecords.find(rec => rec.id == el.Id)
-        : null;
-      const remainingAllocation = allocationRecord
-        ? allocationRecord.remainingAllocation
-        : null;
+  const productsList = products.map(product => {
+    return mapSampleOrderProduct(product, false);
+  });
 
-      acc.allIds = [...acc.allIds, el.Id];
-      acc.byId[el.Id] = mapSampleOrderProduct(
-        el,
-        selected,
-        remainingAllocation
-      );
+  return productsList.map(el => {
+    const selected = selectedProducts.find(selectedProduct => {
+      return el.sampleProductId === selectedProduct.sampleProductId;
+    });
+    const allocationRecord = productTerritoryAllocationRecords
+      ? productTerritoryAllocationRecords.find(
+          prodAllocation => prodAllocation.id == el.sampleProductId
+        )
+      : null;
+    const remainingAllocation = allocationRecord
+      ? allocationRecord.remainingAllocation
+      : null;
 
-      return acc;
-    },
-    { byId: {}, allIds: [] }
-  );
+    return {
+      ...el,
+      selected: selected && selected.sampleProductId ? true : false,
+      remainingAllocation:
+        remainingAllocation != null ? remainingAllocation : 'NA',
+    };
+  });
 };
 
-const mapSampleOrderProduct = (product, selected, remainingAllocation) => ({
-  ...product,
-  name: product.OCE__ParentProduct__r.Name,
-  productName: product.Name,
-  remainingAllocation: remainingAllocation != null ? remainingAllocation : 'NA',
-  selected,
-});
+const mapSampleOrderProduct = (product, selected) => {
+  return {
+    detailLabel: product.OCE__ParentProduct__r.Name,
+    label: product.Name,
+    sampleProductId: product.Id,
+    selected,
+  };
+};
 
 export const normalizeLocations = (data = []) => {
   return data.map(location => ({
@@ -45,9 +48,9 @@ export const normalizeLocations = (data = []) => {
 };
 
 export const normalizeProductTerritoryAllocationRecords = (data = []) => {
-  return data.map(rec => ({
-    id: rec.OCE__Product__c,
-    remainingAllocation: rec.OCE__AllocationsRemaining__c,
+  return data.map(product => ({
+    id: product.OCE__Product__c,
+    remainingAllocation: product.OCE__AllocationsRemaining__c,
   }));
 };
 
@@ -79,8 +82,9 @@ export const mapFormDetails = values => ({
 });
 
 export const mapFormProducts = (product, orderId) => ({
+  Id: product.id,
   OCE__Comments__c: product.comments,
-  OCE__Product__c: product.Id,
+  OCE__Product__c: product.sampleProductId,
   OCE__Quantity__c: product.quantity,
   OCE__SampleOrder__c: orderId,
 });
@@ -101,4 +105,40 @@ export const getSampleOrderConfigById = (configData, id) => {
   } else {
     return null;
   }
+};
+
+export const mapOrderDetails = orderData => {
+  const orderDetails = orderData.map(order => {
+    return {
+      id: order.Id,
+      comments: order.OCE__Comments__c,
+      lastModifiedDate: order.LastModifiedDate,
+      status: order.OCE__Status__c,
+      isUrgent: order.OCE__IsUrgent__c,
+      name: order.Name,
+      territory: { name: order.OCE__RecipientTerritory__c },
+      shipTo: {
+        id: order.OCE__ShipToID__c,
+        label: order.OCE__ShipToText__c,
+      },
+    };
+  });
+
+  return orderDetails[0];
+};
+
+export const mapOrderProducts = orderProducts => {
+  return orderProducts.map(orderProduct => {
+    return {
+      id: orderProduct.Id,
+      label: orderProduct.OCE__Product__r
+        ? orderProduct.OCE__Product__r.Name
+        : '',
+      detailLabel: orderProduct.Name,
+      sampleProductId: orderProduct.OCE__Product__c,
+      orderId: orderProduct.OCE__SampleOrder__c,
+      quantity: `${orderProduct.OCE__Quantity__c}`,
+      comments: orderProduct.OCE__Comments__c,
+    };
+  });
 };

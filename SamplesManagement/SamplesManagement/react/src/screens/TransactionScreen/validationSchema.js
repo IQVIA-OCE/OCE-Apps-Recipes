@@ -41,6 +41,12 @@ const fieldsValidation = {
   TransferIn: Yup.object().shape({
     receivedDate: Yup.date()
       .nullable()
+      .max(
+        moment()
+          .add(1, 'days')
+          .format('YYYY-MM-DD'),
+        'Received Date cannot be later than today.'
+      )
       .required('Complete this field.'),
     conditionOfPackage: Yup.object()
       .nullable()
@@ -74,6 +80,7 @@ const fieldsValidation = {
 const productValidation = {
   AcknowledgementOfShipment: Yup.object().shape({
     quantity: Yup.number()
+      .integer('Enter a valid value.')
       .typeError('Enter a valid value.')
       .nullable()
       .max(99999, 'Please enter quantity less than or equal to 99,999.')
@@ -82,6 +89,7 @@ const productValidation = {
   }),
   Adjustment: Yup.object().shape({
     quantity: Yup.number()
+      .integer('Enter a valid value.')
       .typeError('Enter a valid value.')
       .nullable()
       .max(99999, 'Please enter quantity less than or equal to 99,999.')
@@ -93,6 +101,7 @@ const productValidation = {
   }),
   Return: Yup.object().shape({
     quantity: Yup.number()
+      .integer('Enter a valid value.')
       .typeError('Enter a valid value.')
       .nullable()
       .max(99999, 'Please enter quantity less than or equal to 99,999.')
@@ -101,6 +110,7 @@ const productValidation = {
   }),
   TransferIn: Yup.object().shape({
     quantity: Yup.number()
+      .integer('Enter a valid value.')
       .typeError('Enter a valid value.')
       .nullable()
       .max(99999, 'Please enter quantity less than or equal to 99,999.')
@@ -109,6 +119,7 @@ const productValidation = {
   }),
   TransferOut: Yup.object().shape({
     quantity: Yup.number()
+      .integer('Enter a valid value.')
       .typeError('Enter a valid value.')
       .nullable()
       .max(99999, 'Please enter quantity less than or equal to 99,999.')

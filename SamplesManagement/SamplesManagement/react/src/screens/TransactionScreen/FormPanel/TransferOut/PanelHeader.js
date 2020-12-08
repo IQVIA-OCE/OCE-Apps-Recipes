@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import FormDetails from '../../../../components/FormDetails/FormDetails';
 import moment from 'moment';
 import Status from '../../../../components/Status/Status';
-import { Colors, Paragraph } from 'apollo-react-native';
+import { Paragraph, themeGrey } from 'apollo-react-native';
 import { useFormikContext } from 'formik';
 
 const PanelHeader = () => {
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     padding: 15,
     borderBottomWidth: 1,
-    borderBottomColor: Colors.themeGrey[200],
+    borderBottomColor: themeGrey[200],
   },
 });
 

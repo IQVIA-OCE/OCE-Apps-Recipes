@@ -5,7 +5,7 @@ import { TextInput } from 'apollo-react-native';
 import DateField from '../DateField';
 import { getFieldError, getFieldHelperText } from '../../utils';
 
-const PanelContent = props => {
+const PanelContent = ({ readonly }) => {
   const context = useFormikContext();
   const { values, setFieldValue, errors, touched } = context;
 
@@ -20,11 +20,13 @@ const PanelContent = props => {
           hasError={getFieldError('shipmentDate', errors, touched)}
           helperText={getFieldHelperText('shipmentDate', errors, touched)}
           touched={touched}
+          readonly={readonly}
         />
         <TextInput
           label="Tracking Number"
           onChangeText={val => setFieldValue('fields.trackingNumber', val)}
           value={values.fields.trackingNumber}
+          readonly={readonly}
           fullWidth
         />
       </View>
@@ -36,16 +38,18 @@ const PanelContent = props => {
         <TextInput
           label="Shipment Carrier"
           onChangeText={val => setFieldValue('fields.shipmentCarrier', val)}
-          value={values.shipmentCarrier}
+          value={values.fields.shipmentCarrier}
           fullWidth
           style={styles.field}
+          readonly={readonly}
         />
         <TextInput
           label="Comments"
           onChangeText={val => setFieldValue('fields.comments', val)}
-          value={values.comments}
+          value={values.fields.comments}
           multiline
           fullWidth
+          readonly={readonly}
         />
       </View>
     </View>

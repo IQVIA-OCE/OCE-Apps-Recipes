@@ -4,7 +4,8 @@ import ViewAll from './ViewAll';
 import { TouchableOpacity } from 'react-native';
 import { NativeModules } from 'react-native';
 
-let open
+let open;
+let onPress = jest.fn()
 
 describe('ViewAll', () => {
   beforeEach(() => {
@@ -20,6 +21,15 @@ describe('ViewAll', () => {
     tree.root.findByType(TouchableOpacity).props.onPress();
 
     expect(open.mock.calls.length).toBe(1);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('Should render ViewAll component and handle press', () => {
+    const tree = renderer.create(<ViewAll onPress={onPress} />);
+
+    tree.root.findByType(TouchableOpacity).props.onPress();
+
+    expect(onPress).toBeCalledTimes(1);
     expect(tree.toJSON()).toMatchSnapshot();
   });
 });

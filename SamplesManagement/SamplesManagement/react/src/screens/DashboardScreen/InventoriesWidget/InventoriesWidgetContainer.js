@@ -1,33 +1,44 @@
 import React from 'react';
 import InventoriesWidget from './InventoriesWidget';
-import { Card } from 'apollo-react-native';
-import { useFetcher, useHandleData } from '../../../hooks';
-import {
-  fetchInventories,
-  fetchInventoryTypes,
-} from '../../../api/Inventories';
-import { normalizeInventories } from './utils';
+import { Colors, Card, ActivityIndicator } from 'apollo-react-native';
+import { useFetcher } from '../../../hooks';
+import { fetchInventoryTypes } from '../../../api/Inventories';
+import { normalizeRecordTypes } from './utils';
+import { Text, View } from 'react-native';
 
-const InventoriesWidgetContainer = () => {
-  const [recordTypes] = useFetcher(fetchInventoryTypes);
-  const [inventories] = useFetcher(
-    fetchInventories,
-    normalizeInventories(recordTypes.data)
-  );
+const InventoriesWidgetContainer = ({navigation}) => {
+  const [recordTypes] = useFetcher(fetchInventoryTypes, normalizeRecordTypes);
 
-  return (
-    <Card>
-      <Card.Title title="Inventories" />
-      <Card.Content>
-        {useHandleData(inventories)(data => (
-          <InventoriesWidget
-            inventories={data.inventories}
-            recordTypes={data.recordTypes}
+  if (recordTypes.loading)
+    return (
+      <Card>
+        <Card.Title title="Inventories" />
+        <Card.Content>
+          <ActivityIndicator
+            animating={true}
+            color={Colors.blue}
+            style={{ paddingVertical: 10 }}
           />
-        ))}
-      </Card.Content>
-    </Card>
-  );
+        </Card.Content>
+      </Card>
+    );
+
+  if (recordTypes.error)
+    return (
+      <Card>
+        <Card.Title title="Inventories" />
+        <Card.Content>
+          <View>
+            <Text>
+              {(recordTypes.error && recordTypes.error.message) ||
+                recordTypes.error}
+            </Text>
+          </View>
+        </Card.Content>
+      </Card>
+    );
+
+  return <InventoriesWidget recordTypes={recordTypes.data} navigation={navigation} />;
 };
 
 export default InventoriesWidgetContainer;

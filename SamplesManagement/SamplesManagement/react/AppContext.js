@@ -81,7 +81,7 @@ export default class extends Component {
           <View style={{ padding: 20 }}>
             <ActivityIndicator
               animating={true}
-              color={Colors.blue700}
+              color={Colors.blue}
               style={{ paddingVertical: 10 }}
             />
           </View>

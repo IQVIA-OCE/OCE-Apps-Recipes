@@ -201,6 +201,9 @@ describe('StorageLocation', () => {
       .mockReturnValueOnce([
         {
           loading: true,
+          data: {
+            '2': 'Second user',
+          },
         },
       ]);
     useHandleData.mockImplementation(({ data }) => fn => fn(data));

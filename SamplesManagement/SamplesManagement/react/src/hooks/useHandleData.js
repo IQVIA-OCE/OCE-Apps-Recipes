@@ -8,7 +8,7 @@ export const useHandleData = ({ loading, error, data }) => {
       return (
         <ActivityIndicator
           animating={true}
-          color={Colors.blue700}
+          color={Colors.blue}
           style={{ paddingVertical: 10 }}
         />
       );

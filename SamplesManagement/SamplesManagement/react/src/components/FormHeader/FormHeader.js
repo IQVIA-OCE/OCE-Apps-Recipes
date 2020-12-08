@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import { Button, Colors } from 'apollo-react-native';
+import { Button, themeGrey, black } from 'apollo-react-native';
 
 class FormHeader extends Component {
   render() {
-    const { icon, iconColor, label, title, controls } = this.props;
+    const { icon, iconColor, label, title, controls, children } = this.props;
     const iconName = icon ? icon : 'account';
 
     return (
@@ -14,7 +14,7 @@ class FormHeader extends Component {
           style={[
             styles.icon,
             {
-              backgroundColor: iconColor ? iconColor : Colors.themeGrey[600],
+              backgroundColor: iconColor ? iconColor : themeGrey[600],
             },
           ]}
         >
@@ -24,6 +24,7 @@ class FormHeader extends Component {
           {label && <Text style={styles.label}>{label.toUpperCase()}</Text>}
           <Text style={styles.title}>{title}</Text>
         </View>
+        <View>{children}</View>
         <View style={styles.buttonsContainer}>
           {controls &&
             controls.map(({ label, color, mode, onPress, disabled }, i) => {
@@ -50,9 +51,9 @@ class FormHeader extends Component {
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: Colors.themeGrey[50],
+    backgroundColor: themeGrey[50],
     borderWidth: 1,
-    borderColor: Colors.themeGrey[200],
+    borderColor: themeGrey[200],
     padding: 12,
     alignItems: 'center',
   },
@@ -68,7 +69,7 @@ const styles = StyleSheet.create({
   },
   label: {
     letterSpacing: 2,
-    color: Colors.black[400],
+    color: black[400],
     fontSize: 12,
   },
   title: {

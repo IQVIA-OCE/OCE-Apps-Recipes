@@ -4,9 +4,10 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { recordTypes } from './constants';
 import moment from 'moment';
 import Status from '../../../../components/Status/Status';
+import { IconButton } from 'apollo-react-native';
 
 export default TimelineItemComponent = props => {
-  const { item } = props;
+  const { item, navigation } = props;
   const { icon, color } = recordTypes[item.recordTypeDevName];
 
   const renderDetails = item => {
@@ -40,6 +41,20 @@ export default TimelineItemComponent = props => {
     return details;
   };
 
+  const showItemDetails = item => {
+    const readonly = true;
+    const screenName = item.recordTypeDevName == 'Order' ? 'SampleOrder' : 'Transaction'
+
+    navigation.navigate(screenName, {
+      recordType: {
+        DeveloperName: item.recordTypeDevName,
+        Name: item.recordTypeName,
+      },
+      readonly,
+      id: item.id,
+    });
+  };
+
   //Order
   const renderOrderDetails = item => (
     <View>
@@ -50,9 +65,7 @@ export default TimelineItemComponent = props => {
           </Text>
         </View>
       ) : null}
-      {item.isUrgent ? (
-        <Status status={'Urgent'}/>
-      ) : null}
+      {item.isUrgent ? <Status status={'Urgent'} /> : null}
     </View>
   );
 
@@ -137,8 +150,8 @@ export default TimelineItemComponent = props => {
         </View>
       ) : null}
       <View style={{ flexDirection: 'row' }}>
-        <Text style={styles.detailsTitle}>Global_Account: </Text>
-        <Text style={styles.detailsText}>{item.accountName}</Text>
+        <Text style={styles.detailsTitle}>Account: </Text>
+        <Text style={{ ...styles.detailsText }}>{item.accountName}</Text>
       </View>
     </View>
   );
@@ -160,7 +173,6 @@ export default TimelineItemComponent = props => {
     </View>
   );
 
-
   return (
     <View style={styles.container}>
       <View style={styles.leftSide}>
@@ -168,7 +180,7 @@ export default TimelineItemComponent = props => {
           <View style={{ ...styles.iconBg, backgroundColor: color }}>
             <Icon name={icon} size={17} color="white" />
           </View>
-          <View style={{ ...styles.line, backgroundColor: color }}/>
+          <View style={{ ...styles.line, backgroundColor: color }} />
         </View>
         <View style={styles.detailsContainer}>
           <View style={styles.recordTypeContainer}>
@@ -202,9 +214,18 @@ export default TimelineItemComponent = props => {
         <Text style={styles.itemRelativeDateText}>
           {moment(item.lastModifiedDate).fromNow()}
         </Text>
-        <View style={{ flexDirection: 'row' }}>
-          <Status status={item.status}/>
-          <Icon name={'eye'} size={17} color="#595959" />
+        <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+          <View>
+            <Status status={item.status} />
+          </View>
+          <View>
+            <IconButton
+              icon="eye"
+              color={'#595959'}
+              size={17}
+              onPress={() => showItemDetails(item)}
+            />
+          </View>
         </View>
       </View>
     </View>

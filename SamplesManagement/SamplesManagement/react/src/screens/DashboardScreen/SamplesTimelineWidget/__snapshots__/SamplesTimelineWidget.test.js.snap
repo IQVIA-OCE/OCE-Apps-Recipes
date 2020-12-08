@@ -186,7 +186,7 @@ exports[`SamplesTimelineWidget Should render SamplesTimelineWidget component 1`]
                   style={
                     Array [
                       Object {
-                        "color": "#A5A5A5",
+                        "color": "#595959",
                         "fontSize": 22,
                       },
                       Array [
@@ -253,6 +253,7 @@ exports[`SamplesTimelineWidget Should render SamplesTimelineWidget component 1`]
         <RCTScrollView
           alwaysBounceHorizontal={true}
           horizontal={true}
+          onLayout={[Function]}
           showsHorizontalScrollIndicator={false}
           style={
             Array [

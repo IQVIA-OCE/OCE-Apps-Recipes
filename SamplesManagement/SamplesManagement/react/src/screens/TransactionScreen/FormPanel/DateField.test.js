@@ -2,8 +2,17 @@ import React from 'react';
 import DateField from './DateField';
 import renderer from 'react-test-renderer';
 import { DateTimePicker } from 'apollo-react-native';
+import { useBoolean } from '../../../hooks';
+
+jest.mock('../../../hooks');
 
 describe('DateField', () => {
+  beforeEach(() => {
+    useBoolean.mockReturnValue([
+      false,
+      { toggle: jest.fn(), setFalse: jest.fn(), setTrue: jest.fn() },
+    ]);
+  });
   it('should render component', () => {
     const onChange = jest.fn();
     const tree = renderer.create(<DateField onChange={onChange} />);
