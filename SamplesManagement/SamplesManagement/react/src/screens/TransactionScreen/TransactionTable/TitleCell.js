@@ -5,8 +5,8 @@ import Status from '../../../components/Status/Status';
 const TitleCell = ({ row }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{row.productName}</Text>
-      <Status status="Info" size="large" text={row.name} />
+      <Text style={styles.title}>{row.label}</Text>
+      <Status status="Info" size="large" text={row.detailLabel} />
     </View>
   );
 };

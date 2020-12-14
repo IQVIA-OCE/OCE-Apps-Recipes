@@ -13,6 +13,7 @@ import ListItem from './ListItem';
 import StorageLocation from '../StorageLocation/StorageLocation';
 import { normalizer } from '../../utils/utils';
 import { useBanner, useBoolean, useFetcher } from '../../hooks';
+import Loader from "../../components/Loader/Loader";
 
 const keys = {
   OCE__FullAddress__c: 'address',
@@ -23,7 +24,6 @@ const keys = {
 const StorageLocationList = ({ navigation }) => {
   const [banner, setBanner] = useBanner();
   const userId = environment.userID();
-  const ref = useRef();
   const [refreshWidget, setRefreshWidgetActions] = useBoolean(false);
 
   const [{ loading, error, data }, { handleFetch, setValue }] = useFetcher(
@@ -36,8 +36,6 @@ const StorageLocationList = ({ navigation }) => {
       const refresh = navigation.getParam('refresh');
       if (refresh) {
         handleFetch();
-        ref.current &&
-          ref.current.scrollToOffset({ offset: -30, animated: true });
         setRefreshWidgetActions.setTrue();
       }
     });
@@ -46,7 +44,6 @@ const StorageLocationList = ({ navigation }) => {
 
   const handleAction = async (id, type) => {
     setValue(prevState => ({ ...prevState, loading: true }));
-    ref.current.scrollToOffset({ offset: -30, animated: true });
     try {
       let message = 'Success';
       if (type === 'changeDefault') {
@@ -96,13 +93,14 @@ const StorageLocationList = ({ navigation }) => {
   if (error) {
     return (
       <View>
-        <Text>{error}</Text>
+        <Text>{error.message ? error.message : error}</Text>
       </View>
     );
   }
 
   return (
     <View style={styles.root}>
+      {loading && <Loader/>}
       <Banner
         variant={banner.variant}
         icon={banner.icon}
@@ -132,7 +130,6 @@ const StorageLocationList = ({ navigation }) => {
         ]}
       />
       <FlatList
-        ref={ref}
         ListHeaderComponent={ListHeader}
         data={data}
         refreshing={loading}

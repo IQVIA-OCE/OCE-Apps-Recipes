@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { Colors } from 'apollo-react-native';
+import { themeGrey } from 'apollo-react-native';
 
 const ListHeader = () => {
   return (
@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
     paddingHorizontal: 10,
     borderBottomWidth: 1,
-    backgroundColor: Colors.themeGrey[50],
-    borderColor: Colors.themeGrey[200],
+    backgroundColor: themeGrey[50],
+    borderColor: themeGrey[200],
   },
   col: {
     flex: 1,

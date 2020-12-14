@@ -4,8 +4,9 @@ import { TextInput, Select } from 'apollo-react-native';
 import { useFormikContext } from 'formik';
 import DateField from '../DateField';
 import { getFieldError, getFieldHelperText } from '../../utils';
+import { packageConditions } from '../../constants';
 
-const PanelContent = () => {
+const PanelContent = ({ readonly }) => {
   const context = useFormikContext();
   const { values, handleChange, setFieldValue, errors, touched } = context;
 
@@ -19,25 +20,28 @@ const PanelContent = () => {
           style={styles.field}
           hasError={getFieldError('receivedDate', errors, touched)}
           helperText={getFieldHelperText('receivedDate', errors, touched)}
-          required
+          required={readonly ? false : true}
           touched={touched}
+          readonly={readonly}
         />
-        <Select
+        {readonly ? <TextInput
+          label="Condition of Package"
+          value={values.fields.conditionOfPackage ? values.fields.conditionOfPackage.label : ''}
+          fullWidth
+          readonly={readonly}
+        /> : <Select
           label="Condition of Package"
           placeholder={'-None-'}
-          options={[
-            { label: 'Undamaged', id: '1' },
-            { label: 'Damaged', id: '2' },
-            { label: 'Opened', id: '3' },
-          ]}
+          options={packageConditions}
           value={values.fields.conditionOfPackage}
           onChange={val => setFieldValue('fields.conditionOfPackage', val)}
           fullWidth
-          style={{ width: '100%' }}
+          style={{ width: '100%'}}
           error={getFieldError('conditionOfPackage', errors, touched)}
           helperText={getFieldHelperText('conditionOfPackage', errors, touched)}
           required
-        />
+        />}
+        
       </View>
       <View
         style={{
@@ -50,6 +54,8 @@ const PanelContent = () => {
           value={values.fields.comments}
           multiline
           fullWidth
+          readonly={readonly}
+          style={readonly ? styles.readonlyWithBorder : null}
         />
       </View>
     </View>
@@ -72,6 +78,14 @@ const styles = StyleSheet.create({
   },
   field: {
     marginBottom: 15,
+  },
+  required: {
+    borderWidth: 0
+  },
+  readonlyWithBorder: {
+    marginBottom: 10,
+    borderBottomWidth: 0.5,
+    borderColor: '#D9D9D9',
   },
 });
 

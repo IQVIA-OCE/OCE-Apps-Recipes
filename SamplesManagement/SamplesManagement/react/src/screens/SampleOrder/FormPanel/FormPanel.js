@@ -5,15 +5,15 @@ import FormDetailsTitle from '../../../components/FormDetailsTitle/FormDetailsTi
 import PanelHeader from './PanelHeader';
 import PanelContent from './PanelContent';
 
-const FormPanel = () => {
+const FormPanel = ({ readonly }) => {
   return (
     <>
-      <PanelHeader />
+      <PanelHeader readonly={readonly}/>
       <View style={styles.container}>
         <View style={styles.title}>
           <FormDetailsTitle title="ADDITIONAL INFORMATION" />
         </View>
-        <PanelContent />
+        <PanelContent readonly={readonly}/>
       </View>
     </>
   );

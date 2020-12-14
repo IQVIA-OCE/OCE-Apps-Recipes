@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { RadioButton, Colors, IconButton } from 'apollo-react-native';
+import { RadioButton, IconButton, secondaryRed, themePrimary, themeGrey } from 'apollo-react-native';
 
 const ListItem = ({ item, handleChange, handleDelete, handleEdit }) => {
   const { address, isDefault, id } = item;
@@ -18,12 +18,12 @@ const ListItem = ({ item, handleChange, handleDelete, handleEdit }) => {
         <View style={styles.actions}>
           <IconButton
             icon="delete"
-            color={Colors.secondaryRed[400]}
+            color={secondaryRed[400]}
             onPress={() => handleDelete(id)}
           />
           <IconButton
             icon="pencil"
-            color={Colors.themePrimary[500]}
+            color={themePrimary[500]}
             onPress={() => handleEdit(id)}
           />
         </View>
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     paddingVertical: 5,
     paddingHorizontal: 10,
     borderBottomWidth: 1,
-    borderColor: Colors.themeGrey[200],
+    borderColor: themeGrey[200],
     alignItems: 'center',
   },
   col: {

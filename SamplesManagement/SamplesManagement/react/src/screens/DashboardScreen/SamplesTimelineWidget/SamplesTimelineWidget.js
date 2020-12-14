@@ -113,7 +113,7 @@ export default class SamplesTimelineWidget extends React.Component {
             <View style={{ padding: 20 }}>
               <ActivityIndicator
                 animating={true}
-                color={Colors.blue700}
+                color={Colors.blue}
                 style={{ paddingVertical: 10 }}
               />
             </View>
@@ -126,10 +126,10 @@ export default class SamplesTimelineWidget extends React.Component {
               </Tabs.ButtonsContainer>
               <Tabs.Container>
                 <Tabs.Item>
-                  <TimelineComponent items={allItemsList} />
+                  <TimelineComponent items={allItemsList} navigation={this.props.navigation}/>
                 </Tabs.Item>
                 <Tabs.Item>
-                  <TimelineComponent items={transactionsList} />
+                  <TimelineComponent items={transactionsList} navigation={this.props.navigation}/>
                   {transactionsListId && transactionsList.length ? (
                     <ViewAll
                       url={`{EndPoint}&retURL=%2Flightning%2Fo%2FOCE__SampleTransaction__c%2Flist%3FfilterName%3D${transactionsListId}`}
@@ -137,7 +137,7 @@ export default class SamplesTimelineWidget extends React.Component {
                   ) :  null}
                 </Tabs.Item>
                 <Tabs.Item>
-                  <TimelineComponent items={ordersList} />
+                  <TimelineComponent items={ordersList} navigation={this.props.navigation}/>
                   {ordersListId && ordersList.length ? (
                     <ViewAll
                       url={`{EndPoint}&retURL=%2Flightning%2Fo%2FOCE__SampleOrder__c%2Flist%3FfilterName%3D${ordersListId}`}

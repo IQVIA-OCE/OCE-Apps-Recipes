@@ -8,7 +8,7 @@ const InventoriesList = ({ list }) => {
     <View>
       {list.map((item, i) => {
         if (i < VISIBLE_ITEMS) {
-          return <InventoriesListItem key={item.Id} item={item} />;
+          return <InventoriesListItem key={`${item.Id}-${i}`} item={item} />;
         }
       })}
     </View>

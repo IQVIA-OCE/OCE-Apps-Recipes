@@ -6,8 +6,8 @@ import {
   fetchSampleProducts,
   fetchUserLocations,
   fetchUserProfile,
-  saveFormDetails,
-  saveFormProduct,
+  saveSampleOrder,
+  saveSampleOrderProduct,
   updateFormDetailsStatus,
 } from './SampleOrder';
 
@@ -48,9 +48,9 @@ describe('SampleOrder', () => {
     expect(spy).toHaveBeenCalled();
   });
 
-  it('saveFormDetails', () => {
+  it('saveSampleOrder', () => {
     const spy = jest.spyOn(api, 'create').mockImplementation();
-    saveFormDetails({
+    saveSampleOrder({
       fields: {
         status: 'status',
         user: { Id: '1' },
@@ -67,9 +67,9 @@ describe('SampleOrder', () => {
     expect(spy).toHaveBeenCalled();
   });
 
-  it('saveFormProduct', () => {
+  it('saveSampleOrderProduct', () => {
     const spy = jest.spyOn(api, 'create').mockImplementation();
-    saveFormProduct({ quantity: '', comments: '' }, '1');
+    saveSampleOrderProduct({ quantity: '', comments: '' }, '1');
     expect(spy).toHaveBeenCalled();
   });
 });

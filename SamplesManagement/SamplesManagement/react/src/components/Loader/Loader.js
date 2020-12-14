@@ -5,7 +5,7 @@ import { Colors, ActivityIndicator } from 'apollo-react-native';
 const Loader = ({}) => {
   return (
     <View style={styles.root}>
-      <ActivityIndicator animating={true} color={Colors.blue500} />
+      <ActivityIndicator animating={true} color={Colors.blue} />
     </View>
   );
 };

@@ -2,10 +2,10 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import FormDetails from '../../../components/FormDetails/FormDetails';
 import Status from '../../../components/Status/Status';
-import { Colors, Paragraph, Checkbox } from 'apollo-react-native';
+import { Paragraph, Checkbox, themeGrey } from 'apollo-react-native';
 import { useFormikContext } from 'formik';
 
-const PanelHeader = () => {
+const PanelHeader = ({ readonly }) => {
   const context = useFormikContext();
   const { values, setFieldValue } = context;
 
@@ -29,6 +29,7 @@ const PanelHeader = () => {
           onPress={() => setFieldValue('fields.isUrgent', !values.fields.isUrgent)}
           status={values.fields.isUrgent == true ? 'checked' : null}
           label="Is Urgent?"
+          disabled={readonly}
         />
       </FormDetails>
     </View>
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     padding: 15,
     borderBottomWidth: 1,
-    borderBottomColor: Colors.themeGrey[200],
+    borderBottomColor: themeGrey[200],
   },
 });
 

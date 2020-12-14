@@ -355,6 +355,7 @@ exports[`StorageLocation Should render Create form 1`] = `
           New Samples Management Addresses
         </Text>
       </View>
+      <View />
       <View
         style={
           Object {
@@ -368,7 +369,7 @@ exports[`StorageLocation Should render Create form 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -489,7 +490,7 @@ exports[`StorageLocation Should render Create form 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -777,6 +778,16 @@ exports[`StorageLocation Should render Create form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -819,6 +830,7 @@ exports[`StorageLocation Should render Create form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -829,26 +841,19 @@ exports[`StorageLocation Should render Create form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -857,8 +862,9 @@ exports[`StorageLocation Should render Create form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -891,6 +897,16 @@ exports[`StorageLocation Should render Create form 1`] = `
                 },
                 Object {
                   "opacity": 1,
+                },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
                 },
               ]
             }
@@ -925,6 +941,7 @@ exports[`StorageLocation Should render Create form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -935,26 +952,19 @@ exports[`StorageLocation Should render Create form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -963,8 +973,9 @@ exports[`StorageLocation Should render Create form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -1127,6 +1138,16 @@ exports[`StorageLocation Should render Create form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -1169,6 +1190,7 @@ exports[`StorageLocation Should render Create form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -1179,26 +1201,19 @@ exports[`StorageLocation Should render Create form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -1207,8 +1222,9 @@ exports[`StorageLocation Should render Create form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -1451,9 +1467,8 @@ exports[`StorageLocation Should render Create form 1`] = `
                           Object {
                             "color": "rgba(0, 0, 0, 0.54)",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -1808,9 +1823,8 @@ exports[`StorageLocation Should render Create form 1`] = `
                           Object {
                             "color": "rgba(0, 0, 0, 0.4)",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -2093,6 +2107,16 @@ exports[`StorageLocation Should render Create form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -2126,6 +2150,7 @@ exports[`StorageLocation Should render Create form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -2136,26 +2161,19 @@ exports[`StorageLocation Should render Create form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -2164,8 +2182,9 @@ exports[`StorageLocation Should render Create form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -2363,12 +2382,17 @@ exports[`StorageLocation Should render Create form 1`] = `
                     Object {
                       "overflow": "hidden",
                     },
-                    Object {
-                      "borderRadius": 18,
-                      "height": 36,
-                      "padding": 6,
-                      "width": 36,
-                    },
+                    Array [
+                      Object {
+                        "borderRadius": 18,
+                        "paddingHorizontal": 6,
+                      },
+                      Object {
+                        "height": 36,
+                        "paddingVertical": 6,
+                        "width": 36,
+                      },
+                    ],
                   ]
                 }
               >
@@ -2377,7 +2401,7 @@ exports[`StorageLocation Should render Create form 1`] = `
                     Object {
                       "transform": Array [
                         Object {
-                          "scale": 1,
+                          "scale": 0.85,
                         },
                       ],
                     }
@@ -2437,10 +2461,11 @@ exports[`StorageLocation Should render Create form 1`] = `
                     <View
                       style={
                         Object {
+                          "backgroundColor": "transparent",
                           "borderColor": "rgba(0, 0, 0, 0.54)",
-                          "borderWidth": 0,
-                          "height": 14,
-                          "width": 14,
+                          "borderWidth": 5.250000000000002,
+                          "height": 15,
+                          "width": 15,
                         }
                       }
                     />
@@ -2469,6 +2494,7 @@ exports[`StorageLocation Should render Create form 1`] = `
             <Text
               style={
                 Object {
+                  "fontSize": 16,
                   "fontWeight": "normal",
                   "opacity": 1,
                 }
@@ -2998,6 +3024,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
           Edit address1
         </Text>
       </View>
+      <View />
       <View
         style={
           Object {
@@ -3011,7 +3038,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -3132,7 +3159,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -3420,6 +3447,16 @@ exports[`StorageLocation Should render Edit form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -3462,6 +3499,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -3472,26 +3510,19 @@ exports[`StorageLocation Should render Edit form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -3500,8 +3531,9 @@ exports[`StorageLocation Should render Edit form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -3536,6 +3568,16 @@ exports[`StorageLocation Should render Edit form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -3569,6 +3611,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -3579,26 +3622,19 @@ exports[`StorageLocation Should render Edit form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -3607,8 +3643,9 @@ exports[`StorageLocation Should render Edit form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -3772,6 +3809,16 @@ exports[`StorageLocation Should render Edit form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -3814,6 +3861,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -3824,26 +3872,19 @@ exports[`StorageLocation Should render Edit form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -3852,8 +3893,9 @@ exports[`StorageLocation Should render Edit form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -4097,9 +4139,8 @@ exports[`StorageLocation Should render Edit form 1`] = `
                           Object {
                             "color": "#000000",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -4454,9 +4495,8 @@ exports[`StorageLocation Should render Edit form 1`] = `
                           Object {
                             "color": "#000000",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -4733,6 +4773,16 @@ exports[`StorageLocation Should render Edit form 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -4766,6 +4816,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -4776,26 +4827,19 @@ exports[`StorageLocation Should render Edit form 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -4804,8 +4848,9 @@ exports[`StorageLocation Should render Edit form 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -5004,12 +5049,17 @@ exports[`StorageLocation Should render Edit form 1`] = `
                     Object {
                       "overflow": "hidden",
                     },
-                    Object {
-                      "borderRadius": 18,
-                      "height": 36,
-                      "padding": 6,
-                      "width": 36,
-                    },
+                    Array [
+                      Object {
+                        "borderRadius": 18,
+                        "paddingHorizontal": 6,
+                      },
+                      Object {
+                        "height": 36,
+                        "paddingVertical": 6,
+                        "width": 36,
+                      },
+                    ],
                   ]
                 }
               >
@@ -5078,10 +5128,11 @@ exports[`StorageLocation Should render Edit form 1`] = `
                     <View
                       style={
                         Object {
+                          "backgroundColor": "transparent",
                           "borderColor": "#0768FD",
                           "borderWidth": 0,
-                          "height": 14,
-                          "width": 14,
+                          "height": 15,
+                          "width": 15,
                         }
                       }
                     />
@@ -5110,6 +5161,7 @@ exports[`StorageLocation Should render Edit form 1`] = `
             <Text
               style={
                 Object {
+                  "fontSize": 16,
                   "fontWeight": "bold",
                   "opacity": 1,
                 }
@@ -5459,7 +5511,7 @@ exports[`StorageLocation Should show loader 1`] = `
               <View
                 style={
                   Object {
-                    "borderColor": "#0768FD",
+                    "borderColor": "#015ff1",
                     "borderRadius": 12,
                     "borderWidth": 2.4,
                     "height": 24,
@@ -5538,7 +5590,7 @@ exports[`StorageLocation Should show loader 1`] = `
               <View
                 style={
                   Object {
-                    "borderColor": "#0768FD",
+                    "borderColor": "#015ff1",
                     "borderRadius": 12,
                     "borderWidth": 2.4,
                     "height": 24,
@@ -5910,6 +5962,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
           New Samples Management Addresses
         </Text>
       </View>
+      <View />
       <View
         style={
           Object {
@@ -5923,7 +5976,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -6044,7 +6097,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -6332,6 +6385,16 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -6374,6 +6437,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -6384,26 +6448,19 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -6412,8 +6469,9 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -6446,6 +6504,16 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                 },
                 Object {
                   "opacity": 1,
+                },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
                 },
               ]
             }
@@ -6480,6 +6548,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -6490,26 +6559,19 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -6518,8 +6580,9 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -6682,6 +6745,16 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -6724,6 +6797,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -6734,26 +6808,19 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -6762,8 +6829,9 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -7006,9 +7074,8 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                           Object {
                             "color": "rgba(0, 0, 0, 0.54)",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -7363,9 +7430,8 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                           Object {
                             "color": "rgba(0, 0, 0, 0.4)",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -7648,6 +7714,16 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -7681,6 +7757,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -7691,26 +7768,19 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -7719,8 +7789,9 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -7918,12 +7989,17 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     Object {
                       "overflow": "hidden",
                     },
-                    Object {
-                      "borderRadius": 18,
-                      "height": 36,
-                      "padding": 6,
-                      "width": 36,
-                    },
+                    Array [
+                      Object {
+                        "borderRadius": 18,
+                        "paddingHorizontal": 6,
+                      },
+                      Object {
+                        "height": 36,
+                        "paddingVertical": 6,
+                        "width": 36,
+                      },
+                    ],
                   ]
                 }
               >
@@ -7932,7 +8008,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     Object {
                       "transform": Array [
                         Object {
-                          "scale": 1,
+                          "scale": 0.85,
                         },
                       ],
                     }
@@ -7992,10 +8068,11 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
                     <View
                       style={
                         Object {
+                          "backgroundColor": "transparent",
                           "borderColor": "rgba(0, 0, 0, 0.54)",
-                          "borderWidth": 0,
-                          "height": 14,
-                          "width": 14,
+                          "borderWidth": 5.250000000000002,
+                          "height": 15,
+                          "width": 15,
                         }
                       }
                     />
@@ -8024,6 +8101,7 @@ exports[`StorageLocation Should trigger button clicks 1`] = `
             <Text
               style={
                 Object {
+                  "fontSize": 16,
                   "fontWeight": "normal",
                   "opacity": 1,
                 }
@@ -8553,6 +8631,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
           New Samples Management Addresses
         </Text>
       </View>
+      <View />
       <View
         style={
           Object {
@@ -8566,7 +8645,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -8687,7 +8766,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
           style={
             Object {
               "backgroundColor": "#ffffff",
-              "borderColor": "#C0C0C0",
+              "borderColor": "#d9d9d9",
               "borderRadius": 4,
               "borderStyle": "solid",
               "borderWidth": 1,
@@ -8975,6 +9054,16 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -9017,6 +9106,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -9027,26 +9117,19 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -9055,8 +9138,9 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -9091,6 +9175,16 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -9124,6 +9218,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -9134,26 +9229,19 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -9162,8 +9250,9 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -9327,6 +9416,16 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -9369,6 +9468,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -9379,26 +9479,19 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -9407,8 +9500,9 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -9652,9 +9746,8 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                           Object {
                             "color": "rgba(0, 0, 0, 0.54)",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -10009,9 +10102,8 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                           Object {
                             "color": "rgba(0, 0, 0, 0.4)",
                             "fontFamily": "System",
-                            "fontSize": 18,
+                            "fontSize": 16,
                             "fontWeight": "400",
-                            "paddingLeft": 8,
                           },
                         ]
                       }
@@ -10294,6 +10386,16 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                 Object {
                   "opacity": 1,
                 },
+                Object {
+                  "elevation": 10,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.34,
+                  "shadowRadius": 6.27,
+                },
               ]
             }
           >
@@ -10327,6 +10429,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     "flexDirection": "row",
                     "height": 40,
                     "minHeight": 40,
+                    "overflow": "hidden",
                     "paddingBottom": 0,
                     "paddingTop": 0,
                   }
@@ -10337,26 +10440,19 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                   editable={true}
                   maxResizableWidth={750}
                   minHeight={60}
-                  minWidth={176}
+                  minWidth={0}
                   onBlur={[Function]}
                   onChangeText={[Function]}
                   onFocus={[Function]}
+                  paddingLeft={8}
+                  paddingRight={8}
                   placeholderTextColor="rgba(0, 0, 0, 0.54)"
                   rejectResponderTermination={true}
                   selectionColor="#0768FD"
                   style={
                     Array [
                       Object {
-                        "elevation": 5,
                         "margin": 0,
-                        "paddingLeft": 8,
-                        "shadowColor": "#000",
-                        "shadowOffset": Object {
-                          "height": 2,
-                          "width": 0,
-                        },
-                        "shadowOpacity": 0.25,
-                        "shadowRadius": 3.84,
                         "textAlign": "left",
                         "zIndex": 5,
                       },
@@ -10365,8 +10461,9 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                         "fontFamily": "System",
                         "fontSize": 16,
                         "fontWeight": undefined,
-                        "height": "95%",
-                        "paddingRight": 0,
+                        "height": 40,
+                        "minHeight": 0,
+                        "paddingVertical": 5,
                         "textAlignVertical": "center",
                         "width": "100%",
                       },
@@ -10565,12 +10662,17 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     Object {
                       "overflow": "hidden",
                     },
-                    Object {
-                      "borderRadius": 18,
-                      "height": 36,
-                      "padding": 6,
-                      "width": 36,
-                    },
+                    Array [
+                      Object {
+                        "borderRadius": 18,
+                        "paddingHorizontal": 6,
+                      },
+                      Object {
+                        "height": 36,
+                        "paddingVertical": 6,
+                        "width": 36,
+                      },
+                    ],
                   ]
                 }
               >
@@ -10579,7 +10681,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     Object {
                       "transform": Array [
                         Object {
-                          "scale": 1,
+                          "scale": 0.85,
                         },
                       ],
                     }
@@ -10639,10 +10741,11 @@ exports[`StorageLocation Should trigger form value change 1`] = `
                     <View
                       style={
                         Object {
+                          "backgroundColor": "transparent",
                           "borderColor": "#0768FD",
-                          "borderWidth": 0,
-                          "height": 14,
-                          "width": 14,
+                          "borderWidth": 5.250000000000002,
+                          "height": 15,
+                          "width": 15,
                         }
                       }
                     />
@@ -10671,6 +10774,7 @@ exports[`StorageLocation Should trigger form value change 1`] = `
             <Text
               style={
                 Object {
+                  "fontSize": 16,
                   "fontWeight": "bold",
                   "opacity": 1,
                 }

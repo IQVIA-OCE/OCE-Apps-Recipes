@@ -1,10 +1,16 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { FlatList, Text, View, StyleSheet } from 'react-native';
-import { Search, Title, Colors, TextInput } from 'apollo-react-native';
+import {
+  Search,
+  Title,
+  TextInput,
+  themeGrey,
+  secondaryBlue,
+} from 'apollo-react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import ProductListItem from './ProductListItem';
 
-const ProductsList = ({ refreshing, onRefresh, data, onItemPress }) => {
+const ProductsList = ({ refreshing, onRefresh, data, onItemPress, showHeader }) => {
   const [{ filter }, setValue] = useState({
     filter: '',
   });
@@ -12,36 +18,32 @@ const ProductsList = ({ refreshing, onRefresh, data, onItemPress }) => {
   const filteredProducts = () => {
     return (
       data &&
-      data.allIds &&
-      data.allIds.length &&
-      data.allIds.filter(id => {
-        return data.byId[id].productName
-          .toLowerCase()
-          .includes(filter.toLocaleLowerCase());
+      data.length &&
+      data.filter(product => {
+        return product.label.toLowerCase().includes(filter.toLocaleLowerCase());
       })
     );
   };
 
   return (
     <View style={styles.container}>
-      <View style={styles.titleContainer}>
-        <View style={styles.icon}>
-          <Icon name="view-grid" size={17} color="white" />
+      {showHeader ? (
+        <View style={styles.titleContainer}>
+          <View style={styles.icon}>
+            <Icon name="view-grid" size={17} color="white" />
+          </View>
+          <Title style={styles.title}>PRODUCTS</Title>
         </View>
-        <Title style={styles.title}>PRODUCTS</Title>
-      </View>
+      ) : null}
 
       <FlatList
         data={filteredProducts()}
         style={styles.list}
-        keyExtractor={item => item.Id}
+        keyExtractor={(item, i) => `${i}`}
         refreshing={refreshing}
         onRefresh={onRefresh}
         renderItem={({ item }) => (
-          <ProductListItem
-            item={data && data.byId[item]}
-            onPress={onItemPress}
-          />
+          <ProductListItem item={item} onPress={onItemPress} />
         )}
         ListHeaderComponent={
           <View style={styles.header}>
@@ -64,15 +66,15 @@ const ProductsList = ({ refreshing, onRefresh, data, onItemPress }) => {
 
 const styles = StyleSheet.create({
   container: {
-    flexGrow: 1,
     padding: 15,
-    borderRightColor: Colors.themeGrey[200],
+    borderRightColor: themeGrey[200],
     borderRightWidth: 1,
+    flexGrow: 1,
   },
   header: {
     paddingBottom: 10,
     borderBottomWidth: 1,
-    borderBottomColor: Colors.themeGrey[200],
+    borderBottomColor: themeGrey[200],
   },
   titleContainer: {
     flexDirection: 'row',
@@ -84,7 +86,7 @@ const styles = StyleSheet.create({
   },
   list: {
     flexGrow: 1,
-    height: 100,
+    flexBasis: 0,
   },
   icon: {
     borderRadius: 4,
@@ -94,7 +96,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingTop: 1,
     marginRight: 10,
-    backgroundColor: Colors.secondaryBlue[200],
+    backgroundColor: secondaryBlue[200],
   },
 });
 

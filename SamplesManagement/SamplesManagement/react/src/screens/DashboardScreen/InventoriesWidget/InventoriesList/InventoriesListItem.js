@@ -1,34 +1,62 @@
 import React from 'react';
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
+import { withNavigation } from 'react-navigation';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { inventoriesColors } from './constants';
 import Status from '../../../../components/Status/Status';
-import moment from 'moment';
+import { getDate } from '../utils';
+import { INVENTORY_FORM_TYPE } from '../../../../constants/Inventories';
 
-const InventoriesListItem = ({ item }) => {
+const InventoriesListItem = ({ item, navigation }) => {
   return (
-    <View style={styles.container}>
-      <View style={styles.content}>
-        <View
-          style={[
-            styles.icon,
-            { backgroundColor: inventoriesColors[item.DeveloperName] },
-          ]}
-        >
-          <Icon name="cube-outline" size={32} color={'#fff'}/>
-        </View>
-        <View>
-          <Text style={styles.title}>{item.OCE__SampleInventoryDetails__r.totalSize} Product Sample Details</Text>
-          <View style={styles.descriptionContainer}>
-            <Text style={styles.descriptionTitle}>Date: </Text>
-            <Text style={styles.descriptionText}>{moment(item.OCE__InventoryDateTime__c).format('MMM d, YYYY hh:mm a')}</Text>
+    <TouchableOpacity
+      onPress={() => {
+        navigation.navigate('Inventory', {
+          id: item.Id,
+          type: INVENTORY_FORM_TYPE.preview,
+        });
+      }}
+    >
+      <View style={styles.container}>
+        <View style={styles.content}>
+          <View
+            style={[
+              styles.icon,
+              { backgroundColor: inventoriesColors[item.DeveloperName] },
+            ]}
+          >
+            <Icon name="cube-outline" size={32} color={'#fff'} />
+          </View>
+          <View>
+            <Text style={styles.title}>
+              {item.OCE__SampleInventoryDetails__r
+                ? `${item.OCE__SampleInventoryDetails__r.totalSize} `
+                : ''}
+              Product Sample Details
+            </Text>
+            <View style={styles.descriptionContainer}>
+              <Text style={styles.descriptionTitle}>Date: </Text>
+              <Text style={styles.descriptionText}>
+                {getDate(item.OCE__InventoryDateTime__c)}
+              </Text>
+              {item.OCE__Reason__c && (
+                <>
+                  <Text style={[styles.descriptionTitle, { marginLeft: 10 }]}>
+                    Reason:{' '}
+                  </Text>
+                  <Text style={styles.descriptionText}>
+                    {item.OCE__Reason__c}
+                  </Text>
+                </>
+              )}
+            </View>
           </View>
         </View>
+        <View>
+          <Status status={item.OCE__Status__c} />
+        </View>
       </View>
-      <View>
-        <Status status={item.OCE__Status__c}/>
-      </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
@@ -68,4 +96,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default InventoriesListItem;
+export default withNavigation(InventoriesListItem);

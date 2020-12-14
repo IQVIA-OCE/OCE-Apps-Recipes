@@ -6,7 +6,7 @@ import {
   fetchUserLocations,
   fetchUserTerritory,
   saveFormDetails,
-  saveFormProduct,
+  saveTransactionProduct,
   saveTransferInDetails,
 } from './SampleTransaction';
 import {
@@ -59,7 +59,7 @@ describe('SampleTransaction', () => {
 
   it('fetchUserLocations', async () => {
     const spy = jest.spyOn(api, 'query').mockImplementation();
-    fetchUserLocations({ value: '1' });
+    fetchUserLocations('1');
     expect(spy).toHaveBeenCalled();
 
     const data = await fetchUserLocations();
@@ -69,7 +69,7 @@ describe('SampleTransaction', () => {
 
   it('fetchUserTerritory', async () => {
     const spy = jest.spyOn(api, 'query').mockImplementation();
-    fetchUserTerritory({ value: '1' });
+    fetchUserTerritory('1');
     expect(spy).toHaveBeenCalled();
 
     const data = await fetchUserTerritory();
@@ -79,12 +79,12 @@ describe('SampleTransaction', () => {
 
   it('saveFormDetails', () => {
     const spy = jest.spyOn(api, 'create').mockImplementation();
-    saveFormDetails({ value: '1' });
+    saveFormDetails({Id: 1}, 'save');
     expect(spy).toHaveBeenCalled();
 
-    const value = { fields: { status: '' } };
-    saveFormDetails(value, 'submit');
-    expect(value.fields.status).toBe('Submitted');
+    const fields = { OCE__Status__c: 'Submitted' };
+    saveFormDetails({Id: 1}, 'submit');
+    expect(fields.OCE__Status__c).toBe('Submitted');
   });
 
   it('saveTransferInDetails', () => {
@@ -95,7 +95,7 @@ describe('SampleTransaction', () => {
 
   it('saveFormProduct', () => {
     const spy = jest.spyOn(api, 'create').mockImplementation();
-    saveFormProduct({ value: '1' });
+    saveTransactionProduct({ Id: '1' });
     expect(spy).toHaveBeenCalled();
   });
 });

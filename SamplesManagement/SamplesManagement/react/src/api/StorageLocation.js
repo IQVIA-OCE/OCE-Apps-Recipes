@@ -18,7 +18,7 @@ export const fetchUsers = (ids = []) =>
 export const fetchLocationById = id =>
   id
     ? api.query(
-        `SELECT Id, Name, OCE__AddressLine2__c, OCE__City__c, OCE__Country__c, OCE__State__c, OCE__IsDefaultStorageLocation__c, OCE__ZipCode__c, CreatedDate, LastModifiedDate, CreatedById, LastModifiedById FROM OCE__SamplesManagementAddress__c WHERE Id = '${id}'`
+        `SELECT Id, Name, OCE__AddressLine2__c, OCE__City__c, OCE__Country__c, OCE__State__c, OCE__IsDefaultStorageLocation__c, OCE__ZipCode__c, format(CreatedDate), format(LastModifiedDate), CreatedById, LastModifiedById FROM OCE__SamplesManagementAddress__c WHERE Id = '${id}'`
       )
     : Promise.resolve([]);
 

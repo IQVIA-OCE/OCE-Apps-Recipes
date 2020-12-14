@@ -2,6 +2,10 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import InventoriesList from './InventoriesList';
 
+jest.mock('react-navigation', () => ({
+  withNavigation: component => component,
+}));
+
 let list;
 const item = {
   OCE__SampleInventoryDetails__r: {

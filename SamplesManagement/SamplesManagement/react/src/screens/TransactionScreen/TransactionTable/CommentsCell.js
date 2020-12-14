@@ -3,11 +3,12 @@ import { StyleSheet, View } from 'react-native';
 import { TextInput } from 'apollo-react-native';
 import { useField } from 'formik';
 
-const CommentsCell = ({ form, row, ...rest }) => {
-  const fieldIndex = form.values.products.findIndex(({ Id }) => row.Id === Id);
-  const [field, meta, helpers] = useField(
-    `products[${fieldIndex}].comments`
+const CommentsCell = ({ form, row, readonly, ...rest }) => {
+  const fieldIndex = form.values.products.findIndex(
+    ({ lotNumberId, sampleProductId }) =>
+      row.lotNumberId == lotNumberId && row.sampleProductId == sampleProductId
   );
+  const [field, meta, helpers] = useField(`products[${fieldIndex}].comments`);
   return (
     <View style={styles.container}>
       <TextInput
@@ -16,6 +17,7 @@ const CommentsCell = ({ form, row, ...rest }) => {
           helpers.setValue(value);
         }}
         multiline
+        readonly={readonly}
       />
     </View>
   );
@@ -23,7 +25,7 @@ const CommentsCell = ({ form, row, ...rest }) => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 5
+    padding: 5,
   },
   input: {
     width: 80,
