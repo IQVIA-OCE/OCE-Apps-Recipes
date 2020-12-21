@@ -8,8 +8,8 @@ export const recordTypes = {
     color: '#47cfd2',
   },
   Disbursement: {
-    icon: '',
-    color: '',
+    icon: 'file-document-box-outline',
+    color: '#769ed9',
   },
   TransferIn: {
     icon: 'format-indent-increase',

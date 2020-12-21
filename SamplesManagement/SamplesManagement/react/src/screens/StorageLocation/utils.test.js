@@ -2,6 +2,12 @@ import { normalizeLocation, normalizeStates, normalizeUsers } from './utils';
 import { base64toBitIndex, normalizer } from '../../utils/utils';
 jest.mock('../../utils/utils');
 
+import moment from 'moment';
+
+jest.mock('moment', () => () => ({
+  format: val => val,
+}));
+
 describe('StorageLocation utils', () => {
   beforeAll(() => {
     normalizer.mockImplementation(() => d => d);
@@ -71,12 +77,12 @@ describe('StorageLocation utils', () => {
   it('normalizeLocation: should show formatted dates', () => {
     const normalized = normalizeLocation([
       {
-        createdDate: '2020-05-14T12:52:20.000+0000',
-        modifiedDate: '2021-05-14T12:52:27.000+0000',
+        createdDate: '14/5/2020 3:52 pm',
+        modifiedDate: '14/5/2021 3:52 pm',
       },
     ]);
     expect(normalized).toStrictEqual([
-      { createdDate: '14/5/2020 3:52 pm', modifiedDate: '14/5/2021 3:52 pm' },
+      { createdDate: 'D/M/YYYY h:mm a', modifiedDate: 'D/M/YYYY h:mm a' },
     ]);
   });
 

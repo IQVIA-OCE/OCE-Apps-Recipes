@@ -244,12 +244,17 @@ exports[`PanelHeader should render properly 1`] = `
               Object {
                 "overflow": "hidden",
               },
-              Object {
-                "borderRadius": 18,
-                "height": 36,
-                "padding": 6,
-                "width": 36,
-              },
+              Array [
+                Object {
+                  "borderRadius": 18,
+                  "paddingHorizontal": 6,
+                },
+                Object {
+                  "height": 36,
+                  "paddingVertical": 6,
+                  "width": 36,
+                },
+              ],
             ]
           }
         >
@@ -318,10 +323,11 @@ exports[`PanelHeader should render properly 1`] = `
               <View
                 style={
                   Object {
+                    "backgroundColor": "transparent",
                     "borderColor": "rgba(0, 0, 0, 0.54)",
                     "borderWidth": 0,
-                    "height": 14,
-                    "width": 14,
+                    "height": 15,
+                    "width": 15,
                   }
                 }
               />
@@ -350,6 +356,7 @@ exports[`PanelHeader should render properly 1`] = `
       <Text
         style={
           Object {
+            "fontSize": 16,
             "fontWeight": "normal",
             "opacity": 1,
           }

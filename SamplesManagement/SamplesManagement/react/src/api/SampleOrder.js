@@ -46,8 +46,12 @@ export const fetchProductTerritoryAllocationRecords = () => {
   );
 };
 
-export const saveFormDetails = values => {
-  return api.create('OCE__SampleOrder__c', mapFormDetails(values));
+export const saveSampleOrder = (fields, id) => {
+  if (id) {
+    return api.update('OCE__SampleOrder__c', id, fields);
+  } else {
+    return api.create('OCE__SampleOrder__c', fields);
+  }
 };
 
 export const updateFormDetailsStatus = (id, values, status) => {
@@ -55,9 +59,36 @@ export const updateFormDetailsStatus = (id, values, status) => {
   return api.update('OCE__SampleOrder__c', id, { OCE__Status__c: status });
 };
 
-export const saveFormProduct = (product, orderId, recordTypeDevName) => {
-  return api.create(
-    'OCE__SampleOrderDetail__c',
-    mapFormProducts(product, orderId, recordTypeDevName)
-  );
+export const saveSampleOrderProduct = product => {
+  if (product.Id) {
+    const productFields = {...product};
+    delete productFields.Id;
+    delete productFields.OCE__SampleOrder__c;
+
+    return api.update('OCE__SampleOrderDetail__c', product.Id, productFields);
+  } else {
+    return api.create('OCE__SampleOrderDetail__c', product);
+  }
 };
+
+export const deleteSampleOrderProduct = id => {
+  return api.del('OCE__SampleOrderDetail__c', id);
+};
+
+export const deleteSampleOrder = id => {
+  return api.del('OCE__SampleOrder__c', id);
+};
+
+export const fetchOrderDetails = orderId =>
+  orderId
+    ? api.query(
+        `SELECT Id, LastModifiedDate, Name, OCE__Comments__c, OCE__ShipToID__c, OCE__ShipToText__c, OCE__IsUrgent__c, OCE__Status__c, OCE__RecipientTerritory__c FROM OCE__SampleOrder__c WHERE Id = '${orderId}'`
+      )
+    : Promise.resolve([]);
+
+export const fetchOrderProducts = orderId =>
+  orderId
+    ? api.query(
+        `Select Id, Name, OCE__Product__c, OCE__Product__r.Name, OCE__Quantity__c, OCE__SampleOrder__c , OCE__Comments__c from OCE__SampleOrderDetail__c where OCE__SampleOrder__c = '${orderId}'`
+      )
+    : Promise.resolve([]);

@@ -3,8 +3,22 @@ import PanelContent from './PanelContent';
 import { Formik } from 'formik';
 import renderer, { act } from 'react-test-renderer';
 import { Select, Autocomplete } from 'apollo-react-native';
+import { useFetcher, useHandleData } from '../../../hooks';
+
+jest.mock('../../../hooks');
 
 describe('PanelContent', () => {
+  beforeEach(() => {
+    useFetcher.mockReturnValue([
+      {
+        data: [],
+        loading: false,
+      },
+      { handleFetch: jest.fn() },
+    ]);
+
+    useHandleData.mockImplementation(({ data }) => fn => fn(data));
+  });
   it('should render properly', () => {
     let tree = renderer.create(
       <Formik
@@ -15,7 +29,7 @@ describe('PanelContent', () => {
           },
         }}
       >
-        <PanelContent />
+        <PanelContent readonly={false}/>
       </Formik>
     );
 

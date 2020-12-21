@@ -17,40 +17,40 @@ import TransferInPanelContent from './TransferIn/PanelContent';
 import TransferOutPanelHeader from './TransferOut/PanelHeader';
 import TransferOutPanelContent from './TransferOut/PanelContent';
 
-const FormPanel = ({ recordType }) => {
+const FormPanel = ({ recordType, readonly }) => {
   const renderHeader = useCallback(() => {
     switch (recordType) {
       case 'AcknowledgementOfShipment':
-        return <AOSPanelHeader />;
+        return <AOSPanelHeader readonly={readonly}/>;
       case 'Adjustment':
-        return <AdjustmentPanelHeader />;
+        return <AdjustmentPanelHeader readonly={readonly}/>;
       case 'Return':
-        return <ReturnPanelHeader />;
+        return <ReturnPanelHeader readonly={readonly}/>;
       case 'TransferIn':
-        return <TransferInPanelHeader />;
+        return <TransferInPanelHeader readonly={readonly}/>;
       case 'TransferOut':
-        return <TransferOutPanelHeader />;
+        return <TransferOutPanelHeader readonly={readonly}/>;
       default:
         return;
     }
-  }, []);
+  });
 
   const renderContent = useCallback(() => {
     switch (recordType) {
       case 'AcknowledgementOfShipment':
-        return <AOSPanelContent />;
+        return <AOSPanelContent readonly={readonly}/>;
       case 'Adjustment':
-        return <AdjustmentPanelContent />;
+        return <AdjustmentPanelContent readonly={readonly}/>;
       case 'Return':
-        return <ReturnPanelContent />;
+        return <ReturnPanelContent readonly={readonly}/>;
       case 'TransferIn':
-        return <TransferInPanelContent />;
+        return <TransferInPanelContent readonly={readonly}/>;
       case 'TransferOut':
-        return <TransferOutPanelContent />;
+        return <TransferOutPanelContent readonly={readonly}/>;
       default:
         return;
     }
-  }, []);
+  });
 
   return (
     <>

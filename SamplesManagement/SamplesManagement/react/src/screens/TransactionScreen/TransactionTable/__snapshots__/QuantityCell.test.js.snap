@@ -20,6 +20,16 @@ exports[`QuantityCell should render properly 1`] = `
         Object {
           "opacity": 1,
         },
+        Object {
+          "elevation": 10,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.34,
+          "shadowRadius": 6.27,
+        },
       ]
     }
   >
@@ -42,6 +52,7 @@ exports[`QuantityCell should render properly 1`] = `
             "flexDirection": "row",
             "height": 40,
             "minHeight": 40,
+            "overflow": "hidden",
             "paddingBottom": 0,
             "paddingTop": 0,
           }
@@ -53,26 +64,19 @@ exports[`QuantityCell should render properly 1`] = `
           keyboardType="numeric"
           maxResizableWidth={750}
           minHeight={60}
-          minWidth={176}
+          minWidth={0}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
+          paddingLeft={8}
+          paddingRight={8}
           placeholderTextColor="rgba(0, 0, 0, 0.54)"
           rejectResponderTermination={true}
           selectionColor="#0768FD"
           style={
             Array [
               Object {
-                "elevation": 5,
                 "margin": 0,
-                "paddingLeft": 8,
-                "shadowColor": "#000",
-                "shadowOffset": Object {
-                  "height": 2,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.25,
-                "shadowRadius": 3.84,
                 "textAlign": "left",
                 "zIndex": 5,
               },
@@ -81,8 +85,9 @@ exports[`QuantityCell should render properly 1`] = `
                 "fontFamily": "System",
                 "fontSize": 16,
                 "fontWeight": undefined,
-                "height": "95%",
-                "paddingRight": 0,
+                "height": 40,
+                "minHeight": 0,
+                "paddingVertical": 5,
                 "textAlignVertical": "center",
                 "width": "100%",
               },
@@ -117,6 +122,16 @@ exports[`QuantityCell should render properly 2`] = `
         Object {
           "opacity": 1,
         },
+        Object {
+          "elevation": 10,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.34,
+          "shadowRadius": 6.27,
+        },
       ]
     }
   >
@@ -139,6 +154,7 @@ exports[`QuantityCell should render properly 2`] = `
             "flexDirection": "row",
             "height": 40,
             "minHeight": 40,
+            "overflow": "hidden",
             "paddingBottom": 0,
             "paddingTop": 0,
           }
@@ -150,26 +166,19 @@ exports[`QuantityCell should render properly 2`] = `
           keyboardType="numeric"
           maxResizableWidth={750}
           minHeight={60}
-          minWidth={176}
+          minWidth={0}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
+          paddingLeft={8}
+          paddingRight={8}
           placeholderTextColor="rgba(0, 0, 0, 0.54)"
           rejectResponderTermination={true}
           selectionColor="#0768FD"
           style={
             Array [
               Object {
-                "elevation": 5,
                 "margin": 0,
-                "paddingLeft": 8,
-                "shadowColor": "#000",
-                "shadowOffset": Object {
-                  "height": 2,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.25,
-                "shadowRadius": 3.84,
                 "textAlign": "left",
                 "zIndex": 5,
               },
@@ -178,8 +187,9 @@ exports[`QuantityCell should render properly 2`] = `
                 "fontFamily": "System",
                 "fontSize": 16,
                 "fontWeight": undefined,
-                "height": "95%",
-                "paddingRight": 0,
+                "height": 40,
+                "minHeight": 0,
+                "paddingVertical": 5,
                 "textAlignVertical": "center",
                 "width": "100%",
               },

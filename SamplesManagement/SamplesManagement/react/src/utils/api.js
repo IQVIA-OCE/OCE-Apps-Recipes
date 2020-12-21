@@ -70,4 +70,19 @@ export default {
         }
       );
     }),
+  apexRest: (method, endPoint, namespace, params) =>
+    new Promise((resolve, reject) => {
+      sfNetAPI.apexRest(
+        method,
+        endPoint,
+        namespace,
+        params,
+        data => {
+          resolve([data]);
+        },
+        e => {
+          reject(e);
+        }
+      );
+    }),
 };

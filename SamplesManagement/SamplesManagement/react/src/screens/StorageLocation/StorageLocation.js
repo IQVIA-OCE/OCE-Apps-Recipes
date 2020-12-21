@@ -40,7 +40,10 @@ const initial = {
 const StorageLocation = ({ navigation }) => {
   const { username } = useContext(AppContext);
   const [banner, setBanner] = useBanner();
-  const [countries] = useFetcher(fetchCountries, normalizeStates);
+  const [countries] = useFetcher(
+    async () => await fetchCountries(),
+    normalizeStates
+  );
   const id = navigation.getParam('locationId');
   const [location] = useFetcher(
     async () => await fetchLocationById(id),
@@ -90,11 +93,11 @@ const StorageLocation = ({ navigation }) => {
     }
   };
 
-  if (countries.loading && location.loading)
+  if (countries.loading || location.loading)
     return (
       <ActivityIndicator
         animating={true}
-        color={Colors.blue700}
+        color={Colors.blue}
         style={{ paddingVertical: 10 }}
       />
     );
@@ -103,6 +106,7 @@ const StorageLocation = ({ navigation }) => {
   if (
     countries.data &&
     countries.data.length &&
+    location.loading == false &&
     location.data &&
     location.data.length &&
     location.data[0].country &&
@@ -155,7 +159,7 @@ const StorageLocation = ({ navigation }) => {
               <FormHeader
                 title={
                   id
-                    ? `Edit ${location.data[0].address1}`
+                    ? `Edit ${values.address1}`
                     : 'New Samples Management Addresses'
                 }
                 controls={[
@@ -191,7 +195,7 @@ const StorageLocation = ({ navigation }) => {
               />
               <View style={styles.form}>
                 <View style={styles.col}>
-                  <View style={[styles.fieldContainer, {paddingRight: 40}]}>
+                  <View style={[styles.fieldContainer, { paddingRight: 40 }]}>
                     <TextInput
                       fullWidth
                       label="Address Line 1"

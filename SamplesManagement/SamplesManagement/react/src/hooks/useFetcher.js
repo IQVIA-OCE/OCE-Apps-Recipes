@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 
-export const useFetcher = (fetch, normalizer) => {
+export const useFetcher = (fetch, normalizer, deps = []) => {
   const [value, setValue] = useState({
     loading: true,
     error: '',
@@ -37,7 +37,7 @@ export const useFetcher = (fetch, normalizer) => {
 
   useEffect(() => {
     handleFetch();
-  }, []);
+  }, deps);
 
   return [value, { handleFetch, setValue }];
 };

@@ -14,7 +14,7 @@ const ActionCell = (props) => {
           icon="delete"
           style={styles.icon}
           size={23}
-          onPress={() => onPress(row.Id)}
+          onPress={() => onPress(row)}
         />
       )}
     </View>

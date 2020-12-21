@@ -8,7 +8,7 @@ import CommentsCell from './CommentsCell';
 import ReasonCell from './ReasonCell';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
-const TransactionTable = ({ rows, removeRow, ...rest }) => {
+const TransactionTable = ({ rows, removeRow, readonly, ...rest }) => {
   const columns = {
     name: {
       header: 'PRODUCT',
@@ -24,7 +24,9 @@ const TransactionTable = ({ rows, removeRow, ...rest }) => {
       sortFunction: null,
       filterFunction: null,
       filterComponent: null,
-      customCell: props => <QuantityCell {...props} {...rest} />,
+      customCell: props => (
+        <QuantityCell readonly={readonly} {...props} {...rest} />
+      ),
     },
     reason: {
       header: 'REASON',
@@ -32,7 +34,7 @@ const TransactionTable = ({ rows, removeRow, ...rest }) => {
       sortFunction: null,
       filterFunction: null,
       filterComponent: null,
-      customCell: props => <ReasonCell {...props} {...rest} />,
+      customCell: props => <ReasonCell readonly={readonly} {...props} {...rest} />,
     },
     comments: {
       header: 'COMMENTS',
@@ -40,11 +42,14 @@ const TransactionTable = ({ rows, removeRow, ...rest }) => {
       sortFunction: null,
       filterFunction: null,
       filterComponent: null,
-      customCell: props => <CommentsCell {...props} {...rest} />,
+      customCell: props => (
+        <CommentsCell readonly={readonly} {...props} {...rest} />
+      ),
     },
     action: {
       accessor: 'action',
-      customCell: props => <ActionCell {...props} onPress={removeRow} />,
+      customCell: props =>
+        readonly ? null : <ActionCell {...props} onPress={removeRow} />,
     },
   };
 
@@ -79,14 +84,14 @@ const TransactionTable = ({ rows, removeRow, ...rest }) => {
       default:
         return [300, 200, 'auto', 50];
     }
-  }
+  };
 
   const getTableColumnsByNames = columnsNames => {
-    return [...columnsNames.map(name => columns[name])]
+    return [...columnsNames.map(name => columns[name])];
   };
 
   return (
-    <View style={{ height: 300 }}>
+    <View style={styles.root}>
       <KeyboardAwareScrollView
         automaticallyAdjustContentInsets={false}
         keyboardShouldPersistTaps="always"
@@ -96,15 +101,13 @@ const TransactionTable = ({ rows, removeRow, ...rest }) => {
         contentContainerStyle={{ flexGrow: 1 }}
         enableAutomaticScroll={true}
       >
-        <View style={{ flex: 1 }}>
-          <Table
-            style={styles.table}
-            columnWidth={getTableColumnWidth()}
-            columns={getTableColumns()}
-            rows={rows}
-            hidePagination
-          />
-        </View>
+        <Table
+          style={styles.table}
+          columnWidth={getTableColumnWidth()}
+          columns={getTableColumns()}
+          rows={rows}
+          hidePagination
+        />
       </KeyboardAwareScrollView>
     </View>
   );
@@ -114,6 +117,7 @@ const styles = StyleSheet.create({
   root: {
     flexGrow: 1,
     flexBasis: 0,
+    height: '100%',
   },
   table: {
     borderWidth: 0,

@@ -1,424 +1,186 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`DashboardScreen should render DashboardScreen component 1`] = `
-<RCTScrollView>
-  <View>
+<View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "elevation": 1,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 0.5,
+          "width": 0,
+        },
+        "shadowOpacity": 0.24,
+        "shadowRadius": 0.75,
+        "zIndex": 99,
+      }
+    }
+  >
     <View
       style={
-        Object {
-          "marginBottom": 10,
-          "marginTop": 20,
-          "paddingHorizontal": 10,
-        }
+        Array [
+          Object {
+            "alignSelf": "center",
+            "overflow": "hidden",
+            "width": "100%",
+          },
+          undefined,
+        ]
       }
     >
       <View
         style={
           Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#f3f2f2",
-            "borderRadius": 4,
-            "flexDirection": "row",
-            "padding": 16,
+            "height": 0,
+          }
+        }
+      />
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "opacity": 0,
+            "position": "absolute",
+            "top": 0,
+            "transform": Array [
+              Object {
+                "translateY": -0,
+              },
+            ],
+            "width": "100%",
           }
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "#e260ab",
-              "borderRadius": 2,
+              "flex": 1,
+              "flexDirection": "row",
               "justifyContent": "center",
-              "marginRight": 10,
-              "padding": 3,
+              "marginBottom": 0,
+              "marginLeft": 16,
+              "marginRight": 56,
+              "marginTop": 8,
             }
           }
         >
-          <Text
-            allowFontScaling={false}
-            style={
-              Array [
-                Object {
-                  "color": "white",
-                  "fontSize": 26,
-                },
-                undefined,
-                Object {
-                  "fontFamily": "Material Design Icons",
-                  "fontStyle": "normal",
-                  "fontWeight": "normal",
-                },
-                Object {},
-              ]
-            }
-          >
-            
-          </Text>
+          <View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "flex": 1,
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "margin": 8,
+                    },
+                    Object {
+                      "color": "#000000",
+                    },
+                  ],
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
         </View>
-        <Text
+        <View
           style={
             Object {
-              "fontSize": 20,
-              "fontWeight": "300",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+              "margin": 4,
             }
           }
-        >
-          Samples Management
-        </Text>
+        />
       </View>
     </View>
+  </View>
+  <RCTScrollView>
     <View>
       <View
         style={
-          Array [
-            Object {
-              "flexDirection": "row",
-              "flexWrap": "wrap",
-            },
-            undefined,
-          ]
+          Object {
+            "marginBottom": 10,
+            "marginTop": 20,
+            "paddingHorizontal": 10,
+          }
         }
       >
         <View
           style={
-            Array [
-              Object {
-                "padding": 10,
-                "width": "50%",
-              },
-              undefined,
-            ]
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f3f2f2",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "padding": 16,
+            }
           }
         >
           <View
             style={
               Object {
-                "backgroundColor": "#ffffff",
-                "borderRadius": 4,
-                "elevation": 2,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 0.75,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.24,
-                "shadowRadius": 1.5,
+                "backgroundColor": "#e260ab",
+                "borderRadius": 2,
+                "justifyContent": "center",
+                "marginRight": 10,
+                "padding": 3,
               }
             }
           >
-            <View
-              accessible={true}
-              focusable={false}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
+            <Text
+              allowFontScaling={false}
               style={
-                Object {
-                  "flexGrow": 1,
-                }
+                Array [
+                  Object {
+                    "color": "white",
+                    "fontSize": 26,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Material Design Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
               }
             >
-              <View
-                style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "flexDirection": "row",
-                      "justifyContent": "space-between",
-                      "paddingLeft": 16,
-                    },
-                    Object {
-                      "height": 50,
-                    },
-                    undefined,
-                  ]
-                }
-              >
-                <View
-                  style={
-                    Array [
-                      Object {
-                        "flex": 1,
-                        "flexDirection": "column",
-                        "height": 40,
-                        "justifyContent": "space-around",
-                      },
-                    ]
-                  }
-                >
-                  <Text
-                    numberOfLines={1}
-                    style={
-                      Array [
-                        Object {
-                          "color": "#000000",
-                          "fontFamily": "System",
-                          "fontWeight": "400",
-                          "textAlign": "left",
-                          "writingDirection": "ltr",
-                        },
-                        Array [
-                          Object {
-                            "color": "rgba(0, 0, 0, 0.87)",
-                            "fontFamily": "System",
-                            "fontWeight": "500",
-                            "textAlign": "left",
-                            "writingDirection": "ltr",
-                          },
-                          Array [
-                            Object {
-                              "fontSize": 20,
-                              "letterSpacing": 0.15,
-                              "lineHeight": 30,
-                              "marginVertical": 2,
-                            },
-                            Array [
-                              Object {
-                                "fontSize": 14,
-                                "minHeight": 20,
-                              },
-                              Object {
-                                "marginBottom": 2,
-                              },
-                              undefined,
-                            ],
-                          ],
-                          Array [
-                            Object {
-                              "fontSize": 20,
-                              "letterSpacing": 0.15,
-                              "lineHeight": 30,
-                              "marginVertical": 2,
-                            },
-                            Array [
-                              Object {
-                                "fontSize": 14,
-                                "minHeight": 20,
-                              },
-                              Object {
-                                "marginBottom": 2,
-                              },
-                              undefined,
-                            ],
-                          ],
-                        ],
-                      ]
-                    }
-                  >
-                    Inventories
-                  </Text>
-                </View>
-                <View />
-              </View>
-              <View
-                style={
-                  Array [
-                    Object {
-                      "paddingHorizontal": 16,
-                    },
-                    Object {
-                      "paddingVertical": 16,
-                    },
-                    undefined,
-                  ]
-                }
-              >
-                <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "justifyContent": "center",
-                      },
-                      Object {
-                        "paddingVertical": 10,
-                      },
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      Object {
-                        "height": 24,
-                        "opacity": 1,
-                        "width": 24,
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        Object {
-                          "alignItems": "center",
-                          "bottom": 0,
-                          "justifyContent": "center",
-                          "left": 0,
-                          "position": "absolute",
-                          "right": 0,
-                          "top": 0,
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Object {
-                            "height": 24,
-                            "transform": Array [
-                              Object {
-                                "rotate": "45deg",
-                              },
-                            ],
-                            "width": 24,
-                          }
-                        }
-                      >
-                        <View
-                          collapsable={false}
-                          style={
-                            Object {
-                              "height": 12,
-                              "overflow": "hidden",
-                              "width": 24,
-                            }
-                          }
-                        >
-                          <View
-                            style={
-                              Object {
-                                "height": 24,
-                                "transform": Array [
-                                  Object {
-                                    "translateY": 0,
-                                  },
-                                  Object {
-                                    "rotate": "-165deg",
-                                  },
-                                ],
-                                "width": 24,
-                              }
-                            }
-                          >
-                            <View
-                              collapsable={false}
-                              style={
-                                Object {
-                                  "height": 12,
-                                  "overflow": "hidden",
-                                  "width": 24,
-                                }
-                              }
-                            >
-                              <View
-                                style={
-                                  Object {
-                                    "borderColor": "#0768FD",
-                                    "borderRadius": 12,
-                                    "borderWidth": 2.4,
-                                    "height": 24,
-                                    "width": 24,
-                                  }
-                                }
-                              />
-                            </View>
-                          </View>
-                        </View>
-                      </View>
-                    </View>
-                    <View
-                      style={
-                        Object {
-                          "alignItems": "center",
-                          "bottom": 0,
-                          "justifyContent": "center",
-                          "left": 0,
-                          "position": "absolute",
-                          "right": 0,
-                          "top": 0,
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Object {
-                            "height": 24,
-                            "transform": Array [
-                              Object {
-                                "rotate": "45deg",
-                              },
-                            ],
-                            "width": 24,
-                          }
-                        }
-                      >
-                        <View
-                          collapsable={false}
-                          style={
-                            Object {
-                              "height": 12,
-                              "overflow": "hidden",
-                              "top": 12,
-                              "width": 24,
-                            }
-                          }
-                        >
-                          <View
-                            style={
-                              Object {
-                                "height": 24,
-                                "transform": Array [
-                                  Object {
-                                    "translateY": -12,
-                                  },
-                                  Object {
-                                    "rotate": "345deg",
-                                  },
-                                ],
-                                "width": 24,
-                              }
-                            }
-                          >
-                            <View
-                              collapsable={false}
-                              style={
-                                Object {
-                                  "height": 12,
-                                  "overflow": "hidden",
-                                  "width": 24,
-                                }
-                              }
-                            >
-                              <View
-                                style={
-                                  Object {
-                                    "borderColor": "#0768FD",
-                                    "borderRadius": 12,
-                                    "borderWidth": 2.4,
-                                    "height": 24,
-                                    "width": 24,
-                                  }
-                                }
-                              />
-                            </View>
-                          </View>
-                        </View>
-                      </View>
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
+              
+            </Text>
           </View>
+          <Text
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "300",
+              }
+            }
+          >
+            Samples Management
+          </Text>
         </View>
+      </View>
+      <View>
         <View
           style={
             Array [
               Object {
-                "padding": 10,
-                "width": "50%",
+                "flexDirection": "row",
+                "flexWrap": "wrap",
               },
               undefined,
             ]
@@ -426,253 +188,52 @@ exports[`DashboardScreen should render DashboardScreen component 1`] = `
         >
           <View
             style={
-              Object {
-                "marginBottom": 20,
-              }
+              Array [
+                Object {
+                  "padding": 10,
+                  "width": "50%",
+                },
+                undefined,
+              ]
             }
           >
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderRadius": 4,
-                  "elevation": 2,
-                  "shadowColor": "#000000",
-                  "shadowOffset": Object {
-                    "height": 0.75,
-                    "width": 0,
-                  },
-                  "shadowOpacity": 0.24,
-                  "shadowRadius": 1.5,
+                  "marginBottom": 20,
                 }
               }
             >
               <View
-                accessible={true}
-                focusable={false}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "flexGrow": 1,
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4,
+                    "elevation": 2,
+                    "shadowColor": "#000000",
+                    "shadowOffset": Object {
+                      "height": 0.75,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.24,
+                    "shadowRadius": 1.5,
                   }
                 }
               >
                 <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
                   style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "flexDirection": "row",
-                        "justifyContent": "space-between",
-                        "paddingLeft": 16,
-                      },
-                      Object {
-                        "height": 72,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "flex": 1,
-                          "flexDirection": "column",
-                          "height": 40,
-                          "justifyContent": "space-around",
-                        },
-                      ]
+                    Object {
+                      "flexGrow": 1,
                     }
-                  >
-                    <Text
-                      numberOfLines={1}
-                      style={
-                        Array [
-                          Object {
-                            "color": "#000000",
-                            "fontFamily": "System",
-                            "fontWeight": "400",
-                            "textAlign": "left",
-                            "writingDirection": "ltr",
-                          },
-                          Array [
-                            Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "System",
-                              "fontWeight": "500",
-                              "textAlign": "left",
-                              "writingDirection": "ltr",
-                            },
-                            Array [
-                              Object {
-                                "fontSize": 20,
-                                "letterSpacing": 0.15,
-                                "lineHeight": 30,
-                                "marginVertical": 2,
-                              },
-                              Array [
-                                Object {
-                                  "fontSize": 14,
-                                  "minHeight": 20,
-                                },
-                                Object {
-                                  "marginBottom": 2,
-                                },
-                                undefined,
-                              ],
-                            ],
-                            Array [
-                              Object {
-                                "fontSize": 20,
-                                "letterSpacing": 0.15,
-                                "lineHeight": 30,
-                                "marginVertical": 2,
-                              },
-                              Array [
-                                Object {
-                                  "fontSize": 14,
-                                  "minHeight": 20,
-                                },
-                                Object {
-                                  "marginBottom": 2,
-                                },
-                                undefined,
-                              ],
-                            ],
-                          ],
-                        ]
-                      }
-                    >
-                      Samples Storage Location
-                    </Text>
-                  </View>
-                  <View>
-                    <View
-                      accessibilityComponentType="button"
-                      accessibilityRole="button"
-                      accessibilityStates={Array []}
-                      accessibilityTraits="button"
-                      accessible={true}
-                      centered={true}
-                      focusable={true}
-                      hitSlop={
-                        Object {
-                          "bottom": 6,
-                          "left": 6,
-                          "right": 6,
-                          "top": 6,
-                        }
-                      }
-                      onClick={[Function]}
-                      onLayout={[Function]}
-                      onResponderGrant={[Function]}
-                      onResponderMove={[Function]}
-                      onResponderRelease={[Function]}
-                      onResponderTerminate={[Function]}
-                      onResponderTerminationRequest={[Function]}
-                      onStartShouldSetResponder={[Function]}
-                      pointerEvents="box-only"
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "overflow": "hidden",
-                            },
-                            Array [
-                              Object {
-                                "alignItems": "center",
-                                "justifyContent": "center",
-                                "margin": 6,
-                                "overflow": "hidden",
-                              },
-                              Object {
-                                "borderRadius": 15,
-                                "height": 30,
-                                "width": 30,
-                              },
-                              undefined,
-                              undefined,
-                            ],
-                          ]
-                        }
-                      >
-                        <View>
-                          <Text
-                            accessibilityElementsHidden={true}
-                            allowFontScaling={false}
-                            importantForAccessibility="no-hide-descendants"
-                            pointerEvents="none"
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#000000",
-                                  "fontSize": 20,
-                                },
-                                Array [
-                                  Object {
-                                    "transform": Array [
-                                      Object {
-                                        "scaleX": 1,
-                                      },
-                                    ],
-                                  },
-                                  Object {
-                                    "backgroundColor": "transparent",
-                                  },
-                                ],
-                                Object {
-                                  "fontFamily": "Material Design Icons",
-                                  "fontStyle": "normal",
-                                  "fontWeight": "normal",
-                                },
-                                Object {},
-                              ]
-                            }
-                          >
-                            
-                          </Text>
-                        </View>
-                      </View>
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "backgroundColor": "transparent",
-                              "bottom": 0,
-                              "left": 0,
-                              "overflow": "hidden",
-                              "position": "absolute",
-                              "right": 0,
-                              "top": 0,
-                            },
-                            Object {
-                              "borderRadius": 0,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-                <View
-                  style={
-                    Array [
-                      Object {
-                        "paddingHorizontal": 16,
-                      },
-                      Object {
-                        "paddingVertical": 16,
-                      },
-                      undefined,
-                    ]
                   }
                 >
                   <View
@@ -680,446 +241,840 @@ exports[`DashboardScreen should render DashboardScreen component 1`] = `
                       Array [
                         Object {
                           "alignItems": "center",
-                          "justifyContent": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "paddingLeft": 16,
                         },
                         Object {
-                          "paddingVertical": 10,
+                          "height": 72,
                         },
+                        undefined,
                       ]
                     }
                   >
                     <View
                       style={
-                        Object {
-                          "height": 24,
-                          "opacity": 1,
-                          "width": 24,
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Object {
-                            "alignItems": "center",
-                            "bottom": 0,
-                            "justifyContent": "center",
-                            "left": 0,
-                            "position": "absolute",
-                            "right": 0,
-                            "top": 0,
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "height": 24,
-                              "transform": Array [
-                                Object {
-                                  "rotate": "45deg",
-                                },
-                              ],
-                              "width": 24,
-                            }
-                          }
-                        >
-                          <View
-                            collapsable={false}
-                            style={
-                              Object {
-                                "height": 12,
-                                "overflow": "hidden",
-                                "width": 24,
-                              }
-                            }
-                          >
-                            <View
-                              style={
-                                Object {
-                                  "height": 24,
-                                  "transform": Array [
-                                    Object {
-                                      "translateY": 0,
-                                    },
-                                    Object {
-                                      "rotate": "-165deg",
-                                    },
-                                  ],
-                                  "width": 24,
-                                }
-                              }
-                            >
-                              <View
-                                collapsable={false}
-                                style={
-                                  Object {
-                                    "height": 12,
-                                    "overflow": "hidden",
-                                    "width": 24,
-                                  }
-                                }
-                              >
-                                <View
-                                  style={
-                                    Object {
-                                      "borderColor": "#0768FD",
-                                      "borderRadius": 12,
-                                      "borderWidth": 2.4,
-                                      "height": 24,
-                                      "width": 24,
-                                    }
-                                  }
-                                />
-                              </View>
-                            </View>
-                          </View>
-                        </View>
-                      </View>
-                      <View
-                        style={
-                          Object {
-                            "alignItems": "center",
-                            "bottom": 0,
-                            "justifyContent": "center",
-                            "left": 0,
-                            "position": "absolute",
-                            "right": 0,
-                            "top": 0,
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "height": 24,
-                              "transform": Array [
-                                Object {
-                                  "rotate": "45deg",
-                                },
-                              ],
-                              "width": 24,
-                            }
-                          }
-                        >
-                          <View
-                            collapsable={false}
-                            style={
-                              Object {
-                                "height": 12,
-                                "overflow": "hidden",
-                                "top": 12,
-                                "width": 24,
-                              }
-                            }
-                          >
-                            <View
-                              style={
-                                Object {
-                                  "height": 24,
-                                  "transform": Array [
-                                    Object {
-                                      "translateY": -12,
-                                    },
-                                    Object {
-                                      "rotate": "345deg",
-                                    },
-                                  ],
-                                  "width": 24,
-                                }
-                              }
-                            >
-                              <View
-                                collapsable={false}
-                                style={
-                                  Object {
-                                    "height": 12,
-                                    "overflow": "hidden",
-                                    "width": 24,
-                                  }
-                                }
-                              >
-                                <View
-                                  style={
-                                    Object {
-                                      "borderColor": "#0768FD",
-                                      "borderRadius": 12,
-                                      "borderWidth": 2.4,
-                                      "height": 24,
-                                      "width": 24,
-                                    }
-                                  }
-                                />
-                              </View>
-                            </View>
-                          </View>
-                        </View>
-                      </View>
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginBottom": 20,
-              }
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#ffffff",
-                  "borderRadius": 4,
-                  "elevation": 2,
-                  "shadowColor": "#000000",
-                  "shadowOffset": Object {
-                    "height": 0.75,
-                    "width": 0,
-                  },
-                  "shadowOpacity": 0.24,
-                  "shadowRadius": 1.5,
-                }
-              }
-            >
-              <View
-                accessible={true}
-                focusable={false}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "flexGrow": 1,
-                  }
-                }
-              >
-                <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "flexDirection": "row",
-                        "justifyContent": "space-between",
-                        "paddingLeft": 16,
-                      },
-                      Object {
-                        "height": 72,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "flex": 1,
-                          "flexDirection": "column",
-                          "height": 40,
-                          "justifyContent": "space-around",
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      numberOfLines={1}
-                      style={
                         Array [
                           Object {
-                            "color": "#000000",
-                            "fontFamily": "System",
-                            "fontWeight": "400",
-                            "textAlign": "left",
-                            "writingDirection": "ltr",
+                            "flex": 1,
+                            "flexDirection": "column",
+                            "height": 40,
+                            "justifyContent": "space-around",
                           },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
                           Array [
                             Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
+                              "color": "#000000",
                               "fontFamily": "System",
-                              "fontWeight": "500",
+                              "fontWeight": "400",
                               "textAlign": "left",
                               "writingDirection": "ltr",
                             },
                             Array [
                               Object {
-                                "fontSize": 20,
-                                "letterSpacing": 0.15,
-                                "lineHeight": 30,
-                                "marginVertical": 2,
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontFamily": "System",
+                                "fontWeight": "500",
+                                "textAlign": "left",
+                                "writingDirection": "ltr",
                               },
                               Array [
                                 Object {
-                                  "fontSize": 14,
-                                  "minHeight": 20,
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
                                 },
-                                Object {
-                                  "marginBottom": 2,
-                                },
-                                undefined,
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
                               ],
-                            ],
-                            Array [
-                              Object {
-                                "fontSize": 20,
-                                "letterSpacing": 0.15,
-                                "lineHeight": 30,
-                                "marginVertical": 2,
-                              },
                               Array [
                                 Object {
-                                  "fontSize": 14,
-                                  "minHeight": 20,
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
                                 },
-                                Object {
-                                  "marginBottom": 2,
-                                },
-                                undefined,
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
                               ],
                             ],
-                          ],
-                        ]
+                          ]
+                        }
+                      >
+                        Disbursements
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        Object {
+                          "flex": 3,
+                        }
                       }
                     >
-                      Samples Timeline
-                    </Text>
-                  </View>
-                  <View>
-                    <View
-                      collapsable={false}
-                    >
                       <View
-                        accessibilityComponentType="button"
-                        accessibilityRole="button"
-                        accessibilityStates={Array []}
-                        accessibilityTraits="button"
-                        accessible={true}
-                        centered={true}
-                        focusable={true}
-                        hitSlop={
+                        style={
                           Object {
-                            "bottom": 6,
-                            "left": 6,
-                            "right": 6,
-                            "top": 6,
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "justifyContent": "space-between",
                           }
                         }
-                        onClick={[Function]}
-                        onLayout={[Function]}
-                        onResponderGrant={[Function]}
-                        onResponderMove={[Function]}
-                        onResponderRelease={[Function]}
-                        onResponderTerminate={[Function]}
-                        onResponderTerminationRequest={[Function]}
-                        onStartShouldSetResponder={[Function]}
-                        pointerEvents="box-only"
                       >
                         <View
                           style={
                             Array [
                               Object {
-                                "overflow": "hidden",
+                                "width": 145,
                               },
-                              Array [
-                                Object {
-                                  "alignItems": "center",
-                                  "justifyContent": "center",
-                                  "margin": 6,
-                                  "overflow": "hidden",
-                                },
-                                Object {
-                                  "borderRadius": 16.5,
-                                  "height": 33,
-                                  "width": 33,
-                                },
-                                undefined,
-                                undefined,
-                              ],
+                              undefined,
                             ]
                           }
                         >
                           <View>
-                            <Text
-                              accessibilityElementsHidden={true}
-                              allowFontScaling={false}
-                              importantForAccessibility="no-hide-descendants"
-                              pointerEvents="none"
+                            <View
                               style={
                                 Array [
                                   Object {
-                                    "color": "#A5A5A5",
-                                    "fontSize": 22,
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
                                   },
-                                  Array [
-                                    Object {
-                                      "transform": Array [
-                                        Object {
-                                          "scaleX": 1,
-                                        },
-                                      ],
-                                    },
-                                    Object {
-                                      "backgroundColor": "transparent",
-                                    },
-                                  ],
                                   Object {
-                                    "fontFamily": "Material Design Icons",
-                                    "fontStyle": "normal",
-                                    "fontWeight": "normal",
+                                    "backgroundColor": undefined,
+                                    "borderColor": "#d9d9d9",
+                                    "borderRadius": 4,
+                                    "borderWidth": 1,
+                                    "elevation": 0,
+                                    "height": 32,
                                   },
-                                  Object {},
+                                  undefined,
                                 ]
                               }
                             >
-                              
-                            </Text>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "alignSelf": "stretch",
+                                    "flex": 1,
+                                    "flexDirection": "row",
+                                    "flexGrow": 1,
+                                    "paddingLeft": 8,
+                                  }
+                                }
+                              >
+                                <View
+                                  accessible={true}
+                                  focusable={true}
+                                  hitSlop={
+                                    Object {
+                                      "bottom": 14,
+                                      "left": 14,
+                                      "right": 14,
+                                      "top": 14,
+                                    }
+                                  }
+                                  isTVSelectable={true}
+                                  onClick={[Function]}
+                                  onResponderGrant={[Function]}
+                                  onResponderMove={[Function]}
+                                  onResponderRelease={[Function]}
+                                  onResponderTerminate={[Function]}
+                                  onResponderTerminationRequest={[Function]}
+                                  onStartShouldSetResponder={[Function]}
+                                  style={
+                                    Object {
+                                      "flex": 1,
+                                      "opacity": 1,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    numberOfLines={1}
+                                    style={
+                                      Array [
+                                        Object {
+                                          "color": "#000000",
+                                          "fontFamily": "System",
+                                          "fontSize": 14,
+                                          "fontWeight": "400",
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    Last 3 Months
+                                  </Text>
+                                </View>
+                              </View>
+                              <View
+                                accessibilityComponentType="button"
+                                accessibilityRole="button"
+                                accessibilityStates={Array []}
+                                accessibilityTraits="button"
+                                accessible={true}
+                                centered={true}
+                                focusable={true}
+                                hitSlop={
+                                  Object {
+                                    "bottom": 6,
+                                    "left": 6,
+                                    "right": 6,
+                                    "top": 6,
+                                  }
+                                }
+                                onClick={[Function]}
+                                onLayout={[Function]}
+                                onResponderGrant={[Function]}
+                                onResponderMove={[Function]}
+                                onResponderRelease={[Function]}
+                                onResponderTerminate={[Function]}
+                                onResponderTerminationRequest={[Function]}
+                                onStartShouldSetResponder={[Function]}
+                                pointerEvents="box-only"
+                              >
+                                <View
+                                  style={
+                                    Array [
+                                      Object {
+                                        "overflow": "hidden",
+                                      },
+                                      Array [
+                                        Object {
+                                          "alignItems": "center",
+                                          "justifyContent": "center",
+                                          "margin": 6,
+                                          "overflow": "hidden",
+                                        },
+                                        Object {
+                                          "borderRadius": 18,
+                                          "height": 36,
+                                          "width": 36,
+                                        },
+                                        undefined,
+                                        Object {
+                                          "margin": 0,
+                                        },
+                                      ],
+                                    ]
+                                  }
+                                >
+                                  <View>
+                                    <Text
+                                      accessibilityElementsHidden={true}
+                                      allowFontScaling={false}
+                                      importantForAccessibility="no-hide-descendants"
+                                      pointerEvents="none"
+                                      style={
+                                        Array [
+                                          Object {
+                                            "color": "#000000",
+                                            "fontSize": 24,
+                                          },
+                                          Array [
+                                            Object {
+                                              "transform": Array [
+                                                Object {
+                                                  "scaleX": 1,
+                                                },
+                                              ],
+                                            },
+                                            Object {
+                                              "backgroundColor": "transparent",
+                                            },
+                                          ],
+                                          Object {
+                                            "fontFamily": "Material Design Icons",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "normal",
+                                          },
+                                          Object {},
+                                        ]
+                                      }
+                                    >
+                                      
+                                    </Text>
+                                  </View>
+                                </View>
+                                <View
+                                  style={
+                                    Array [
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                        "bottom": 0,
+                                        "left": 0,
+                                        "overflow": "hidden",
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                      },
+                                      Object {
+                                        "borderRadius": 0,
+                                      },
+                                    ]
+                                  }
+                                />
+                              </View>
+                            </View>
                           </View>
+                          <View
+                            collapsable={false}
+                          />
                         </View>
                         <View
                           style={
-                            Array [
+                            Object {
+                              "paddingRight": 10,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                },
+                                Object {
+                                  "paddingVertical": 10,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "opacity": 1,
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "bottom": 0,
+                                    "justifyContent": "center",
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "rotate": "45deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "height": 24,
+                                          "transform": Array [
+                                            Object {
+                                              "translateY": 0,
+                                            },
+                                            Object {
+                                              "rotate": "-165deg",
+                                            },
+                                          ],
+                                          "width": 24,
+                                        }
+                                      }
+                                    >
+                                      <View
+                                        collapsable={false}
+                                        style={
+                                          Object {
+                                            "height": 12,
+                                            "overflow": "hidden",
+                                            "width": 24,
+                                          }
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "borderColor": "#015ff1",
+                                              "borderRadius": 12,
+                                              "borderWidth": 2.4,
+                                              "height": 24,
+                                              "width": 24,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                              <View
+                                style={
+                                  Object {
+                                    "alignItems": "center",
+                                    "bottom": 0,
+                                    "justifyContent": "center",
+                                    "left": 0,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "top": 0,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "rotate": "45deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "top": 12,
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "height": 24,
+                                          "transform": Array [
+                                            Object {
+                                              "translateY": -12,
+                                            },
+                                            Object {
+                                              "rotate": "345deg",
+                                            },
+                                          ],
+                                          "width": 24,
+                                        }
+                                      }
+                                    >
+                                      <View
+                                        collapsable={false}
+                                        style={
+                                          Object {
+                                            "height": 12,
+                                            "overflow": "hidden",
+                                            "width": 24,
+                                          }
+                                        }
+                                      >
+                                        <View
+                                          style={
+                                            Object {
+                                              "borderColor": "#015ff1",
+                                              "borderRadius": 12,
+                                              "borderWidth": 2.4,
+                                              "height": 24,
+                                              "width": 24,
+                                            }
+                                          }
+                                        />
+                                      </View>
+                                    </View>
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingHorizontal": 16,
+                        },
+                        Object {
+                          "paddingVertical": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "alignItems": "center",
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "paddingVertical": 10,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "height": 24,
+                              "opacity": 1,
+                              "width": 24,
+                            }
+                          }
+                        >
+                          <View
+                            style={
                               Object {
-                                "backgroundColor": "transparent",
+                                "alignItems": "center",
                                 "bottom": 0,
+                                "justifyContent": "center",
                                 "left": 0,
-                                "overflow": "hidden",
                                 "position": "absolute",
                                 "right": 0,
                                 "top": 0,
-                              },
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "transform": Array [
+                                    Object {
+                                      "rotate": "45deg",
+                                    },
+                                  ],
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  Object {
+                                    "height": 12,
+                                    "overflow": "hidden",
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "translateY": 0,
+                                        },
+                                        Object {
+                                          "rotate": "-165deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "borderColor": "#015ff1",
+                                          "borderRadius": 12,
+                                          "borderWidth": 2.4,
+                                          "height": 24,
+                                          "width": 24,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            style={
                               Object {
-                                "borderRadius": 0,
-                              },
-                            ]
-                          }
-                        />
+                                "alignItems": "center",
+                                "bottom": 0,
+                                "justifyContent": "center",
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "transform": Array [
+                                    Object {
+                                      "rotate": "45deg",
+                                    },
+                                  ],
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  Object {
+                                    "height": 12,
+                                    "overflow": "hidden",
+                                    "top": 12,
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "translateY": -12,
+                                        },
+                                        Object {
+                                          "rotate": "345deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "borderColor": "#015ff1",
+                                          "borderRadius": 12,
+                                          "borderWidth": 2.4,
+                                          "height": 24,
+                                          "width": 24,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
                       </View>
                     </View>
                   </View>
                 </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4,
+                    "elevation": 2,
+                    "shadowColor": "#000000",
+                    "shadowOffset": Object {
+                      "height": 0.75,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.24,
+                    "shadowRadius": 1.5,
+                  }
+                }
+              >
                 <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
                   style={
-                    Array [
-                      Object {
-                        "paddingHorizontal": 16,
-                      },
-                      Object {
-                        "paddingVertical": 16,
-                      },
-                      undefined,
-                    ]
+                    Object {
+                      "flexGrow": 1,
+                    }
                   }
                 >
                   <View
                     style={
-                      Object {
-                        "padding": 20,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "paddingLeft": 16,
+                        },
+                        Object {
+                          "height": 50,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "flexDirection": "column",
+                            "height": 40,
+                            "justifyContent": "space-around",
+                          },
+                        ]
                       }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontWeight": "400",
+                              "textAlign": "left",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontFamily": "System",
+                                "fontWeight": "500",
+                                "textAlign": "left",
+                                "writingDirection": "ltr",
+                              },
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        Inventories
+                      </Text>
+                    </View>
+                    <View />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingHorizontal": 16,
+                        },
+                        Object {
+                          "paddingVertical": 16,
+                        },
+                        undefined,
+                      ]
                     }
                   >
                     <View
@@ -1209,7 +1164,7 @@ exports[`DashboardScreen should render DashboardScreen component 1`] = `
                                   <View
                                     style={
                                       Object {
-                                        "borderColor": "#0768FD",
+                                        "borderColor": "#015ff1",
                                         "borderRadius": 12,
                                         "borderWidth": 2.4,
                                         "height": 24,
@@ -1288,7 +1243,7 @@ exports[`DashboardScreen should render DashboardScreen component 1`] = `
                                   <View
                                     style={
                                       Object {
-                                        "borderColor": "#0768FD",
+                                        "borderColor": "#015ff1",
                                         "borderRadius": 12,
                                         "borderWidth": 2.4,
                                         "height": 24,
@@ -1307,10 +1262,1572 @@ exports[`DashboardScreen should render DashboardScreen component 1`] = `
                 </View>
               </View>
             </View>
+            <View
+              style={
+                Object {
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4,
+                    "elevation": 2,
+                    "shadowColor": "#000000",
+                    "shadowOffset": Object {
+                      "height": 0.75,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.24,
+                    "shadowRadius": 1.5,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flexGrow": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "paddingLeft": 16,
+                        },
+                        Object {
+                          "height": 50,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "flexDirection": "column",
+                            "height": 40,
+                            "justifyContent": "space-around",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontWeight": "400",
+                              "textAlign": "left",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontFamily": "System",
+                                "fontWeight": "500",
+                                "textAlign": "left",
+                                "writingDirection": "ltr",
+                              },
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        Received Samples
+                      </Text>
+                    </View>
+                    <View />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingHorizontal": 16,
+                        },
+                        Object {
+                          "paddingVertical": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "padding": 20,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "alignItems": "center",
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "paddingVertical": 10,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "height": 24,
+                              "opacity": 1,
+                              "width": 24,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "bottom": 0,
+                                "justifyContent": "center",
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "transform": Array [
+                                    Object {
+                                      "rotate": "45deg",
+                                    },
+                                  ],
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  Object {
+                                    "height": 12,
+                                    "overflow": "hidden",
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "translateY": 0,
+                                        },
+                                        Object {
+                                          "rotate": "-165deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "borderColor": "#015ff1",
+                                          "borderRadius": 12,
+                                          "borderWidth": 2.4,
+                                          "height": 24,
+                                          "width": 24,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "bottom": 0,
+                                "justifyContent": "center",
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "transform": Array [
+                                    Object {
+                                      "rotate": "45deg",
+                                    },
+                                  ],
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  Object {
+                                    "height": 12,
+                                    "overflow": "hidden",
+                                    "top": 12,
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "translateY": -12,
+                                        },
+                                        Object {
+                                          "rotate": "345deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "borderColor": "#015ff1",
+                                          "borderRadius": 12,
+                                          "borderWidth": 2.4,
+                                          "height": 24,
+                                          "width": 24,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "padding": 10,
+                  "width": "50%",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4,
+                    "elevation": 2,
+                    "shadowColor": "#000000",
+                    "shadowOffset": Object {
+                      "height": 0.75,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.24,
+                    "shadowRadius": 1.5,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flexGrow": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "paddingLeft": 16,
+                        },
+                        Object {
+                          "height": 50,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "flexDirection": "column",
+                            "height": 40,
+                            "justifyContent": "space-around",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontWeight": "400",
+                              "textAlign": "left",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontFamily": "System",
+                                "fontWeight": "500",
+                                "textAlign": "left",
+                                "writingDirection": "ltr",
+                              },
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        Manage Lots
+                      </Text>
+                    </View>
+                    <View />
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingHorizontal": 16,
+                        },
+                        Object {
+                          "paddingVertical": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                          },
+                          Object {
+                            "paddingVertical": 10,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": 24,
+                            "opacity": 1,
+                            "width": 24,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "bottom": 0,
+                              "justifyContent": "center",
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "height": 24,
+                                "transform": Array [
+                                  Object {
+                                    "rotate": "45deg",
+                                  },
+                                ],
+                                "width": 24,
+                              }
+                            }
+                          >
+                            <View
+                              collapsable={false}
+                              style={
+                                Object {
+                                  "height": 12,
+                                  "overflow": "hidden",
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 24,
+                                    "transform": Array [
+                                      Object {
+                                        "translateY": 0,
+                                      },
+                                      Object {
+                                        "rotate": "-165deg",
+                                      },
+                                    ],
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    Object {
+                                      "height": 12,
+                                      "overflow": "hidden",
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Object {
+                                        "borderColor": "#015ff1",
+                                        "borderRadius": 12,
+                                        "borderWidth": 2.4,
+                                        "height": 24,
+                                        "width": 24,
+                                      }
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "bottom": 0,
+                              "justifyContent": "center",
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "height": 24,
+                                "transform": Array [
+                                  Object {
+                                    "rotate": "45deg",
+                                  },
+                                ],
+                                "width": 24,
+                              }
+                            }
+                          >
+                            <View
+                              collapsable={false}
+                              style={
+                                Object {
+                                  "height": 12,
+                                  "overflow": "hidden",
+                                  "top": 12,
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 24,
+                                    "transform": Array [
+                                      Object {
+                                        "translateY": -12,
+                                      },
+                                      Object {
+                                        "rotate": "345deg",
+                                      },
+                                    ],
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    Object {
+                                      "height": 12,
+                                      "overflow": "hidden",
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Object {
+                                        "borderColor": "#015ff1",
+                                        "borderRadius": 12,
+                                        "borderWidth": 2.4,
+                                        "height": 24,
+                                        "width": 24,
+                                      }
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4,
+                    "elevation": 2,
+                    "shadowColor": "#000000",
+                    "shadowOffset": Object {
+                      "height": 0.75,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.24,
+                    "shadowRadius": 1.5,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flexGrow": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "paddingLeft": 16,
+                        },
+                        Object {
+                          "height": 72,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "flexDirection": "column",
+                            "height": 40,
+                            "justifyContent": "space-around",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontWeight": "400",
+                              "textAlign": "left",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontFamily": "System",
+                                "fontWeight": "500",
+                                "textAlign": "left",
+                                "writingDirection": "ltr",
+                              },
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        Samples Storage Location
+                      </Text>
+                    </View>
+                    <View>
+                      <View
+                        accessibilityComponentType="button"
+                        accessibilityRole="button"
+                        accessibilityStates={Array []}
+                        accessibilityTraits="button"
+                        accessible={true}
+                        centered={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 6,
+                            "left": 6,
+                            "right": 6,
+                            "top": 6,
+                          }
+                        }
+                        onClick={[Function]}
+                        onLayout={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        pointerEvents="box-only"
+                      >
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "overflow": "hidden",
+                              },
+                              Array [
+                                Object {
+                                  "alignItems": "center",
+                                  "justifyContent": "center",
+                                  "margin": 6,
+                                  "overflow": "hidden",
+                                },
+                                Object {
+                                  "borderRadius": 15,
+                                  "height": 30,
+                                  "width": 30,
+                                },
+                                undefined,
+                                undefined,
+                              ],
+                            ]
+                          }
+                        >
+                          <View>
+                            <Text
+                              accessibilityElementsHidden={true}
+                              allowFontScaling={false}
+                              importantForAccessibility="no-hide-descendants"
+                              pointerEvents="none"
+                              style={
+                                Array [
+                                  Object {
+                                    "color": "#A5A5A5",
+                                    "fontSize": 20,
+                                  },
+                                  Array [
+                                    Object {
+                                      "transform": Array [
+                                        Object {
+                                          "scaleX": 1,
+                                        },
+                                      ],
+                                    },
+                                    Object {
+                                      "backgroundColor": "transparent",
+                                    },
+                                  ],
+                                  Object {
+                                    "fontFamily": "Material Design Icons",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "normal",
+                                  },
+                                  Object {},
+                                ]
+                              }
+                            >
+                              
+                            </Text>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "bottom": 0,
+                                "left": 0,
+                                "overflow": "hidden",
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              },
+                              Object {
+                                "borderRadius": 0,
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingHorizontal": 16,
+                        },
+                        Object {
+                          "paddingVertical": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "justifyContent": "center",
+                          },
+                          Object {
+                            "paddingVertical": 10,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "height": 24,
+                            "opacity": 1,
+                            "width": 24,
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "bottom": 0,
+                              "justifyContent": "center",
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "height": 24,
+                                "transform": Array [
+                                  Object {
+                                    "rotate": "45deg",
+                                  },
+                                ],
+                                "width": 24,
+                              }
+                            }
+                          >
+                            <View
+                              collapsable={false}
+                              style={
+                                Object {
+                                  "height": 12,
+                                  "overflow": "hidden",
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 24,
+                                    "transform": Array [
+                                      Object {
+                                        "translateY": 0,
+                                      },
+                                      Object {
+                                        "rotate": "-165deg",
+                                      },
+                                    ],
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    Object {
+                                      "height": 12,
+                                      "overflow": "hidden",
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Object {
+                                        "borderColor": "#015ff1",
+                                        "borderRadius": 12,
+                                        "borderWidth": 2.4,
+                                        "height": 24,
+                                        "width": 24,
+                                      }
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            Object {
+                              "alignItems": "center",
+                              "bottom": 0,
+                              "justifyContent": "center",
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "height": 24,
+                                "transform": Array [
+                                  Object {
+                                    "rotate": "45deg",
+                                  },
+                                ],
+                                "width": 24,
+                              }
+                            }
+                          >
+                            <View
+                              collapsable={false}
+                              style={
+                                Object {
+                                  "height": 12,
+                                  "overflow": "hidden",
+                                  "top": 12,
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  Object {
+                                    "height": 24,
+                                    "transform": Array [
+                                      Object {
+                                        "translateY": -12,
+                                      },
+                                      Object {
+                                        "rotate": "345deg",
+                                      },
+                                    ],
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  collapsable={false}
+                                  style={
+                                    Object {
+                                      "height": 12,
+                                      "overflow": "hidden",
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    style={
+                                      Object {
+                                        "borderColor": "#015ff1",
+                                        "borderRadius": 12,
+                                        "borderWidth": 2.4,
+                                        "height": 24,
+                                        "width": 24,
+                                      }
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "marginBottom": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 4,
+                    "elevation": 2,
+                    "shadowColor": "#000000",
+                    "shadowOffset": Object {
+                      "height": 0.75,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.24,
+                    "shadowRadius": 1.5,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={false}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "flexGrow": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "paddingLeft": 16,
+                        },
+                        Object {
+                          "height": 72,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "flex": 1,
+                            "flexDirection": "column",
+                            "height": 40,
+                            "justifyContent": "space-around",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#000000",
+                              "fontFamily": "System",
+                              "fontWeight": "400",
+                              "textAlign": "left",
+                              "writingDirection": "ltr",
+                            },
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "fontFamily": "System",
+                                "fontWeight": "500",
+                                "textAlign": "left",
+                                "writingDirection": "ltr",
+                              },
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                              Array [
+                                Object {
+                                  "fontSize": 20,
+                                  "letterSpacing": 0.15,
+                                  "lineHeight": 30,
+                                  "marginVertical": 2,
+                                },
+                                Array [
+                                  Object {
+                                    "fontSize": 14,
+                                    "minHeight": 20,
+                                  },
+                                  Object {
+                                    "marginBottom": 2,
+                                  },
+                                  undefined,
+                                ],
+                              ],
+                            ],
+                          ]
+                        }
+                      >
+                        Samples Timeline
+                      </Text>
+                    </View>
+                    <View>
+                      <View
+                        collapsable={false}
+                      >
+                        <View
+                          accessibilityComponentType="button"
+                          accessibilityRole="button"
+                          accessibilityStates={Array []}
+                          accessibilityTraits="button"
+                          accessible={true}
+                          centered={true}
+                          focusable={true}
+                          hitSlop={
+                            Object {
+                              "bottom": 6,
+                              "left": 6,
+                              "right": 6,
+                              "top": 6,
+                            }
+                          }
+                          onClick={[Function]}
+                          onLayout={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          pointerEvents="box-only"
+                        >
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "overflow": "hidden",
+                                },
+                                Array [
+                                  Object {
+                                    "alignItems": "center",
+                                    "justifyContent": "center",
+                                    "margin": 6,
+                                    "overflow": "hidden",
+                                  },
+                                  Object {
+                                    "borderRadius": 16.5,
+                                    "height": 33,
+                                    "width": 33,
+                                  },
+                                  undefined,
+                                  undefined,
+                                ],
+                              ]
+                            }
+                          >
+                            <View>
+                              <Text
+                                accessibilityElementsHidden={true}
+                                allowFontScaling={false}
+                                importantForAccessibility="no-hide-descendants"
+                                pointerEvents="none"
+                                style={
+                                  Array [
+                                    Object {
+                                      "color": "#595959",
+                                      "fontSize": 22,
+                                    },
+                                    Array [
+                                      Object {
+                                        "transform": Array [
+                                          Object {
+                                            "scaleX": 1,
+                                          },
+                                        ],
+                                      },
+                                      Object {
+                                        "backgroundColor": "transparent",
+                                      },
+                                    ],
+                                    Object {
+                                      "fontFamily": "Material Design Icons",
+                                      "fontStyle": "normal",
+                                      "fontWeight": "normal",
+                                    },
+                                    Object {},
+                                  ]
+                                }
+                              >
+                                
+                              </Text>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Array [
+                                Object {
+                                  "backgroundColor": "transparent",
+                                  "bottom": 0,
+                                  "left": 0,
+                                  "overflow": "hidden",
+                                  "position": "absolute",
+                                  "right": 0,
+                                  "top": 0,
+                                },
+                                Object {
+                                  "borderRadius": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "paddingHorizontal": 16,
+                        },
+                        Object {
+                          "paddingVertical": 16,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "padding": 20,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "alignItems": "center",
+                              "justifyContent": "center",
+                            },
+                            Object {
+                              "paddingVertical": 10,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            Object {
+                              "height": 24,
+                              "opacity": 1,
+                              "width": 24,
+                            }
+                          }
+                        >
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "bottom": 0,
+                                "justifyContent": "center",
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "transform": Array [
+                                    Object {
+                                      "rotate": "45deg",
+                                    },
+                                  ],
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  Object {
+                                    "height": 12,
+                                    "overflow": "hidden",
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "translateY": 0,
+                                        },
+                                        Object {
+                                          "rotate": "-165deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "borderColor": "#015ff1",
+                                          "borderRadius": 12,
+                                          "borderWidth": 2.4,
+                                          "height": 24,
+                                          "width": 24,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                          <View
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "bottom": 0,
+                                "justifyContent": "center",
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                Object {
+                                  "height": 24,
+                                  "transform": Array [
+                                    Object {
+                                      "rotate": "45deg",
+                                    },
+                                  ],
+                                  "width": 24,
+                                }
+                              }
+                            >
+                              <View
+                                collapsable={false}
+                                style={
+                                  Object {
+                                    "height": 12,
+                                    "overflow": "hidden",
+                                    "top": 12,
+                                    "width": 24,
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    Object {
+                                      "height": 24,
+                                      "transform": Array [
+                                        Object {
+                                          "translateY": -12,
+                                        },
+                                        Object {
+                                          "rotate": "345deg",
+                                        },
+                                      ],
+                                      "width": 24,
+                                    }
+                                  }
+                                >
+                                  <View
+                                    collapsable={false}
+                                    style={
+                                      Object {
+                                        "height": 12,
+                                        "overflow": "hidden",
+                                        "width": 24,
+                                      }
+                                    }
+                                  >
+                                    <View
+                                      style={
+                                        Object {
+                                          "borderColor": "#015ff1",
+                                          "borderRadius": 12,
+                                          "borderWidth": 2.4,
+                                          "height": 24,
+                                          "width": 24,
+                                        }
+                                      }
+                                    />
+                                  </View>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
           </View>
         </View>
       </View>
     </View>
-  </View>
-</RCTScrollView>
+  </RCTScrollView>
+</View>
 `;

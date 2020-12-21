@@ -3,546 +3,618 @@
 exports[`InventoriesList Should render InventoriesList component 1`] = `
 <View>
   <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginBottom": 10,
-        "width": "100%",
+        "opacity": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+          "width": "100%",
         }
       }
     >
       <View
         style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "borderRadius": 3,
-              "height": 32,
-              "marginRight": 10,
-              "width": 32,
-            },
-            Object {
-              "backgroundColor": undefined,
-            },
-          ]
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
         }
       >
-        <Text
-          allowFontScaling={false}
+        <View
           style={
             Array [
               Object {
-                "color": "#fff",
-                "fontSize": 32,
+                "alignItems": "center",
+                "borderRadius": 3,
+                "height": 32,
+                "marginRight": 10,
+                "width": 32,
+              },
+              Object {
+                "backgroundColor": undefined,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 32,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#0070d2",
+                "fontSize": 13,
+              }
+            }
+          >
+            1 
+            Product Sample Details
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e3e3c",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Date: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#080707",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Mar 13, 2020 04:53 PM
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "paddingHorizontal": 6,
+                "paddingVertical": 2,
               },
               undefined,
               Object {
-                "fontFamily": "Material Design Icons",
-                "fontStyle": "normal",
-                "fontWeight": "normal",
+                "backgroundColor": "#04844b",
+                "marginRight": 5,
               },
-              Object {},
             ]
           }
         >
-          
-        </Text>
-      </View>
-      <View>
-        <Text
-          style={
-            Object {
-              "color": "#0070d2",
-              "fontSize": 13,
-            }
-          }
-        >
-          1
-           Product Sample Details
-        </Text>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "marginTop": 5,
-            }
-          }
-        >
           <Text
             style={
-              Object {
-                "color": "#3e3e3c",
-                "fontSize": 12,
-              }
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "white",
+                },
+              ]
             }
           >
-            Date: 
-          </Text>
-          <Text
-            style={
-              Object {
-                "color": "#080707",
-                "fontSize": 12,
-              }
-            }
-          >
-            Mar 5, 2020 06:53 pm
+            Submitted
           </Text>
         </View>
-      </View>
-    </View>
-    <View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "borderRadius": 10,
-              "flexDirection": "row",
-              "paddingHorizontal": 6,
-              "paddingVertical": 2,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#04844b",
-              "marginRight": 5,
-            },
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "white",
-                "fontSize": 12,
-                "fontWeight": "700",
-              },
-              Object {
-                "color": "white",
-              },
-            ]
-          }
-        >
-          Submitted
-        </Text>
       </View>
     </View>
   </View>
   <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginBottom": 10,
-        "width": "100%",
+        "opacity": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+          "width": "100%",
         }
       }
     >
       <View
         style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "borderRadius": 3,
-              "height": 32,
-              "marginRight": 10,
-              "width": 32,
-            },
-            Object {
-              "backgroundColor": undefined,
-            },
-          ]
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
         }
       >
-        <Text
-          allowFontScaling={false}
+        <View
           style={
             Array [
               Object {
-                "color": "#fff",
-                "fontSize": 32,
+                "alignItems": "center",
+                "borderRadius": 3,
+                "height": 32,
+                "marginRight": 10,
+                "width": 32,
+              },
+              Object {
+                "backgroundColor": undefined,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 32,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#0070d2",
+                "fontSize": 13,
+              }
+            }
+          >
+            1 
+            Product Sample Details
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e3e3c",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Date: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#080707",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Mar 13, 2020 04:53 PM
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "paddingHorizontal": 6,
+                "paddingVertical": 2,
               },
               undefined,
               Object {
-                "fontFamily": "Material Design Icons",
-                "fontStyle": "normal",
-                "fontWeight": "normal",
+                "backgroundColor": "#04844b",
+                "marginRight": 5,
               },
-              Object {},
             ]
           }
         >
-          
-        </Text>
-      </View>
-      <View>
-        <Text
-          style={
-            Object {
-              "color": "#0070d2",
-              "fontSize": 13,
-            }
-          }
-        >
-          1
-           Product Sample Details
-        </Text>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "marginTop": 5,
-            }
-          }
-        >
           <Text
             style={
-              Object {
-                "color": "#3e3e3c",
-                "fontSize": 12,
-              }
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "white",
+                },
+              ]
             }
           >
-            Date: 
-          </Text>
-          <Text
-            style={
-              Object {
-                "color": "#080707",
-                "fontSize": 12,
-              }
-            }
-          >
-            Mar 5, 2020 06:53 pm
+            Submitted
           </Text>
         </View>
-      </View>
-    </View>
-    <View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "borderRadius": 10,
-              "flexDirection": "row",
-              "paddingHorizontal": 6,
-              "paddingVertical": 2,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#04844b",
-              "marginRight": 5,
-            },
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "white",
-                "fontSize": 12,
-                "fontWeight": "700",
-              },
-              Object {
-                "color": "white",
-              },
-            ]
-          }
-        >
-          Submitted
-        </Text>
       </View>
     </View>
   </View>
   <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginBottom": 10,
-        "width": "100%",
+        "opacity": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+          "width": "100%",
         }
       }
     >
       <View
         style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "borderRadius": 3,
-              "height": 32,
-              "marginRight": 10,
-              "width": 32,
-            },
-            Object {
-              "backgroundColor": undefined,
-            },
-          ]
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
         }
       >
-        <Text
-          allowFontScaling={false}
+        <View
           style={
             Array [
               Object {
-                "color": "#fff",
-                "fontSize": 32,
+                "alignItems": "center",
+                "borderRadius": 3,
+                "height": 32,
+                "marginRight": 10,
+                "width": 32,
+              },
+              Object {
+                "backgroundColor": undefined,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 32,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#0070d2",
+                "fontSize": 13,
+              }
+            }
+          >
+            1 
+            Product Sample Details
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e3e3c",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Date: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#080707",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Mar 13, 2020 04:53 PM
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "paddingHorizontal": 6,
+                "paddingVertical": 2,
               },
               undefined,
               Object {
-                "fontFamily": "Material Design Icons",
-                "fontStyle": "normal",
-                "fontWeight": "normal",
+                "backgroundColor": "#04844b",
+                "marginRight": 5,
               },
-              Object {},
             ]
           }
         >
-          
-        </Text>
-      </View>
-      <View>
-        <Text
-          style={
-            Object {
-              "color": "#0070d2",
-              "fontSize": 13,
-            }
-          }
-        >
-          1
-           Product Sample Details
-        </Text>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "marginTop": 5,
-            }
-          }
-        >
           <Text
             style={
-              Object {
-                "color": "#3e3e3c",
-                "fontSize": 12,
-              }
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "white",
+                },
+              ]
             }
           >
-            Date: 
-          </Text>
-          <Text
-            style={
-              Object {
-                "color": "#080707",
-                "fontSize": 12,
-              }
-            }
-          >
-            Mar 5, 2020 06:53 pm
+            Submitted
           </Text>
         </View>
-      </View>
-    </View>
-    <View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "borderRadius": 10,
-              "flexDirection": "row",
-              "paddingHorizontal": 6,
-              "paddingVertical": 2,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#04844b",
-              "marginRight": 5,
-            },
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "white",
-                "fontSize": 12,
-                "fontWeight": "700",
-              },
-              Object {
-                "color": "white",
-              },
-            ]
-          }
-        >
-          Submitted
-        </Text>
       </View>
     </View>
   </View>
   <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginBottom": 10,
-        "width": "100%",
+        "opacity": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+          "width": "100%",
         }
       }
     >
       <View
         style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "borderRadius": 3,
-              "height": 32,
-              "marginRight": 10,
-              "width": 32,
-            },
-            Object {
-              "backgroundColor": undefined,
-            },
-          ]
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
         }
       >
-        <Text
-          allowFontScaling={false}
+        <View
           style={
             Array [
               Object {
-                "color": "#fff",
-                "fontSize": 32,
+                "alignItems": "center",
+                "borderRadius": 3,
+                "height": 32,
+                "marginRight": 10,
+                "width": 32,
+              },
+              Object {
+                "backgroundColor": undefined,
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontSize": 32,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Design Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "#0070d2",
+                "fontSize": 13,
+              }
+            }
+          >
+            1 
+            Product Sample Details
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e3e3c",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Date: 
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#080707",
+                  "fontSize": 12,
+                }
+              }
+            >
+              Mar 13, 2020 04:53 PM
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "paddingHorizontal": 6,
+                "paddingVertical": 2,
               },
               undefined,
               Object {
-                "fontFamily": "Material Design Icons",
-                "fontStyle": "normal",
-                "fontWeight": "normal",
+                "backgroundColor": "#04844b",
+                "marginRight": 5,
               },
-              Object {},
             ]
           }
         >
-          
-        </Text>
-      </View>
-      <View>
-        <Text
-          style={
-            Object {
-              "color": "#0070d2",
-              "fontSize": 13,
-            }
-          }
-        >
-          1
-           Product Sample Details
-        </Text>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "marginTop": 5,
-            }
-          }
-        >
           <Text
             style={
-              Object {
-                "color": "#3e3e3c",
-                "fontSize": 12,
-              }
+              Array [
+                Object {
+                  "color": "white",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                },
+                Object {
+                  "color": "white",
+                },
+              ]
             }
           >
-            Date: 
-          </Text>
-          <Text
-            style={
-              Object {
-                "color": "#080707",
-                "fontSize": 12,
-              }
-            }
-          >
-            Mar 5, 2020 06:53 pm
+            Submitted
           </Text>
         </View>
-      </View>
-    </View>
-    <View>
-      <View
-        style={
-          Array [
-            Object {
-              "alignSelf": "flex-start",
-              "borderRadius": 10,
-              "flexDirection": "row",
-              "paddingHorizontal": 6,
-              "paddingVertical": 2,
-            },
-            undefined,
-            Object {
-              "backgroundColor": "#04844b",
-              "marginRight": 5,
-            },
-          ]
-        }
-      >
-        <Text
-          style={
-            Array [
-              Object {
-                "color": "white",
-                "fontSize": 12,
-                "fontWeight": "700",
-              },
-              Object {
-                "color": "white",
-              },
-            ]
-          }
-        >
-          Submitted
-        </Text>
       </View>
     </View>
   </View>

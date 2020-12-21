@@ -104,7 +104,7 @@ exports[`useHandleData should render Loader 1`] = `
               <View
                 style={
                   Object {
-                    "borderColor": "#0768FD",
+                    "borderColor": "#015ff1",
                     "borderRadius": 12,
                     "borderWidth": 2.4,
                     "height": 24,
@@ -183,7 +183,7 @@ exports[`useHandleData should render Loader 1`] = `
               <View
                 style={
                   Object {
-                    "borderColor": "#0768FD",
+                    "borderColor": "#015ff1",
                     "borderRadius": 12,
                     "borderWidth": 2.4,
                     "height": 24,

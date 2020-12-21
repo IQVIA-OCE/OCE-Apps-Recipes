@@ -1,5 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ViewAll Should render ViewAll component and handle press 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "borderTopColor": "#dddbda",
+      "borderTopWidth": 1,
+      "flexDirection": "row",
+      "justifyContent": "flex-end",
+      "marginTop": 5,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#0070d2",
+          "fontSize": 13,
+        }
+      }
+    >
+      View all
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`ViewAll Should render ViewAll component and redirect to external url 1`] = `
 <View
   style={

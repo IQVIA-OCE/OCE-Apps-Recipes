@@ -80,6 +80,7 @@ exports[`RecordTypeSelectorScreen should render component 1`] = `
         Select a record type
       </Text>
     </View>
+    <View />
     <View
       style={
         Object {
@@ -93,7 +94,7 @@ exports[`RecordTypeSelectorScreen should render component 1`] = `
         style={
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#C0C0C0",
+            "borderColor": "#d9d9d9",
             "borderRadius": 4,
             "borderStyle": "solid",
             "borderWidth": 1,
@@ -346,7 +347,15 @@ exports[`RecordTypeSelectorScreen should render component 1`] = `
       }
     }
   >
-    <View />
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+          }
+        }
+      />
+    </View>
   </View>
 </View>
 `;
@@ -431,6 +440,7 @@ exports[`RecordTypeSelectorScreen should render component without data 1`] = `
         Select a record type
       </Text>
     </View>
+    <View />
     <View
       style={
         Object {
@@ -444,7 +454,7 @@ exports[`RecordTypeSelectorScreen should render component without data 1`] = `
         style={
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#C0C0C0",
+            "borderColor": "#d9d9d9",
             "borderRadius": 4,
             "borderStyle": "solid",
             "borderWidth": 1,
@@ -697,7 +707,15 @@ exports[`RecordTypeSelectorScreen should render component without data 1`] = `
       }
     }
   >
-    <View />
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+          }
+        }
+      />
+    </View>
   </View>
 </View>
 `;

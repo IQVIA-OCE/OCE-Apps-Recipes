@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { StyleSheet, View } from 'react-native';
 import InfoField from './InfoField';
 import { AppContext } from '../../../AppContext';
@@ -8,7 +8,7 @@ import { normalizeUsers } from './utils';
 
 const Info = ({ values }) => {
   const { username, userId } = useContext(AppContext);
-  const ids = [];
+  const ids = [userId];
 
   if (values.createdById !== userId) {
     ids.push(values.createdById);

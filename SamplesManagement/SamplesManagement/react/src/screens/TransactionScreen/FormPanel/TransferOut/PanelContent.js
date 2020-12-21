@@ -16,16 +16,19 @@ import {
   getFieldHelperText,
 } from '../../utils';
 
-const PanelContent = () => {
+const PanelContent = ({ readonly }) => {
   const { values, handleChange, setFieldValue, errors, touched } = useFormikContext();
 
   const [users] = useFetcher(fetchAllUsers, normalizeUsers);
+
+  const toSalesRepId = values.fields.toSalesRep ? values.fields.toSalesRep['value'] : null;
+
   const [locations, locationsActions] = useFetcher(
-    async () => await fetchUserLocations(values.fields.toSalesRep),
-    normalizeLocations
+    async () => await fetchUserLocations(toSalesRepId),
+    normalizeLocations,
   );
   const [territory, territoryActions] = useFetcher(
-    async () => await fetchUserTerritory(values.fields.toSalesRep)
+    async () => await fetchUserTerritory(toSalesRepId),
   );
 
   useEffect(() => {
@@ -45,7 +48,19 @@ const PanelContent = () => {
     <View style={styles.container}>
       <View style={styles.col}>
         {useHandleData(users)(data => {
-          return (
+          return readonly ? (
+            <TextInput
+              label="To Sales Rep"
+              value={
+                values.fields.toSalesRep
+                  ? values.fields.toSalesRep.label
+                  : ''
+              }
+              fullWidth
+              readonly
+              style={styles.readonlyField}
+            />
+          ) : (
             <Autocomplete
               label="To Sales Rep"
               helperText={getFieldHelperText('toSalesRep', errors, touched)}
@@ -57,6 +72,11 @@ const PanelContent = () => {
                 setFieldValue('fields.toSalesRep', val);
               }}
               singleSelect
+              singleSelectValue={
+                values.fields.toSalesRep
+                  ? values.fields.toSalesRep
+                  : { value: '', label: '' }
+              }
               fullWidth
               required
               style={styles.field}
@@ -64,7 +84,15 @@ const PanelContent = () => {
           );
         })}
         {useHandleData(locations)(data => {
-          return (
+          return readonly ? (
+            <TextInput
+              label="Ship To"
+              value={values.fields.shipTo ? values.fields.shipTo.label : ''}
+              fullWidth
+              readonly
+              style={styles.readonlyField}
+            />
+          ) :  (
             <Select
               label="Ship To"
               placeholder={'-None-'}
@@ -89,6 +117,7 @@ const PanelContent = () => {
           hasError={getFieldError('shipmentDate', errors, touched)}
           helperText={getFieldHelperText('shipmentDate', errors, touched)}
           touched={touched}
+          readonly={readonly}
           required
         />
 
@@ -96,11 +125,12 @@ const PanelContent = () => {
           label="Shipment Carrier"
           onChangeText={handleChange('fields.shipmentCarrier')}
           value={values.fields.shipmentCarrier}
-          style={styles.field}
           fullWidth
           error={getFieldError('shipmentCarrier', errors, touched)}
           helperText={getFieldHelperText('shipmentCarrier', errors, touched)}
           required
+          readonly={readonly}
+          style={readonly ? styles.readonlyField : styles.field}
         />
       </View>
       <View
@@ -125,11 +155,12 @@ const PanelContent = () => {
           label="Tracking Number"
           onChangeText={handleChange('fields.trackingNumber')}
           value={values.fields.trackingNumber}
-          style={styles.field}
           error={getFieldError('trackingNumber', errors, touched)}
           helperText={getFieldHelperText('trackingNumber', errors, touched)}
           fullWidth
           required
+          readonly={readonly}
+          style={readonly ? styles.readonlyField : styles.field}
         />
         <TextInput
           label="Comments"
@@ -137,6 +168,8 @@ const PanelContent = () => {
           value={values.fields.comments}
           multiline
           fullWidth
+          readonly={readonly}
+          style={readonly ? styles.readonlyWithBorder : styles.field}
         />
       </View>
     </View>
@@ -159,6 +192,14 @@ const styles = StyleSheet.create({
   },
   field: {
     marginBottom: 15,
+  },
+  readonlyField: {
+    marginBottom: 18
+  },
+  readonlyWithBorder: {
+    marginBottom: 10,
+    borderBottomWidth: 0.5,
+    borderColor: '#D9D9D9',
   },
 });
 

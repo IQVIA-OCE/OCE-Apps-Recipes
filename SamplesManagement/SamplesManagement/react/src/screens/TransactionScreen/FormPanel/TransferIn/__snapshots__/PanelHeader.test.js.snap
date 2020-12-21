@@ -259,24 +259,6 @@ exports[`PanelHeader should render properly 1`] = `
       Test
     </Text>
   </View>
-  <View
-    style={
-      Object {
-        "marginRight": 20,
-      }
-    }
-  >
-    <Text
-      style={
-        Object {
-          "color": "#4D4D4D",
-          "marginBottom": 5,
-        }
-      }
-    >
-      Related Transaction ID
-    </Text>
-  </View>
 </View>
 `;
 
@@ -539,24 +521,6 @@ exports[`PanelHeader should render properly with user field 1`] = `
       Test
     </Text>
   </View>
-  <View
-    style={
-      Object {
-        "marginRight": 20,
-      }
-    }
-  >
-    <Text
-      style={
-        Object {
-          "color": "#4D4D4D",
-          "marginBottom": 5,
-        }
-      }
-    >
-      Related Transaction ID
-    </Text>
-  </View>
 </View>
 `;
 
@@ -817,24 +781,6 @@ exports[`PanelHeader should render properly without territory field 1`] = `
       }
     >
       
-    </Text>
-  </View>
-  <View
-    style={
-      Object {
-        "marginRight": 20,
-      }
-    }
-  >
-    <Text
-      style={
-        Object {
-          "color": "#4D4D4D",
-          "marginBottom": 5,
-        }
-      }
-    >
-      Related Transaction ID
     </Text>
   </View>
 </View>

@@ -71,10 +71,13 @@ exports[`ListItem Should render ListItem component 1`] = `
               Object {
                 "overflow": "hidden",
               },
-              Object {
-                "borderRadius": 18,
-                "padding": 6,
-              },
+              Array [
+                Object {
+                  "borderRadius": 18,
+                  "paddingHorizontal": 6,
+                },
+                undefined,
+              ],
             ]
           }
         >

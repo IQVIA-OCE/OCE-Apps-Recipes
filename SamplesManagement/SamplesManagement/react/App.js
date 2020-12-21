@@ -6,11 +6,13 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import DashboardScreen from './src/screens/DashboardScreen/DashboardScreen';
 import SampleTransaction from './src/screens/TransactionScreen/SampleTransaction';
 import RecordTypeSelectorScreen from './src/screens/RecordTypeSelectorScreen/RecordTypeSelectorScreen';
+import InventoryScreen from './src/screens/InventoryScreen/InventoryScreenContainer';
 import AppContextProvider from './AppContext';
 import StorageLocationList from './src/screens/StorageLocationList/StorageLocationList';
 import SampleOrder from './src/screens/SampleOrder/SampleOrder';
 import { NativeModules } from 'react-native';
 import StorageLocation from './src/screens/StorageLocation/StorageLocation';
+import ManageLots from './src/screens/ManageLotsScreen/ManageLots';
 
 Icon.loadFont();
 
@@ -18,6 +20,10 @@ const AppNavigator = createStackNavigator(
   {
     Dashboard: {
       screen: DashboardScreen,
+      navigationOptions: { header: null },
+    },
+    Inventory: {
+      screen: InventoryScreen,
       navigationOptions: { header: null },
     },
     Transaction: {
@@ -40,7 +46,14 @@ const AppNavigator = createStackNavigator(
       screen: SampleOrder,
       navigationOptions: { header: null },
     },
+    ManageLots: {
+      screen: ManageLots,
+      navigationOptions: { header: null },
+    },
   },
+  // {
+  //   initialRouteName: 'Inventory',
+  // }
 );
 
 const App = createAppContainer(AppNavigator);
