@@ -44,7 +44,7 @@ export const normalizeProductsList = (
     obj.quantityOut = 0;
     obj.openingBalance = 0;
     obj.systemCount = 0;
-    obj.physicalQuantity = '';
+    obj.physicalQuantity = null;
 
     lastSubmittedInventoriesDetails &&
       lastSubmittedInventoriesDetails.length &&
@@ -70,6 +70,14 @@ export const normalizeProductsList = (
       inventoriesDetails.length &&
       inventoriesDetails.forEach(inventory => {
         if (inventory.OCE__Lot__c === el.Id) {
+          if (!obj.locked) {
+            if (status === INVENTORY_STATUS.inProgress && exist) {
+              obj.selected = true;
+            } else {
+              obj.locked = true;
+            }
+            selectedProducts.push(obj);
+          }
           obj.id = inventory.Id;
           obj.physicalQuantity =
             inventory.OCE__PhysicalCount__c &&

@@ -1,10 +1,17 @@
 import React from 'react';
 import StackedBarChartCallDetails from './index';
-import renderer from 'react-test-renderer';
+import renderer, { act } from 'react-test-renderer';
 import { sfNetAPI } from '../../bridge/sf/sfnetapi';
+import { Button } from 'apollo-react-native';
+import moment from 'moment';
+
+jest.mock('moment');
+
 
 describe('LineChartTRXDetails', () => {
   beforeAll(() => {
+
+
     sfNetAPI.query = jest.fn()
       .mockImplementationOnce((query, cb) => {
         cb({
@@ -25,13 +32,19 @@ describe('LineChartTRXDetails', () => {
       })
   });
 
-  it('should render properly', () => {
-    const tree = renderer.create(
-      <StackedBarChartCallDetails />
-    ).toJSON();
+  it('should render properly', async () => {
+    let tree;
 
-    expect(tree).toMatchSnapshot();
+    await act(() => {
+      tree = renderer.create(
+        <StackedBarChartCallDetails />
+      );
+    });
+
+    expect(tree.toJSON()).toMatchSnapshot();
+
   });
+
 
   it('should render with fetchDataError', () => {
     const tree = renderer.create(

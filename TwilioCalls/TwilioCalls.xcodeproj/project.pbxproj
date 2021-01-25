@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D3CC7010225B6760A1D7EC /* Pods_TwilioCalls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13BE1F60158E0786289BE77 /* Pods_TwilioCalls.framework */; };
+		FF0C570F25781380008484FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0C570E25781380008484FE /* Security.framework */; };
+		FF0C571125781380008484FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0C571025781380008484FE /* MapKit.framework */; };
+		FF0C571425781380008484FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF0C571325781380008484FE /* Podfile */; };
+		FF0C571625781380008484FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C571525781380008484FE /* AppDelegate.swift */; };
+		FF0C571925781380008484FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0C571725781380008484FE /* Main.storyboard */; };
+		FF0C571B25781380008484FE /* react in Resources */ = {isa = PBXBuildFile; fileRef = FF0C571A25781380008484FE /* react */; };
+		FF0C571D25781380008484FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C571C25781380008484FE /* ViewController.swift */; };
+		FF0C571F25781380008484FE /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0C571E25781380008484FE /* metroBundler.config.json */; };
+		FF0C572225781380008484FE /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF0C572125781380008484FE /* unzip-react.sh */; };
+		FF0C572425781380008484FE /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF0C572325781380008484FE /* start-npm.sh */; };
+		FF0C572625781380008484FE /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF0C572525781380008484FE /* install-react-tools.sh */; };
+		FF0C572825781380008484FE /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF0C572725781380008484FE /* bootconfig.plist */; };
+		FF0C572A25781385008484FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0C572925781385008484FE /* Assets.xcassets */; };
+		FF0C572D25781385008484FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0C572B25781385008484FE /* LaunchScreen.storyboard */; };
+		FF0C573025781385008484FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0C572F25781385008484FE /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B6964F93BB9E4862A2F57C4 /* Pods-TwilioCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioCalls.release.xcconfig"; path = "Target Support Files/Pods-TwilioCalls/Pods-TwilioCalls.release.xcconfig"; sourceTree = "<group>"; };
+		9DC191988BE95F7ABD6FB20B /* Pods-TwilioCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwilioCalls.debug.xcconfig"; path = "Target Support Files/Pods-TwilioCalls/Pods-TwilioCalls.debug.xcconfig"; sourceTree = "<group>"; };
+		C13BE1F60158E0786289BE77 /* Pods_TwilioCalls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwilioCalls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0C570B25781380008484FE /* TwilioCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwilioCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0C570E25781380008484FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF0C571025781380008484FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF0C571325781380008484FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FF0C571525781380008484FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF0C571825781380008484FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF0C571A25781380008484FE /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FF0C571C25781380008484FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF0C571E25781380008484FE /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FF0C572125781380008484FE /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FF0C572325781380008484FE /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FF0C572525781380008484FE /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FF0C572725781380008484FE /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FF0C572925781385008484FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF0C572C25781385008484FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF0C572E25781385008484FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0C572F25781385008484FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0C570625781380008484FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0C571125781380008484FE /* MapKit.framework in Frameworks */,
+				FF0C570F25781380008484FE /* Security.framework in Frameworks */,
+				C3D3CC7010225B6760A1D7EC /* Pods_TwilioCalls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8643B140E62EFBD96756359F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DC191988BE95F7ABD6FB20B /* Pods-TwilioCalls.debug.xcconfig */,
+				7B6964F93BB9E4862A2F57C4 /* Pods-TwilioCalls.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF0C570025781380008484FE = {
+			isa = PBXGroup;
+			children = (
+				FF0C571225781380008484FE /* TwilioCalls */,
+				FF0C570D25781380008484FE /* Frameworks */,
+				FF0C570C25781380008484FE /* Products */,
+				8643B140E62EFBD96756359F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FF0C570C25781380008484FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C570B25781380008484FE /* TwilioCalls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0C570D25781380008484FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C570E25781380008484FE /* Security.framework */,
+				FF0C571025781380008484FE /* MapKit.framework */,
+				C13BE1F60158E0786289BE77 /* Pods_TwilioCalls.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF0C571225781380008484FE /* TwilioCalls */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C571325781380008484FE /* Podfile */,
+				FF0C571525781380008484FE /* AppDelegate.swift */,
+				FF0C571725781380008484FE /* Main.storyboard */,
+				FF0C571A25781380008484FE /* react */,
+				FF0C571C25781380008484FE /* ViewController.swift */,
+				FF0C571E25781380008484FE /* metroBundler.config.json */,
+				FF0C572925781385008484FE /* Assets.xcassets */,
+				FF0C572B25781385008484FE /* LaunchScreen.storyboard */,
+				FF0C572E25781385008484FE /* Info.plist */,
+				FF0C572F25781385008484FE /* main.swift */,
+				FF0C572025781380008484FE /* Supporting Files */,
+			);
+			path = TwilioCalls;
+			sourceTree = "<group>";
+		};
+		FF0C572025781380008484FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C572125781380008484FE /* unzip-react.sh */,
+				FF0C572325781380008484FE /* start-npm.sh */,
+				FF0C572525781380008484FE /* install-react-tools.sh */,
+				FF0C572725781380008484FE /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0C570A25781380008484FE /* TwilioCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0C573325781385008484FE /* Build configuration list for PBXNativeTarget "TwilioCalls" */;
+			buildPhases = (
+				6665D45C8C6D407CF02567AF /* [CP] Check Pods Manifest.lock */,
+				FF0C570525781380008484FE /* Sources */,
+				FF0C570625781380008484FE /* Frameworks */,
+				FF0C570725781380008484FE /* Resources */,
+				FF0C570825781380008484FE /* Start npm */,
+				FF0C570925781380008484FE /* Bundle React Native code and images */,
+				D57CC882AD70AC8BDAC71551 /* [CP] Embed Pods Frameworks */,
+				62A94046082C479665687D5E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwilioCalls;
+			productName = TwilioCalls;
+			productReference = FF0C570B25781380008484FE /* TwilioCalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0C570125781380008484FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OCE;
+				TargetAttributes = {
+					FF0C570A25781380008484FE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FF0C570425781380008484FE /* Build configuration list for PBXProject "TwilioCalls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0C570025781380008484FE;
+			productRefGroup = FF0C570C25781380008484FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0C570A25781380008484FE /* TwilioCalls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0C570725781380008484FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0C571B25781380008484FE /* react in Resources */,
+				FF0C572425781380008484FE /* start-npm.sh in Resources */,
+				FF0C572625781380008484FE /* install-react-tools.sh in Resources */,
+				FF0C572D25781385008484FE /* LaunchScreen.storyboard in Resources */,
+				FF0C571425781380008484FE /* Podfile in Resources */,
+				FF0C572825781380008484FE /* bootconfig.plist in Resources */,
+				FF0C571925781380008484FE /* Main.storyboard in Resources */,
+				FF0C572225781380008484FE /* unzip-react.sh in Resources */,
+				FF0C572A25781385008484FE /* Assets.xcassets in Resources */,
+				FF0C571F25781380008484FE /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62A94046082C479665687D5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwilioCalls/Pods-TwilioCalls-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6665D45C8C6D407CF02567AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwilioCalls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57CC882AD70AC8BDAC71551 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwilioCalls/Pods-TwilioCalls-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0C570825781380008484FE /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		FF0C570925781380008484FE /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0C570525781380008484FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0C571D25781380008484FE /* ViewController.swift in Sources */,
+				FF0C571625781380008484FE /* AppDelegate.swift in Sources */,
+				FF0C573025781385008484FE /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF0C571725781380008484FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0C571825781380008484FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0C572B25781385008484FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0C572C25781385008484FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0C573125781385008484FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF0C573225781385008484FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0C573425781385008484FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC191988BE95F7ABD6FB20B /* Pods-TwilioCalls.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwilioCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.TwilioCalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF0C573525781385008484FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6964F93BB9E4862A2F57C4 /* Pods-TwilioCalls.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwilioCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.TwilioCalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0C570425781380008484FE /* Build configuration list for PBXProject "TwilioCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0C573125781385008484FE /* Debug */,
+				FF0C573225781385008484FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0C573325781385008484FE /* Build configuration list for PBXNativeTarget "TwilioCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0C573425781385008484FE /* Debug */,
+				FF0C573525781385008484FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0C570125781380008484FE /* Project object */;
+}

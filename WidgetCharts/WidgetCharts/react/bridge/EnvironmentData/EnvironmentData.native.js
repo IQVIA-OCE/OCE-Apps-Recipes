@@ -8,41 +8,82 @@
 
 "use strict";
 
-import { NativeModules } from "react-native";
+import { NativeEventEmitter, NativeModules } from "react-native";
+import EventEmitter from "react-native/Libraries/vendor/emitter/EventEmitter";
 
 const BridgeEnvData = NativeModules.EnvironmentDataBridge;
 
 class EnvironmentData {
+
+    dataEmitter = undefined
+    metadataBridgeEmitter = undefined
+    data = undefined
+
+    constructor() {
+
+        try {
+
+            this.dataEmitter = new EventEmitter()
+
+            if (!this.metadataBridgeEmitter) {
+                this.metadataBridgeEmitter = new NativeEventEmitter(NativeModules.MetadataUpdatesBridge);
+            }
+
+            const listener = this.metadataBridgeEmitter.addListener(
+                //event name
+                'MetadataChangedEvent',
+                () => this.getEnvironmentData()
+            );
+
+            this.getEnvironmentData()
+
+        } catch(error) {
+            //it's ok. We are on version 7.x
+        }
+
+    }
+
+    getEnvironmentData() {
+        BridgeEnvData.getEnvironmentData().then(function(environmentData) {
+            this.data = environmentData;
+            this.dataEmitter.emit('EnvironmentDataChangedEvent');
+        }.bind(this))
+    }
+
+    namespace(): string {
+        return this.data ? this.data.namespace : BridgeEnvData.namespace;
+    }
+
     userID(): string {
-        return BridgeEnvData.userID;
+        return this.data ? this.data.userID : BridgeEnvData.userID;
     }
 
     timeZone(): string {
-        return BridgeEnvData.timeZone;
+        return this.data ? this.data.timeZone : BridgeEnvData.timeZone;
     }
 
     locale(): string {
-        return BridgeEnvData.locale;
+        return this.data ? this.data.locale : BridgeEnvData.locale;
     }
 
     language(): string {
-        return BridgeEnvData.language;
+        return this.data ? this.data.language : BridgeEnvData.language;
     }
 
     currencyISOCode(): string {
-        return BridgeEnvData.currencyISOCode;
+        return this.data ? this.data.currencyISOCode : BridgeEnvData.currencyISOCode;
     }
 
     sfInstanceURL(): string {
-        return BridgeEnvData.sfInstanceURL;
+        return this.data ? this.data.sfInstanceURL : BridgeEnvData.sfInstanceURL;
     }
 
     sfApiVersion(): string {
-        return BridgeEnvData.sfApiVersion;
+        return this.data ? this.data.sfApiVersion : BridgeEnvData.sfApiVersion;
     }
 
     territory() {
-        return BridgeEnvData.territory;
+        return this.data ? this.data.territory : BridgeEnvData.territory;
     }
 }
 

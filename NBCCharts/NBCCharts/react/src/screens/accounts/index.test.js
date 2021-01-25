@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import { sfNetAPI } from '../../../bridge/sf/sfnetapi';
 import { IconButton, Menu, Search } from 'apollo-react-native';
 import { FlatList } from 'react-native';
+import * as constants from '../../constants';
 
 const data = {
   records: [
@@ -25,6 +26,16 @@ describe('AccountsScreen', () => {
   });
 
   it('should render properly', () => {
+    const tree = renderer.create(
+      <AccountsScreen/>
+    ).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('should render properly iPad Version', () => {
+    constants.isIphone = false;
+
     const tree = renderer.create(
       <AccountsScreen/>
     ).toJSON();

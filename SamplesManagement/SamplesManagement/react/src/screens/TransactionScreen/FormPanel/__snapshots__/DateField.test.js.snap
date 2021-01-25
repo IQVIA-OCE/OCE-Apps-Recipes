@@ -85,6 +85,8 @@ exports[`DateField should render component 1`] = `
                 "fontWeight": undefined,
                 "height": 40,
                 "minHeight": 0,
+                "paddingLeft": 8,
+                "paddingRight": 40,
                 "paddingVertical": 5,
                 "textAlignVertical": "center",
                 "width": "100%",

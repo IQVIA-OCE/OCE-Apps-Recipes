@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { Search, Menu, red, Paragraph } from 'apollo-react-native';
-import { useBoolean, useFetcher } from '../../../hooks';
+import { useBoolean } from '../../../hooks';
 import Loader from '../../../components/Loader/Loader';
 import { fetchAuditorById, fetchAuditors } from '../../../api/Inventories';
 import { useFormikContext } from 'formik';
@@ -27,13 +27,12 @@ const InventoryAuditor = () => {
   const [isLoading, loadingActions] = useBoolean(false);
 
   const fetchList = text => {
-    setValue(text);
     try {
       if (timer.current) {
         clearTimeout(timer.current);
       }
       let auditors;
-      if (text.trim()) {
+      if (text.trim() && text !== value) {
         visibleActions.setTrue();
         timer.current = setTimeout(async () => {
           loadingActions.setTrue();
@@ -88,7 +87,6 @@ const InventoryAuditor = () => {
                   ? errors.auditor
                   : null
               }
-
               error={
                 (touched.auditor || touched.buttonPressed) && errors.auditor
                   ? errors.auditor
@@ -99,7 +97,7 @@ const InventoryAuditor = () => {
           </View>
         }
       >
-        {list.map((el, i) => (
+        {list.map(el => (
           <Menu.Item
             key={el.Id}
             onPress={() => {

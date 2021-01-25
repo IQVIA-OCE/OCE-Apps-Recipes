@@ -10,7 +10,13 @@ import {
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import ProductListItem from './ProductListItem';
 
-const ProductsList = ({ refreshing, onRefresh, data, onItemPress, showHeader }) => {
+const ProductsList = ({
+  refreshing,
+  onRefresh,
+  data,
+  onItemPress,
+  showHeader,
+}) => {
   const [{ filter }, setValue] = useState({
     filter: '',
   });
@@ -19,8 +25,11 @@ const ProductsList = ({ refreshing, onRefresh, data, onItemPress, showHeader }) 
     return (
       data &&
       data.length &&
-      data.filter(product => {
-        return product.label.toLowerCase().includes(filter.toLocaleLowerCase());
+      data.filter(({ lotNumber, label }) => {
+        return (
+          lotNumber?.toLowerCase().includes(filter.toLocaleLowerCase()) ||
+          label.toLowerCase().includes(filter.toLocaleLowerCase())
+        );
       })
     );
   };

@@ -63,6 +63,7 @@ export const fetchTransactionDetails = (
 };
 
 export const saveInventory = (data, transactions = []) => {
+  const deletedProducts = data.deletedProducts ? data.deletedProducts : [];
   const payload = {
     record: {
       OCE__Status__c: data.status,
@@ -75,7 +76,7 @@ export const saveInventory = (data, transactions = []) => {
       OCE__Reason__c: data.reason,
       OCE__Auditor__c: data.auditor,
     },
-    detailRecords: data.products,
+    detailRecords: [...data.products, ...deletedProducts],
     transactions,
   };
 

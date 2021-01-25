@@ -21,18 +21,52 @@ jest.mock('moment', () => () => {
 
 const disbursements = {
   data: {
-    colors: ['#000', '#fff'],
     allIds: ['1', '2'],
     byId: {
-      1: {
-        id: '1',
-        label: 'ads',
+      '1': {
+        color: '#5899DA',
+        data: [
+          {
+            tooltip: 'ADRAVIL: 3',
+            x: 'Jul 04 2020 14:25:09 GMT+0300 (Eastern European Summer Time)',
+            y: 3,
+          },
+          {
+            tooltip: 'ADRAVIL: 3',
+            x: 'Jul 04 2020 14:25:09 GMT+0300 (Eastern European Summer Time)',
+            y: 3,
+          },
+          {
+            tooltip: 'ADRAVIL: 3',
+            x: 'Jul 04 2020 14:25:09 GMT+0300 (Eastern European Summer Time)',
+            y: 3,
+          },
+        ],
+        label: 'ADRAVIL',
       },
-      2: {
-        id: '2',
-        label: 'ads 2',
+      '2': {
+        color: '#2F6497',
+        data: [
+          {
+            tooltip: 'null: 3',
+            x: 'Jul 04 2020 14:25:09 GMT+0300 (Eastern European Summer Time)',
+            y: 3,
+          },
+          {
+            tooltip: 'null: 3',
+            x: 'Jul 04 2020 14:25:09 GMT+0300 (Eastern European Summer Time)',
+            y: 3,
+          },
+          {
+            tooltip: 'null: 3',
+            x: 'Jul 04 2020 14:25:09 GMT+0300 (Eastern European Summer Time)',
+            y: 3,
+          },
+        ],
+        label: '',
       },
     },
+    colors: ['#5899DA', '#2F6497'],
   },
 };
 

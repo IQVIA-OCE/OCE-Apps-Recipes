@@ -6,7 +6,9 @@ exports[`HeaderControls should render properly 1`] = `
     Object {
       "alignItems": "center",
       "flexDirection": "row",
+      "flexWrap": "wrap",
       "justifyContent": "space-between",
+      "overflow": "hidden",
     }
   }
 >
@@ -22,190 +24,192 @@ exports[`HeaderControls should render properly 1`] = `
   >
     <View>
       <View
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "flexDirection": "row",
-            },
-            Object {
-              "backgroundColor": undefined,
-              "borderColor": "#d9d9d9",
-              "borderRadius": 4,
-              "borderWidth": 1,
-              "elevation": 0,
-              "height": 32,
-            },
-            undefined,
-          ]
-        }
+        collapsable={false}
       >
         <View
+          onLayout={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "alignSelf": "stretch",
-              "flex": 1,
-              "flexDirection": "row",
-              "flexGrow": 1,
-              "paddingLeft": 8,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              },
+              Object {
+                "backgroundColor": undefined,
+                "borderColor": "#d9d9d9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "elevation": 0,
+                "height": 32,
+              },
+              undefined,
+            ]
           }
         >
           <View
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "stretch",
+                "flex": 1,
+                "flexDirection": "row",
+                "flexGrow": 1,
+                "paddingLeft": 8,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 14,
+                  "left": 14,
+                  "right": 14,
+                  "top": 14,
+                }
+              }
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                numberOfLines={1}
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityComponentType="button"
+            accessibilityRole="button"
+            accessibilityStates={Array []}
+            accessibilityTraits="button"
             accessible={true}
+            centered={true}
             focusable={true}
             hitSlop={
               Object {
-                "bottom": 14,
-                "left": 14,
-                "right": 14,
-                "top": 14,
+                "bottom": 6,
+                "left": 6,
+                "right": 6,
+                "top": 6,
               }
             }
-            isTVSelectable={true}
             onClick={[Function]}
+            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            style={
-              Object {
-                "flex": 1,
-                "opacity": 1,
-              }
-            }
+            pointerEvents="box-only"
           >
-            <Text
-              numberOfLines={1}
+            <View
               style={
                 Array [
                   Object {
-                    "color": "#000000",
-                    "fontFamily": "System",
-                    "fontSize": 14,
-                    "fontWeight": "400",
+                    "overflow": "hidden",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "margin": 6,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 18,
+                      "height": 36,
+                      "width": 36,
+                    },
+                    undefined,
+                    Object {
+                      "margin": 0,
+                    },
+                  ],
+                ]
+              }
+            >
+              <View>
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontSize": 24,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 0,
                   },
                 ]
               }
             />
           </View>
         </View>
-        <View
-          accessibilityComponentType="button"
-          accessibilityRole="button"
-          accessibilityStates={Array []}
-          accessibilityTraits="button"
-          accessible={true}
-          centered={true}
-          focusable={true}
-          hitSlop={
-            Object {
-              "bottom": 6,
-              "left": 6,
-              "right": 6,
-              "top": 6,
-            }
-          }
-          onClick={[Function]}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "overflow": "hidden",
-                },
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "margin": 6,
-                    "overflow": "hidden",
-                  },
-                  Object {
-                    "borderRadius": 18,
-                    "height": 36,
-                    "width": 36,
-                  },
-                  undefined,
-                  Object {
-                    "margin": 0,
-                  },
-                ],
-              ]
-            }
-          >
-            <View>
-              <Text
-                accessibilityElementsHidden={true}
-                allowFontScaling={false}
-                importantForAccessibility="no-hide-descendants"
-                pointerEvents="none"
-                style={
-                  Array [
-                    Object {
-                      "color": "#000000",
-                      "fontSize": 24,
-                    },
-                    Array [
-                      Object {
-                        "transform": Array [
-                          Object {
-                            "scaleX": 1,
-                          },
-                        ],
-                      },
-                      Object {
-                        "backgroundColor": "transparent",
-                      },
-                    ],
-                    Object {
-                      "fontFamily": "Material Design Icons",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                    Object {},
-                  ]
-                }
-              >
-                
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                Object {
-                  "borderRadius": 0,
-                },
-              ]
-            }
-          />
-        </View>
       </View>
     </View>
-    <View
-      collapsable={false}
-    />
   </View>
   <View
     style={

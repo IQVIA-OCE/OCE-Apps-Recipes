@@ -39,50 +39,50 @@ const InventoryScreenComponent = ({ navigation }) => {
   } = useContext(InventoryContext);
   const getHeaderControls = (status, handleSubmit, setFieldValue) => {
     if (editingType === INVENTORY_FORM_TYPE.preview) {
-      if (status === INVENTORY_STATUS.submitted) {
-        return [
-          {
-            label: 'Back',
-            onPress: () => navigation.goBack(),
-            disabled: submitting,
-          },
-        ];
-      } else {
-        return [
-          {
-            label: 'Back',
-            onPress: () => navigation.goBack(),
-            disabled: submitting,
-          },
-          {
-            label: 'Edit',
-            onPress: () => {
-              navigation.replace('Inventory', {
-                id: formInitialValues.id,
-                type:
-                  formInitialValues.status === INVENTORY_STATUS.saved
-                    ? INVENTORY_FORM_TYPE.editSaved
-                    : INVENTORY_FORM_TYPE.edit,
-              });
-            },
-            disabled: submitting,
-          },
-          {
-            label: 'Delete',
-            color: 'primary',
-            mode: 'contained',
-            onPress: () => {
-              handleDelete(navigation.state.params.id);
-            },
-            disabled: submitting,
-          },
-        ];
+      const editButton = {
+        label: 'Edit',
+        onPress: () => {
+          navigation.replace('Inventory', {
+            id: formInitialValues.id,
+            type:
+              formInitialValues.status === INVENTORY_STATUS.saved
+                ? INVENTORY_FORM_TYPE.editSaved
+                : INVENTORY_FORM_TYPE.edit,
+          });
+        },
+        disabled: submitting,
+      };
+      const deleteButton = {
+        label: 'Delete',
+        color: 'primary',
+        mode: 'contained',
+        onPress: () => {
+          handleDelete(navigation.state.params.id);
+        },
+        disabled: submitting,
+      };
+
+      const backButton = {
+        label: 'Back',
+        onPress: () => navigation.goBack(),
+        disabled: submitting,
+      };
+
+      const buttons = [backButton];
+
+      if (status === INVENTORY_STATUS.saved) {
+        buttons.push(editButton);
+      } else if (status === INVENTORY_STATUS.inProgress) {
+        buttons.push(editButton, deleteButton);
       }
+
+      return buttons;
     }
     return [
       {
         label: 'Cancel',
         onPress: () => navigation.goBack(),
+        disabled: submitting,
       },
       {
         label: 'Save',
@@ -120,7 +120,16 @@ const InventoryScreenComponent = ({ navigation }) => {
         {
           text: 'Delete',
           onPress: async () => {
-            await deleteInventory(id);
+            try {
+              await deleteInventory(id);
+            } catch (e) {
+              setBanner({
+                variant: 'error',
+                message: e.message,
+                visible: true,
+                icon: 'alert-circle',
+              });
+            }
             navigation.navigate('Dashboard', { refreshInventoryWidget: true });
           },
         },
@@ -129,7 +138,10 @@ const InventoryScreenComponent = ({ navigation }) => {
     );
   };
 
-  const onSubmit = async ({ buttonPressed, ...values }, { setFieldValue }) => {
+  const onSubmit = async (
+    { buttonPressed, ...values },
+    { setFieldValue, setTouched }
+  ) => {
     let bannerConfig = BANNER_CONFIG.inProgress;
 
     if (buttonPressed === INVENTORY_STATUS.submitted) {
@@ -175,12 +187,14 @@ const InventoryScreenComponent = ({ navigation }) => {
         checkProductsInvalid(values.products)
       ) {
         setFieldValue('id', resp[0].sampleInventory.Id, false);
+        setTouched({}, false);
         setFieldValue('status', INVENTORY_STATUS.saved, false);
+        setFieldValue('deletedProducts', [], false);
         setFieldValue(
           'products',
           values.products.map(el => {
             const { id } = resp[0].sampleInventoryDetails.find(
-              item => item.sampleProductId === el.sampleProductId
+              item => item.lotNumberId === el.lotNumberId
             );
             el.id = id;
             return el;
@@ -229,7 +243,15 @@ const InventoryScreenComponent = ({ navigation }) => {
         )
       }
     >
-      {({ handleSubmit, values, isSubmitting, setFieldValue }) => (
+      {({
+        handleSubmit,
+        values,
+        isSubmitting,
+        setFieldValue,
+        errors,
+        isValid,
+        touched,
+      }) => (
         <>
           <Banner
             variant={banner.variant}
@@ -237,6 +259,19 @@ const InventoryScreenComponent = ({ navigation }) => {
             visible={banner.visible}
           >
             {banner.message}
+          </Banner>
+          <Banner
+            variant={'error'}
+            icon={'alert-circle'}
+            visible={
+              values.buttonPressed && !isValid && Object.keys(touched).length
+            }
+          >
+            {`Validation errors. ${
+              errors && errors.products && typeof errors.products === 'string'
+                ? errors.products
+                : ''
+            }`}
           </Banner>
           {isSubmitting && <Loader />}
           <FormHeader

@@ -7,124 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7DD85D1AE2E473AC70AB210 /* Pods_NBCCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D4A8770531BBFDF198CBA1 /* Pods_NBCCharts.framework */; };
-		FF72CCD1240D11CD00065299 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72CCD0240D11CD00065299 /* Security.framework */; };
-		FF72CCD3240D11CD00065299 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF72CCD2240D11CD00065299 /* MapKit.framework */; };
-		FF72CCD6240D11CD00065299 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCD5240D11CD00065299 /* Podfile */; };
-		FF72CCD8240D11CD00065299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72CCD7240D11CD00065299 /* AppDelegate.swift */; };
-		FF72CCDB240D11CD00065299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCD9240D11CD00065299 /* Main.storyboard */; };
-		FF72CCDD240D11CD00065299 /* react in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCDC240D11CD00065299 /* react */; };
-		FF72CCDF240D11CD00065299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72CCDE240D11CD00065299 /* ViewController.swift */; };
-		FF72CCE1240D11CD00065299 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE0240D11CD00065299 /* metroBundler.config.json */; };
-		FF72CCE4240D11CD00065299 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE3240D11CD00065299 /* unzip-react.sh */; };
-		FF72CCE6240D11CD00065299 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE5240D11CD00065299 /* start-npm.sh */; };
-		FF72CCE8240D11CD00065299 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE7240D11CD00065299 /* install-react-tools.sh */; };
-		FF72CCEA240D11CD00065299 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCE9240D11CD00065299 /* bootconfig.plist */; };
-		FF72CCEC240D11CF00065299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCEB240D11CF00065299 /* Assets.xcassets */; };
-		FF72CCEF240D11CF00065299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF72CCED240D11CF00065299 /* LaunchScreen.storyboard */; };
-		FF72CCF2240D11CF00065299 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF72CCF1240D11CF00065299 /* main.swift */; };
+		6C9AAD60DB4B169362581E95 /* Pods_NBCCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA47C8DD86CD23C34F4A99F /* Pods_NBCCharts.framework */; };
+		FFA55C8C250A7A830009F2FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55C8B250A7A830009F2FE /* Security.framework */; };
+		FFA55C8E250A7A830009F2FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55C8D250A7A830009F2FE /* MapKit.framework */; };
+		FFA55C91250A7A830009F2FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C90250A7A830009F2FE /* Podfile */; };
+		FFA55C93250A7A830009F2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55C92250A7A830009F2FE /* AppDelegate.swift */; };
+		FFA55C96250A7A830009F2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C94250A7A830009F2FE /* Main.storyboard */; };
+		FFA55C98250A7A830009F2FE /* react in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C97250A7A830009F2FE /* react */; };
+		FFA55C9A250A7A830009F2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55C99250A7A830009F2FE /* ViewController.swift */; };
+		FFA55C9C250A7A830009F2FE /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C9B250A7A830009F2FE /* metroBundler.config.json */; };
+		FFA55C9F250A7A830009F2FE /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C9E250A7A830009F2FE /* unzip-react.sh */; };
+		FFA55CA1250A7A830009F2FE /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA0250A7A830009F2FE /* start-npm.sh */; };
+		FFA55CA3250A7A830009F2FE /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA2250A7A830009F2FE /* install-react-tools.sh */; };
+		FFA55CA5250A7A830009F2FE /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA4250A7A830009F2FE /* bootconfig.plist */; };
+		FFA55CA7250A7A840009F2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA6250A7A840009F2FE /* Assets.xcassets */; };
+		FFA55CAA250A7A840009F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA8250A7A840009F2FE /* LaunchScreen.storyboard */; };
+		FFA55CAD250A7A840009F2FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CAC250A7A840009F2FE /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F6EC245E6E8DDFD696B59F6 /* Pods-NBCCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.release.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.release.xcconfig"; sourceTree = "<group>"; };
-		89BE68AEAEF75735FCF19410 /* Pods-NBCCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.debug.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.debug.xcconfig"; sourceTree = "<group>"; };
-		D6D4A8770531BBFDF198CBA1 /* Pods_NBCCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBCCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF72CCCD240D11CD00065299 /* NBCCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBCCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF72CCD0240D11CD00065299 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FF72CCD2240D11CD00065299 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		FF72CCD5240D11CD00065299 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
-		FF72CCD7240D11CD00065299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF72CCDA240D11CD00065299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF72CCDC240D11CD00065299 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
-		FF72CCDE240D11CD00065299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF72CCE0240D11CD00065299 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
-		FF72CCE3240D11CD00065299 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
-		FF72CCE5240D11CD00065299 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
-		FF72CCE7240D11CD00065299 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
-		FF72CCE9240D11CD00065299 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
-		FF72CCEB240D11CF00065299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF72CCEE240D11CF00065299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF72CCF0240D11CF00065299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF72CCF1240D11CF00065299 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5EA47C8DD86CD23C34F4A99F /* Pods_NBCCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBCCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		684EBA9F58E291C529CF8EF5 /* Pods-NBCCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.release.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.release.xcconfig"; sourceTree = "<group>"; };
+		D6A3D77EF643AE273A604189 /* Pods-NBCCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.debug.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA55C88250A7A830009F2FE /* NBCCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBCCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA55C8B250A7A830009F2FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFA55C8D250A7A830009F2FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FFA55C90250A7A830009F2FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FFA55C92250A7A830009F2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA55C95250A7A830009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA55C97250A7A830009F2FE /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FFA55C99250A7A830009F2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA55C9B250A7A830009F2FE /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FFA55C9E250A7A830009F2FE /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FFA55CA0250A7A830009F2FE /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FFA55CA2250A7A830009F2FE /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FFA55CA4250A7A830009F2FE /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FFA55CA6250A7A840009F2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA55CA9250A7A840009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA55CAB250A7A840009F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA55CAC250A7A840009F2FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF72CCC8240D11CD00065299 /* Frameworks */ = {
+		FFA55C83250A7A830009F2FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF72CCD3240D11CD00065299 /* MapKit.framework in Frameworks */,
-				FF72CCD1240D11CD00065299 /* Security.framework in Frameworks */,
-				A7DD85D1AE2E473AC70AB210 /* Pods_NBCCharts.framework in Frameworks */,
+				FFA55C8E250A7A830009F2FE /* MapKit.framework in Frameworks */,
+				FFA55C8C250A7A830009F2FE /* Security.framework in Frameworks */,
+				6C9AAD60DB4B169362581E95 /* Pods_NBCCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4EAF949B0EBFF79B8F458DB7 /* Pods */ = {
+		7907B40E369D223BEC6F4B8C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89BE68AEAEF75735FCF19410 /* Pods-NBCCharts.debug.xcconfig */,
-				4F6EC245E6E8DDFD696B59F6 /* Pods-NBCCharts.release.xcconfig */,
+				D6A3D77EF643AE273A604189 /* Pods-NBCCharts.debug.xcconfig */,
+				684EBA9F58E291C529CF8EF5 /* Pods-NBCCharts.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FF72CCC2240D11CD00065299 = {
+		FFA55C7D250A7A830009F2FE = {
 			isa = PBXGroup;
 			children = (
-				FF72CCD4240D11CD00065299 /* NBCCharts */,
-				FF72CCCF240D11CD00065299 /* Frameworks */,
-				FF72CCCE240D11CD00065299 /* Products */,
-				4EAF949B0EBFF79B8F458DB7 /* Pods */,
+				FFA55C8F250A7A830009F2FE /* NBCCharts */,
+				FFA55C8A250A7A830009F2FE /* Frameworks */,
+				FFA55C89250A7A830009F2FE /* Products */,
+				7907B40E369D223BEC6F4B8C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		FF72CCCE240D11CD00065299 /* Products */ = {
+		FFA55C89250A7A830009F2FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF72CCCD240D11CD00065299 /* NBCCharts.app */,
+				FFA55C88250A7A830009F2FE /* NBCCharts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF72CCCF240D11CD00065299 /* Frameworks */ = {
+		FFA55C8A250A7A830009F2FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF72CCD0240D11CD00065299 /* Security.framework */,
-				FF72CCD2240D11CD00065299 /* MapKit.framework */,
-				D6D4A8770531BBFDF198CBA1 /* Pods_NBCCharts.framework */,
+				FFA55C8B250A7A830009F2FE /* Security.framework */,
+				FFA55C8D250A7A830009F2FE /* MapKit.framework */,
+				5EA47C8DD86CD23C34F4A99F /* Pods_NBCCharts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF72CCD4240D11CD00065299 /* NBCCharts */ = {
+		FFA55C8F250A7A830009F2FE /* NBCCharts */ = {
 			isa = PBXGroup;
 			children = (
-				FF72CCD5240D11CD00065299 /* Podfile */,
-				FF72CCD7240D11CD00065299 /* AppDelegate.swift */,
-				FF72CCD9240D11CD00065299 /* Main.storyboard */,
-				FF72CCDC240D11CD00065299 /* react */,
-				FF72CCDE240D11CD00065299 /* ViewController.swift */,
-				FF72CCE0240D11CD00065299 /* metroBundler.config.json */,
-				FF72CCEB240D11CF00065299 /* Assets.xcassets */,
-				FF72CCED240D11CF00065299 /* LaunchScreen.storyboard */,
-				FF72CCF0240D11CF00065299 /* Info.plist */,
-				FF72CCF1240D11CF00065299 /* main.swift */,
-				FF72CCE2240D11CD00065299 /* Supporting Files */,
+				FFA55C90250A7A830009F2FE /* Podfile */,
+				FFA55C92250A7A830009F2FE /* AppDelegate.swift */,
+				FFA55C94250A7A830009F2FE /* Main.storyboard */,
+				FFA55C97250A7A830009F2FE /* react */,
+				FFA55C99250A7A830009F2FE /* ViewController.swift */,
+				FFA55C9B250A7A830009F2FE /* metroBundler.config.json */,
+				FFA55CA6250A7A840009F2FE /* Assets.xcassets */,
+				FFA55CA8250A7A840009F2FE /* LaunchScreen.storyboard */,
+				FFA55CAB250A7A840009F2FE /* Info.plist */,
+				FFA55CAC250A7A840009F2FE /* main.swift */,
+				FFA55C9D250A7A830009F2FE /* Supporting Files */,
 			);
 			path = NBCCharts;
 			sourceTree = "<group>";
 		};
-		FF72CCE2240D11CD00065299 /* Supporting Files */ = {
+		FFA55C9D250A7A830009F2FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF72CCE3240D11CD00065299 /* unzip-react.sh */,
-				FF72CCE5240D11CD00065299 /* start-npm.sh */,
-				FF72CCE7240D11CD00065299 /* install-react-tools.sh */,
-				FF72CCE9240D11CD00065299 /* bootconfig.plist */,
+				FFA55C9E250A7A830009F2FE /* unzip-react.sh */,
+				FFA55CA0250A7A830009F2FE /* start-npm.sh */,
+				FFA55CA2250A7A830009F2FE /* install-react-tools.sh */,
+				FFA55CA4250A7A830009F2FE /* bootconfig.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,18 +132,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF72CCCC240D11CD00065299 /* NBCCharts */ = {
+		FFA55C87250A7A830009F2FE /* NBCCharts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF72CCF5240D11CF00065299 /* Build configuration list for PBXNativeTarget "NBCCharts" */;
+			buildConfigurationList = FFA55CB0250A7A840009F2FE /* Build configuration list for PBXNativeTarget "NBCCharts" */;
 			buildPhases = (
-				C01190739EDD26F9F5CA20C9 /* [CP] Check Pods Manifest.lock */,
-				FF72CCC7240D11CD00065299 /* Sources */,
-				FF72CCC8240D11CD00065299 /* Frameworks */,
-				FF72CCC9240D11CD00065299 /* Resources */,
-				FF72CCCA240D11CD00065299 /* Start npm */,
-				FF72CCCB240D11CD00065299 /* Bundle React Native code and images */,
-				2F52E40AAAB5435ADD4B834D /* [CP] Embed Pods Frameworks */,
-				01451E288A01CD7B79CD5A3B /* [CP] Copy Pods Resources */,
+				1F504735CAFA43B31B02DF8D /* [CP] Check Pods Manifest.lock */,
+				FFA55C82250A7A830009F2FE /* Sources */,
+				FFA55C83250A7A830009F2FE /* Frameworks */,
+				FFA55C84250A7A830009F2FE /* Resources */,
+				FFA55C85250A7A830009F2FE /* Start npm */,
+				FFA55C86250A7A830009F2FE /* Bundle React Native code and images */,
+				9346C41EEBCF5E0C4C546C65 /* [CP] Embed Pods Frameworks */,
+				29EBC3334B5ECCA4220F1949 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,25 +151,25 @@
 			);
 			name = NBCCharts;
 			productName = NBCCharts;
-			productReference = FF72CCCD240D11CD00065299 /* NBCCharts.app */;
+			productReference = FFA55C88250A7A830009F2FE /* NBCCharts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF72CCC3240D11CD00065299 /* Project object */ = {
+		FFA55C7E250A7A830009F2FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = OCE;
 				TargetAttributes = {
-					FF72CCCC240D11CD00065299 = {
+					FFA55C87250A7A830009F2FE = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = FF72CCC6240D11CD00065299 /* Build configuration list for PBXProject "NBCCharts" */;
+			buildConfigurationList = FFA55C81250A7A830009F2FE /* Build configuration list for PBXProject "NBCCharts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,68 +177,38 @@
 				en,
 				Base,
 			);
-			mainGroup = FF72CCC2240D11CD00065299;
-			productRefGroup = FF72CCCE240D11CD00065299 /* Products */;
+			mainGroup = FFA55C7D250A7A830009F2FE;
+			productRefGroup = FFA55C89250A7A830009F2FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF72CCCC240D11CD00065299 /* NBCCharts */,
+				FFA55C87250A7A830009F2FE /* NBCCharts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF72CCC9240D11CD00065299 /* Resources */ = {
+		FFA55C84250A7A830009F2FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF72CCDD240D11CD00065299 /* react in Resources */,
-				FF72CCE6240D11CD00065299 /* start-npm.sh in Resources */,
-				FF72CCE8240D11CD00065299 /* install-react-tools.sh in Resources */,
-				FF72CCEF240D11CF00065299 /* LaunchScreen.storyboard in Resources */,
-				FF72CCD6240D11CD00065299 /* Podfile in Resources */,
-				FF72CCEA240D11CD00065299 /* bootconfig.plist in Resources */,
-				FF72CCDB240D11CD00065299 /* Main.storyboard in Resources */,
-				FF72CCE4240D11CD00065299 /* unzip-react.sh in Resources */,
-				FF72CCEC240D11CF00065299 /* Assets.xcassets in Resources */,
-				FF72CCE1240D11CD00065299 /* metroBundler.config.json in Resources */,
+				FFA55C98250A7A830009F2FE /* react in Resources */,
+				FFA55CA1250A7A830009F2FE /* start-npm.sh in Resources */,
+				FFA55CA3250A7A830009F2FE /* install-react-tools.sh in Resources */,
+				FFA55CAA250A7A840009F2FE /* LaunchScreen.storyboard in Resources */,
+				FFA55C91250A7A830009F2FE /* Podfile in Resources */,
+				FFA55CA5250A7A830009F2FE /* bootconfig.plist in Resources */,
+				FFA55C96250A7A830009F2FE /* Main.storyboard in Resources */,
+				FFA55C9F250A7A830009F2FE /* unzip-react.sh in Resources */,
+				FFA55CA7250A7A840009F2FE /* Assets.xcassets in Resources */,
+				FFA55C9C250A7A830009F2FE /* metroBundler.config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01451E288A01CD7B79CD5A3B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F52E40AAAB5435ADD4B834D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C01190739EDD26F9F5CA20C9 /* [CP] Check Pods Manifest.lock */ = {
+		1F504735CAFA43B31B02DF8D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,7 +230,37 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF72CCCA240D11CD00065299 /* Start npm */ = {
+		29EBC3334B5ECCA4220F1949 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9346C41EEBCF5E0C4C546C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA55C85250A7A830009F2FE /* Start npm */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,7 +278,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
 		};
-		FF72CCCB240D11CD00065299 /* Bundle React Native code and images */ = {
+		FFA55C86250A7A830009F2FE /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,31 +299,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF72CCC7240D11CD00065299 /* Sources */ = {
+		FFA55C82250A7A830009F2FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF72CCDF240D11CD00065299 /* ViewController.swift in Sources */,
-				FF72CCD8240D11CD00065299 /* AppDelegate.swift in Sources */,
-				FF72CCF2240D11CF00065299 /* main.swift in Sources */,
+				FFA55C9A250A7A830009F2FE /* ViewController.swift in Sources */,
+				FFA55C93250A7A830009F2FE /* AppDelegate.swift in Sources */,
+				FFA55CAD250A7A840009F2FE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF72CCD9240D11CD00065299 /* Main.storyboard */ = {
+		FFA55C94250A7A830009F2FE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF72CCDA240D11CD00065299 /* Base */,
+				FFA55C95250A7A830009F2FE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FF72CCED240D11CF00065299 /* LaunchScreen.storyboard */ = {
+		FFA55CA8250A7A840009F2FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF72CCEE240D11CF00065299 /* Base */,
+				FFA55CA9250A7A840009F2FE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FF72CCF3240D11CF00065299 /* Debug */ = {
+		FFA55CAE250A7A840009F2FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +391,7 @@
 			};
 			name = Debug;
 		};
-		FF72CCF4240D11CF00065299 /* Release */ = {
+		FFA55CAF250A7A840009F2FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,9 +445,9 @@
 			};
 			name = Release;
 		};
-		FF72CCF6240D11CF00065299 /* Debug */ = {
+		FFA55CB1250A7A840009F2FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89BE68AEAEF75735FCF19410 /* Pods-NBCCharts.debug.xcconfig */;
+			baseConfigurationReference = D6A3D77EF643AE273A604189 /* Pods-NBCCharts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,9 +463,9 @@
 			};
 			name = Debug;
 		};
-		FF72CCF7240D11CF00065299 /* Release */ = {
+		FFA55CB2250A7A840009F2FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F6EC245E6E8DDFD696B59F6 /* Pods-NBCCharts.release.xcconfig */;
+			baseConfigurationReference = 684EBA9F58E291C529CF8EF5 /* Pods-NBCCharts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,25 +484,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF72CCC6240D11CD00065299 /* Build configuration list for PBXProject "NBCCharts" */ = {
+		FFA55C81250A7A830009F2FE /* Build configuration list for PBXProject "NBCCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF72CCF3240D11CF00065299 /* Debug */,
-				FF72CCF4240D11CF00065299 /* Release */,
+				FFA55CAE250A7A840009F2FE /* Debug */,
+				FFA55CAF250A7A840009F2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF72CCF5240D11CF00065299 /* Build configuration list for PBXNativeTarget "NBCCharts" */ = {
+		FFA55CB0250A7A840009F2FE /* Build configuration list for PBXNativeTarget "NBCCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF72CCF6240D11CF00065299 /* Debug */,
-				FF72CCF7240D11CF00065299 /* Release */,
+				FFA55CB1250A7A840009F2FE /* Debug */,
+				FFA55CB2250A7A840009F2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF72CCC3240D11CD00065299 /* Project object */;
+	rootObject = FFA55C7E250A7A830009F2FE /* Project object */;
 }

@@ -6,5 +6,5 @@ end
 
 target 'SamplesManagement' do
   use_frameworks!
-  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "9.1.13"
+  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "10.0.3"
 end

@@ -166,7 +166,7 @@ describe('utils', () => {
           quantityOut: 5,
           openingBalance: 0,
           systemCount: 0,
-          physicalQuantity: '',
+          physicalQuantity: null,
         },
       ],
       [
@@ -201,7 +201,7 @@ describe('utils', () => {
           quantityOut: 5,
           openingBalance: 0,
           systemCount: 0,
-          physicalQuantity: '',
+          physicalQuantity: null,
         },
       ],
     ]);
@@ -329,7 +329,7 @@ describe('utils', () => {
           quantityOut: 5,
           openingBalance: 0,
           systemCount: 0,
-          physicalQuantity: '',
+          physicalQuantity: null,
         },
         {
           deleted: false,
@@ -345,7 +345,7 @@ describe('utils', () => {
           quantityOut: 5,
           openingBalance: 0,
           systemCount: 0,
-          physicalQuantity: '',
+          physicalQuantity: null,
         },
       ],
       [
@@ -363,7 +363,7 @@ describe('utils', () => {
           quantityOut: 5,
           openingBalance: 0,
           systemCount: 0,
-          physicalQuantity: '',
+          physicalQuantity: null,
         },
         {
           deleted: false,
@@ -379,7 +379,7 @@ describe('utils', () => {
           quantityOut: 5,
           openingBalance: 0,
           systemCount: 0,
-          physicalQuantity: '',
+          physicalQuantity: null,
         },
       ],
     ]);

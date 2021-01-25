@@ -13,7 +13,7 @@ exports[`CommentsCell should render properly 1`] = `
     style={
       Array [
         Object {
-          "width": 176,
+          "width": "100%",
         },
         undefined,
         Object {
@@ -86,6 +86,8 @@ exports[`CommentsCell should render properly 1`] = `
                 "fontWeight": undefined,
                 "height": 80,
                 "minHeight": 0,
+                "paddingLeft": 8,
+                "paddingRight": 8,
                 "paddingVertical": 5,
                 "textAlignVertical": "center",
                 "width": "100%",

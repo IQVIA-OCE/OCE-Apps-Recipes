@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { TextInput } from 'apollo-react-native';
 import { useField, useFormikContext } from 'formik';
-import { INVENTORY_STATUS } from '../constants';
 import { INVENTORY_FORM_TYPE } from '../../../constants/Inventories';
 import { InventoryContext } from '../InventoryContext';
 
@@ -17,25 +16,43 @@ const CountCell = ({ row }) => {
   );
 
   return (
-    <TextInput
-      style={styles.input}
-      value={field && field.value && field.value.physicalQuantity}
-      onChangeText={physicalQuantity =>
-        helper.setValue({ ...field.value, physicalQuantity })
-      }
-      error={
-        touched && error && error.physicalQuantity
-          ? error.physicalQuantity
-          : null
-      }
-      readonly={
-        editingType === INVENTORY_FORM_TYPE.preview ||
-        editingType === INVENTORY_FORM_TYPE.editSaved
-      }
-    />
+    <View style={styles.root}>
+      <TextInput
+        style={styles.input}
+        value={
+          field &&
+          field.value &&
+          !isNaN(parseFloat(field.value.physicalQuantity)) &&
+          field.value.physicalQuantity.toString()
+        }
+        onChangeText={physicalQuantity =>
+          helper.setValue({
+            ...field.value,
+            physicalQuantity: physicalQuantity ? physicalQuantity : null,
+          })
+        }
+        error={
+          touched && error && error.physicalQuantity
+            ? error.physicalQuantity
+            : null
+        }
+        readonly={
+          editingType === INVENTORY_FORM_TYPE.preview ||
+          editingType === INVENTORY_FORM_TYPE.editSaved
+        }
+        helperText={
+          touched && error && error.physicalQuantity
+            ? error.physicalQuantity
+            : null
+        }
+      />
+    </View>
   );
 };
 const styles = StyleSheet.create({
+  root: {
+    paddingVertical: 5,
+  },
   input: {
     width: 80,
   },

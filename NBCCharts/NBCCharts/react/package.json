@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@babel/core": "*",
-        "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#1.0.0",
+        "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#10.0.0",
         "expo": "34.0.1",
         "jest": "24.9.0",
         "jest-file-snapshot": "0.3.8",

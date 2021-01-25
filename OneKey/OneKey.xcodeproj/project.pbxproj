@@ -7,124 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059C5BD02660B0EF7E8399F5 /* Pods_OneKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F39703865FB892F84EDBB /* Pods_OneKey.framework */; };
-		FF4C0237240D1A58005485F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4C0236240D1A58005485F7 /* Security.framework */; };
-		FF4C0239240D1A58005485F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4C0238240D1A58005485F7 /* MapKit.framework */; };
-		FF4C023C240D1A58005485F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF4C023B240D1A58005485F7 /* Podfile */; };
-		FF4C023E240D1A58005485F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C023D240D1A58005485F7 /* AppDelegate.swift */; };
-		FF4C0241240D1A58005485F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4C023F240D1A58005485F7 /* Main.storyboard */; };
-		FF4C0243240D1A58005485F7 /* react in Resources */ = {isa = PBXBuildFile; fileRef = FF4C0242240D1A58005485F7 /* react */; };
-		FF4C0245240D1A59005485F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C0244240D1A59005485F7 /* ViewController.swift */; };
-		FF4C0247240D1A59005485F7 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF4C0246240D1A59005485F7 /* metroBundler.config.json */; };
-		FF4C024A240D1A59005485F7 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF4C0249240D1A59005485F7 /* unzip-react.sh */; };
-		FF4C024C240D1A59005485F7 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF4C024B240D1A59005485F7 /* start-npm.sh */; };
-		FF4C024E240D1A59005485F7 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF4C024D240D1A59005485F7 /* install-react-tools.sh */; };
-		FF4C0250240D1A59005485F7 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF4C024F240D1A59005485F7 /* bootconfig.plist */; };
-		FF4C0252240D1A5A005485F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4C0251240D1A5A005485F7 /* Assets.xcassets */; };
-		FF4C0255240D1A5A005485F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4C0253240D1A5A005485F7 /* LaunchScreen.storyboard */; };
-		FF4C0258240D1A5A005485F7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C0257240D1A5A005485F7 /* main.swift */; };
+		0723A6E1F7239F938EA5EAFB /* Pods_OneKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65549C3D1C4CB003EBDD8CA2 /* Pods_OneKey.framework */; };
+		FFA55CC2250B4EEE0009F2FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55CC1250B4EEE0009F2FE /* Security.framework */; };
+		FFA55CC4250B4EEE0009F2FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55CC3250B4EEE0009F2FE /* MapKit.framework */; };
+		FFA55CC7250B4EEE0009F2FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CC6250B4EEE0009F2FE /* Podfile */; };
+		FFA55CC9250B4EEE0009F2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CC8250B4EEE0009F2FE /* AppDelegate.swift */; };
+		FFA55CCC250B4EEE0009F2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CCA250B4EEE0009F2FE /* Main.storyboard */; };
+		FFA55CCE250B4EEE0009F2FE /* react in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CCD250B4EEE0009F2FE /* react */; };
+		FFA55CD0250B4EEE0009F2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CCF250B4EEE0009F2FE /* ViewController.swift */; };
+		FFA55CD2250B4EEE0009F2FE /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD1250B4EEE0009F2FE /* metroBundler.config.json */; };
+		FFA55CD5250B4EEE0009F2FE /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD4250B4EEE0009F2FE /* unzip-react.sh */; };
+		FFA55CD7250B4EEE0009F2FE /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD6250B4EEE0009F2FE /* start-npm.sh */; };
+		FFA55CD9250B4EEE0009F2FE /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD8250B4EEE0009F2FE /* install-react-tools.sh */; };
+		FFA55CDB250B4EEE0009F2FE /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CDA250B4EEE0009F2FE /* bootconfig.plist */; };
+		FFA55CDD250B4EF00009F2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CDC250B4EF00009F2FE /* Assets.xcassets */; };
+		FFA55CE0250B4EF00009F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CDE250B4EF00009F2FE /* LaunchScreen.storyboard */; };
+		FFA55CE3250B4EF00009F2FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CE2250B4EF00009F2FE /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D8F39703865FB892F84EDBB /* Pods_OneKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9683DC2B65B89FA4EDC936E1 /* Pods-OneKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKey.release.xcconfig"; path = "Target Support Files/Pods-OneKey/Pods-OneKey.release.xcconfig"; sourceTree = "<group>"; };
-		E306079609F8378D3915CCD3 /* Pods-OneKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKey.debug.xcconfig"; path = "Target Support Files/Pods-OneKey/Pods-OneKey.debug.xcconfig"; sourceTree = "<group>"; };
-		FF4C0233240D1A58005485F7 /* OneKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF4C0236240D1A58005485F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FF4C0238240D1A58005485F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		FF4C023B240D1A58005485F7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
-		FF4C023D240D1A58005485F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF4C0240240D1A58005485F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF4C0242240D1A58005485F7 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
-		FF4C0244240D1A59005485F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF4C0246240D1A59005485F7 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
-		FF4C0249240D1A59005485F7 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
-		FF4C024B240D1A59005485F7 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
-		FF4C024D240D1A59005485F7 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
-		FF4C024F240D1A59005485F7 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
-		FF4C0251240D1A5A005485F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF4C0254240D1A5A005485F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF4C0256240D1A5A005485F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF4C0257240D1A5A005485F7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65549C3D1C4CB003EBDD8CA2 /* Pods_OneKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8910089BC4C56CA25EB88333 /* Pods-OneKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKey.release.xcconfig"; path = "Target Support Files/Pods-OneKey/Pods-OneKey.release.xcconfig"; sourceTree = "<group>"; };
+		F484FBD9B8A17F4BF0BF540D /* Pods-OneKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKey.debug.xcconfig"; path = "Target Support Files/Pods-OneKey/Pods-OneKey.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA55CBE250B4EEE0009F2FE /* OneKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA55CC1250B4EEE0009F2FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFA55CC3250B4EEE0009F2FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FFA55CC6250B4EEE0009F2FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FFA55CC8250B4EEE0009F2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA55CCB250B4EEE0009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA55CCD250B4EEE0009F2FE /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FFA55CCF250B4EEE0009F2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA55CD1250B4EEE0009F2FE /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FFA55CD4250B4EEE0009F2FE /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FFA55CD6250B4EEE0009F2FE /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FFA55CD8250B4EEE0009F2FE /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FFA55CDA250B4EEE0009F2FE /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FFA55CDC250B4EF00009F2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA55CDF250B4EF00009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA55CE1250B4EF00009F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA55CE2250B4EF00009F2FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF4C022E240D1A58005485F7 /* Frameworks */ = {
+		FFA55CB9250B4EEE0009F2FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4C0239240D1A58005485F7 /* MapKit.framework in Frameworks */,
-				FF4C0237240D1A58005485F7 /* Security.framework in Frameworks */,
-				059C5BD02660B0EF7E8399F5 /* Pods_OneKey.framework in Frameworks */,
+				FFA55CC4250B4EEE0009F2FE /* MapKit.framework in Frameworks */,
+				FFA55CC2250B4EEE0009F2FE /* Security.framework in Frameworks */,
+				0723A6E1F7239F938EA5EAFB /* Pods_OneKey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E745A94D4C9D863142ECD180 /* Pods */ = {
+		02D986165AFFA3F00A91AC5C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E306079609F8378D3915CCD3 /* Pods-OneKey.debug.xcconfig */,
-				9683DC2B65B89FA4EDC936E1 /* Pods-OneKey.release.xcconfig */,
+				F484FBD9B8A17F4BF0BF540D /* Pods-OneKey.debug.xcconfig */,
+				8910089BC4C56CA25EB88333 /* Pods-OneKey.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FF4C0228240D1A58005485F7 = {
+		FFA55CB3250B4EEE0009F2FE = {
 			isa = PBXGroup;
 			children = (
-				FF4C023A240D1A58005485F7 /* OneKey */,
-				FF4C0235240D1A58005485F7 /* Frameworks */,
-				FF4C0234240D1A58005485F7 /* Products */,
-				E745A94D4C9D863142ECD180 /* Pods */,
+				FFA55CC5250B4EEE0009F2FE /* OneKey */,
+				FFA55CC0250B4EEE0009F2FE /* Frameworks */,
+				FFA55CBF250B4EEE0009F2FE /* Products */,
+				02D986165AFFA3F00A91AC5C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		FF4C0234240D1A58005485F7 /* Products */ = {
+		FFA55CBF250B4EEE0009F2FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF4C0233240D1A58005485F7 /* OneKey.app */,
+				FFA55CBE250B4EEE0009F2FE /* OneKey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF4C0235240D1A58005485F7 /* Frameworks */ = {
+		FFA55CC0250B4EEE0009F2FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF4C0236240D1A58005485F7 /* Security.framework */,
-				FF4C0238240D1A58005485F7 /* MapKit.framework */,
-				4D8F39703865FB892F84EDBB /* Pods_OneKey.framework */,
+				FFA55CC1250B4EEE0009F2FE /* Security.framework */,
+				FFA55CC3250B4EEE0009F2FE /* MapKit.framework */,
+				65549C3D1C4CB003EBDD8CA2 /* Pods_OneKey.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF4C023A240D1A58005485F7 /* OneKey */ = {
+		FFA55CC5250B4EEE0009F2FE /* OneKey */ = {
 			isa = PBXGroup;
 			children = (
-				FF4C023B240D1A58005485F7 /* Podfile */,
-				FF4C023D240D1A58005485F7 /* AppDelegate.swift */,
-				FF4C023F240D1A58005485F7 /* Main.storyboard */,
-				FF4C0242240D1A58005485F7 /* react */,
-				FF4C0244240D1A59005485F7 /* ViewController.swift */,
-				FF4C0246240D1A59005485F7 /* metroBundler.config.json */,
-				FF4C0251240D1A5A005485F7 /* Assets.xcassets */,
-				FF4C0253240D1A5A005485F7 /* LaunchScreen.storyboard */,
-				FF4C0256240D1A5A005485F7 /* Info.plist */,
-				FF4C0257240D1A5A005485F7 /* main.swift */,
-				FF4C0248240D1A59005485F7 /* Supporting Files */,
+				FFA55CC6250B4EEE0009F2FE /* Podfile */,
+				FFA55CC8250B4EEE0009F2FE /* AppDelegate.swift */,
+				FFA55CCA250B4EEE0009F2FE /* Main.storyboard */,
+				FFA55CCD250B4EEE0009F2FE /* react */,
+				FFA55CCF250B4EEE0009F2FE /* ViewController.swift */,
+				FFA55CD1250B4EEE0009F2FE /* metroBundler.config.json */,
+				FFA55CDC250B4EF00009F2FE /* Assets.xcassets */,
+				FFA55CDE250B4EF00009F2FE /* LaunchScreen.storyboard */,
+				FFA55CE1250B4EF00009F2FE /* Info.plist */,
+				FFA55CE2250B4EF00009F2FE /* main.swift */,
+				FFA55CD3250B4EEE0009F2FE /* Supporting Files */,
 			);
 			path = OneKey;
 			sourceTree = "<group>";
 		};
-		FF4C0248240D1A59005485F7 /* Supporting Files */ = {
+		FFA55CD3250B4EEE0009F2FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF4C0249240D1A59005485F7 /* unzip-react.sh */,
-				FF4C024B240D1A59005485F7 /* start-npm.sh */,
-				FF4C024D240D1A59005485F7 /* install-react-tools.sh */,
-				FF4C024F240D1A59005485F7 /* bootconfig.plist */,
+				FFA55CD4250B4EEE0009F2FE /* unzip-react.sh */,
+				FFA55CD6250B4EEE0009F2FE /* start-npm.sh */,
+				FFA55CD8250B4EEE0009F2FE /* install-react-tools.sh */,
+				FFA55CDA250B4EEE0009F2FE /* bootconfig.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,18 +132,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF4C0232240D1A58005485F7 /* OneKey */ = {
+		FFA55CBD250B4EEE0009F2FE /* OneKey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF4C025B240D1A5A005485F7 /* Build configuration list for PBXNativeTarget "OneKey" */;
+			buildConfigurationList = FFA55CE6250B4EF00009F2FE /* Build configuration list for PBXNativeTarget "OneKey" */;
 			buildPhases = (
-				7C378E9DE9F90F5B122902B6 /* [CP] Check Pods Manifest.lock */,
-				FF4C022D240D1A58005485F7 /* Sources */,
-				FF4C022E240D1A58005485F7 /* Frameworks */,
-				FF4C022F240D1A58005485F7 /* Resources */,
-				FF4C0230240D1A58005485F7 /* Start npm */,
-				FF4C0231240D1A58005485F7 /* Bundle React Native code and images */,
-				9167FEECD6C818C40F122451 /* [CP] Embed Pods Frameworks */,
-				203AB09A32BF8BCF0F6A6D68 /* [CP] Copy Pods Resources */,
+				72F48EDB768E9B9E27802039 /* [CP] Check Pods Manifest.lock */,
+				FFA55CB8250B4EEE0009F2FE /* Sources */,
+				FFA55CB9250B4EEE0009F2FE /* Frameworks */,
+				FFA55CBA250B4EEE0009F2FE /* Resources */,
+				FFA55CBB250B4EEE0009F2FE /* Start npm */,
+				FFA55CBC250B4EEE0009F2FE /* Bundle React Native code and images */,
+				761ACCF32E93CD721E12D45E /* [CP] Embed Pods Frameworks */,
+				1BD2E07D210E0D2A38840B08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,25 +151,25 @@
 			);
 			name = OneKey;
 			productName = OneKey;
-			productReference = FF4C0233240D1A58005485F7 /* OneKey.app */;
+			productReference = FFA55CBE250B4EEE0009F2FE /* OneKey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF4C0229240D1A58005485F7 /* Project object */ = {
+		FFA55CB4250B4EEE0009F2FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = OCE;
 				TargetAttributes = {
-					FF4C0232240D1A58005485F7 = {
+					FFA55CBD250B4EEE0009F2FE = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = FF4C022C240D1A58005485F7 /* Build configuration list for PBXProject "OneKey" */;
+			buildConfigurationList = FFA55CB7250B4EEE0009F2FE /* Build configuration list for PBXProject "OneKey" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,38 +177,38 @@
 				en,
 				Base,
 			);
-			mainGroup = FF4C0228240D1A58005485F7;
-			productRefGroup = FF4C0234240D1A58005485F7 /* Products */;
+			mainGroup = FFA55CB3250B4EEE0009F2FE;
+			productRefGroup = FFA55CBF250B4EEE0009F2FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF4C0232240D1A58005485F7 /* OneKey */,
+				FFA55CBD250B4EEE0009F2FE /* OneKey */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF4C022F240D1A58005485F7 /* Resources */ = {
+		FFA55CBA250B4EEE0009F2FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4C0243240D1A58005485F7 /* react in Resources */,
-				FF4C024C240D1A59005485F7 /* start-npm.sh in Resources */,
-				FF4C024E240D1A59005485F7 /* install-react-tools.sh in Resources */,
-				FF4C0255240D1A5A005485F7 /* LaunchScreen.storyboard in Resources */,
-				FF4C023C240D1A58005485F7 /* Podfile in Resources */,
-				FF4C0250240D1A59005485F7 /* bootconfig.plist in Resources */,
-				FF4C0241240D1A58005485F7 /* Main.storyboard in Resources */,
-				FF4C024A240D1A59005485F7 /* unzip-react.sh in Resources */,
-				FF4C0252240D1A5A005485F7 /* Assets.xcassets in Resources */,
-				FF4C0247240D1A59005485F7 /* metroBundler.config.json in Resources */,
+				FFA55CCE250B4EEE0009F2FE /* react in Resources */,
+				FFA55CD7250B4EEE0009F2FE /* start-npm.sh in Resources */,
+				FFA55CD9250B4EEE0009F2FE /* install-react-tools.sh in Resources */,
+				FFA55CE0250B4EF00009F2FE /* LaunchScreen.storyboard in Resources */,
+				FFA55CC7250B4EEE0009F2FE /* Podfile in Resources */,
+				FFA55CDB250B4EEE0009F2FE /* bootconfig.plist in Resources */,
+				FFA55CCC250B4EEE0009F2FE /* Main.storyboard in Resources */,
+				FFA55CD5250B4EEE0009F2FE /* unzip-react.sh in Resources */,
+				FFA55CDD250B4EF00009F2FE /* Assets.xcassets in Resources */,
+				FFA55CD2250B4EEE0009F2FE /* metroBundler.config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		203AB09A32BF8BCF0F6A6D68 /* [CP] Copy Pods Resources */ = {
+		1BD2E07D210E0D2A38840B08 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,7 +223,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneKey/Pods-OneKey-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C378E9DE9F90F5B122902B6 /* [CP] Check Pods Manifest.lock */ = {
+		72F48EDB768E9B9E27802039 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,7 +245,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9167FEECD6C818C40F122451 /* [CP] Embed Pods Frameworks */ = {
+		761ACCF32E93CD721E12D45E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,7 +260,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneKey/Pods-OneKey-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF4C0230240D1A58005485F7 /* Start npm */ = {
+		FFA55CBB250B4EEE0009F2FE /* Start npm */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,7 +278,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
 		};
-		FF4C0231240D1A58005485F7 /* Bundle React Native code and images */ = {
+		FFA55CBC250B4EEE0009F2FE /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,31 +299,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF4C022D240D1A58005485F7 /* Sources */ = {
+		FFA55CB8250B4EEE0009F2FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4C0245240D1A59005485F7 /* ViewController.swift in Sources */,
-				FF4C023E240D1A58005485F7 /* AppDelegate.swift in Sources */,
-				FF4C0258240D1A5A005485F7 /* main.swift in Sources */,
+				FFA55CD0250B4EEE0009F2FE /* ViewController.swift in Sources */,
+				FFA55CC9250B4EEE0009F2FE /* AppDelegate.swift in Sources */,
+				FFA55CE3250B4EF00009F2FE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF4C023F240D1A58005485F7 /* Main.storyboard */ = {
+		FFA55CCA250B4EEE0009F2FE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF4C0240240D1A58005485F7 /* Base */,
+				FFA55CCB250B4EEE0009F2FE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FF4C0253240D1A5A005485F7 /* LaunchScreen.storyboard */ = {
+		FFA55CDE250B4EF00009F2FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF4C0254240D1A5A005485F7 /* Base */,
+				FFA55CDF250B4EF00009F2FE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FF4C0259240D1A5A005485F7 /* Debug */ = {
+		FFA55CE4250B4EF00009F2FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +391,7 @@
 			};
 			name = Debug;
 		};
-		FF4C025A240D1A5A005485F7 /* Release */ = {
+		FFA55CE5250B4EF00009F2FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,9 +445,9 @@
 			};
 			name = Release;
 		};
-		FF4C025C240D1A5A005485F7 /* Debug */ = {
+		FFA55CE7250B4EF00009F2FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E306079609F8378D3915CCD3 /* Pods-OneKey.debug.xcconfig */;
+			baseConfigurationReference = F484FBD9B8A17F4BF0BF540D /* Pods-OneKey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,9 +463,9 @@
 			};
 			name = Debug;
 		};
-		FF4C025D240D1A5A005485F7 /* Release */ = {
+		FFA55CE8250B4EF00009F2FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9683DC2B65B89FA4EDC936E1 /* Pods-OneKey.release.xcconfig */;
+			baseConfigurationReference = 8910089BC4C56CA25EB88333 /* Pods-OneKey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,25 +484,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF4C022C240D1A58005485F7 /* Build configuration list for PBXProject "OneKey" */ = {
+		FFA55CB7250B4EEE0009F2FE /* Build configuration list for PBXProject "OneKey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF4C0259240D1A5A005485F7 /* Debug */,
-				FF4C025A240D1A5A005485F7 /* Release */,
+				FFA55CE4250B4EF00009F2FE /* Debug */,
+				FFA55CE5250B4EF00009F2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF4C025B240D1A5A005485F7 /* Build configuration list for PBXNativeTarget "OneKey" */ = {
+		FFA55CE6250B4EF00009F2FE /* Build configuration list for PBXNativeTarget "OneKey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF4C025C240D1A5A005485F7 /* Debug */,
-				FF4C025D240D1A5A005485F7 /* Release */,
+				FFA55CE7250B4EF00009F2FE /* Debug */,
+				FFA55CE8250B4EF00009F2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF4C0229240D1A58005485F7 /* Project object */;
+	rootObject = FFA55CB4250B4EEE0009F2FE /* Project object */;
 }
