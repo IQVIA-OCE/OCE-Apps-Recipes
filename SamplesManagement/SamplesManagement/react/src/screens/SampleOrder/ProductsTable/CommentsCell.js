@@ -18,6 +18,7 @@ const CommentsCell = ({ form, row, readonly, ...rest }) => {
         }}
         multiline
         readonly={readonly}
+        fullWidth
       />
     </View>
   );

@@ -72,7 +72,13 @@ exports[`StorageLocationList should render and trigger actions 1`] = `
             }
           }
         >
-          <View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
             <Text
               style={
                 Array [

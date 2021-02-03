@@ -4,7 +4,7 @@ import { useField, useFormikContext } from 'formik';
 import { InventoryContext } from '../InventoryContext';
 import { INVENTORY_STATUS, REASON_LIST } from '../constants';
 import { INVENTORY_FORM_TYPE } from '../../../constants/Inventories';
-import { Text } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
 const ReasonCell = ({ row }) => {
   const { values } = useFormikContext();
@@ -64,25 +64,39 @@ const ReasonCell = ({ row }) => {
   }
 
   return (
-    <Select
-      options={REASON_LIST}
-      placeholder={'-None-'}
-      value={field.value.reasonObj}
-      onChange={value => {
-        helper.setValue({
-          ...field.value,
-          discrepancyReason: value ? value.id : '',
-          reasonObj: value,
-        });
-      }}
-      fullWidth
-      error={
-        touched && error && error.discrepancyReason
-          ? error.discrepancyReason
-          : null
-      }
-    />
+    <View style={styles.root}>
+      <Select
+        options={REASON_LIST}
+        placeholder={'-None-'}
+        value={field.value.reasonObj}
+        onChange={value => {
+          helper.setValue({
+            ...field.value,
+            discrepancyReason: value ? value.id : '',
+            reasonObj: value,
+          });
+        }}
+        fullWidth
+        error={
+          touched && error && error.discrepancyReason
+            ? error.discrepancyReason
+            : null
+        }
+        helperText={
+          touched && error && error.discrepancyReason
+            ? error.discrepancyReason
+            : null
+        }
+      />
+    </View>
   );
 };
+
+const styles = StyleSheet.create({
+  root: {
+    paddingVertical: 5,
+    width: '100%',
+  },
+});
 
 export default ReasonCell;

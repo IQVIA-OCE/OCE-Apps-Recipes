@@ -7,124 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4A4E01F474DFFF8473961AD /* Pods_WidgetCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF7C4A609DF8E6F30E0C99D /* Pods_WidgetCharts.framework */; };
-		FF4747EB240FD98000828F0E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4747EA240FD98000828F0E /* Security.framework */; };
-		FF4747ED240FD98000828F0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4747EC240FD98000828F0E /* MapKit.framework */; };
-		FF4747F0240FD98000828F0E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF4747EF240FD98000828F0E /* Podfile */; };
-		FF4747F2240FD98000828F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4747F1240FD98000828F0E /* AppDelegate.swift */; };
-		FF4747F5240FD98000828F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4747F3240FD98000828F0E /* Main.storyboard */; };
-		FF4747F7240FD98000828F0E /* react in Resources */ = {isa = PBXBuildFile; fileRef = FF4747F6240FD98000828F0E /* react */; };
-		FF4747F9240FD98000828F0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4747F8240FD98000828F0E /* ViewController.swift */; };
-		FF4747FB240FD98000828F0E /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FF4747FA240FD98000828F0E /* metroBundler.config.json */; };
-		FF4747FE240FD98000828F0E /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF4747FD240FD98000828F0E /* unzip-react.sh */; };
-		FF474800240FD98000828F0E /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF4747FF240FD98000828F0E /* start-npm.sh */; };
-		FF474802240FD98000828F0E /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FF474801240FD98000828F0E /* install-react-tools.sh */; };
-		FF474804240FD98000828F0E /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF474803240FD98000828F0E /* bootconfig.plist */; };
-		FF474806240FD98100828F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF474805240FD98100828F0E /* Assets.xcassets */; };
-		FF474809240FD98100828F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF474807240FD98100828F0E /* LaunchScreen.storyboard */; };
-		FF47480C240FD98100828F0E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF47480B240FD98100828F0E /* main.swift */; };
+		B8EAB2E2C47E58B05EC8109E /* Pods_WidgetCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B75A4AF1D639C8586D33249 /* Pods_WidgetCharts.framework */; };
+		FFA55CF8250B58950009F2FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55CF7250B58950009F2FE /* Security.framework */; };
+		FFA55CFA250B58950009F2FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55CF9250B58950009F2FE /* MapKit.framework */; };
+		FFA55CFD250B58950009F2FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CFC250B58950009F2FE /* Podfile */; };
+		FFA55CFF250B58950009F2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CFE250B58950009F2FE /* AppDelegate.swift */; };
+		FFA55D02250B58950009F2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D00250B58950009F2FE /* Main.storyboard */; };
+		FFA55D04250B58950009F2FE /* react in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D03250B58950009F2FE /* react */; };
+		FFA55D06250B58950009F2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55D05250B58950009F2FE /* ViewController.swift */; };
+		FFA55D08250B58950009F2FE /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D07250B58950009F2FE /* metroBundler.config.json */; };
+		FFA55D0B250B58950009F2FE /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D0A250B58950009F2FE /* unzip-react.sh */; };
+		FFA55D0D250B58950009F2FE /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D0C250B58950009F2FE /* start-npm.sh */; };
+		FFA55D0F250B58950009F2FE /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D0E250B58950009F2FE /* install-react-tools.sh */; };
+		FFA55D11250B58950009F2FE /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D10250B58950009F2FE /* bootconfig.plist */; };
+		FFA55D13250B58960009F2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D12250B58960009F2FE /* Assets.xcassets */; };
+		FFA55D16250B58960009F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55D14250B58960009F2FE /* LaunchScreen.storyboard */; };
+		FFA55D19250B58960009F2FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55D18250B58960009F2FE /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34B5F0F6AC806C6C31561F29 /* Pods-WidgetCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetCharts.debug.xcconfig"; path = "Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts.debug.xcconfig"; sourceTree = "<group>"; };
-		8AF7C4A609DF8E6F30E0C99D /* Pods_WidgetCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WidgetCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFEA9C2AC5E4CB664F6FA82C /* Pods-WidgetCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetCharts.release.xcconfig"; path = "Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts.release.xcconfig"; sourceTree = "<group>"; };
-		FF4747E7240FD98000828F0E /* WidgetCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF4747EA240FD98000828F0E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FF4747EC240FD98000828F0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		FF4747EF240FD98000828F0E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
-		FF4747F1240FD98000828F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF4747F4240FD98000828F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF4747F6240FD98000828F0E /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
-		FF4747F8240FD98000828F0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF4747FA240FD98000828F0E /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
-		FF4747FD240FD98000828F0E /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
-		FF4747FF240FD98000828F0E /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
-		FF474801240FD98000828F0E /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
-		FF474803240FD98000828F0E /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
-		FF474805240FD98100828F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF474808240FD98100828F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF47480A240FD98100828F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF47480B240FD98100828F0E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B75A4AF1D639C8586D33249 /* Pods_WidgetCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WidgetCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF23FD041517FA55A976C15 /* Pods-WidgetCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetCharts.debug.xcconfig"; path = "Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		D8967C5717C6821CB950365B /* Pods-WidgetCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetCharts.release.xcconfig"; path = "Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts.release.xcconfig"; sourceTree = "<group>"; };
+		FFA55CF4250B58950009F2FE /* WidgetCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA55CF7250B58950009F2FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFA55CF9250B58950009F2FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FFA55CFC250B58950009F2FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FFA55CFE250B58950009F2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA55D01250B58950009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA55D03250B58950009F2FE /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FFA55D05250B58950009F2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA55D07250B58950009F2FE /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FFA55D0A250B58950009F2FE /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FFA55D0C250B58950009F2FE /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FFA55D0E250B58950009F2FE /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FFA55D10250B58950009F2FE /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FFA55D12250B58960009F2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA55D15250B58960009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA55D17250B58960009F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA55D18250B58960009F2FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF4747E2240FD98000828F0E /* Frameworks */ = {
+		FFA55CEF250B58950009F2FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4747ED240FD98000828F0E /* MapKit.framework in Frameworks */,
-				FF4747EB240FD98000828F0E /* Security.framework in Frameworks */,
-				D4A4E01F474DFFF8473961AD /* Pods_WidgetCharts.framework in Frameworks */,
+				FFA55CFA250B58950009F2FE /* MapKit.framework in Frameworks */,
+				FFA55CF8250B58950009F2FE /* Security.framework in Frameworks */,
+				B8EAB2E2C47E58B05EC8109E /* Pods_WidgetCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38BD881876480EC66406B4E1 /* Pods */ = {
+		1E97111E89789A227F0FC17E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34B5F0F6AC806C6C31561F29 /* Pods-WidgetCharts.debug.xcconfig */,
-				DFEA9C2AC5E4CB664F6FA82C /* Pods-WidgetCharts.release.xcconfig */,
+				4FF23FD041517FA55A976C15 /* Pods-WidgetCharts.debug.xcconfig */,
+				D8967C5717C6821CB950365B /* Pods-WidgetCharts.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		FF4747DC240FD98000828F0E = {
+		FFA55CE9250B58950009F2FE = {
 			isa = PBXGroup;
 			children = (
-				FF4747EE240FD98000828F0E /* WidgetCharts */,
-				FF4747E9240FD98000828F0E /* Frameworks */,
-				FF4747E8240FD98000828F0E /* Products */,
-				38BD881876480EC66406B4E1 /* Pods */,
+				FFA55CFB250B58950009F2FE /* WidgetCharts */,
+				FFA55CF6250B58950009F2FE /* Frameworks */,
+				FFA55CF5250B58950009F2FE /* Products */,
+				1E97111E89789A227F0FC17E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		FF4747E8240FD98000828F0E /* Products */ = {
+		FFA55CF5250B58950009F2FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF4747E7240FD98000828F0E /* WidgetCharts.app */,
+				FFA55CF4250B58950009F2FE /* WidgetCharts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF4747E9240FD98000828F0E /* Frameworks */ = {
+		FFA55CF6250B58950009F2FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF4747EA240FD98000828F0E /* Security.framework */,
-				FF4747EC240FD98000828F0E /* MapKit.framework */,
-				8AF7C4A609DF8E6F30E0C99D /* Pods_WidgetCharts.framework */,
+				FFA55CF7250B58950009F2FE /* Security.framework */,
+				FFA55CF9250B58950009F2FE /* MapKit.framework */,
+				0B75A4AF1D639C8586D33249 /* Pods_WidgetCharts.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF4747EE240FD98000828F0E /* WidgetCharts */ = {
+		FFA55CFB250B58950009F2FE /* WidgetCharts */ = {
 			isa = PBXGroup;
 			children = (
-				FF4747EF240FD98000828F0E /* Podfile */,
-				FF4747F1240FD98000828F0E /* AppDelegate.swift */,
-				FF4747F3240FD98000828F0E /* Main.storyboard */,
-				FF4747F6240FD98000828F0E /* react */,
-				FF4747F8240FD98000828F0E /* ViewController.swift */,
-				FF4747FA240FD98000828F0E /* metroBundler.config.json */,
-				FF474805240FD98100828F0E /* Assets.xcassets */,
-				FF474807240FD98100828F0E /* LaunchScreen.storyboard */,
-				FF47480A240FD98100828F0E /* Info.plist */,
-				FF47480B240FD98100828F0E /* main.swift */,
-				FF4747FC240FD98000828F0E /* Supporting Files */,
+				FFA55CFC250B58950009F2FE /* Podfile */,
+				FFA55CFE250B58950009F2FE /* AppDelegate.swift */,
+				FFA55D00250B58950009F2FE /* Main.storyboard */,
+				FFA55D03250B58950009F2FE /* react */,
+				FFA55D05250B58950009F2FE /* ViewController.swift */,
+				FFA55D07250B58950009F2FE /* metroBundler.config.json */,
+				FFA55D12250B58960009F2FE /* Assets.xcassets */,
+				FFA55D14250B58960009F2FE /* LaunchScreen.storyboard */,
+				FFA55D17250B58960009F2FE /* Info.plist */,
+				FFA55D18250B58960009F2FE /* main.swift */,
+				FFA55D09250B58950009F2FE /* Supporting Files */,
 			);
 			path = WidgetCharts;
 			sourceTree = "<group>";
 		};
-		FF4747FC240FD98000828F0E /* Supporting Files */ = {
+		FFA55D09250B58950009F2FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF4747FD240FD98000828F0E /* unzip-react.sh */,
-				FF4747FF240FD98000828F0E /* start-npm.sh */,
-				FF474801240FD98000828F0E /* install-react-tools.sh */,
-				FF474803240FD98000828F0E /* bootconfig.plist */,
+				FFA55D0A250B58950009F2FE /* unzip-react.sh */,
+				FFA55D0C250B58950009F2FE /* start-npm.sh */,
+				FFA55D0E250B58950009F2FE /* install-react-tools.sh */,
+				FFA55D10250B58950009F2FE /* bootconfig.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,18 +132,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF4747E6240FD98000828F0E /* WidgetCharts */ = {
+		FFA55CF3250B58950009F2FE /* WidgetCharts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF47480F240FD98100828F0E /* Build configuration list for PBXNativeTarget "WidgetCharts" */;
+			buildConfigurationList = FFA55D1C250B58960009F2FE /* Build configuration list for PBXNativeTarget "WidgetCharts" */;
 			buildPhases = (
-				8EC1C49A378129EF8B8E90B1 /* [CP] Check Pods Manifest.lock */,
-				FF4747E1240FD98000828F0E /* Sources */,
-				FF4747E2240FD98000828F0E /* Frameworks */,
-				FF4747E3240FD98000828F0E /* Resources */,
-				FF4747E4240FD98000828F0E /* Start npm */,
-				FF4747E5240FD98000828F0E /* Bundle React Native code and images */,
-				87E28EA2CDF9E647637DBC78 /* [CP] Embed Pods Frameworks */,
-				079E2AD9D68A645D8899B21A /* [CP] Copy Pods Resources */,
+				C42A5C795ACB15C305AEB19E /* [CP] Check Pods Manifest.lock */,
+				FFA55CEE250B58950009F2FE /* Sources */,
+				FFA55CEF250B58950009F2FE /* Frameworks */,
+				FFA55CF0250B58950009F2FE /* Resources */,
+				FFA55CF1250B58950009F2FE /* Start npm */,
+				FFA55CF2250B58950009F2FE /* Bundle React Native code and images */,
+				AB5B2F91B22E3AC6840001E4 /* [CP] Embed Pods Frameworks */,
+				F6340278EC86408BEA306B6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,25 +151,25 @@
 			);
 			name = WidgetCharts;
 			productName = WidgetCharts;
-			productReference = FF4747E7240FD98000828F0E /* WidgetCharts.app */;
+			productReference = FFA55CF4250B58950009F2FE /* WidgetCharts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF4747DD240FD98000828F0E /* Project object */ = {
+		FFA55CEA250B58950009F2FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = OCE;
 				TargetAttributes = {
-					FF4747E6240FD98000828F0E = {
+					FFA55CF3250B58950009F2FE = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = FF4747E0240FD98000828F0E /* Build configuration list for PBXProject "WidgetCharts" */;
+			buildConfigurationList = FFA55CED250B58950009F2FE /* Build configuration list for PBXProject "WidgetCharts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,53 +177,38 @@
 				en,
 				Base,
 			);
-			mainGroup = FF4747DC240FD98000828F0E;
-			productRefGroup = FF4747E8240FD98000828F0E /* Products */;
+			mainGroup = FFA55CE9250B58950009F2FE;
+			productRefGroup = FFA55CF5250B58950009F2FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF4747E6240FD98000828F0E /* WidgetCharts */,
+				FFA55CF3250B58950009F2FE /* WidgetCharts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF4747E3240FD98000828F0E /* Resources */ = {
+		FFA55CF0250B58950009F2FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4747F7240FD98000828F0E /* react in Resources */,
-				FF474800240FD98000828F0E /* start-npm.sh in Resources */,
-				FF474802240FD98000828F0E /* install-react-tools.sh in Resources */,
-				FF474809240FD98100828F0E /* LaunchScreen.storyboard in Resources */,
-				FF4747F0240FD98000828F0E /* Podfile in Resources */,
-				FF474804240FD98000828F0E /* bootconfig.plist in Resources */,
-				FF4747F5240FD98000828F0E /* Main.storyboard in Resources */,
-				FF4747FE240FD98000828F0E /* unzip-react.sh in Resources */,
-				FF474806240FD98100828F0E /* Assets.xcassets in Resources */,
-				FF4747FB240FD98000828F0E /* metroBundler.config.json in Resources */,
+				FFA55D04250B58950009F2FE /* react in Resources */,
+				FFA55D0D250B58950009F2FE /* start-npm.sh in Resources */,
+				FFA55D0F250B58950009F2FE /* install-react-tools.sh in Resources */,
+				FFA55D16250B58960009F2FE /* LaunchScreen.storyboard in Resources */,
+				FFA55CFD250B58950009F2FE /* Podfile in Resources */,
+				FFA55D11250B58950009F2FE /* bootconfig.plist in Resources */,
+				FFA55D02250B58950009F2FE /* Main.storyboard in Resources */,
+				FFA55D0B250B58950009F2FE /* unzip-react.sh in Resources */,
+				FFA55D13250B58960009F2FE /* Assets.xcassets in Resources */,
+				FFA55D08250B58950009F2FE /* metroBundler.config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		079E2AD9D68A645D8899B21A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87E28EA2CDF9E647637DBC78 /* [CP] Embed Pods Frameworks */ = {
+		AB5B2F91B22E3AC6840001E4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,7 +223,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8EC1C49A378129EF8B8E90B1 /* [CP] Check Pods Manifest.lock */ = {
+		C42A5C795ACB15C305AEB19E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,7 +245,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF4747E4240FD98000828F0E /* Start npm */ = {
+		F6340278EC86408BEA306B6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WidgetCharts/Pods-WidgetCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA55CF1250B58950009F2FE /* Start npm */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,7 +278,7 @@
 			shellPath = /bin/sh;
 			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
 		};
-		FF4747E5240FD98000828F0E /* Bundle React Native code and images */ = {
+		FFA55CF2250B58950009F2FE /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,31 +299,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF4747E1240FD98000828F0E /* Sources */ = {
+		FFA55CEE250B58950009F2FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4747F9240FD98000828F0E /* ViewController.swift in Sources */,
-				FF4747F2240FD98000828F0E /* AppDelegate.swift in Sources */,
-				FF47480C240FD98100828F0E /* main.swift in Sources */,
+				FFA55D06250B58950009F2FE /* ViewController.swift in Sources */,
+				FFA55CFF250B58950009F2FE /* AppDelegate.swift in Sources */,
+				FFA55D19250B58960009F2FE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF4747F3240FD98000828F0E /* Main.storyboard */ = {
+		FFA55D00250B58950009F2FE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF4747F4240FD98000828F0E /* Base */,
+				FFA55D01250B58950009F2FE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FF474807240FD98100828F0E /* LaunchScreen.storyboard */ = {
+		FFA55D14250B58960009F2FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FF474808240FD98100828F0E /* Base */,
+				FFA55D15250B58960009F2FE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FF47480D240FD98100828F0E /* Debug */ = {
+		FFA55D1A250B58960009F2FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +391,7 @@
 			};
 			name = Debug;
 		};
-		FF47480E240FD98100828F0E /* Release */ = {
+		FFA55D1B250B58960009F2FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,9 +445,9 @@
 			};
 			name = Release;
 		};
-		FF474810240FD98100828F0E /* Debug */ = {
+		FFA55D1D250B58960009F2FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34B5F0F6AC806C6C31561F29 /* Pods-WidgetCharts.debug.xcconfig */;
+			baseConfigurationReference = 4FF23FD041517FA55A976C15 /* Pods-WidgetCharts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,9 +463,9 @@
 			};
 			name = Debug;
 		};
-		FF474811240FD98100828F0E /* Release */ = {
+		FFA55D1E250B58960009F2FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEA9C2AC5E4CB664F6FA82C /* Pods-WidgetCharts.release.xcconfig */;
+			baseConfigurationReference = D8967C5717C6821CB950365B /* Pods-WidgetCharts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -484,25 +484,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF4747E0240FD98000828F0E /* Build configuration list for PBXProject "WidgetCharts" */ = {
+		FFA55CED250B58950009F2FE /* Build configuration list for PBXProject "WidgetCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF47480D240FD98100828F0E /* Debug */,
-				FF47480E240FD98100828F0E /* Release */,
+				FFA55D1A250B58960009F2FE /* Debug */,
+				FFA55D1B250B58960009F2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF47480F240FD98100828F0E /* Build configuration list for PBXNativeTarget "WidgetCharts" */ = {
+		FFA55D1C250B58960009F2FE /* Build configuration list for PBXNativeTarget "WidgetCharts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF474810240FD98100828F0E /* Debug */,
-				FF474811240FD98100828F0E /* Release */,
+				FFA55D1D250B58960009F2FE /* Debug */,
+				FFA55D1E250B58960009F2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF4747DD240FD98000828F0E /* Project object */;
+	rootObject = FFA55CEA250B58950009F2FE /* Project object */;
 }

@@ -35,16 +35,6 @@ exports[`InventoryAuditor should render properly 1`] = `
             Object {
               "opacity": 1,
             },
-            Object {
-              "elevation": 10,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 5,
-                "width": 0,
-              },
-              "shadowOpacity": 0.34,
-              "shadowRadius": 6.27,
-            },
           ]
         }
       >
@@ -147,7 +137,7 @@ exports[`InventoryAuditor should render properly 1`] = `
               onChangeText={[Function]}
               onFocus={[Function]}
               paddingLeft={40}
-              paddingRight={40}
+              paddingRight={8}
               placeholder="Search"
               placeholderTextColor="rgba(0, 0, 0, 0.54)"
               rejectResponderTermination={true}
@@ -166,6 +156,8 @@ exports[`InventoryAuditor should render properly 1`] = `
                     "fontWeight": undefined,
                     "height": 40,
                     "minHeight": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 8,
                     "paddingVertical": 5,
                     "textAlignVertical": "center",
                     "width": "100%",
@@ -173,69 +165,8 @@ exports[`InventoryAuditor should render properly 1`] = `
                 ]
               }
               underlineColorAndroid="transparent"
-              value="some text"
+              value=""
             />
-            <View
-              accessible={true}
-              focusable={true}
-              isTVSelectable={true}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "position": "absolute",
-                  "right": 10,
-                  "top": "50%",
-                  "transform": Array [
-                    Object {
-                      "translateY": -12.5,
-                    },
-                  ],
-                  "zIndex": 5,
-                }
-              }
-            >
-              <Text
-                accessibilityElementsHidden={true}
-                allowFontScaling={false}
-                importantForAccessibility="no-hide-descendants"
-                pointerEvents="none"
-                style={
-                  Array [
-                    Object {
-                      "color": "#999",
-                      "fontSize": 25,
-                    },
-                    Array [
-                      Object {
-                        "transform": Array [
-                          Object {
-                            "scaleX": 1,
-                          },
-                        ],
-                      },
-                      Object {
-                        "backgroundColor": "transparent",
-                      },
-                    ],
-                    Object {
-                      "fontFamily": "Material Design Icons",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                    Object {},
-                  ]
-                }
-              >
-                
-              </Text>
-            </View>
           </View>
         </View>
       </View>

@@ -49,6 +49,7 @@ const SampleOrder = ({ navigation }) => {
       isPreviewPrevScreen,
       orderId,
       isCloned,
+      clonedFromId,
     },
     setValue,
   ] = useState({
@@ -61,6 +62,7 @@ const SampleOrder = ({ navigation }) => {
     isPreviewPrevScreen: navigation.getParam('readonly') ? true : false,
     orderId: navigation.getParam('id') || null,
     isCloned: false,
+    clonedFromId: null,
   });
   const { username } = useContext(AppContext);
   const userId = environment.userID();
@@ -146,7 +148,7 @@ const SampleOrder = ({ navigation }) => {
         ? orderProducts.data.map(getOrderProductRemainingAllocation)
         : [];
 
-        return {
+      return {
         fields: {
           ...orderDetails.data,
           user,
@@ -370,11 +372,13 @@ const SampleOrder = ({ navigation }) => {
   };
 
   const cloneSampleOrder = (values, setFieldValue) => {
+    const clonedFromId = orderId;
     setValue(prevState => ({
       ...prevState,
       orderId: null,
       readonly: false,
       isCloned: true,
+      clonedFromId,
     }));
     const sampleOrderClonedProducts = values.products.map(product => ({
       ...product,
@@ -449,6 +453,19 @@ const SampleOrder = ({ navigation }) => {
               }));
               const initialFormValues = getInitialData(orderId);
               resetForm(initialFormValues);
+            } else if (isCloned) {
+              navigation.navigate({
+                routeName: 'SampleOrder',
+                params: {
+                  recordType: {
+                    DeveloperName: 'Order',
+                    Name: 'Order',
+                  },
+                  readonly: true,
+                  id: clonedFromId,
+                },
+                key: `${Math.random () * 10000}_clonedFromId`,
+              });
             } else {
               navigation.navigate('Dashboard');
             }

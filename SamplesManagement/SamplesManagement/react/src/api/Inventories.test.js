@@ -2,9 +2,13 @@ import api from '../utils/api';
 import {
   fetchActiveLotsProducts,
   fetchConfigs,
-  fetchInventories, fetchInventoryDetail,
-  fetchInventoryTypes, fetchLastSubmittedInventory,
-  fetchListId, fetchTransactionDetails, saveInventory,
+  fetchInventories,
+  fetchInventoryDetail,
+  fetchInventoryTypes,
+  fetchLastSubmittedInventory,
+  fetchListId,
+  fetchTransactionDetails,
+  saveInventory,
 } from './Inventories';
 
 describe('Inventories', () => {
@@ -58,7 +62,7 @@ describe('Inventories', () => {
 
   it('saveInventory', () => {
     const spy = jest.spyOn(api, 'apexRest').mockImplementation();
-    saveInventory({});
+    saveInventory({ products: [] });
     expect(spy).toHaveBeenCalled();
   });
 });

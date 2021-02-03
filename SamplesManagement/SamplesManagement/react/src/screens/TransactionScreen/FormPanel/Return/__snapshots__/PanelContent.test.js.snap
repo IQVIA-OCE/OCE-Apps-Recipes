@@ -43,16 +43,6 @@ exports[`PanelContent should call DateField onChange 1`] = `
             Object {
               "opacity": 1,
             },
-            Object {
-              "elevation": 10,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 5,
-                "width": 0,
-              },
-              "shadowOpacity": 0.34,
-              "shadowRadius": 6.27,
-            },
           ]
         }
       >
@@ -117,6 +107,8 @@ exports[`PanelContent should call DateField onChange 1`] = `
                     "fontWeight": undefined,
                     "height": 40,
                     "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 40,
                     "paddingVertical": 5,
                     "textAlignVertical": "center",
                     "width": "100%",
@@ -205,16 +197,6 @@ exports[`PanelContent should call DateField onChange 1`] = `
           Object {
             "opacity": 1,
           },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
-          },
         ]
       }
     >
@@ -280,6 +262,8 @@ exports[`PanelContent should call DateField onChange 1`] = `
                   "fontWeight": undefined,
                   "height": 40,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -312,16 +296,6 @@ exports[`PanelContent should call DateField onChange 1`] = `
           },
           Object {
             "opacity": 1,
-          },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
           },
         ]
       }
@@ -388,6 +362,8 @@ exports[`PanelContent should call DateField onChange 1`] = `
                   "fontWeight": undefined,
                   "height": 40,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -409,16 +385,6 @@ exports[`PanelContent should call DateField onChange 1`] = `
           undefined,
           Object {
             "opacity": 1,
-          },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
           },
         ]
       }
@@ -486,6 +452,8 @@ exports[`PanelContent should call DateField onChange 1`] = `
                   "fontWeight": undefined,
                   "height": 80,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -543,16 +511,6 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
             undefined,
             Object {
               "opacity": 1,
-            },
-            Object {
-              "elevation": 10,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 5,
-                "width": 0,
-              },
-              "shadowOpacity": 0.34,
-              "shadowRadius": 6.27,
             },
           ]
         }
@@ -618,6 +576,8 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
                     "fontWeight": undefined,
                     "height": 40,
                     "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 40,
                     "paddingVertical": 5,
                     "textAlignVertical": "center",
                     "width": "100%",
@@ -706,16 +666,6 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
           Object {
             "opacity": 1,
           },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
-          },
         ]
       }
     >
@@ -781,6 +731,8 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
                   "fontWeight": undefined,
                   "height": 40,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -813,16 +765,6 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
           },
           Object {
             "opacity": 1,
-          },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
           },
         ]
       }
@@ -889,6 +831,8 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
                   "fontWeight": undefined,
                   "height": 40,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -911,16 +855,6 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
           undefined,
           Object {
             "opacity": 1,
-          },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
           },
         ]
       }
@@ -988,6 +922,8 @@ exports[`PanelContent should call TextInputs onChange 1`] = `
                   "fontWeight": undefined,
                   "height": 80,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -1047,16 +983,6 @@ exports[`PanelContent should render properly 1`] = `
             Object {
               "opacity": 1,
             },
-            Object {
-              "elevation": 10,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 5,
-                "width": 0,
-              },
-              "shadowOpacity": 0.34,
-              "shadowRadius": 6.27,
-            },
           ]
         }
       >
@@ -1121,6 +1047,8 @@ exports[`PanelContent should render properly 1`] = `
                     "fontWeight": undefined,
                     "height": 40,
                     "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 40,
                     "paddingVertical": 5,
                     "textAlignVertical": "center",
                     "width": "100%",
@@ -1209,16 +1137,6 @@ exports[`PanelContent should render properly 1`] = `
           Object {
             "opacity": 1,
           },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
-          },
         ]
       }
     >
@@ -1284,6 +1202,8 @@ exports[`PanelContent should render properly 1`] = `
                   "fontWeight": undefined,
                   "height": 40,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -1316,16 +1236,6 @@ exports[`PanelContent should render properly 1`] = `
           },
           Object {
             "opacity": 1,
-          },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
           },
         ]
       }
@@ -1392,6 +1302,8 @@ exports[`PanelContent should render properly 1`] = `
                   "fontWeight": undefined,
                   "height": 40,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",
@@ -1413,16 +1325,6 @@ exports[`PanelContent should render properly 1`] = `
           undefined,
           Object {
             "opacity": 1,
-          },
-          Object {
-            "elevation": 10,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 5,
-              "width": 0,
-            },
-            "shadowOpacity": 0.34,
-            "shadowRadius": 6.27,
           },
         ]
       }
@@ -1490,6 +1392,8 @@ exports[`PanelContent should render properly 1`] = `
                   "fontWeight": undefined,
                   "height": 80,
                   "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
                   "paddingVertical": 5,
                   "textAlignVertical": "center",
                   "width": "100%",

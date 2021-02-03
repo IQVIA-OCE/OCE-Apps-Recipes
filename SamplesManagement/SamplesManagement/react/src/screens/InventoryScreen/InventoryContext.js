@@ -97,7 +97,10 @@ const ContextProvider = ({ children, navigation }) => {
         inventory = [lastInventories[lastInventories.length - 1]];
 
         lastInventoryCreatedDate = inventory[0].CreatedDate;
-        [lastSubmittedInventoriesDetails] = await fetchInventoryDetail(inventory[0].Id, true);
+        [lastSubmittedInventoriesDetails] = await fetchInventoryDetail(
+          inventory[0].Id,
+          true
+        );
       } else {
         inventory = [
           {
@@ -111,7 +114,9 @@ const ContextProvider = ({ children, navigation }) => {
         [inventory] = await fetchInventoryById(navigation.state.params.id);
         [inventoryDetails] = await fetchInventoryDetail(
           navigation.state.params.id,
-          inventory[0].OCE__Status__c !== INVENTORY_STATUS.inProgress
+          state.editingType === INVENTORY_FORM_TYPE.preview
+            ? false
+            : inventory[0].OCE__Status__c !== INVENTORY_STATUS.inProgress
         );
       }
 

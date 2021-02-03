@@ -13,7 +13,7 @@ const initialValue = {
   selectedProductHistory: null,
 };
 
-const InventoryScreen = ({ push, remove, form: { values } }) => {
+const InventoryScreen = ({ push, remove, form: { values, setFieldValue } }) => {
   const [state, setState] = useState(initialValue);
 
   const { products, config, editingType } = useContext(InventoryContext);
@@ -24,8 +24,28 @@ const InventoryScreen = ({ push, remove, form: { values } }) => {
     product.selected = true;
     push(product);
   };
-  const handleDeselectProduct = index => {
+  const handleDeselectProduct = (product, index) => {
     remove(index);
+    if (product.id) {
+      // saved product should be saved with the "deleted" flag
+      const deletedProduct = { ...product, deleted: true };
+      product.selected = false;
+      product.physicalQuantity = '';
+      delete product.id
+
+      if (values.deletedProducts) {
+        if (values.deletedProducts.find(el => el.id === deletedProduct.id)) {
+          return;
+        }
+
+        setFieldValue('deletedProducts', [
+          ...values.deletedProducts,
+          deletedProduct,
+        ]);
+      } else {
+        setFieldValue('deletedProducts', [deletedProduct]);
+      }
+    }
   };
   const changeActiveTabIndex = tabIndex => {
     setState(prevState => ({
@@ -118,7 +138,7 @@ const InventoryScreen = ({ push, remove, form: { values } }) => {
                   </Tabs.Item>
                 )}
                 {historyHidden ? (
-                  <Tabs.Item/>
+                  <Tabs.Item />
                 ) : (
                   <Tabs.Item style={[styles.content, { paddingTop: 10 }]}>
                     <HistoryTimeline

@@ -1,10 +1,10 @@
 install! 'cocoapods', :disable_input_output_paths => true
 
 post_install do |installer|
-    system("sh \"./NBCCharts/Supporting Files/unzip-react.sh\" --pods-path=\"./Pods/OCE\"")
+    system(`sh "./NBCCharts/Supporting Files/unzip-react.sh" --pods-path="./Pods/OCE"`)
 end
 
 target 'NBCCharts' do
   use_frameworks!
-  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "8.0.3"
+  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework", :tag => "10.0.5"
 end

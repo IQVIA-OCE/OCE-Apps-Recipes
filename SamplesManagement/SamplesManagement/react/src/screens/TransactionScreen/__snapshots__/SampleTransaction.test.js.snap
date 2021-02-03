@@ -144,7 +144,13 @@ exports[`SampleTransaction should delete transaction 1`] = `
                 
               </Text>
             </View>
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -249,7 +255,13 @@ exports[`SampleTransaction should delete transaction 1`] = `
               }
             }
           >
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -1115,16 +1127,6 @@ exports[`SampleTransaction should delete transaction 1`] = `
                     Object {
                       "opacity": 1,
                     },
-                    Object {
-                      "elevation": 10,
-                      "shadowColor": "#000000",
-                      "shadowOffset": Object {
-                        "height": 5,
-                        "width": 0,
-                      },
-                      "shadowOpacity": 0.34,
-                      "shadowRadius": 6.27,
-                    },
                   ]
                 }
               >
@@ -1189,6 +1191,8 @@ exports[`SampleTransaction should delete transaction 1`] = `
                             "fontWeight": undefined,
                             "height": 40,
                             "minHeight": 0,
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
                             "paddingVertical": 5,
                             "textAlignVertical": "center",
                             "width": "100%",
@@ -1215,16 +1219,6 @@ exports[`SampleTransaction should delete transaction 1`] = `
                   undefined,
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -1290,6 +1284,8 @@ exports[`SampleTransaction should delete transaction 1`] = `
                           "fontWeight": undefined,
                           "height": 40,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -1324,16 +1320,6 @@ exports[`SampleTransaction should delete transaction 1`] = `
                   },
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -1404,6 +1390,8 @@ exports[`SampleTransaction should delete transaction 1`] = `
                           "fontWeight": undefined,
                           "height": 80,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -2003,7 +1991,13 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                 
               </Text>
             </View>
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -2108,7 +2102,13 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
               }
             }
           >
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -2955,16 +2955,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                     Object {
                       "opacity": 1,
                     },
-                    Object {
-                      "elevation": 10,
-                      "shadowColor": "#000000",
-                      "shadowOffset": Object {
-                        "height": 5,
-                        "width": 0,
-                      },
-                      "shadowOpacity": 0.34,
-                      "shadowRadius": 6.27,
-                    },
                   ]
                 }
               >
@@ -3038,6 +3028,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                             "fontWeight": undefined,
                             "height": 40,
                             "minHeight": 0,
+                            "paddingLeft": 8,
+                            "paddingRight": 40,
                             "paddingVertical": 5,
                             "textAlignVertical": "center",
                             "width": "100%",
@@ -3154,192 +3146,194 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                   </Text>
                 </Text>
                 <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "flexDirection": "row",
-                      },
-                      Object {
-                        "backgroundColor": undefined,
-                        "borderColor": "#d9d9d9",
-                        "borderRadius": 4,
-                        "borderWidth": 1,
-                        "elevation": 0,
-                        "height": 40,
-                      },
-                      undefined,
-                    ]
-                  }
+                  collapsable={false}
                 >
                   <View
+                    onLayout={[Function]}
                     style={
-                      Object {
-                        "alignItems": "center",
-                        "alignSelf": "stretch",
-                        "flex": 1,
-                        "flexDirection": "row",
-                        "flexGrow": 1,
-                        "paddingLeft": 8,
-                      }
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                        },
+                        Object {
+                          "backgroundColor": undefined,
+                          "borderColor": "#d9d9d9",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                          "elevation": 0,
+                          "height": 40,
+                        },
+                        undefined,
+                      ]
                     }
                   >
                     <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "stretch",
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "paddingLeft": 8,
+                        }
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 14,
+                            "left": 14,
+                            "right": 14,
+                            "top": 14,
+                          }
+                        }
+                        isTVSelectable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.54)",
+                                "fontFamily": "System",
+                                "fontSize": 16,
+                                "fontWeight": "400",
+                              },
+                            ]
+                          }
+                        >
+                          -None-
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      accessibilityComponentType="button"
+                      accessibilityRole="button"
+                      accessibilityStates={Array []}
+                      accessibilityTraits="button"
                       accessible={true}
+                      centered={true}
                       focusable={true}
                       hitSlop={
                         Object {
-                          "bottom": 14,
-                          "left": 14,
-                          "right": 14,
-                          "top": 14,
+                          "bottom": 6,
+                          "left": 6,
+                          "right": 6,
+                          "top": 6,
                         }
                       }
-                      isTVSelectable={true}
                       onClick={[Function]}
+                      onLayout={[Function]}
                       onResponderGrant={[Function]}
                       onResponderMove={[Function]}
                       onResponderRelease={[Function]}
                       onResponderTerminate={[Function]}
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
-                      style={
-                        Object {
-                          "flex": 1,
-                          "opacity": 1,
-                        }
-                      }
+                      pointerEvents="box-only"
                     >
-                      <Text
-                        numberOfLines={1}
+                      <View
                         style={
                           Array [
                             Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "System",
-                              "fontSize": 16,
-                              "fontWeight": "400",
+                              "overflow": "hidden",
                             },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 18,
+                                "height": 36,
+                                "width": 36,
+                              },
+                              undefined,
+                              Object {
+                                "margin": 0,
+                              },
+                            ],
                           ]
                         }
                       >
-                        -None-
-                      </Text>
-                    </View>
-                  </View>
-                  <View
-                    accessibilityComponentType="button"
-                    accessibilityRole="button"
-                    accessibilityStates={Array []}
-                    accessibilityTraits="button"
-                    accessible={true}
-                    centered={true}
-                    focusable={true}
-                    hitSlop={
-                      Object {
-                        "bottom": 6,
-                        "left": 6,
-                        "right": 6,
-                        "top": 6,
-                      }
-                    }
-                    onClick={[Function]}
-                    onLayout={[Function]}
-                    onResponderGrant={[Function]}
-                    onResponderMove={[Function]}
-                    onResponderRelease={[Function]}
-                    onResponderTerminate={[Function]}
-                    onResponderTerminationRequest={[Function]}
-                    onStartShouldSetResponder={[Function]}
-                    pointerEvents="box-only"
-                  >
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "overflow": "hidden",
-                          },
-                          Array [
-                            Object {
-                              "alignItems": "center",
-                              "justifyContent": "center",
-                              "margin": 6,
-                              "overflow": "hidden",
-                            },
-                            Object {
-                              "borderRadius": 18,
-                              "height": 36,
-                              "width": 36,
-                            },
-                            undefined,
-                            Object {
-                              "margin": 0,
-                            },
-                          ],
-                        ]
-                      }
-                    >
-                      <View>
-                        <Text
-                          accessibilityElementsHidden={true}
-                          allowFontScaling={false}
-                          importantForAccessibility="no-hide-descendants"
-                          pointerEvents="none"
-                          style={
-                            Array [
-                              Object {
-                                "color": "#000000",
-                                "fontSize": 24,
-                              },
+                        <View>
+                          <Text
+                            accessibilityElementsHidden={true}
+                            allowFontScaling={false}
+                            importantForAccessibility="no-hide-descendants"
+                            pointerEvents="none"
+                            style={
                               Array [
                                 Object {
-                                  "transform": Array [
-                                    Object {
-                                      "scaleX": 1,
-                                    },
-                                  ],
+                                  "color": "#000000",
+                                  "fontSize": 24,
                                 },
+                                Array [
+                                  Object {
+                                    "transform": Array [
+                                      Object {
+                                        "scaleX": 1,
+                                      },
+                                    ],
+                                  },
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                  },
+                                ],
                                 Object {
-                                  "backgroundColor": "transparent",
+                                  "fontFamily": "Material Design Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
                                 },
-                              ],
-                              Object {
-                                "fontFamily": "Material Design Icons",
-                                "fontStyle": "normal",
-                                "fontWeight": "normal",
-                              },
-                              Object {},
-                            ]
-                          }
-                        >
-                          
-                        </Text>
+                                Object {},
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
                       </View>
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "bottom": 0,
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "borderRadius": 0,
+                            },
+                          ]
+                        }
+                      />
                     </View>
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "transparent",
-                            "bottom": 0,
-                            "left": 0,
-                            "overflow": "hidden",
-                            "position": "absolute",
-                            "right": 0,
-                            "top": 0,
-                          },
-                          Object {
-                            "borderRadius": 0,
-                          },
-                        ]
-                      }
-                    />
                   </View>
                 </View>
               </View>
-              <View
-                collapsable={false}
-              />
             </View>
           </View>
           <View
@@ -3359,16 +3353,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                   null,
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -3436,6 +3420,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                           "fontWeight": undefined,
                           "height": 80,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -3681,16 +3667,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                           Object {
                             "opacity": 1,
                           },
-                          Object {
-                            "elevation": 10,
-                            "shadowColor": "#000000",
-                            "shadowOffset": Object {
-                              "height": 5,
-                              "width": 0,
-                            },
-                            "shadowOpacity": 0.34,
-                            "shadowRadius": 6.27,
-                          },
                         ]
                       }
                     >
@@ -3812,6 +3788,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                   "fontWeight": undefined,
                                   "height": 40,
                                   "minHeight": 0,
+                                  "paddingLeft": 40,
+                                  "paddingRight": 8,
                                   "paddingVertical": 5,
                                   "textAlignVertical": "center",
                                   "width": "100%",
@@ -4374,13 +4352,13 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                       style={
                         Array [
                           Object {
-                            "borderBottomWidth": 1,
                             "borderStyle": "solid",
+                            "borderTopWidth": 1,
                             "minHeight": 48,
                             "paddingHorizontal": 16,
                           },
                           Object {
-                            "borderBottomColor": "#f8f9fb",
+                            "borderTopColor": "#f8f9fb",
                           },
                           undefined,
                           null,
@@ -4535,16 +4513,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -4602,6 +4570,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                             "fontWeight": undefined,
                                             "height": 40,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -4666,16 +4636,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -4733,6 +4693,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                             "fontWeight": undefined,
                                             "height": 80,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -4910,13 +4872,13 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                       style={
                         Array [
                           Object {
-                            "borderBottomWidth": 1,
                             "borderStyle": "solid",
+                            "borderTopWidth": 1,
                             "minHeight": 48,
                             "paddingHorizontal": 16,
                           },
                           Object {
-                            "borderBottomColor": "#f8f9fb",
+                            "borderTopColor": "#f8f9fb",
                           },
                           undefined,
                           null,
@@ -5071,16 +5033,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -5138,6 +5090,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                             "fontWeight": undefined,
                                             "height": 40,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -5202,16 +5156,6 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -5269,6 +5213,8 @@ exports[`SampleTransaction should render component in edit mode 1`] = `
                                             "fontWeight": undefined,
                                             "height": 80,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -5622,7 +5568,13 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                 
               </Text>
             </View>
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -5727,7 +5679,13 @@ exports[`SampleTransaction should render component in view mode 1`] = `
               }
             }
           >
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -6573,16 +6531,6 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                     Object {
                       "opacity": 1,
                     },
-                    Object {
-                      "elevation": 10,
-                      "shadowColor": "#000000",
-                      "shadowOffset": Object {
-                        "height": 5,
-                        "width": 0,
-                      },
-                      "shadowOpacity": 0.34,
-                      "shadowRadius": 6.27,
-                    },
                   ]
                 }
               >
@@ -6647,6 +6595,8 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                             "fontWeight": undefined,
                             "height": 40,
                             "minHeight": 0,
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
                             "paddingVertical": 5,
                             "textAlignVertical": "center",
                             "width": "100%",
@@ -6673,16 +6623,6 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                   undefined,
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -6748,6 +6688,8 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                           "fontWeight": undefined,
                           "height": 40,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -6782,16 +6724,6 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                   },
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -6862,6 +6794,8 @@ exports[`SampleTransaction should render component in view mode 1`] = `
                           "fontWeight": undefined,
                           "height": 80,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -7449,7 +7383,13 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                 
               </Text>
             </View>
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -7554,7 +7494,13 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
               }
             }
           >
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -8401,16 +8347,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                     Object {
                       "opacity": 1,
                     },
-                    Object {
-                      "elevation": 10,
-                      "shadowColor": "#000000",
-                      "shadowOffset": Object {
-                        "height": 5,
-                        "width": 0,
-                      },
-                      "shadowOpacity": 0.34,
-                      "shadowRadius": 6.27,
-                    },
                   ]
                 }
               >
@@ -8484,6 +8420,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                             "fontWeight": undefined,
                             "height": 40,
                             "minHeight": 0,
+                            "paddingLeft": 8,
+                            "paddingRight": 40,
                             "paddingVertical": 5,
                             "textAlignVertical": "center",
                             "width": "100%",
@@ -8600,192 +8538,194 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                   </Text>
                 </Text>
                 <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "flexDirection": "row",
-                      },
-                      Object {
-                        "backgroundColor": undefined,
-                        "borderColor": "#d9d9d9",
-                        "borderRadius": 4,
-                        "borderWidth": 1,
-                        "elevation": 0,
-                        "height": 40,
-                      },
-                      undefined,
-                    ]
-                  }
+                  collapsable={false}
                 >
                   <View
+                    onLayout={[Function]}
                     style={
-                      Object {
-                        "alignItems": "center",
-                        "alignSelf": "stretch",
-                        "flex": 1,
-                        "flexDirection": "row",
-                        "flexGrow": 1,
-                        "paddingLeft": 8,
-                      }
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                        },
+                        Object {
+                          "backgroundColor": undefined,
+                          "borderColor": "#d9d9d9",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                          "elevation": 0,
+                          "height": 40,
+                        },
+                        undefined,
+                      ]
                     }
                   >
                     <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "stretch",
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "paddingLeft": 8,
+                        }
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 14,
+                            "left": 14,
+                            "right": 14,
+                            "top": 14,
+                          }
+                        }
+                        isTVSelectable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.54)",
+                                "fontFamily": "System",
+                                "fontSize": 16,
+                                "fontWeight": "400",
+                              },
+                            ]
+                          }
+                        >
+                          -None-
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      accessibilityComponentType="button"
+                      accessibilityRole="button"
+                      accessibilityStates={Array []}
+                      accessibilityTraits="button"
                       accessible={true}
+                      centered={true}
                       focusable={true}
                       hitSlop={
                         Object {
-                          "bottom": 14,
-                          "left": 14,
-                          "right": 14,
-                          "top": 14,
+                          "bottom": 6,
+                          "left": 6,
+                          "right": 6,
+                          "top": 6,
                         }
                       }
-                      isTVSelectable={true}
                       onClick={[Function]}
+                      onLayout={[Function]}
                       onResponderGrant={[Function]}
                       onResponderMove={[Function]}
                       onResponderRelease={[Function]}
                       onResponderTerminate={[Function]}
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
-                      style={
-                        Object {
-                          "flex": 1,
-                          "opacity": 1,
-                        }
-                      }
+                      pointerEvents="box-only"
                     >
-                      <Text
-                        numberOfLines={1}
+                      <View
                         style={
                           Array [
                             Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "System",
-                              "fontSize": 16,
-                              "fontWeight": "400",
+                              "overflow": "hidden",
                             },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 18,
+                                "height": 36,
+                                "width": 36,
+                              },
+                              undefined,
+                              Object {
+                                "margin": 0,
+                              },
+                            ],
                           ]
                         }
                       >
-                        -None-
-                      </Text>
-                    </View>
-                  </View>
-                  <View
-                    accessibilityComponentType="button"
-                    accessibilityRole="button"
-                    accessibilityStates={Array []}
-                    accessibilityTraits="button"
-                    accessible={true}
-                    centered={true}
-                    focusable={true}
-                    hitSlop={
-                      Object {
-                        "bottom": 6,
-                        "left": 6,
-                        "right": 6,
-                        "top": 6,
-                      }
-                    }
-                    onClick={[Function]}
-                    onLayout={[Function]}
-                    onResponderGrant={[Function]}
-                    onResponderMove={[Function]}
-                    onResponderRelease={[Function]}
-                    onResponderTerminate={[Function]}
-                    onResponderTerminationRequest={[Function]}
-                    onStartShouldSetResponder={[Function]}
-                    pointerEvents="box-only"
-                  >
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "overflow": "hidden",
-                          },
-                          Array [
-                            Object {
-                              "alignItems": "center",
-                              "justifyContent": "center",
-                              "margin": 6,
-                              "overflow": "hidden",
-                            },
-                            Object {
-                              "borderRadius": 18,
-                              "height": 36,
-                              "width": 36,
-                            },
-                            undefined,
-                            Object {
-                              "margin": 0,
-                            },
-                          ],
-                        ]
-                      }
-                    >
-                      <View>
-                        <Text
-                          accessibilityElementsHidden={true}
-                          allowFontScaling={false}
-                          importantForAccessibility="no-hide-descendants"
-                          pointerEvents="none"
-                          style={
-                            Array [
-                              Object {
-                                "color": "#000000",
-                                "fontSize": 24,
-                              },
+                        <View>
+                          <Text
+                            accessibilityElementsHidden={true}
+                            allowFontScaling={false}
+                            importantForAccessibility="no-hide-descendants"
+                            pointerEvents="none"
+                            style={
                               Array [
                                 Object {
-                                  "transform": Array [
-                                    Object {
-                                      "scaleX": 1,
-                                    },
-                                  ],
+                                  "color": "#000000",
+                                  "fontSize": 24,
                                 },
+                                Array [
+                                  Object {
+                                    "transform": Array [
+                                      Object {
+                                        "scaleX": 1,
+                                      },
+                                    ],
+                                  },
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                  },
+                                ],
                                 Object {
-                                  "backgroundColor": "transparent",
+                                  "fontFamily": "Material Design Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
                                 },
-                              ],
-                              Object {
-                                "fontFamily": "Material Design Icons",
-                                "fontStyle": "normal",
-                                "fontWeight": "normal",
-                              },
-                              Object {},
-                            ]
-                          }
-                        >
-                          
-                        </Text>
+                                Object {},
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
                       </View>
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "bottom": 0,
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "borderRadius": 0,
+                            },
+                          ]
+                        }
+                      />
                     </View>
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "transparent",
-                            "bottom": 0,
-                            "left": 0,
-                            "overflow": "hidden",
-                            "position": "absolute",
-                            "right": 0,
-                            "top": 0,
-                          },
-                          Object {
-                            "borderRadius": 0,
-                          },
-                        ]
-                      }
-                    />
                   </View>
                 </View>
               </View>
-              <View
-                collapsable={false}
-              />
             </View>
           </View>
           <View
@@ -8805,16 +8745,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                   null,
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -8882,6 +8812,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                           "fontWeight": undefined,
                           "height": 80,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -9127,16 +9059,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                           Object {
                             "opacity": 1,
                           },
-                          Object {
-                            "elevation": 10,
-                            "shadowColor": "#000000",
-                            "shadowOffset": Object {
-                              "height": 5,
-                              "width": 0,
-                            },
-                            "shadowOpacity": 0.34,
-                            "shadowRadius": 6.27,
-                          },
                         ]
                       }
                     >
@@ -9258,6 +9180,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                   "fontWeight": undefined,
                                   "height": 40,
                                   "minHeight": 0,
+                                  "paddingLeft": 40,
+                                  "paddingRight": 8,
                                   "paddingVertical": 5,
                                   "textAlignVertical": "center",
                                   "width": "100%",
@@ -9820,13 +9744,13 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                       style={
                         Array [
                           Object {
-                            "borderBottomWidth": 1,
                             "borderStyle": "solid",
+                            "borderTopWidth": 1,
                             "minHeight": 48,
                             "paddingHorizontal": 16,
                           },
                           Object {
-                            "borderBottomColor": "#f8f9fb",
+                            "borderTopColor": "#f8f9fb",
                           },
                           undefined,
                           null,
@@ -9981,16 +9905,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -10048,6 +9962,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                             "fontWeight": undefined,
                                             "height": 40,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -10112,16 +10028,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -10179,6 +10085,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                             "fontWeight": undefined,
                                             "height": 80,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -10356,13 +10264,13 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                       style={
                         Array [
                           Object {
-                            "borderBottomWidth": 1,
                             "borderStyle": "solid",
+                            "borderTopWidth": 1,
                             "minHeight": 48,
                             "paddingHorizontal": 16,
                           },
                           Object {
-                            "borderBottomColor": "#f8f9fb",
+                            "borderTopColor": "#f8f9fb",
                           },
                           undefined,
                           null,
@@ -10517,16 +10425,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -10584,6 +10482,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                             "fontWeight": undefined,
                                             "height": 40,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -10648,16 +10548,6 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -10715,6 +10605,8 @@ exports[`SampleTransaction should show error on save/submit 1`] = `
                                             "fontWeight": undefined,
                                             "height": 80,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -11068,7 +10960,13 @@ exports[`SampleTransaction should submit component 1`] = `
                 
               </Text>
             </View>
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -11173,7 +11071,13 @@ exports[`SampleTransaction should submit component 1`] = `
               }
             }
           >
-            <View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
               <Text
                 style={
                   Array [
@@ -12033,16 +11937,6 @@ exports[`SampleTransaction should submit component 1`] = `
                     Object {
                       "opacity": 1,
                     },
-                    Object {
-                      "elevation": 10,
-                      "shadowColor": "#000000",
-                      "shadowOffset": Object {
-                        "height": 5,
-                        "width": 0,
-                      },
-                      "shadowOpacity": 0.34,
-                      "shadowRadius": 6.27,
-                    },
                   ]
                 }
               >
@@ -12116,6 +12010,8 @@ exports[`SampleTransaction should submit component 1`] = `
                             "fontWeight": undefined,
                             "height": 40,
                             "minHeight": 0,
+                            "paddingLeft": 8,
+                            "paddingRight": 40,
                             "paddingVertical": 5,
                             "textAlignVertical": "center",
                             "width": "100%",
@@ -12232,192 +12128,194 @@ exports[`SampleTransaction should submit component 1`] = `
                   </Text>
                 </Text>
                 <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "flexDirection": "row",
-                      },
-                      Object {
-                        "backgroundColor": undefined,
-                        "borderColor": "#d9d9d9",
-                        "borderRadius": 4,
-                        "borderWidth": 1,
-                        "elevation": 0,
-                        "height": 40,
-                      },
-                      undefined,
-                    ]
-                  }
+                  collapsable={false}
                 >
                   <View
+                    onLayout={[Function]}
                     style={
-                      Object {
-                        "alignItems": "center",
-                        "alignSelf": "stretch",
-                        "flex": 1,
-                        "flexDirection": "row",
-                        "flexGrow": 1,
-                        "paddingLeft": 8,
-                      }
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                        },
+                        Object {
+                          "backgroundColor": undefined,
+                          "borderColor": "#d9d9d9",
+                          "borderRadius": 4,
+                          "borderWidth": 1,
+                          "elevation": 0,
+                          "height": 40,
+                        },
+                        undefined,
+                      ]
                     }
                   >
                     <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "stretch",
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "flexGrow": 1,
+                          "paddingLeft": 8,
+                        }
+                      }
+                    >
+                      <View
+                        accessible={true}
+                        focusable={true}
+                        hitSlop={
+                          Object {
+                            "bottom": 14,
+                            "left": 14,
+                            "right": 14,
+                            "top": 14,
+                          }
+                        }
+                        isTVSelectable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          Object {
+                            "flex": 1,
+                            "opacity": 1,
+                          }
+                        }
+                      >
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            Array [
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.54)",
+                                "fontFamily": "System",
+                                "fontSize": 16,
+                                "fontWeight": "400",
+                              },
+                            ]
+                          }
+                        >
+                          -None-
+                        </Text>
+                      </View>
+                    </View>
+                    <View
+                      accessibilityComponentType="button"
+                      accessibilityRole="button"
+                      accessibilityStates={Array []}
+                      accessibilityTraits="button"
                       accessible={true}
+                      centered={true}
                       focusable={true}
                       hitSlop={
                         Object {
-                          "bottom": 14,
-                          "left": 14,
-                          "right": 14,
-                          "top": 14,
+                          "bottom": 6,
+                          "left": 6,
+                          "right": 6,
+                          "top": 6,
                         }
                       }
-                      isTVSelectable={true}
                       onClick={[Function]}
+                      onLayout={[Function]}
                       onResponderGrant={[Function]}
                       onResponderMove={[Function]}
                       onResponderRelease={[Function]}
                       onResponderTerminate={[Function]}
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
-                      style={
-                        Object {
-                          "flex": 1,
-                          "opacity": 1,
-                        }
-                      }
+                      pointerEvents="box-only"
                     >
-                      <Text
-                        numberOfLines={1}
+                      <View
                         style={
                           Array [
                             Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "System",
-                              "fontSize": 16,
-                              "fontWeight": "400",
+                              "overflow": "hidden",
                             },
+                            Array [
+                              Object {
+                                "alignItems": "center",
+                                "justifyContent": "center",
+                                "margin": 6,
+                                "overflow": "hidden",
+                              },
+                              Object {
+                                "borderRadius": 18,
+                                "height": 36,
+                                "width": 36,
+                              },
+                              undefined,
+                              Object {
+                                "margin": 0,
+                              },
+                            ],
                           ]
                         }
                       >
-                        -None-
-                      </Text>
-                    </View>
-                  </View>
-                  <View
-                    accessibilityComponentType="button"
-                    accessibilityRole="button"
-                    accessibilityStates={Array []}
-                    accessibilityTraits="button"
-                    accessible={true}
-                    centered={true}
-                    focusable={true}
-                    hitSlop={
-                      Object {
-                        "bottom": 6,
-                        "left": 6,
-                        "right": 6,
-                        "top": 6,
-                      }
-                    }
-                    onClick={[Function]}
-                    onLayout={[Function]}
-                    onResponderGrant={[Function]}
-                    onResponderMove={[Function]}
-                    onResponderRelease={[Function]}
-                    onResponderTerminate={[Function]}
-                    onResponderTerminationRequest={[Function]}
-                    onStartShouldSetResponder={[Function]}
-                    pointerEvents="box-only"
-                  >
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "overflow": "hidden",
-                          },
-                          Array [
-                            Object {
-                              "alignItems": "center",
-                              "justifyContent": "center",
-                              "margin": 6,
-                              "overflow": "hidden",
-                            },
-                            Object {
-                              "borderRadius": 18,
-                              "height": 36,
-                              "width": 36,
-                            },
-                            undefined,
-                            Object {
-                              "margin": 0,
-                            },
-                          ],
-                        ]
-                      }
-                    >
-                      <View>
-                        <Text
-                          accessibilityElementsHidden={true}
-                          allowFontScaling={false}
-                          importantForAccessibility="no-hide-descendants"
-                          pointerEvents="none"
-                          style={
-                            Array [
-                              Object {
-                                "color": "#000000",
-                                "fontSize": 24,
-                              },
+                        <View>
+                          <Text
+                            accessibilityElementsHidden={true}
+                            allowFontScaling={false}
+                            importantForAccessibility="no-hide-descendants"
+                            pointerEvents="none"
+                            style={
                               Array [
                                 Object {
-                                  "transform": Array [
-                                    Object {
-                                      "scaleX": 1,
-                                    },
-                                  ],
+                                  "color": "#000000",
+                                  "fontSize": 24,
                                 },
+                                Array [
+                                  Object {
+                                    "transform": Array [
+                                      Object {
+                                        "scaleX": 1,
+                                      },
+                                    ],
+                                  },
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                  },
+                                ],
                                 Object {
-                                  "backgroundColor": "transparent",
+                                  "fontFamily": "Material Design Icons",
+                                  "fontStyle": "normal",
+                                  "fontWeight": "normal",
                                 },
-                              ],
-                              Object {
-                                "fontFamily": "Material Design Icons",
-                                "fontStyle": "normal",
-                                "fontWeight": "normal",
-                              },
-                              Object {},
-                            ]
-                          }
-                        >
-                          
-                        </Text>
+                                Object {},
+                              ]
+                            }
+                          >
+                            
+                          </Text>
+                        </View>
                       </View>
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                              "bottom": 0,
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            },
+                            Object {
+                              "borderRadius": 0,
+                            },
+                          ]
+                        }
+                      />
                     </View>
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "transparent",
-                            "bottom": 0,
-                            "left": 0,
-                            "overflow": "hidden",
-                            "position": "absolute",
-                            "right": 0,
-                            "top": 0,
-                          },
-                          Object {
-                            "borderRadius": 0,
-                          },
-                        ]
-                      }
-                    />
                   </View>
                 </View>
               </View>
-              <View
-                collapsable={false}
-              />
             </View>
           </View>
           <View
@@ -12437,16 +12335,6 @@ exports[`SampleTransaction should submit component 1`] = `
                   null,
                   Object {
                     "opacity": 1,
-                  },
-                  Object {
-                    "elevation": 10,
-                    "shadowColor": "#000000",
-                    "shadowOffset": Object {
-                      "height": 5,
-                      "width": 0,
-                    },
-                    "shadowOpacity": 0.34,
-                    "shadowRadius": 6.27,
                   },
                 ]
               }
@@ -12514,6 +12402,8 @@ exports[`SampleTransaction should submit component 1`] = `
                           "fontWeight": undefined,
                           "height": 80,
                           "minHeight": 0,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
                           "paddingVertical": 5,
                           "textAlignVertical": "center",
                           "width": "100%",
@@ -12759,16 +12649,6 @@ exports[`SampleTransaction should submit component 1`] = `
                           Object {
                             "opacity": 1,
                           },
-                          Object {
-                            "elevation": 10,
-                            "shadowColor": "#000000",
-                            "shadowOffset": Object {
-                              "height": 5,
-                              "width": 0,
-                            },
-                            "shadowOpacity": 0.34,
-                            "shadowRadius": 6.27,
-                          },
                         ]
                       }
                     >
@@ -12890,6 +12770,8 @@ exports[`SampleTransaction should submit component 1`] = `
                                   "fontWeight": undefined,
                                   "height": 40,
                                   "minHeight": 0,
+                                  "paddingLeft": 40,
+                                  "paddingRight": 8,
                                   "paddingVertical": 5,
                                   "textAlignVertical": "center",
                                   "width": "100%",
@@ -13452,13 +13334,13 @@ exports[`SampleTransaction should submit component 1`] = `
                       style={
                         Array [
                           Object {
-                            "borderBottomWidth": 1,
                             "borderStyle": "solid",
+                            "borderTopWidth": 1,
                             "minHeight": 48,
                             "paddingHorizontal": 16,
                           },
                           Object {
-                            "borderBottomColor": "#f8f9fb",
+                            "borderTopColor": "#f8f9fb",
                           },
                           undefined,
                           null,
@@ -13613,16 +13495,6 @@ exports[`SampleTransaction should submit component 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -13680,6 +13552,8 @@ exports[`SampleTransaction should submit component 1`] = `
                                             "fontWeight": undefined,
                                             "height": 40,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -13744,16 +13618,6 @@ exports[`SampleTransaction should submit component 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -13811,6 +13675,8 @@ exports[`SampleTransaction should submit component 1`] = `
                                             "fontWeight": undefined,
                                             "height": 80,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -13988,13 +13854,13 @@ exports[`SampleTransaction should submit component 1`] = `
                       style={
                         Array [
                           Object {
-                            "borderBottomWidth": 1,
                             "borderStyle": "solid",
+                            "borderTopWidth": 1,
                             "minHeight": 48,
                             "paddingHorizontal": 16,
                           },
                           Object {
-                            "borderBottomColor": "#f8f9fb",
+                            "borderTopColor": "#f8f9fb",
                           },
                           undefined,
                           null,
@@ -14149,16 +14015,6 @@ exports[`SampleTransaction should submit component 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -14216,6 +14072,8 @@ exports[`SampleTransaction should submit component 1`] = `
                                             "fontWeight": undefined,
                                             "height": 40,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",
@@ -14280,16 +14138,6 @@ exports[`SampleTransaction should submit component 1`] = `
                                     Object {
                                       "opacity": 1,
                                     },
-                                    Object {
-                                      "elevation": 10,
-                                      "shadowColor": "#000000",
-                                      "shadowOffset": Object {
-                                        "height": 5,
-                                        "width": 0,
-                                      },
-                                      "shadowOpacity": 0.34,
-                                      "shadowRadius": 6.27,
-                                    },
                                   ]
                                 }
                               >
@@ -14347,6 +14195,8 @@ exports[`SampleTransaction should submit component 1`] = `
                                             "fontWeight": undefined,
                                             "height": 80,
                                             "minHeight": 0,
+                                            "paddingLeft": 8,
+                                            "paddingRight": 8,
                                             "paddingVertical": 5,
                                             "textAlignVertical": "center",
                                             "width": "100%",

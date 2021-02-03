@@ -33,6 +33,27 @@ describe('LineChartTRXDetails', () => {
     expect(tree.toJSON()).toMatchSnapshot();
   });
 
+  it('should call fetchMarketsList with recordId', async () => {
+    const tree = renderer.create(
+      <LineChartTRXDetails recordId="123"/>
+    );
+
+    sfNetAPI.query = jest.fn()
+      .mockImplementationOnce((query, cb, err) => {
+        cb({
+          records: [{
+            OCE__Market__c: 'TEST'
+          }]
+        })
+      })
+
+    const instance = tree.getInstance();
+
+    await instance.fetchMarketsList();
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
   it('should call fetchMarketsList with no data', async () => {
     const tree = renderer.create(
       <LineChartTRXDetails />
@@ -68,6 +89,19 @@ describe('LineChartTRXDetails', () => {
 
     try {
       await instance.fetchMarketsList();
+    } catch (e) {}
+
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('should call handleMarketChange', async () => {
+    const tree = renderer.create(
+      <LineChartTRXDetails />
+    );
+    const instance = tree.getInstance();
+
+    try {
+      await instance.handleMarketChange();
     } catch (e) {}
 
     expect(tree.toJSON()).toMatchSnapshot();

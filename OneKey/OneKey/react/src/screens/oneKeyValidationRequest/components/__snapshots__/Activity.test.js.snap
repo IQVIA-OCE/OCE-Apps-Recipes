@@ -106,7 +106,7 @@ Array [
                 allowFontScaling={true}
                 editable={true}
                 maxResizableWidth={750}
-                minHeight={35}
+                minHeight={60}
                 minWidth={176}
                 name="individual.firstName"
                 onBlur={[Function]}
@@ -207,7 +207,7 @@ Array [
                 allowFontScaling={true}
                 editable={true}
                 maxResizableWidth={750}
-                minHeight={35}
+                minHeight={60}
                 minWidth={176}
                 name="individual.middleName"
                 onBlur={[Function]}
@@ -308,7 +308,7 @@ Array [
                 allowFontScaling={true}
                 editable={true}
                 maxResizableWidth={750}
-                minHeight={35}
+                minHeight={60}
                 minWidth={176}
                 name="individual.lastName"
                 onBlur={[Function]}

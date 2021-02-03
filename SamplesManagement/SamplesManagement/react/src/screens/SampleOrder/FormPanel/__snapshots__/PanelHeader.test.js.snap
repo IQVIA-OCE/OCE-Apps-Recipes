@@ -355,11 +355,14 @@ exports[`PanelHeader should render properly 1`] = `
       </View>
       <Text
         style={
-          Object {
-            "fontSize": 16,
-            "fontWeight": "normal",
-            "opacity": 1,
-          }
+          Array [
+            undefined,
+            Object {
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "opacity": 1,
+            },
+          ]
         }
       >
         Is Urgent?

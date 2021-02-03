@@ -30,7 +30,7 @@ const DuplicateModal = ({ status, handleAction, onDismiss }) => {
             handleChange,
           }) => (
             <>
-              <Modal.Title title={`Duplicate`} closeIcon />
+              <Modal.Title title={`Duplicate`} closeIcon handleClose={onDismiss}/>
               <Modal.Content>
                 <Text style={{ marginBottom: 20 }}>
                   Are you sure you want to mark this as a duplicate?
