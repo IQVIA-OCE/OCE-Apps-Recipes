@@ -1,0 +1,707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountsList Should render AccountsList component 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#c0c0c0",
+        "fontSize": 20,
+        "height": "100%",
+        "paddingVertical": 30,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    No Data Found
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": false,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "paddingTop": 5,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": true,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "paddingTop": 5,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore with fetch error 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": true,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "paddingTop": 5,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore with loading state 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#c0c0c0",
+        "fontSize": 20,
+        "height": "100%",
+        "paddingVertical": 30,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    No Data Found
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": false,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "paddingTop": 5,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore with no queryLocator 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "color": "#c0c0c0",
+        "fontSize": 20,
+        "height": "100%",
+        "paddingVertical": 30,
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    No Data Found
+  </Text>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    disableVirtualization={false}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": false,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "backgroundColor": "#f2f2f2",
+        "paddingTop": 5,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
