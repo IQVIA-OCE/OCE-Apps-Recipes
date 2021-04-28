@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelContent should call Input onchange 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "padding": 15,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginRight": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          null,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        Comments
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "minHeight": 80,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            multiline={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            rejectResponderTermination={true}
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 80,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value="test"
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`PanelContent should render properly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "padding": 15,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginRight": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          null,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "marginBottom": 8,
+          }
+        }
+      >
+        Comments
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "minHeight": 80,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            allowFontScaling={true}
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            multiline={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            rejectResponderTermination={true}
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 80,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+</View>
+`;
