@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPanel asdf 1`] = `
+<React.Fragment>
+  <View
+    style={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <FormDetailsTitle
+        title="ADDITIONAL INFORMATION"
+      />
+    </View>
+  </View>
+</React.Fragment>
+`;
+
+exports[`FormPanel asdf 2`] = `
+<React.Fragment>
+  <PanelHeader />
+  <View
+    style={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <FormDetailsTitle
+        title="ADDITIONAL INFORMATION"
+      />
+    </View>
+    <PanelContent />
+  </View>
+</React.Fragment>
+`;
+
+exports[`FormPanel asdf 3`] = `
+<React.Fragment>
+  <PanelHeader />
+  <View
+    style={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <FormDetailsTitle
+        title="ADDITIONAL INFORMATION"
+      />
+    </View>
+    <PanelContent />
+  </View>
+</React.Fragment>
+`;
+
+exports[`FormPanel asdf 4`] = `
+<React.Fragment>
+  <PanelHeader />
+  <View
+    style={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <FormDetailsTitle
+        title="ADDITIONAL INFORMATION"
+      />
+    </View>
+    <PanelContent />
+  </View>
+</React.Fragment>
+`;
+
+exports[`FormPanel asdf 5`] = `
+<React.Fragment>
+  <PanelHeader />
+  <View
+    style={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 15,
+        }
+      }
+    >
+      <FormDetailsTitle
+        title="ADDITIONAL INFORMATION"
+      />
+    </View>
+    <PanelContent />
+  </View>
+</React.Fragment>
+`;

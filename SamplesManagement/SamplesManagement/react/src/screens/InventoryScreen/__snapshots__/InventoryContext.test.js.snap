@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InventoryContext should render properly with error 1`] = `
+<View>
+  <Text>
+    Inventory
+  </Text>
+</View>
+`;
+
+exports[`InventoryContext should render with create type 1`] = `
+<Text>
+  {"context":{"editingType":2,"isLoading":false,"preselectedProducts":[],"products":[{"Id":1}],"error":null,"config":{"Id":1},"transactionDetails":[{"Id":1}],"formInitialValues":{"id":"","datetime":"2020-11-23T18:43:24.926Z","products":[{"Id":1}],"status":"In Progress","buttonPressed":""},"actions":{}}}
+</Text>
+`;
+
+exports[`InventoryContext should render with edit type 1`] = `
+<Text>
+  {"context":{"editingType":0,"isLoading":false,"preselectedProducts":[],"products":[{"Id":1}],"error":null,"config":{"Id":1},"transactionDetails":[{"Id":1}],"formInitialValues":{"Id":1,"products":[{"Id":1}],"buttonPressed":""},"actions":{}}}
+</Text>
+`;
