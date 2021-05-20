@@ -1,0 +1,811 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsTable should render component 1`] = `
+<View
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={-500}
+    extraScrollHeight={-500}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="always"
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={10}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        columnWidth={
+          Array [
+            300,
+            200,
+            "auto",
+            50,
+          ]
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderColor": "#e9e9e9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "elevation": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            },
+            Object {
+              "borderWidth": 0,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#f8f9fb",
+                  "flexDirection": "row",
+                  "minHeight": 48,
+                  "paddingHorizontal": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 300,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  PRODUCT
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 200,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  QUANTITY
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  COMMENTS
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 50,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAACZ1BMVEUAAAD///+AgID///+qqqr///+/v7/MzMzV1dX////b29u/v7/GxsbMzMzm5ubo6OjV1dXY2NjIyMjd3d3f39/S0tLGxsbV1dXj4+PX19fZ2dnR0dHc3NzT09Pe3t7V1dXf39/W1tbY2NjZ2dnc3NzV1dXd3d3W1tbX19fY2Njh4eHb29vW1tbX19fd3d3e3t7Z2dnT09PV1dXb29vb29vX19fY2Nje3t7b29vX19fc3Nzd3d3Z2dnZ2dna2trb29vX19fX19fc3NzY2NjZ2dnZ2dna2tre3t7X19fY2Njc3NzZ2dna2trW1tbX19fb29vb29vc3NzZ2dnW1tbZ2dna2tra2trY2NjZ2dnc3NzZ2dnX19fa2trX19fY2NjY2Njb29vZ2dnZ2dnX19fX19fa2trW1tbZ2dnb29vZ2dnZ2dnX19fa2trX19fa2trY2Nja2trY2Njb29vZ2dnY2NjZ2dnZ2dnb29vZ2dnY2NjY2Nja2trb29vZ2dnX19fX19fZ2dna2trY2NjZ2dnZ2dnZ2dnY2Nja2trY2NjZ2dnZ2dnZ2dna2trY2Nja2trY2Nja2trZ2dna2trY2Nja2trZ2dnY2NjY2Nja2tra2tra2trZ2dnX19fZ2dnZ2dnZ2dnZ2dnZ2dnY2NjY2NjZ2dna2trZ2dnY2NjY2Nja2trY2NjZ2dnZ2dnZ2dnY2NjY2Nja2tra2trZ2dna2trZ2dnY2NjZ2dnZ2dnZ2dnZ2dnY2NjZ2dnY2NjZ2dnZ2dna2trZ2dnY2NjY2NjY2Nja2tra2trZ2dnY2NjZ2dnY2NjZ2dnZ2dna2tqHIp4YAAAAzXRSTlMAAQICAwMEBQYGBwgJCgoLDA0ODxAREhISExQWFhcXGBgZGhsdHh4fICEiIyUmJicoKSoqKy0uLjEzMzQ1Njc4OTo6Ozw9Pj5AQUJDREVGRkdISUpKS0xOUFBRUlJTVVZWV1hZWlpeXmNkZWZmZ2doaGlpam9xcnJzdXZ2d3h5enp7fH+AgYKDhIWGh4iJiYqKjo+QkZSVlpaXmJmampugoqOkpaamp6mqqqytr7CxsrKztLS1ubq7vL2+vsDBwsLDxMXGxsfIycnKysvMufucJwAAAAFiS0dEAf8CLd4AAAPSSURBVBgZxcGJWxRlAAfg37gLi9FCaSSQXSBeAYWkZYUcFWYhbHSQ8NmKUFkiYZYhmpV2GGLZYVhhBtllhnQNlIWQQsT+/qieZdidb3a+gb16el/8XxYiuTyfpiGpnmIrkilD58hVSKI9JHcjeXLHSP61FEnzKoMOIlmWTzJoahWS5F0aepAcpQEaAuuQFJ8w5BSSoYqmSiTO9SVNX7uQsEcpewSJ8gxSNpSGBLXSqgWJydBpNZKJhOxmpA4kYskoI43lIgEHafcK4lcwSbuplYhbD1WOIl6lAaoE1iJOJ6nWh/hUUHKakgrEw3WGptOp/TSdcSEO9ZRsQBUl9Yid5weahjRoQzQNpSFmLZS0A9hDyXbEKmOYklsAFFEynIEYdVCiawC0EUraEZslo5T0IOg4JWM5iMkByvwI2k7ZfsQif4Ky1QgqpGyyADHopmxYQ5BrhLJuRG9NgLK3YeimLLAWUTtJi4dheJwWfYhWOS3GroZh8TgtyhEdbYAWnQg5QIuvXIiKjxa/LUXITRdo4UM0PIOUfbcGptvPUjboQRSaKbmUD6v8S5Q0Y35enZL3EOk4JcOZmFc7ZQ8i0kOUtWE+WaOU/HkFIi38g5KLOZjHfsoOw+4Nyrowt7wJysphV0HZ5DLMqZsy3Q07t05ZN+ZSEqBsnzu3sNInCmBYLnyVhbnuLsoCJZhDLy3GAwyqguFeBgXGadELZ+VUuhOG9VTaACfaAJVKYCil0oAGBz6q3QDDzVSrg1rqOSpNuWFwT1HpvAdKzVT7ESG/UG0bVLw61T5DSB/VdC8U2ujgJYR00kEb7LJG6aAeIY/RwcVs2HTRyUqErKaTfYiUN0EHugshLp0OJpchQjedHIbpTTp5B1ZF03RSA1MtnQRKYHGCdn8PnTp2aO9zXpi8O/ceOvb50D+0OwFZGa1++vi1XS1ixnrI7hJBW1t3vd77M63KYNL6GTb9zZEOvzBlQ5YjTP4Xjnw7zbB+DWF1nPX7Ry9uExbVsNooLPwdR3/lrFqEpJ5j0IX3n98qIl0PqxuFzTNv6Qw678EsP8nLH+wQCvcjUrVQ2PHhZZJ+GLw6z778pFBpXIxI1zQKFX/n99S9mLHzi3bhYB3s7hBqTU/3PosZPuGkNgV2KbXCiQ8zFjUIuy2by27LS4dKel5J2eYtwq5hEQwrhFVDVXG2C3NzZRdXNQirFQi5R4Q1bSrOWoDoLLi2eFOTCLsbYe5qMaNxY1EmYuNdVfmEmPFACkxpNUKIuuJ0xCP91johRE0aZFf67svXEC/tujKfF1YaEqPhv/IvP6RBfTXWbSIAAAAASUVORK5CYII=",
+                }
+              }
+              style={
+                Object {
+                  "height": 80,
+                  "marginVertical": 10,
+                  "width": 80,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 16,
+                }
+              }
+            >
+              No data to display
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`ProductsTable should render component with showing remaining product allocations 1`] = `
+<View
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={-500}
+    extraScrollHeight={-500}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="always"
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={10}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        columnWidth={
+          Array [
+            200,
+            180,
+            130,
+            "auto",
+            50,
+          ]
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderColor": "#e9e9e9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "elevation": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            },
+            Object {
+              "borderWidth": 0,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#f8f9fb",
+                  "flexDirection": "row",
+                  "minHeight": 48,
+                  "paddingHorizontal": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 200,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  PRODUCT
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 180,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  REMAINING ALLOCATION
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 130,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  QUANTITY
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  COMMENTS
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 50,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "padding": 20,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAACZ1BMVEUAAAD///+AgID///+qqqr///+/v7/MzMzV1dX////b29u/v7/GxsbMzMzm5ubo6OjV1dXY2NjIyMjd3d3f39/S0tLGxsbV1dXj4+PX19fZ2dnR0dHc3NzT09Pe3t7V1dXf39/W1tbY2NjZ2dnc3NzV1dXd3d3W1tbX19fY2Njh4eHb29vW1tbX19fd3d3e3t7Z2dnT09PV1dXb29vb29vX19fY2Nje3t7b29vX19fc3Nzd3d3Z2dnZ2dna2trb29vX19fX19fc3NzY2NjZ2dnZ2dna2tre3t7X19fY2Njc3NzZ2dna2trW1tbX19fb29vb29vc3NzZ2dnW1tbZ2dna2tra2trY2NjZ2dnc3NzZ2dnX19fa2trX19fY2NjY2Njb29vZ2dnZ2dnX19fX19fa2trW1tbZ2dnb29vZ2dnZ2dnX19fa2trX19fa2trY2Nja2trY2Njb29vZ2dnY2NjZ2dnZ2dnb29vZ2dnY2NjY2Nja2trb29vZ2dnX19fX19fZ2dna2trY2NjZ2dnZ2dnZ2dnY2Nja2trY2NjZ2dnZ2dnZ2dna2trY2Nja2trY2Nja2trZ2dna2trY2Nja2trZ2dnY2NjY2Nja2tra2tra2trZ2dnX19fZ2dnZ2dnZ2dnZ2dnZ2dnY2NjY2NjZ2dna2trZ2dnY2NjY2Nja2trY2NjZ2dnZ2dnZ2dnY2NjY2Nja2tra2trZ2dna2trZ2dnY2NjZ2dnZ2dnZ2dnZ2dnY2NjZ2dnY2NjZ2dnZ2dna2trZ2dnY2NjY2NjY2Nja2tra2trZ2dnY2NjZ2dnY2NjZ2dnZ2dna2tqHIp4YAAAAzXRSTlMAAQICAwMEBQYGBwgJCgoLDA0ODxAREhISExQWFhcXGBgZGhsdHh4fICEiIyUmJicoKSoqKy0uLjEzMzQ1Njc4OTo6Ozw9Pj5AQUJDREVGRkdISUpKS0xOUFBRUlJTVVZWV1hZWlpeXmNkZWZmZ2doaGlpam9xcnJzdXZ2d3h5enp7fH+AgYKDhIWGh4iJiYqKjo+QkZSVlpaXmJmampugoqOkpaamp6mqqqytr7CxsrKztLS1ubq7vL2+vsDBwsLDxMXGxsfIycnKysvMufucJwAAAAFiS0dEAf8CLd4AAAPSSURBVBgZxcGJWxRlAAfg37gLi9FCaSSQXSBeAYWkZYUcFWYhbHSQ8NmKUFkiYZYhmpV2GGLZYVhhBtllhnQNlIWQQsT+/qieZdidb3a+gb16el/8XxYiuTyfpiGpnmIrkilD58hVSKI9JHcjeXLHSP61FEnzKoMOIlmWTzJoahWS5F0aepAcpQEaAuuQFJ8w5BSSoYqmSiTO9SVNX7uQsEcpewSJ8gxSNpSGBLXSqgWJydBpNZKJhOxmpA4kYskoI43lIgEHafcK4lcwSbuplYhbD1WOIl6lAaoE1iJOJ6nWh/hUUHKakgrEw3WGptOp/TSdcSEO9ZRsQBUl9Yid5weahjRoQzQNpSFmLZS0A9hDyXbEKmOYklsAFFEynIEYdVCiawC0EUraEZslo5T0IOg4JWM5iMkByvwI2k7ZfsQif4Ky1QgqpGyyADHopmxYQ5BrhLJuRG9NgLK3YeimLLAWUTtJi4dheJwWfYhWOS3GroZh8TgtyhEdbYAWnQg5QIuvXIiKjxa/LUXITRdo4UM0PIOUfbcGptvPUjboQRSaKbmUD6v8S5Q0Y35enZL3EOk4JcOZmFc7ZQ8i0kOUtWE+WaOU/HkFIi38g5KLOZjHfsoOw+4Nyrowt7wJysphV0HZ5DLMqZsy3Q07t05ZN+ZSEqBsnzu3sNInCmBYLnyVhbnuLsoCJZhDLy3GAwyqguFeBgXGadELZ+VUuhOG9VTaACfaAJVKYCil0oAGBz6q3QDDzVSrg1rqOSpNuWFwT1HpvAdKzVT7ESG/UG0bVLw61T5DSB/VdC8U2ujgJYR00kEb7LJG6aAeIY/RwcVs2HTRyUqErKaTfYiUN0EHugshLp0OJpchQjedHIbpTTp5B1ZF03RSA1MtnQRKYHGCdn8PnTp2aO9zXpi8O/ceOvb50D+0OwFZGa1++vi1XS1ixnrI7hJBW1t3vd77M63KYNL6GTb9zZEOvzBlQ5YjTP4Xjnw7zbB+DWF1nPX7Ry9uExbVsNooLPwdR3/lrFqEpJ5j0IX3n98qIl0PqxuFzTNv6Qw678EsP8nLH+wQCvcjUrVQ2PHhZZJ+GLw6z778pFBpXIxI1zQKFX/n99S9mLHzi3bhYB3s7hBqTU/3PosZPuGkNgV2KbXCiQ8zFjUIuy2by27LS4dKel5J2eYtwq5hEQwrhFVDVXG2C3NzZRdXNQirFQi5R4Q1bSrOWoDoLLi2eFOTCLsbYe5qMaNxY1EmYuNdVfmEmPFACkxpNUKIuuJ0xCP91johRE0aZFf67svXEC/tujKfF1YaEqPhv/IvP6RBfTXWbSIAAAAASUVORK5CYII=",
+                }
+              }
+              style={
+                Object {
+                  "height": 80,
+                  "marginVertical": 10,
+                  "width": 80,
+                }
+              }
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#999999",
+                  "fontSize": 16,
+                }
+              }
+            >
+              No data to display
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
