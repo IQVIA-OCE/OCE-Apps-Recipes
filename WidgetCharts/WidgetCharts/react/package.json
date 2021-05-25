@@ -1,0 +1,42 @@
+{
+    "name": "OCEPlugin",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "mkdir -p ./ios; node node_modules/react-native/local-cli/cli.js bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios/'; rm -rf ios.zip; zip -r ios.zip ./ios;",
+        "start": "yarn react-native start --port=8084 --reset-cache",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@babel/core": "*",
+        "react": "16.9.0",
+        "react-native": "0.61.2",
+        "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/oce/apollo-react-native-dev#dev",
+        "expo": "34.0.1",
+        "react-native-vector-icons": "6.4.1",
+        "jest": "24.9.0",
+        "jest-file-snapshot": "0.3.8",
+        "react-test-renderer": "16.12.0",
+        "moment": "2.24.0"
+    },
+    "jest": {
+        "preset": "react-native",
+        "transformIgnorePatterns": [
+          "node_modules/(?!react-native|victory-*|@react-native-community|apollo-react-native)"
+        ],
+        "collectCoverageFrom": [
+          "App.{js,jsx}",
+          "src/**/*.{js,jsx}",
+          "!<rootDir>/node_modules/",
+          "!<rootDir>/bridge/"
+        ],
+        "setupFiles": [
+          "./__mocks__/EnvironmentData/EnvironmentData.js",
+          "./__mocks__/sf/sfnetapi.js",
+          "./__mocks__/RNVectorIconsManager.js",
+          "./__mocks__/LayoutBridge.js",
+          "./__mocks__/RNDocumentPicker.js",
+          "./__mocks__/RCTAnimation.js"
+        ]
+      }
+}
