@@ -1,0 +1,6 @@
+{
+    "webProtocol" : "http",
+    "port" : "8084",
+    "domain" : "localhost",
+    "path" : "index.bundle?platform=ios&dev=true&minify=false"
+}
