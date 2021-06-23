@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryTimeline should render properly 1`] = `
+<View
+  style={
+    Object {
+      "borderRightColor": "#DADADA",
+      "borderRightWidth": 1,
+      "flexGrow": 1,
+      "paddingHorizontal": 5,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "borderBottomColor": "#d8dde6",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginHorizontal": 15,
+        "paddingBottom": 10,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#4D4D4D",
+          }
+        }
+      >
+        label
+         ( 
+        detailLabel
+         )
+      </Text>
+    </View>
+    <View>
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessibilityTraits="button"
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 15,
+                  "height": 30,
+                  "width": 30,
+                },
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <Text
+              accessibilityElementsHidden={true}
+              allowFontScaling={false}
+              importantForAccessibility="no-hide-descendants"
+              pointerEvents="none"
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 20,
+                  },
+                  Array [
+                    Object {
+                      "transform": Array [
+                        Object {
+                          "scaleX": 1,
+                        },
+                      ],
+                    },
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                  ],
+                  Object {
+                    "fontFamily": "Material Design Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "lotId": "1",
+          "lotNumber": "",
+          "productId": "1",
+          "productName": "",
+          "quantity": "",
+          "recordType": Object {
+            "DeveloperName": "AcknowledgementOfShipment",
+            "Name": "",
+          },
+          "transactionDateTime": "",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "padding": 10,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginRight": 12,
+                  "width": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#ef6e64",
+                    "borderRadius": 4,
+                    "height": 24,
+                    "marginBottom": 2,
+                    "padding": 3,
+                    "width": 24,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "white",
+                        "fontSize": 17,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ef6e64",
+                    "flex": 1,
+                    "width": 2,
+                  }
+                }
+              />
+            </View>
+            <View>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#080707",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                
+              </Text>
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "#080707",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#3e3e3c",
+                    "fontSize": 11,
+                    "fontWeight": "400",
+                    "marginBottom": 24,
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "flexBasis": 0,
+                "flexGrow": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e3e3c",
+                  "fontSize": 12,
+                }
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#f88962",
+                  "borderRadius": 50,
+                  "padding": 2,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`HistoryTimeline should render properly 2`] = `
+<View
+  style={
+    Object {
+      "borderRightColor": "#DADADA",
+      "borderRightWidth": 1,
+      "flexGrow": 1,
+      "paddingHorizontal": 5,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "lotId": "1",
+          "lotNumber": "",
+          "productId": "1",
+          "productName": "",
+          "quantity": "",
+          "recordType": Object {
+            "DeveloperName": "AcknowledgementOfShipment",
+            "Name": "",
+          },
+          "transactionDateTime": "",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "padding": 10,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexBasis": 0,
+                "flexDirection": "row",
+                "flexGrow": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "marginRight": 12,
+                  "width": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#ef6e64",
+                    "borderRadius": 4,
+                    "height": 24,
+                    "marginBottom": 2,
+                    "padding": 3,
+                    "width": 24,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": "white",
+                        "fontSize": 17,
+                      },
+                      undefined,
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#ef6e64",
+                    "flex": 1,
+                    "width": 2,
+                  }
+                }
+              />
+            </View>
+            <View>
+              <Text
+                numberOfLines={1}
+                style={
+                  Object {
+                    "color": "#080707",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                
+              </Text>
+              <Text
+                numberOfLines={2}
+                style={
+                  Object {
+                    "color": "#080707",
+                    "fontSize": 13,
+                    "fontWeight": "400",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#3e3e3c",
+                    "fontSize": 11,
+                    "fontWeight": "400",
+                    "marginBottom": 24,
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "flexBasis": 0,
+                "flexGrow": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#3e3e3c",
+                  "fontSize": 12,
+                }
+              }
+            >
+              
+            </Text>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#f88962",
+                  "borderRadius": 50,
+                  "padding": 2,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
