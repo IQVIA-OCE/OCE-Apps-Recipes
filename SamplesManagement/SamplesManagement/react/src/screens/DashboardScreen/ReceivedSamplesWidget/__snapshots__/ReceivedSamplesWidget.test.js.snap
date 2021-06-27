@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReceivedSamplesWidget Should render ReceivedSamplesWidget component 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 4,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 0.75,
+        "width": 0,
+      },
+      "shadowOpacity": 0.24,
+      "shadowRadius": 1.5,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 16,
+          },
+          Object {
+            "height": 50,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "height": 40,
+              "justifyContent": "space-around",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+              ],
+            ]
+          }
+        >
+          Received Samples
+        </Text>
+      </View>
+      <View />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View>
+        <RCTScrollView
+          alwaysBounceHorizontal={true}
+          horizontal={true}
+          onLayout={[Function]}
+          showsHorizontalScrollIndicator={false}
+          style={
+            Array [
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "rgba(0, 0, 0, 0.2)",
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "maxWidth": "100%",
+                "paddingBottom": 10,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 25,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(0, 0, 0)",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                All
+              </Text>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#0768FD",
+                    "borderRadius": 4,
+                    "bottom": -13,
+                    "height": 5,
+                    "left": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              />
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 25,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Acknowledgement of Shipment
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 0,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Transfer In
+              </Text>
+            </View>
+          </View>
+        </RCTScrollView>
+        <View>
+          <View>
+            <View />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentsCell should render properly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 5,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        undefined,
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#D9D9D9",
+            "borderRadius": 4,
+            "borderWidth": 1,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 80,
+            "minHeight": 80,
+            "overflow": "hidden",
+            "paddingBottom": 0,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          editable={true}
+          maxResizableWidth={750}
+          minHeight={60}
+          minWidth={0}
+          multiline={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          paddingLeft={8}
+          paddingRight={8}
+          placeholderTextColor="rgba(0, 0, 0, 0.54)"
+          rejectResponderTermination={true}
+          selectionColor="#0768FD"
+          style={
+            Array [
+              Object {
+                "margin": 0,
+                "textAlign": "left",
+                "zIndex": 5,
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontSize": 16,
+                "fontWeight": undefined,
+                "height": 80,
+                "minHeight": 0,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingVertical": 5,
+                "textAlignVertical": "center",
+                "width": "100%",
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+          value="some text"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
