@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelHeader should render properly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#DADADA",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "padding": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      Transaction Date Time
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      Invalid date
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      Status
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "flex-start",
+            "borderRadius": 10,
+            "flexDirection": "row",
+            "paddingHorizontal": 6,
+            "paddingVertical": 2,
+          },
+          Object {
+            "borderRadius": 15,
+            "fontSize": 16,
+            "paddingHorizontal": 8,
+            "paddingVertical": 6,
+          },
+          Object {
+            "backgroundColor": undefined,
+            "marginRight": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 12,
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "white",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      From Sales Rep
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      From Sales Rep Territory
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PanelHeader should render properly with user field 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#DADADA",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "padding": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      Transaction Date Time
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      Invalid date
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      Status
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "flex-start",
+            "borderRadius": 10,
+            "flexDirection": "row",
+            "paddingHorizontal": 6,
+            "paddingVertical": 2,
+          },
+          Object {
+            "borderRadius": 15,
+            "fontSize": 16,
+            "paddingHorizontal": 8,
+            "paddingVertical": 6,
+          },
+          Object {
+            "backgroundColor": undefined,
+            "marginRight": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 12,
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "white",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      From Sales Rep
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      From Sales Rep Territory
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PanelHeader should render properly without territory field 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "#DADADA",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "padding": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      Transaction Date Time
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      Invalid date
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      Status
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "flex-start",
+            "borderRadius": 10,
+            "flexDirection": "row",
+            "paddingHorizontal": 6,
+            "paddingVertical": 2,
+          },
+          Object {
+            "borderRadius": 15,
+            "fontSize": 16,
+            "paddingHorizontal": 8,
+            "paddingVertical": 6,
+          },
+          Object {
+            "backgroundColor": undefined,
+            "marginRight": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 12,
+              "fontWeight": "700",
+            },
+            Object {
+              "color": "white",
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      From Sales Rep
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginRight": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4D4D4D",
+          "marginBottom": 5,
+        }
+      }
+    >
+      From Sales Rep Territory
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 20,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

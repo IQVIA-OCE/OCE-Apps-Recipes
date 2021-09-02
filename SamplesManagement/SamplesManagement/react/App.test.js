@@ -1,0 +1,20 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+import App from './App';
+
+describe('Application', () => {
+  beforeEach(() => {
+    jest.useFakeTimers();
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+  it('should render properly', () => {
+    const tree = renderer.create(
+      <App />
+    ).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  })
+});
