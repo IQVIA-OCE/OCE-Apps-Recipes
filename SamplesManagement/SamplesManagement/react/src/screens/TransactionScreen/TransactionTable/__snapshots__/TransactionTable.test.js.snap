@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionTable should render component 1`] = `
+<View
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={-500}
+    extraScrollHeight={-500}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="always"
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={10}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        columnWidth={
+          Array [
+            300,
+            200,
+            "auto",
+            50,
+          ]
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderColor": "#e9e9e9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "elevation": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            },
+            Object {
+              "borderWidth": 0,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#f8f9fb",
+                  "flexDirection": "row",
+                  "minHeight": 48,
+                  "paddingHorizontal": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 300,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  PRODUCT
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 200,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  QUANTITY
+                </Text>
+              </View>
+            </View>
+            <View>
+              <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "paddingVertical": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "color": "#999999",
+                  "fontSize": 16,
+                }
+              }
+            >
+              No data to display
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`TransactionTable should render component with different record type 1`] = `
+<View
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={-500}
+    extraScrollHeight={-500}
+    getScrollResponder={[Function]}
+    handleOnScroll={[Function]}
+    keyboardDismissMode="interactive"
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="always"
+    keyboardSpace={0}
+    onScroll={[Function]}
+    resetKeyboardSpace={[Function]}
+    scrollEventThrottle={10}
+    scrollForExtraHeightOnAndroid={[Function]}
+    scrollIntoView={[Function]}
+    scrollToEnd={[Function]}
+    scrollToFocusedInput={[Function]}
+    scrollToPosition={[Function]}
+    showsVerticalScrollIndicator={true}
+    update={[Function]}
+    viewIsInsideTabBar={false}
+  >
+    <View>
+      <View
+        columnWidth={
+          Array [
+            300,
+            200,
+            "auto",
+            50,
+          ]
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderColor": "#e9e9e9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "elevation": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.4,
+              "shadowRadius": 3.84,
+              "width": "100%",
+            },
+            Object {
+              "borderWidth": 0,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
+            },
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#f8f9fb",
+                  "flexDirection": "row",
+                  "minHeight": 48,
+                  "paddingHorizontal": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": 300,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  PRODUCT
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "width": 200,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  QUANTITY
+                </Text>
+              </View>
+            </View>
+            <View>
+              <View
+                accessible={true}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "paddingVertical": 12,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "height": 24,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.6)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "paddingVertical": 30,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "color": "#999999",
+                  "fontSize": 16,
+                }
+              }
+            >
+              No data to display
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
