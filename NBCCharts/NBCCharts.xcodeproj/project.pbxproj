@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C9AAD60DB4B169362581E95 /* Pods_NBCCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA47C8DD86CD23C34F4A99F /* Pods_NBCCharts.framework */; };
+		FFA55C8C250A7A830009F2FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55C8B250A7A830009F2FE /* Security.framework */; };
+		FFA55C8E250A7A830009F2FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55C8D250A7A830009F2FE /* MapKit.framework */; };
+		FFA55C91250A7A830009F2FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C90250A7A830009F2FE /* Podfile */; };
+		FFA55C93250A7A830009F2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55C92250A7A830009F2FE /* AppDelegate.swift */; };
+		FFA55C96250A7A830009F2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C94250A7A830009F2FE /* Main.storyboard */; };
+		FFA55C98250A7A830009F2FE /* react in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C97250A7A830009F2FE /* react */; };
+		FFA55C9A250A7A830009F2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55C99250A7A830009F2FE /* ViewController.swift */; };
+		FFA55C9C250A7A830009F2FE /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C9B250A7A830009F2FE /* metroBundler.config.json */; };
+		FFA55C9F250A7A830009F2FE /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55C9E250A7A830009F2FE /* unzip-react.sh */; };
+		FFA55CA1250A7A830009F2FE /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA0250A7A830009F2FE /* start-npm.sh */; };
+		FFA55CA3250A7A830009F2FE /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA2250A7A830009F2FE /* install-react-tools.sh */; };
+		FFA55CA5250A7A830009F2FE /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA4250A7A830009F2FE /* bootconfig.plist */; };
+		FFA55CA7250A7A840009F2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA6250A7A840009F2FE /* Assets.xcassets */; };
+		FFA55CAA250A7A840009F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CA8250A7A840009F2FE /* LaunchScreen.storyboard */; };
+		FFA55CAD250A7A840009F2FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CAC250A7A840009F2FE /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EA47C8DD86CD23C34F4A99F /* Pods_NBCCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBCCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		684EBA9F58E291C529CF8EF5 /* Pods-NBCCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.release.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.release.xcconfig"; sourceTree = "<group>"; };
+		D6A3D77EF643AE273A604189 /* Pods-NBCCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBCCharts.debug.xcconfig"; path = "Target Support Files/Pods-NBCCharts/Pods-NBCCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA55C88250A7A830009F2FE /* NBCCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBCCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA55C8B250A7A830009F2FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFA55C8D250A7A830009F2FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FFA55C90250A7A830009F2FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FFA55C92250A7A830009F2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA55C95250A7A830009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA55C97250A7A830009F2FE /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FFA55C99250A7A830009F2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA55C9B250A7A830009F2FE /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FFA55C9E250A7A830009F2FE /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FFA55CA0250A7A830009F2FE /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FFA55CA2250A7A830009F2FE /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FFA55CA4250A7A830009F2FE /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FFA55CA6250A7A840009F2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA55CA9250A7A840009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA55CAB250A7A840009F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA55CAC250A7A840009F2FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA55C83250A7A830009F2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA55C8E250A7A830009F2FE /* MapKit.framework in Frameworks */,
+				FFA55C8C250A7A830009F2FE /* Security.framework in Frameworks */,
+				6C9AAD60DB4B169362581E95 /* Pods_NBCCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7907B40E369D223BEC6F4B8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A3D77EF643AE273A604189 /* Pods-NBCCharts.debug.xcconfig */,
+				684EBA9F58E291C529CF8EF5 /* Pods-NBCCharts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFA55C7D250A7A830009F2FE = {
+			isa = PBXGroup;
+			children = (
+				FFA55C8F250A7A830009F2FE /* NBCCharts */,
+				FFA55C8A250A7A830009F2FE /* Frameworks */,
+				FFA55C89250A7A830009F2FE /* Products */,
+				7907B40E369D223BEC6F4B8C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA55C89250A7A830009F2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55C88250A7A830009F2FE /* NBCCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA55C8A250A7A830009F2FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55C8B250A7A830009F2FE /* Security.framework */,
+				FFA55C8D250A7A830009F2FE /* MapKit.framework */,
+				5EA47C8DD86CD23C34F4A99F /* Pods_NBCCharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA55C8F250A7A830009F2FE /* NBCCharts */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55C90250A7A830009F2FE /* Podfile */,
+				FFA55C92250A7A830009F2FE /* AppDelegate.swift */,
+				FFA55C94250A7A830009F2FE /* Main.storyboard */,
+				FFA55C97250A7A830009F2FE /* react */,
+				FFA55C99250A7A830009F2FE /* ViewController.swift */,
+				FFA55C9B250A7A830009F2FE /* metroBundler.config.json */,
+				FFA55CA6250A7A840009F2FE /* Assets.xcassets */,
+				FFA55CA8250A7A840009F2FE /* LaunchScreen.storyboard */,
+				FFA55CAB250A7A840009F2FE /* Info.plist */,
+				FFA55CAC250A7A840009F2FE /* main.swift */,
+				FFA55C9D250A7A830009F2FE /* Supporting Files */,
+			);
+			path = NBCCharts;
+			sourceTree = "<group>";
+		};
+		FFA55C9D250A7A830009F2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55C9E250A7A830009F2FE /* unzip-react.sh */,
+				FFA55CA0250A7A830009F2FE /* start-npm.sh */,
+				FFA55CA2250A7A830009F2FE /* install-react-tools.sh */,
+				FFA55CA4250A7A830009F2FE /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA55C87250A7A830009F2FE /* NBCCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA55CB0250A7A840009F2FE /* Build configuration list for PBXNativeTarget "NBCCharts" */;
+			buildPhases = (
+				1F504735CAFA43B31B02DF8D /* [CP] Check Pods Manifest.lock */,
+				FFA55C82250A7A830009F2FE /* Sources */,
+				FFA55C83250A7A830009F2FE /* Frameworks */,
+				FFA55C84250A7A830009F2FE /* Resources */,
+				FFA55C85250A7A830009F2FE /* Start npm */,
+				FFA55C86250A7A830009F2FE /* Bundle React Native code and images */,
+				9346C41EEBCF5E0C4C546C65 /* [CP] Embed Pods Frameworks */,
+				29EBC3334B5ECCA4220F1949 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBCCharts;
+			productName = NBCCharts;
+			productReference = FFA55C88250A7A830009F2FE /* NBCCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA55C7E250A7A830009F2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OCE;
+				TargetAttributes = {
+					FFA55C87250A7A830009F2FE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FFA55C81250A7A830009F2FE /* Build configuration list for PBXProject "NBCCharts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA55C7D250A7A830009F2FE;
+			productRefGroup = FFA55C89250A7A830009F2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA55C87250A7A830009F2FE /* NBCCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA55C84250A7A830009F2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA55C98250A7A830009F2FE /* react in Resources */,
+				FFA55CA1250A7A830009F2FE /* start-npm.sh in Resources */,
+				FFA55CA3250A7A830009F2FE /* install-react-tools.sh in Resources */,
+				FFA55CAA250A7A840009F2FE /* LaunchScreen.storyboard in Resources */,
+				FFA55C91250A7A830009F2FE /* Podfile in Resources */,
+				FFA55CA5250A7A830009F2FE /* bootconfig.plist in Resources */,
+				FFA55C96250A7A830009F2FE /* Main.storyboard in Resources */,
+				FFA55C9F250A7A830009F2FE /* unzip-react.sh in Resources */,
+				FFA55CA7250A7A840009F2FE /* Assets.xcassets in Resources */,
+				FFA55C9C250A7A830009F2FE /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F504735CAFA43B31B02DF8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NBCCharts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29EBC3334B5ECCA4220F1949 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9346C41EEBCF5E0C4C546C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NBCCharts/Pods-NBCCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA55C85250A7A830009F2FE /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		FFA55C86250A7A830009F2FE /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA55C82250A7A830009F2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA55C9A250A7A830009F2FE /* ViewController.swift in Sources */,
+				FFA55C93250A7A830009F2FE /* AppDelegate.swift in Sources */,
+				FFA55CAD250A7A840009F2FE /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFA55C94250A7A830009F2FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA55C95250A7A830009F2FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA55CA8250A7A840009F2FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA55CA9250A7A840009F2FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA55CAE250A7A840009F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA55CAF250A7A840009F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA55CB1250A7A840009F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A3D77EF643AE273A604189 /* Pods-NBCCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBCCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.NBCCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA55CB2250A7A840009F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684EBA9F58E291C529CF8EF5 /* Pods-NBCCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBCCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.NBCCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA55C81250A7A830009F2FE /* Build configuration list for PBXProject "NBCCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA55CAE250A7A840009F2FE /* Debug */,
+				FFA55CAF250A7A840009F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA55CB0250A7A840009F2FE /* Build configuration list for PBXNativeTarget "NBCCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA55CB1250A7A840009F2FE /* Debug */,
+				FFA55CB2250A7A840009F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA55C7E250A7A830009F2FE /* Project object */;
+}

@@ -1,0 +1,4770 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineChartTRXDetails should call fetchMarketsList 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "center",
+        "position": "relative",
+        "right": 0,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 25,
+          },
+          Object {
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessibilityTraits="button"
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                false,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2bb3fe",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 200,
+          },
+          Object {
+            "width": "71%",
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": undefined,
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          Market
+        </Text>
+        <View
+          collapsable={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": undefined,
+                  "borderColor": "#d9d9d9",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "elevation": 0,
+                  "height": 40,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 14,
+                    "left": 14,
+                    "right": 14,
+                    "top": 14,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  TRILEPTAL
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityComponentType="button"
+              accessibilityRole="button"
+              accessibilityStates={Array []}
+              accessibilityTraits="button"
+              accessible={true}
+              centered={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "margin": 6,
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      },
+                      false,
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <Text
+                    accessibilityElementsHidden={true}
+                    allowFontScaling={false}
+                    importantForAccessibility="no-hide-descendants"
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontSize": 24,
+                        },
+                        Array [
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "scaleX": 1,
+                              },
+                            ],
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <View
+      className="VictoryContainer"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={250}
+        bbWidth={750}
+        focusable={false}
+        height={250}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="img"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": "100%",
+              "width": "100%",
+            },
+            Object {
+              "flex": 0,
+              "height": 250,
+              "width": 750,
+            },
+          ]
+        }
+        vbHeight={250}
+        vbWidth={750}
+        width={750}
+      >
+        <RNSVGGroup>
+          <RNSVGRect
+            fill={null}
+            height={250}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            width={750}
+            x={0}
+            y={0}
+          />
+          <RNSVGGroup>
+            <RNSVGLine
+              fill={0}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={4292532954}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1}
+              vectorEffect={1}
+              x1={50}
+              x2={50}
+              y1={50}
+              y2={200}
+            />
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={181.4527128889144}
+                y2={181.4527128889144}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-0"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    186.4227128889144,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="100"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={157.2240807477494}
+                y2={157.2240807477494}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-1"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    162.1940807477494,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="150"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={132.99544860658443}
+                y2={132.99544860658443}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-2"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    137.96544860658443,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="200"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={108.76681646541947}
+                y2={108.76681646541947}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-3"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    113.73681646541947,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="250"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={84.53818432425447}
+                y2={84.53818432425447}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-4"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    89.50818432425447,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="300"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={60.309552183089494}
+                y2={60.309552183089494}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-5"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    65.27955218308949,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="350"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGLine
+              fill={0}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={4292532954}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1}
+              vectorEffect={1}
+              x1={50}
+              x2={700}
+              y1={200}
+              y2={200}
+            />
+            <RNSVGGroup>
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-1-tickLabels-0"
+                rotate={Array []}
+                x={
+                  Array [
+                    54.99883477044977,
+                  ]
+                }
+                y={
+                  Array [
+                    222.97,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="22-09-19"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "middle",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      54.99883477044977,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-1-tickLabels-1"
+                rotate={Array []}
+                x={
+                  Array [
+                    294.99970869261244,
+                  ]
+                }
+                y={
+                  Array [
+                    222.97,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="19-09-19"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "middle",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      294.99970869261244,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-1-tickLabels-2"
+                rotate={Array []}
+                x={
+                  Array [
+                    535.0005826147751,
+                  ]
+                }
+                y={
+                  Array [
+                    222.97,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="16-09-19"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "middle",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      535.0005826147751,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGRect
+              fill={null}
+              height={30.904999999999998}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              vectorEffect={1}
+              width={116.14062499999999}
+              x={10}
+              y={10}
+            />
+            <RNSVGPath
+              d="M 24, 24
+      m -5.6, 0
+      a 5.6, 5.6 0 1,0 11.2,0
+      a 5.6, 5.6 0 1,0 -11.2,0"
+              fill={4281508603}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            />
+            <RNSVGText
+              content={null}
+              dx={
+                Array [
+                  0,
+                ]
+              }
+              dy={Array []}
+              font={Object {}}
+              name="chart-legend-2-labels-0"
+              rotate={Array []}
+              x={
+                Array [
+                  40.8,
+                ]
+              }
+              y={
+                Array [
+                  28.97,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="SINEMET CR"
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={
+                  Array [
+                    0,
+                  ]
+                }
+                fill={4280624421}
+                font={
+                  Object {
+                    "fontFamily": "Gill Sans",
+                    "fontSize": 14,
+                    "letterSpacing": "normal",
+                    "textAnchor": "start",
+                  }
+                }
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+                rotate={Array []}
+                x={
+                  Array [
+                    40.8,
+                  ]
+                }
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGGroup
+              clipPath="victory-clip-7"
+            >
+              <RNSVGGroup>
+                <RNSVGDefs>
+                  <RNSVGClipPath
+                    name="victory-clip-7"
+                  >
+                    <RNSVGRect
+                      height={150}
+                      vectorEffect={1}
+                      width={650}
+                      x={50}
+                      y={50}
+                    />
+                  </RNSVGClipPath>
+                </RNSVGDefs>
+              </RNSVGGroup>
+              <RNSVGPath
+                d="M54.99883477044977,194.0516016023202L134.99912607783733,61.2786974687361L214.99941738522486,54.97925311203319L294.99970869261244,103.92109003718647L375,113.12797025082915L455.00029130738756,82.59989375296126L535.0005826147751,85.50732960990108L615.0008739221627,125.72685896423495L695.0011652295502,195.0207468879668"
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                  ]
+                }
+                stroke={4281508603}
+                strokeWidth={2}
+              />
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M 54.99883477044977, 194.0516016023202
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 134.99912607783733, 61.2786974687361
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 214.99941738522486, 54.97925311203319
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 294.99970869261244, 103.92109003718647
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 375, 113.12797025082915
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 455.00029130738756, 82.59989375296126
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 535.0005826147751, 85.50732960990108
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 615.0008739221627, 125.72685896423495
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 695.0011652295502, 195.0207468879668
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "zIndex": 99,
+          }
+        }
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={250}
+          bbWidth={750}
+          focusable={false}
+          height={250}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "height": "100%",
+                "overflow": "visible",
+                "width": "100%",
+              },
+              Object {
+                "flex": 0,
+                "height": 250,
+                "width": 750,
+              },
+            ]
+          }
+          vbHeight={250}
+          vbWidth={750}
+          width={750}
+        >
+          <RNSVGGroup />
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LineChartTRXDetails should call fetchMarketsList with error 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "center",
+        "position": "relative",
+        "right": 0,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 25,
+          },
+          Object {
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={
+          Array [
+            "disabled",
+          ]
+        }
+        accessibilityTraits={
+          Array [
+            "button",
+            "disabled",
+          ]
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                Object {
+                  "opacity": 0.32,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2bb3fe",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 200,
+          },
+          Object {
+            "width": "71%",
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": undefined,
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          Market
+        </Text>
+        <View
+          collapsable={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": undefined,
+                  "borderColor": "#d9d9d9",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "elevation": 0,
+                  "height": 40,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 14,
+                    "left": 14,
+                    "right": 14,
+                    "top": 14,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  Select market...
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityComponentType="button"
+              accessibilityRole="button"
+              accessibilityStates={Array []}
+              accessibilityTraits="button"
+              accessible={true}
+              centered={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "margin": 6,
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      },
+                      false,
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <Text
+                    accessibilityElementsHidden={true}
+                    allowFontScaling={false}
+                    importantForAccessibility="no-hide-descendants"
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontSize": 24,
+                        },
+                        Array [
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "scaleX": 1,
+                              },
+                            ],
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingTop": 50,
+      }
+    }
+  >
+    <Text>
+      No Data Found
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LineChartTRXDetails should call fetchMarketsList with no data 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "center",
+        "position": "relative",
+        "right": 0,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 25,
+          },
+          Object {
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={
+          Array [
+            "disabled",
+          ]
+        }
+        accessibilityTraits={
+          Array [
+            "button",
+            "disabled",
+          ]
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                Object {
+                  "opacity": 0.32,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2bb3fe",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 200,
+          },
+          Object {
+            "width": "71%",
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": undefined,
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          Market
+        </Text>
+        <View
+          collapsable={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": undefined,
+                  "borderColor": "#d9d9d9",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "elevation": 0,
+                  "height": 40,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 14,
+                    "left": 14,
+                    "right": 14,
+                    "top": 14,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  Select market...
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityComponentType="button"
+              accessibilityRole="button"
+              accessibilityStates={Array []}
+              accessibilityTraits="button"
+              accessible={true}
+              centered={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "margin": 6,
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      },
+                      false,
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <Text
+                    accessibilityElementsHidden={true}
+                    allowFontScaling={false}
+                    importantForAccessibility="no-hide-descendants"
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontSize": 24,
+                        },
+                        Array [
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "scaleX": 1,
+                              },
+                            ],
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingTop": 50,
+      }
+    }
+  >
+    <Text>
+      No Data Found
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LineChartTRXDetails should call fetchMarketsList with recordId 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "center",
+        "position": "relative",
+        "right": 0,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 25,
+          },
+          Object {
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={
+          Array [
+            "disabled",
+          ]
+        }
+        accessibilityTraits={
+          Array [
+            "button",
+            "disabled",
+          ]
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                Object {
+                  "opacity": 0.32,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2bb3fe",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 200,
+          },
+          Object {
+            "width": "71%",
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": undefined,
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          Market
+        </Text>
+        <View
+          collapsable={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": undefined,
+                  "borderColor": "#d9d9d9",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "elevation": 0,
+                  "height": 40,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 14,
+                    "left": 14,
+                    "right": 14,
+                    "top": 14,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgba(0, 0, 0, 0.54)",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  Select market...
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityComponentType="button"
+              accessibilityRole="button"
+              accessibilityStates={Array []}
+              accessibilityTraits="button"
+              accessible={true}
+              centered={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "margin": 6,
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      },
+                      false,
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <Text
+                    accessibilityElementsHidden={true}
+                    allowFontScaling={false}
+                    importantForAccessibility="no-hide-descendants"
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontSize": 24,
+                        },
+                        Array [
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "scaleX": 1,
+                              },
+                            ],
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingTop": 50,
+      }
+    }
+  >
+    <Text>
+      No Data Found
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`LineChartTRXDetails should call handleMarketChange 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "center",
+        "position": "relative",
+        "right": 0,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 25,
+          },
+          Object {
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={
+          Array [
+            "disabled",
+          ]
+        }
+        accessibilityTraits={
+          Array [
+            "button",
+            "disabled",
+          ]
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                Object {
+                  "opacity": 0.32,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2bb3fe",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 200,
+          },
+          Object {
+            "width": "71%",
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.4)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          Market
+        </Text>
+        <View
+          collapsable={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": "rgba(246, 246, 246, 0.4)",
+                  "borderColor": "rgba(217, 217, 217, 0.4)",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "elevation": 0,
+                  "height": 40,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 14,
+                    "left": 14,
+                    "right": 14,
+                    "top": 14,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgba(0, 0, 0, 0.4)",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  Select market...
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityComponentType="button"
+              accessibilityRole="button"
+              accessibilityStates={
+                Array [
+                  "disabled",
+                ]
+              }
+              accessibilityTraits="button"
+              accessible={true}
+              centered={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "margin": 6,
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      },
+                      Object {
+                        "opacity": 0.32,
+                      },
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <Text
+                    accessibilityElementsHidden={true}
+                    allowFontScaling={false}
+                    importantForAccessibility="no-hide-descendants"
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.4)",
+                          "fontSize": 24,
+                        },
+                        Array [
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "scaleX": 1,
+                              },
+                            ],
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          Object {
+            "paddingVertical": 10,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": 24,
+            "opacity": 1,
+            "width": 24,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "center",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 24,
+                "transform": Array [
+                  Object {
+                    "rotate": "45deg",
+                  },
+                ],
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "height": 12,
+                  "overflow": "hidden",
+                  "width": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "translateY": 0,
+                      },
+                      Object {
+                        "rotate": "-165deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "borderColor": "#0768FD",
+                        "borderRadius": 12,
+                        "borderWidth": 2.4,
+                        "height": 24,
+                        "width": 24,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "bottom": 0,
+              "justifyContent": "center",
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "height": 24,
+                "transform": Array [
+                  Object {
+                    "rotate": "45deg",
+                  },
+                ],
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              style={
+                Object {
+                  "height": 12,
+                  "overflow": "hidden",
+                  "top": 12,
+                  "width": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "translateY": -12,
+                      },
+                      Object {
+                        "rotate": "345deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "borderColor": "#0768FD",
+                        "borderRadius": 12,
+                        "borderWidth": 2.4,
+                        "height": 24,
+                        "width": 24,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LineChartTRXDetails should render properly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "center",
+        "position": "relative",
+        "right": 0,
+        "top": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "paddingTop": 25,
+          },
+          Object {
+            "marginRight": 0,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityComponentType="button"
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessibilityTraits="button"
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                false,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#2bb3fe",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "width": 200,
+          },
+          Object {
+            "width": "71%",
+          },
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": undefined,
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+            ]
+          }
+        >
+          Market
+        </Text>
+        <View
+          collapsable={false}
+        >
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                },
+                Object {
+                  "backgroundColor": undefined,
+                  "borderColor": "#d9d9d9",
+                  "borderRadius": 4,
+                  "borderWidth": 1,
+                  "elevation": 0,
+                  "height": 40,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={true}
+                hitSlop={
+                  Object {
+                    "bottom": 14,
+                    "left": 14,
+                    "right": 14,
+                    "top": 14,
+                  }
+                }
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  numberOfLines={1}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                      },
+                    ]
+                  }
+                >
+                  TRILEPTAL
+                </Text>
+              </View>
+            </View>
+            <View
+              accessibilityComponentType="button"
+              accessibilityRole="button"
+              accessibilityStates={Array []}
+              accessibilityTraits="button"
+              accessible={true}
+              centered={true}
+              focusable={true}
+              hitSlop={
+                Object {
+                  "bottom": 6,
+                  "left": 6,
+                  "right": 6,
+                  "top": 6,
+                }
+              }
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={Object {}}
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "overflow": "hidden",
+                    },
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "justifyContent": "center",
+                        "margin": 6,
+                        "overflow": "hidden",
+                      },
+                      Object {
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      },
+                      false,
+                      Object {
+                        "margin": 0,
+                      },
+                    ],
+                  ]
+                }
+              >
+                <View>
+                  <Text
+                    accessibilityElementsHidden={true}
+                    allowFontScaling={false}
+                    importantForAccessibility="no-hide-descendants"
+                    pointerEvents="none"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontSize": 24,
+                        },
+                        Array [
+                          Object {
+                            "transform": Array [
+                              Object {
+                                "scaleX": 1,
+                              },
+                            ],
+                          },
+                          Object {
+                            "backgroundColor": "transparent",
+                          },
+                        ],
+                        Object {
+                          "fontFamily": "Material Design Icons",
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 0,
+                    },
+                  ]
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "opacity": 0,
+      }
+    }
+  >
+    <View
+      className="VictoryContainer"
+      onMoveShouldSetResponder={[Function]}
+      onMoveShouldSetResponderCapture={[Function]}
+      onResponderEnd={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderReject={[Function]}
+      onResponderRelease={[Function]}
+      onResponderStart={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onStartShouldSetResponderCapture={[Function]}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={250}
+        bbWidth={750}
+        focusable={false}
+        height={250}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="img"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "height": "100%",
+              "width": "100%",
+            },
+            Object {
+              "flex": 0,
+              "height": 250,
+              "width": 750,
+            },
+          ]
+        }
+        vbHeight={250}
+        vbWidth={750}
+        width={750}
+      >
+        <RNSVGGroup>
+          <RNSVGRect
+            fill={null}
+            height={250}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+            width={750}
+            x={0}
+            y={0}
+          />
+          <RNSVGGroup>
+            <RNSVGLine
+              fill={0}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={4292532954}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1}
+              vectorEffect={1}
+              x1={50}
+              x2={50}
+              y1={50}
+              y2={200}
+            />
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={181.4527128889144}
+                y2={181.4527128889144}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-0"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    186.4227128889144,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="100"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={157.2240807477494}
+                y2={157.2240807477494}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-1"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    162.1940807477494,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="150"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={132.99544860658443}
+                y2={132.99544860658443}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-2"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    137.96544860658443,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="200"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={108.76681646541947}
+                y2={108.76681646541947}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-3"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    113.73681646541947,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="250"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={84.53818432425447}
+                y2={84.53818432425447}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-4"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    89.50818432425447,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="300"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGLine
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                    "strokeDasharray",
+                  ]
+                }
+                stroke={4292467161}
+                strokeDasharray={
+                  Array [
+                    3,
+                    3,
+                  ]
+                }
+                strokeWidth={1}
+                vectorEffect={1}
+                x1={50}
+                x2={700}
+                y1={60.309552183089494}
+                y2={60.309552183089494}
+              />
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-0-tickLabels-5"
+                rotate={Array []}
+                x={
+                  Array [
+                    39,
+                  ]
+                }
+                y={
+                  Array [
+                    65.27955218308949,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="350"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "end",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      39,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGLine
+              fill={0}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={4292532954}
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1}
+              vectorEffect={1}
+              x1={50}
+              x2={700}
+              y1={200}
+              y2={200}
+            />
+            <RNSVGGroup>
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-1-tickLabels-0"
+                rotate={Array []}
+                x={
+                  Array [
+                    54.99883477044977,
+                  ]
+                }
+                y={
+                  Array [
+                    222.97,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="22-09-19"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "middle",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      54.99883477044977,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-1-tickLabels-1"
+                rotate={Array []}
+                x={
+                  Array [
+                    294.99970869261244,
+                  ]
+                }
+                y={
+                  Array [
+                    222.97,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="19-09-19"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "middle",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      294.99970869261244,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGText
+                content={null}
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={Array []}
+                font={Object {}}
+                name="chart-axis-1-tickLabels-2"
+                rotate={Array []}
+                x={
+                  Array [
+                    535.0005826147751,
+                  ]
+                }
+                y={
+                  Array [
+                    222.97,
+                  ]
+                }
+              >
+                <RNSVGTSpan
+                  content="16-09-19"
+                  dx={
+                    Array [
+                      0,
+                    ]
+                  }
+                  dy={
+                    Array [
+                      0,
+                    ]
+                  }
+                  fill={4284045657}
+                  font={
+                    Object {
+                      "fontFamily": "Gill Sans",
+                      "fontSize": 14,
+                      "letterSpacing": "normal",
+                      "textAnchor": "middle",
+                    }
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  rotate={Array []}
+                  x={
+                    Array [
+                      535.0005826147751,
+                    ]
+                  }
+                  y={Array []}
+                />
+              </RNSVGText>
+            </RNSVGGroup>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGRect
+              fill={null}
+              height={30.904999999999998}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+              vectorEffect={1}
+              width={116.14062499999999}
+              x={10}
+              y={10}
+            />
+            <RNSVGPath
+              d="M 24, 24
+      m -5.6, 0
+      a 5.6, 5.6 0 1,0 11.2,0
+      a 5.6, 5.6 0 1,0 -11.2,0"
+              fill={4281508603}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            />
+            <RNSVGText
+              content={null}
+              dx={
+                Array [
+                  0,
+                ]
+              }
+              dy={Array []}
+              font={Object {}}
+              name="chart-legend-2-labels-0"
+              rotate={Array []}
+              x={
+                Array [
+                  40.8,
+                ]
+              }
+              y={
+                Array [
+                  28.97,
+                ]
+              }
+            >
+              <RNSVGTSpan
+                content="SINEMET CR"
+                dx={
+                  Array [
+                    0,
+                  ]
+                }
+                dy={
+                  Array [
+                    0,
+                  ]
+                }
+                fill={4280624421}
+                font={
+                  Object {
+                    "fontFamily": "Gill Sans",
+                    "fontSize": 14,
+                    "letterSpacing": "normal",
+                    "textAnchor": "start",
+                  }
+                }
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+                rotate={Array []}
+                x={
+                  Array [
+                    40.8,
+                  ]
+                }
+                y={Array []}
+              />
+            </RNSVGText>
+          </RNSVGGroup>
+          <RNSVGGroup>
+            <RNSVGGroup
+              clipPath="victory-clip-3"
+            >
+              <RNSVGGroup>
+                <RNSVGDefs>
+                  <RNSVGClipPath
+                    name="victory-clip-3"
+                  >
+                    <RNSVGRect
+                      height={150}
+                      vectorEffect={1}
+                      width={650}
+                      x={50}
+                      y={50}
+                    />
+                  </RNSVGClipPath>
+                </RNSVGDefs>
+              </RNSVGGroup>
+              <RNSVGPath
+                d="M54.99883477044977,194.0516016023202L134.99912607783733,61.2786974687361L214.99941738522486,54.97925311203319L294.99970869261244,103.92109003718647L375,113.12797025082915L455.00029130738756,82.59989375296126L535.0005826147751,85.50732960990108L615.0008739221627,125.72685896423495L695.0011652295502,195.0207468879668"
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                    "strokeWidth",
+                  ]
+                }
+                stroke={4281508603}
+                strokeWidth={2}
+              />
+            </RNSVGGroup>
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M 54.99883477044977, 194.0516016023202
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 134.99912607783733, 61.2786974687361
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 214.99941738522486, 54.97925311203319
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 294.99970869261244, 103.92109003718647
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 375, 113.12797025082915
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 455.00029130738756, 82.59989375296126
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 535.0005826147751, 85.50732960990108
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 615.0008739221627, 125.72685896423495
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M 695.0011652295502, 195.0207468879668
+      m -5, 0
+      a 5, 5 0 1,0 10,0
+      a 5, 5 0 1,0 -10,0"
+                fill={4281508603}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "zIndex": 99,
+          }
+        }
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={250}
+          bbWidth={750}
+          focusable={false}
+          height={250}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "height": "100%",
+                "overflow": "visible",
+                "width": "100%",
+              },
+              Object {
+                "flex": 0,
+                "height": 250,
+                "width": 750,
+              },
+            ]
+          }
+          vbHeight={250}
+          vbWidth={750}
+          width={750}
+        >
+          <RNSVGGroup />
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+</View>
+`;
