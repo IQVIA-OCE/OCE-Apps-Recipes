@@ -1,0 +1,20 @@
+{
+  "name": "oce-apps-bridges",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./container.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "flow-remove-types src/ -d lib/"
+  },
+  "author": "iqvia",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "flow-bin": "0.156.0",
+    "flow-remove-types": "2.156.0",
+    "flow-typed": "3.3.1",
+    "prettier": "2.3.2",
+    "react-native": "0.64.2"
+  }
+}

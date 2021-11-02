@@ -1,0 +1,12 @@
+install! 'cocoapods', :disable_input_output_paths => true
+
+source 'https://${USER_NAME}:${OCE_TOKEN}@gitlab.ims.io/oce/oce-apps-framework'
+
+post_install do |installer|
+    system("sh './MeetingsTopics/Supporting Files/unzip-react.sh' --pods-path='./Pods/OCE'")
+end
+
+target 'MeetingsTopics' do
+  use_frameworks!
+  pod 'OCE', "~> 12.0.3"
+end

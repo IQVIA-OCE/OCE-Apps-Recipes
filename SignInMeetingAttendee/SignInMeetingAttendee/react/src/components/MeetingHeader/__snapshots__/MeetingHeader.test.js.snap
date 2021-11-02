@@ -1,0 +1,609 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meeting Header Meeting Header Component should render properly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingHorizontal": 50,
+      "paddingVertical": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRightWidth": 2,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        30/8/21, 11:35:AM
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        StartDate/Time
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRightWidth": 2,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        31/8/21, 11:35:AM
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        EndDate/Time
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderRightWidth": 2,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        , 24/8/21, 11:35:AM 
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        Created By
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "paddingHorizontal": 2,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+              Array [
+                Object {
+                  "fontSize": 14,
+                  "letterSpacing": 0.25,
+                  "lineHeight": 20,
+                  "marginVertical": 2,
+                },
+                Array [
+                  Object {
+                    "flex": 1,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#8D8D8D",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  },
+                ],
+              ],
+            ],
+          ]
+        }
+      >
+        Location
+      </Text>
+    </View>
+  </View>
+</View>
+`;

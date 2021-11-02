@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDetails Should render FormDetails  1`] = `
+<View
+  style={
+    Object {
+      "marginRight": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#4D4D4D",
+        "marginBottom": 5,
+      }
+    }
+  >
+    title
+  </Text>
+  <Text>
+    Text
+  </Text>
+</View>
+`;
