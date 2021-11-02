@@ -1,0 +1,64 @@
+{
+  "name": "OCEPlugin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p ./ios; node node_modules/react-native/local-cli/cli.js bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios/'; rm -rf ios.zip; zip -r ios.zip ./ios;",
+    "start": "yarn react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "@reduxjs/toolkit": "1.6.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@testing-library/react-native": "7.2.0",
+    "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#12.0.0",
+    "jest": "26.6.3",
+    "jest-file-snapshot": "0.3.8",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-screens": "2.0.0-alpha.32",
+    "react-native-vector-icons": "6.0.2",
+    "react-navigation": "4.0.5",
+    "react-navigation-stack": "1.7.3",
+    "react-redux": "7.2.4",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@react-native|victory-*|@react-native-community|apollo-react-native|react-navigation|@react-navigation|react-native-gesture-handler)"
+    ],
+    "collectCoverageFrom": [
+      "App.{js,jsx}",
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/bridge/"
+    ],
+    "coveragePathIgnorePatterns": [
+      "validationSchema.js"
+    ],
+    "setupFiles": [
+      "./__mocks__/Database/DatabaseManager.js",
+      "./__mocks__/Database/LogACallManager.js",
+      "./__mocks__/EnvironmentData/EnvironmentData.js",
+      "./__mocks__/EnvironmentData/EnvironmentData.js",
+      "./__mocks__/Localization/localization.native.js",
+      "./__mocks__/Logger/logger.js",
+      "./__mocks__/Navigation/ScreenNavigator.js",
+      "./__mocks__/sf/sfnetapi.js",
+      "./__mocks__/RNDocumentPicker.js",
+      "./__mocks__/LayoutBridge.js",
+      "./node_modules/react-native-gesture-handler/jestSetup.js",
+      "./__mocks__/RNVectorIconsManager.js"
+    ],
+    "setupFilesAfterEnv": [
+      "./jest.setup.js"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
