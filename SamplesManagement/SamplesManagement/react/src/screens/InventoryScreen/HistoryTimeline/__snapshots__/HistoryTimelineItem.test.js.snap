@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HistoryTimelineItem should render properly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexBasis": 0,
+        "flexDirection": "row",
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginRight": 12,
+          "width": 24,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#ef6e64",
+            "borderRadius": 4,
+            "height": 24,
+            "marginBottom": 2,
+            "padding": 3,
+            "width": 24,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 17,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ef6e64",
+            "flex": 1,
+            "width": 2,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#080707",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "marginBottom": 5,
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        numberOfLines={2}
+        style={
+          Object {
+            "color": "#080707",
+            "fontSize": 13,
+            "fontWeight": "400",
+            "marginBottom": 5,
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#3e3e3c",
+            "fontSize": 11,
+            "fontWeight": "400",
+            "marginBottom": 24,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flexBasis": 0,
+        "flexGrow": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#3e3e3c",
+          "fontSize": 12,
+        }
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f88962",
+          "borderRadius": 50,
+          "padding": 2,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
