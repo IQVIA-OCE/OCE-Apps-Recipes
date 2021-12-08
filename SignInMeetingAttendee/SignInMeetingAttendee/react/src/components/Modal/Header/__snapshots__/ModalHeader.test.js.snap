@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Header ModalHeader Component should render properly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomWidth": 1,
+      "borderColor": "#C0C0C0",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 20,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "color": "rgba(0, 0, 0, 0.87)",
+              "fontFamily": "System",
+              "fontWeight": "500",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 20,
+                "letterSpacing": 0.15,
+                "lineHeight": 30,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+            Array [
+              Object {
+                "fontSize": 20,
+                "letterSpacing": 0.15,
+                "lineHeight": 30,
+                "marginVertical": 2,
+              },
+              Object {
+                "fontSize": 16,
+              },
+            ],
+          ],
+        ]
+      }
+    />
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+          "textAlign": "left",
+          "writingDirection": "ltr",
+        },
+        Array [
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "fontFamily": "System",
+            "fontWeight": "500",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "fontSize": 20,
+              "letterSpacing": 0.15,
+              "lineHeight": 30,
+              "marginVertical": 2,
+            },
+            Object {
+              "fontSize": 16,
+            },
+          ],
+          Array [
+            Object {
+              "fontSize": 20,
+              "letterSpacing": 0.15,
+              "lineHeight": 30,
+              "marginVertical": 2,
+            },
+            Object {
+              "fontSize": 16,
+            },
+          ],
+        ],
+      ]
+    }
+  />
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#C0C0C0",
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "fontFamily": "System",
+                "fontWeight": "500",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 20,
+                  "letterSpacing": 0.15,
+                  "lineHeight": 30,
+                  "marginVertical": 2,
+                },
+                Object {
+                  "fontSize": 16,
+                },
+              ],
+              Array [
+                Object {
+                  "fontSize": 20,
+                  "letterSpacing": 0.15,
+                  "lineHeight": 30,
+                  "marginVertical": 2,
+                },
+                Object {
+                  "fontSize": 16,
+                },
+              ],
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

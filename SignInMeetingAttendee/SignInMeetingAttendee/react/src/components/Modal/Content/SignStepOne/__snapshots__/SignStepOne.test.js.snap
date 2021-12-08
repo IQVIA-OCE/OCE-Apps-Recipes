@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signing step one SigningStepOne Component should render properly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 0.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "marginTop": 5,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <Text>
+        <Text
+          style={
+            Object {
+              "color": "red",
+            }
+          }
+        >
+          *
+        </Text>
+      </Text>
+      <Text
+        style={
+          Object {
+            "marginTop": 5,
+          }
+        }
+      >
+        Test1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 176,
+            },
+            Object {
+              "width": "95%",
+            },
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "marginBottom": 8,
+            }
+          }
+        >
+          Full Name
+          <Text
+            style={
+              Object {
+                "color": "#E20000",
+              }
+            }
+          >
+             *
+          </Text>
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {
+                "width": "95%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              paddingLeft={8}
+              paddingRight={8}
+              placeholder="Full Name"
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              rejectResponderTermination={true}
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 8,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 0.5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Object {
+            "marginTop": 5,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 176,
+            },
+            Object {
+              "width": "95%",
+            },
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {
+                "width": "95%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 200,
+                "minHeight": 200,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={10}
+              minWidth={0}
+              multiline={true}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              paddingLeft={8}
+              paddingRight={8}
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              rejectResponderTermination={true}
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 200,
+                    "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 8,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
