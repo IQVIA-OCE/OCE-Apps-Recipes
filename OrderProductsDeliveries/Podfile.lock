@@ -1,0 +1,22 @@
+PODS:
+  - OCE (15.0.2)
+
+DEPENDENCIES:
+  - "OCE (from `https://oce_dev:qJLaTaMaS3_jCBaRVysj@gitlab.ims.io/oce/oce-apps-framework-dev`, tag `15.0.2`)"
+
+EXTERNAL SOURCES:
+  OCE:
+    :git: "https://oce_dev:qJLaTaMaS3_jCBaRVysj@gitlab.ims.io/oce/oce-apps-framework-dev"
+    :tag: 15.0.2
+
+CHECKOUT OPTIONS:
+  OCE:
+    :git: "https://oce_dev:qJLaTaMaS3_jCBaRVysj@gitlab.ims.io/oce/oce-apps-framework-dev"
+    :tag: 15.0.2
+
+SPEC CHECKSUMS:
+  OCE: 2e0fcb5f7de48860275c2b7c7131f7eb38353b67
+
+PODFILE CHECKSUM: 13beaadec99d5b01005b40b2324e7f68894d6a80
+
+COCOAPODS: 1.11.3

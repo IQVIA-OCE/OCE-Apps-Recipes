@@ -1,0 +1,47 @@
+{
+  "name": "OCEPlugin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "oce-apps-scripts build-ios",
+    "start": "oce-apps-scripts start-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "@testing-library/react-native": "^11.0.0",
+    "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#15.0.1",
+    "color": "^4.2.3",
+    "jest": "26.6.3",
+    "jest-file-snapshot": "0.3.8",
+    "moment": "2.24.0",
+    "oce-apps-bridges": "15.0.2",
+    "oce-apps-scripts": "2.0.1",
+    "react": "17.0.2",
+    "react-native": "0.66.2",
+    "react-native-vector-icons": "6.5.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@react-native|victory-*|@react-native-community|apollo-react-native|oce-apps-bridges)"
+    ],
+    "collectCoverageFrom": [
+      "App.{js,jsx}",
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "setupFiles": [
+      "./node_modules/oce-apps-bridges/lib/setupMocks.js",
+      "./__mocks__/EnvironmentData.js",
+      "./__mocks__/sf/sfnetapi.js"
+    ],
+    "setupFilesAfterEnv": [
+      "./jest.setup.js"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^4.0.11"
+  }
+}
