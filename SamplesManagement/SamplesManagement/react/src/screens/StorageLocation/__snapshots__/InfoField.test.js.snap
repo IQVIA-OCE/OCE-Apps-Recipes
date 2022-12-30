@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StorageLocation InfoField Should render InfoField component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 15,
+        "width": "100%",
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+          "textAlign": "left",
+          "writingDirection": "ltr",
+        },
+        Object {
+          "marginBottom": 15,
+        },
+      ]
+    }
+  >
+    label
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+          "textAlign": "left",
+          "writingDirection": "ltr",
+        },
+        Object {
+          "fontSize": 16,
+        },
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
+`;

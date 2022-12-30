@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewAll Should render ViewAll component and handle press 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "borderTopColor": "#dddbda",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "marginTop": 5,
+        "paddingTop": 10,
+      },
+      Object {
+        "borderTopColor": "#DDDDDD",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "fontSize": 13,
+            },
+            Object {
+              "color": "#0768FD",
+            },
+          ],
+        ]
+      }
+    >
+      View all
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ViewAll Should render ViewAll component and redirect to external url 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "flex-start",
+        "borderTopColor": "#dddbda",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "marginTop": 5,
+        "paddingTop": 10,
+      },
+      Object {
+        "borderTopColor": "#DDDDDD",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontFamily": "System",
+            "fontWeight": "400",
+            "textAlign": "left",
+            "writingDirection": "ltr",
+          },
+          Array [
+            Object {
+              "fontSize": 13,
+            },
+            Object {
+              "color": "#0768FD",
+            },
+          ],
+        ]
+      }
+    >
+      View all
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ViewAll Should render ViewAll component and throw an error 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "borderTopColor": "#dddbda",
+          "borderTopWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "marginTop": 5,
+          "paddingTop": 10,
+        },
+        Object {
+          "borderTopColor": "#1F1F1F",
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "fontSize": 13,
+              },
+              Object {
+                "color": "#0768FD",
+              },
+            ],
+          ]
+        }
+      >
+        View all
+      </Text>
+    </View>
+  </View>
+</View>
+`;

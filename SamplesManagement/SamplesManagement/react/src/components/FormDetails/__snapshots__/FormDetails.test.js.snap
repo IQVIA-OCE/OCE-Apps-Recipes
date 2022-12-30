@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDetails Should render FormDetails  1`] = `
+<View
+  style={
+    Object {
+      "marginRight": 20,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+          "textAlign": "left",
+          "writingDirection": "ltr",
+        },
+        Array [
+          Object {
+            "marginBottom": 5,
+          },
+          Object {
+            "color": "#595959",
+          },
+        ],
+      ]
+    }
+  >
+    title
+  </Text>
+  <Text>
+    Text
+  </Text>
+</View>
+`;

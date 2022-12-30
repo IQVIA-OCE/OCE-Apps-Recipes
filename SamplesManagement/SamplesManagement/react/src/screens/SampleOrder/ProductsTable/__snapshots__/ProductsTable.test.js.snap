@@ -1,0 +1,582 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsTable should render component 1`] = `
+<View
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <View
+    columnWidth={
+      Array [
+        300,
+        200,
+        "auto",
+        50,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "elevation": 5,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 3.84,
+          "width": "100%",
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#e9e9e9",
+        },
+        Object {
+          "borderWidth": 0,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 0,
+          "shadowRadius": 0,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "minHeight": 48,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "backgroundColor": "#F8F9FA",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 300,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingVertical": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "height": 24,
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                    },
+                  ],
+                ]
+              }
+            >
+              PRODUCT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingVertical": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "height": 24,
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                    },
+                  ],
+                ]
+              }
+            >
+              QUANTITY
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingVertical": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "height": 24,
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                    },
+                  ],
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "paddingVertical": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "color": "#999999",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          No data to display
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ProductsTable should render component with showing remaining product allocations 1`] = `
+<View
+  style={
+    Object {
+      "flexBasis": 0,
+      "flexGrow": 1,
+      "height": "100%",
+    }
+  }
+>
+  <View
+    columnWidth={
+      Array [
+        200,
+        180,
+        130,
+        "auto",
+        50,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "elevation": 5,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 3.84,
+          "width": "100%",
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#e9e9e9",
+        },
+        Object {
+          "borderWidth": 0,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 0,
+          "shadowRadius": 0,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "minHeight": 48,
+              "paddingHorizontal": 16,
+            },
+            Object {
+              "backgroundColor": "#F8F9FA",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "width": 200,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingVertical": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "height": 24,
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                    },
+                  ],
+                ]
+              }
+            >
+              PRODUCT
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "width": 180,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingVertical": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "height": 24,
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                    },
+                  ],
+                ]
+              }
+            >
+              REMAINING ALLOCATION
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+              }
+            }
+            accessible={true}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingVertical": 12,
+                },
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "height": 24,
+                      "lineHeight": 24,
+                    },
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.6)",
+                    },
+                  ],
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "paddingVertical": 30,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "color": "#999999",
+                "fontSize": 16,
+              },
+            ]
+          }
+        >
+          No data to display
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

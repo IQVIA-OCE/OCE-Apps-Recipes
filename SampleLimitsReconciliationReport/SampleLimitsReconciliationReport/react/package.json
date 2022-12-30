@@ -1,0 +1,54 @@
+{
+    "name": "OCEPlugin",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "oce-apps-scripts build-ios",
+        "build-web": "oce-apps-scripts build-web",
+        "start": "oce-apps-scripts start-ios",
+        "start-web": "oce-apps-scripts start-web",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@babel/core": "*",
+        "@react-native-community/masked-view": "^0.1.11",
+        "@react-navigation/native": "^5.8.10",
+        "@react-navigation/stack": "^5.x",
+        "@reduxjs/toolkit": "^1.7.1",
+        "@testing-library/jest-native": "^4.0.4",
+        "@testing-library/react-hooks": "^7.0.2",
+        "@testing-library/react-native": "^9.0.0",
+        "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#14.0.0",
+        "add": "^2.0.6",
+        "color": "^4.2.3",
+        "jest": "^26.6.3",
+        "jsforce": "1.10.1",
+        "luxon": "^2.2.0",
+        "moment": "^2.29.1",
+        "oce-apps-bridges": "14.0.2",
+        "oce-apps-scripts": "2.0.0",
+        "react": "17.0.2",
+        "react-native": "0.66.2",
+        "react-native-gesture-handler": "1.10.3",
+        "react-native-screens": "3.4.0",
+        "react-native-vector-icons": "6.5.0",
+        "react-redux": "^7.2.6",
+        "react-test-renderer": "^17.0.2",
+        "yarn": "^1.22.17"
+    },
+    "jest": {
+        "preset": "react-native",
+        "collectCoverageFrom": [
+            "App.{js,jsx}",
+            "src/**/*.{js,jsx}",
+            "!<rootDir>/node_modules/",
+            "!<rootDir>/bridge/"
+        ],
+        "transformIgnorePatterns": [
+            "node_modules/(?!react-native|@react-native|victory-*|@react-native-community|apollo-react-native|react-navigation|@react-navigation|react-native-gesture-handler|oce-apps-bridges)"
+        ],
+        "setupFiles": [
+            "./node_modules/oce-apps-bridges/lib/setupMocks.js"
+        ]
+    }
+}

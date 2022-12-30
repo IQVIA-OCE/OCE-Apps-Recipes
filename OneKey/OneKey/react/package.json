@@ -1,0 +1,49 @@
+{
+    "name": "OneKeyValidation",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "oce-apps-scripts build-ios",
+        "start": "oce-apps-scripts start-ios",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@babel/core": "*",
+        "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#14.0.0",
+        "babel-jest": "24.9.0",
+        "base-64": "0.1.0",
+        "expo": "34.0.1",
+        "formik": "1.5.8",
+        "jest": "26.6.3",
+        "jest-file-snapshot": "0.5.0",
+        "oce-apps-bridges": "14.0.2",
+        "oce-apps-scripts": "2.0.0",
+        "react": "17.0.2",
+        "react-native": "0.66.2",
+        "react-native-dropdown-autocomplete": "1.0.17",
+        "react-native-gesture-handler": "1.10.3",
+        "react-native-screens": "3.4.0",
+        "react-native-text-input-mask": "1.0.6",
+        "react-native-vector-icons": "6.5.0",
+        "react-navigation": "4.0.10",
+        "react-navigation-stack": "1.9.4",
+        "react-test-renderer": "17.0.2",
+        "yup": "0.32.9"
+    },
+    "jest": {
+        "preset": "react-native",
+        "collectCoverageFrom": [
+            "App.{js,jsx}",
+            "src/**/*.{js,jsx}",
+            "!<rootDir>/node_modules/",
+            "!<rootDir>/bridge/"
+        ],
+        "transformIgnorePatterns": [
+            "node_modules/(?!react-native|@react-native|victory-*|@react-native-community|apollo-react-native|react-navigation|@react-navigation|react-naive-gesture-handler|oce-apps-bridges|react-native-vector-icons)"
+        ],
+        "setupFiles": [
+            "./node_modules/oce-apps-bridges/lib/setupMocks.js",
+            "./node_modules/react-native-gesture-handler/jestSetup.js"
+        ]
+    }
+}

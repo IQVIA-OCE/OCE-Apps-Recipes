@@ -1,0 +1,672 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageLotsWidget should render component 1`] = `
+<View
+  collapsable={false}
+  nativeID="animatedComponent"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 4,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 0.75,
+        "width": 0,
+      },
+      "shadowOpacity": 0.24,
+      "shadowRadius": 1.5,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 16,
+          },
+          Object {
+            "height": 50,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "height": 40,
+              "justifyContent": "space-around",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+              ],
+            ]
+          }
+        >
+          Manage Lots
+        </Text>
+      </View>
+      <View />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 10,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 3,
+                  "height": 32,
+                  "justifyContent": "center",
+                  "marginRight": 10,
+                  "paddingTop": 2,
+                  "width": 32,
+                },
+                Object {
+                  "backgroundColor": "#f2cf5b",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#fff",
+                    "fontSize": 28,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Material Design Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 13,
+                        },
+                        Object {
+                          "color": "#0768FD",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  OKSF-2834_1
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "flexGrow": 1,
+                  "marginTop": 5,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "width": "50%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                        },
+                        undefined,
+                        Object {
+                          "color": "#595959",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Expiration:
+                   
+                </Text>
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                        },
+                        Object {
+                          "fontSize": 12,
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "width": "50%",
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#000000",
+                        "fontFamily": "System",
+                        "fontWeight": "400",
+                        "textAlign": "left",
+                        "writingDirection": "ltr",
+                      },
+                      Array [
+                        Object {
+                          "fontSize": 12,
+                        },
+                        undefined,
+                        Object {
+                          "color": "#595959",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Lot #:
+                </Text>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  nativeID="animatedComponent"
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "System",
+                          "fontWeight": "400",
+                          "textAlign": "left",
+                          "writingDirection": "ltr",
+                        },
+                        Array [
+                          Object {
+                            "fontSize": 12,
+                          },
+                          Object {
+                            "color": "#0768FD",
+                          },
+                        ],
+                      ]
+                    }
+                  >
+                    L-0001
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View>
+            <View
+              style={
+                Array [
+                  null,
+                  undefined,
+                ]
+              }
+            >
+              <RCTSwitch
+                accessibilityRole="switch"
+                activeThumbColor="#ffffff"
+                onChange={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onTintColor="#00c221"
+                style={
+                  Array [
+                    Object {
+                      "height": 31,
+                      "width": 51,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scale": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "#999999",
+                        "borderRadius": 16,
+                      },
+                    ],
+                  ]
+                }
+                thumbTintColor="#ffffff"
+                tintColor="#999999"
+                value={true}
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "flex-start",
+                "borderTopColor": "#dddbda",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 5,
+                "paddingTop": 10,
+              },
+              Object {
+                "borderTopColor": "#DDDDDD",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 13,
+                    },
+                    Object {
+                      "color": "#0768FD",
+                    },
+                  ],
+                ]
+              }
+            >
+              View all
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ManageLotsWidget should render empty component message 1`] = `
+<View
+  collapsable={false}
+  nativeID="animatedComponent"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 4,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 0.75,
+        "width": 0,
+      },
+      "shadowOpacity": 0.24,
+      "shadowRadius": 1.5,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 16,
+          },
+          Object {
+            "height": 50,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "height": 40,
+              "justifyContent": "space-around",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+              ],
+            ]
+          }
+        >
+          Manage Lots
+        </Text>
+      </View>
+      <View />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              undefined,
+            ]
+          }
+        >
+          No active Lots available.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
