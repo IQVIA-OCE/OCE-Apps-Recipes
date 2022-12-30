@@ -1,0 +1,1174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InventoriesWidget Should render InventoriesWidget component with list 1`] = `
+<View
+  collapsable={false}
+  nativeID="animatedComponent"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderRadius": 4,
+      "elevation": 2,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 0.75,
+        "width": 0,
+      },
+      "shadowOpacity": 0.24,
+      "shadowRadius": 1.5,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 16,
+          },
+          Object {
+            "height": 72,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flex": 1,
+              "flexDirection": "column",
+              "height": 40,
+              "justifyContent": "space-around",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+                Array [
+                  Object {
+                    "fontSize": 20,
+                    "letterSpacing": 0.15,
+                    "lineHeight": 30,
+                    "marginVertical": 2,
+                  },
+                  Array [
+                    Object {
+                      "fontSize": 14,
+                      "minHeight": 20,
+                    },
+                    Object {
+                      "marginBottom": 2,
+                    },
+                    undefined,
+                  ],
+                ],
+              ],
+            ]
+          }
+        >
+          Inventories
+        </Text>
+      </View>
+      <View>
+        <View
+          collapsable={false}
+        >
+          <View
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            centered={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 6,
+                "left": 6,
+                "right": 6,
+                "top": 6,
+              }
+            }
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
+            style={Object {}}
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "overflow": "hidden",
+                  },
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "margin": 6,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 16.5,
+                      "height": 33,
+                      "width": 33,
+                    },
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              <View>
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#A5A5A5",
+                        "fontSize": 22,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "paddingVertical": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View>
+        <RCTScrollView
+          alwaysBounceHorizontal={true}
+          horizontal={true}
+          onLayout={[Function]}
+          showsHorizontalScrollIndicator={false}
+          style={
+            Array [
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "rgba(0, 0, 0, 0.2)",
+                "flexDirection": "row",
+                "marginBottom": 20,
+                "maxWidth": "100%",
+                "paddingBottom": 10,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 25,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgb(0, 0, 0)",
+                      "fontSize": 14,
+                      "fontWeight": "700",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                All
+              </Text>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#0768FD",
+                    "borderRadius": 4,
+                    "bottom": -13,
+                    "height": 5,
+                    "left": 0,
+                    "position": "absolute",
+                    "width": "100%",
+                  }
+                }
+              />
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 25,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Ad Hoc Inventory
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 25,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Audited Inventory
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 25,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Initial Inventory
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "marginRight": 0,
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Periodic Inventory
+              </Text>
+            </View>
+          </View>
+        </RCTScrollView>
+        <View>
+          <View>
+            <View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginBottom": 10,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "borderRadius": 3,
+                            "height": 32,
+                            "marginRight": 10,
+                            "width": 32,
+                          },
+                          Object {
+                            "backgroundColor": undefined,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#fff",
+                              "fontSize": 32,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "Material Design Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#0070d2",
+                            "fontSize": 13,
+                          }
+                        }
+                      >
+                        
+                        Product Sample Details
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "marginTop": 5,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#3e3e3c",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Date: 
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#080707",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Mar 13, 2020 04:53 PM
+                        </Text>
+                        <Text
+                          style={
+                            Array [
+                              Object {
+                                "color": "#3e3e3c",
+                                "fontSize": 12,
+                              },
+                              Object {
+                                "marginLeft": 10,
+                              },
+                            ]
+                          }
+                        >
+                          Reason:
+                           
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#080707",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Reason
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignSelf": "flex-start",
+                            "borderRadius": 10,
+                            "flexDirection": "row",
+                            "paddingHorizontal": 6,
+                            "paddingVertical": 2,
+                          },
+                          undefined,
+                          Object {
+                            "backgroundColor": "#04844b",
+                            "marginRight": 5,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "white",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                            },
+                            Object {
+                              "color": "white",
+                            },
+                          ]
+                        }
+                      >
+                        Submitted
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginBottom": 10,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "borderRadius": 3,
+                            "height": 32,
+                            "marginRight": 10,
+                            "width": 32,
+                          },
+                          Object {
+                            "backgroundColor": undefined,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#fff",
+                              "fontSize": 32,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "Material Design Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#0070d2",
+                            "fontSize": 13,
+                          }
+                        }
+                      >
+                        3 
+                        Product Sample Details
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "marginTop": 5,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#3e3e3c",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Date: 
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#080707",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Mar 13, 2020 05:53 PM
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignSelf": "flex-start",
+                            "borderRadius": 10,
+                            "flexDirection": "row",
+                            "paddingHorizontal": 6,
+                            "paddingVertical": 2,
+                          },
+                          undefined,
+                          Object {
+                            "backgroundColor": "#ffb75d",
+                            "marginRight": 5,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "white",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                            },
+                            Object {
+                              "color": "white",
+                            },
+                          ]
+                        }
+                      >
+                        In Progress
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginBottom": 10,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "borderRadius": 3,
+                            "height": 32,
+                            "marginRight": 10,
+                            "width": 32,
+                          },
+                          Object {
+                            "backgroundColor": undefined,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#fff",
+                              "fontSize": 32,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "Material Design Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#0070d2",
+                            "fontSize": 13,
+                          }
+                        }
+                      >
+                        5 
+                        Product Sample Details
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "marginTop": 5,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#3e3e3c",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Date: 
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#080707",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Mar 13, 2020 04:53 PM
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignSelf": "flex-start",
+                            "borderRadius": 10,
+                            "flexDirection": "row",
+                            "paddingHorizontal": 6,
+                            "paddingVertical": 2,
+                          },
+                          undefined,
+                          Object {
+                            "backgroundColor": "#04844b",
+                            "marginRight": 5,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "white",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                            },
+                            Object {
+                              "color": "white",
+                            },
+                          ]
+                        }
+                      >
+                        Submitted
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginBottom": 10,
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignItems": "center",
+                            "borderRadius": 3,
+                            "height": 32,
+                            "marginRight": 10,
+                            "width": 32,
+                          },
+                          Object {
+                            "backgroundColor": undefined,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#fff",
+                              "fontSize": 32,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "Material Design Icons",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                    <View>
+                      <Text
+                        style={
+                          Object {
+                            "color": "#0070d2",
+                            "fontSize": 13,
+                          }
+                        }
+                      >
+                        6 
+                        Product Sample Details
+                      </Text>
+                      <View
+                        style={
+                          Object {
+                            "flexDirection": "row",
+                            "marginTop": 5,
+                          }
+                        }
+                      >
+                        <Text
+                          style={
+                            Object {
+                              "color": "#3e3e3c",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Date: 
+                        </Text>
+                        <Text
+                          style={
+                            Object {
+                              "color": "#080707",
+                              "fontSize": 12,
+                            }
+                          }
+                        >
+                          Mar 13, 2020 05:53 PM
+                        </Text>
+                      </View>
+                    </View>
+                  </View>
+                  <View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "alignSelf": "flex-start",
+                            "borderRadius": 10,
+                            "flexDirection": "row",
+                            "paddingHorizontal": 6,
+                            "paddingVertical": 2,
+                          },
+                          undefined,
+                          Object {
+                            "backgroundColor": "#04844b",
+                            "marginRight": 5,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          Array [
+                            Object {
+                              "color": "white",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                            },
+                            Object {
+                              "color": "white",
+                            },
+                          ]
+                        }
+                      >
+                        Submitted
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "borderTopColor": "#dddbda",
+                  "borderTopWidth": 1,
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                  "marginTop": 5,
+                  "paddingTop": 10,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                nativeID="animatedComponent"
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#0070d2",
+                      "fontSize": 13,
+                    }
+                  }
+                >
+                  View all
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

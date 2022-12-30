@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render properly 1`] = `
+Object {
+  "index": 0,
+  "isTransitioning": false,
+  "key": "StackRouterRoot",
+  "routes": Array [
+    Object {
+      "routeName": "AccountsList",
+    },
+  ],
+}
+`;

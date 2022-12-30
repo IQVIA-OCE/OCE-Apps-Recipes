@@ -1,0 +1,1719 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomAutoComplete CustomAutoComplete should clear the results when press on clearicon 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 3,
+      "minWidth": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginBottom": 50,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 176,
+            },
+            Array [
+              Object {
+                "width": "100%",
+              },
+              undefined,
+              undefined,
+            ],
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "left": 10,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": "auto",
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#999",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              paddingLeft={40}
+              paddingRight={8}
+              placeholder="Search Accounts"
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 8,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "flexGrow": 0,
+              "maxHeight": 180,
+              "position": "absolute",
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.27,
+              "shadowRadius": 4.65,
+              "width": "100%",
+              "zIndex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            ItemSeparatorComponent={[Function]}
+            data={
+              Array [
+                Object {
+                  "label": "- / Akhtar",
+                  "value": "0016s00000OYSujAAH",
+                },
+                Object {
+                  "label": "- / Akhtar",
+                  "value": "0016s00000OZjbvAAD",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g000006RAjJAAW",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g00000LAgpkAAD",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g00000LAgDtAAL",
+                },
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / Akhtar
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / Akhtar
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CustomAutoComplete CustomAutoComplete should fetch results for search query 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 3,
+      "minWidth": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginBottom": 50,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 176,
+            },
+            Array [
+              Object {
+                "width": "100%",
+              },
+              undefined,
+              undefined,
+            ],
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "left": 10,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": "auto",
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#999",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              paddingLeft={40}
+              paddingRight={40}
+              placeholder="Search Accounts"
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 40,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              value="Will"
+            />
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#999",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "flexGrow": 0,
+              "maxHeight": 180,
+              "position": "absolute",
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.27,
+              "shadowRadius": 4.65,
+              "width": "100%",
+              "zIndex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            ItemSeparatorComponent={[Function]}
+            data={
+              Array [
+                Object {
+                  "label": "- / Akhtar",
+                  "value": "0016s00000OYSujAAH",
+                },
+                Object {
+                  "label": "- / Akhtar",
+                  "value": "0016s00000OZjbvAAD",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g000006RAjJAAW",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g00000LAgpkAAD",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g00000LAgDtAAL",
+                },
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / Akhtar
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / Akhtar
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CustomAutoComplete CustomAutoComplete should render properly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 3,
+      "minWidth": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginBottom": 50,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 176,
+            },
+            Array [
+              Object {
+                "width": "100%",
+              },
+              undefined,
+              undefined,
+            ],
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "left": 10,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": "auto",
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#999",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              paddingLeft={40}
+              paddingRight={8}
+              placeholder="Search Accounts"
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 8,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CustomAutoComplete CustomAutoComplete should select one record while user tap on flat list items 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "borderRadius": 3,
+      "minWidth": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "marginBottom": 50,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 176,
+            },
+            Array [
+              Object {
+                "width": "100%",
+              },
+              undefined,
+              undefined,
+            ],
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={false}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "left": 10,
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": "auto",
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#999",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              paddingLeft={40}
+              paddingRight={40}
+              placeholder="Search Accounts"
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 40,
+                    "paddingRight": 40,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              value="- / Akhtar"
+            />
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#999",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "flexGrow": 0,
+              "maxHeight": 180,
+              "position": "absolute",
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.27,
+              "shadowRadius": 4.65,
+              "width": "100%",
+              "zIndex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            ItemSeparatorComponent={[Function]}
+            data={
+              Array [
+                Object {
+                  "label": "- / Akhtar",
+                  "value": "0016s00000OYSujAAH",
+                },
+                Object {
+                  "label": "- / Akhtar",
+                  "value": "0016s00000OZjbvAAD",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g000006RAjJAAW",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g00000LAgpkAAD",
+                },
+                Object {
+                  "label": "- / BOWENtest",
+                  "value": "0016g00000LAgDtAAL",
+                },
+              ]
+            }
+            getItem={[Function]}
+            getItemCount={[Function]}
+            keyExtractor={[Function]}
+            onContentSizeChange={[Function]}
+            onLayout={[Function]}
+            onMomentumScrollBegin={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            removeClippedSubviews={false}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            viewabilityConfigCallbackPairs={Array []}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / Akhtar
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / Akhtar
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+                <View
+                  onLayout={[Function]}
+                >
+                  <View
+                    style={
+                      Object {
+                        "flexDirection": "row",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={null}
+              >
+                <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "paddingHorizontal": 15,
+                        "paddingVertical": 8,
+                      }
+                    }
+                  >
+                    - / BOWENtest
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
