@@ -1,0 +1,1251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountsList Should render AccountsList component 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": true,
+        "queryLocator": "",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "paddingTop": 5,
+        },
+        Object {
+          "backgroundColor": "#f2f2f2",
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": true,
+        "queryLocator": "2296140F-4D6F-4738-AF29-1DF861509367",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "paddingTop": 5,
+        },
+        Object {
+          "backgroundColor": "#f2f2f2",
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore with fetch error 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": true,
+        "queryLocator": "2296140F-4D6F-4738-AF29-1DF861509367",
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "paddingTop": 5,
+        },
+        Object {
+          "backgroundColor": "#f2f2f2",
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore with loading state 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": true,
+        "loading": true,
+        "queryLocator": null,
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "paddingTop": 5,
+        },
+        Object {
+          "backgroundColor": "#f2f2f2",
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`AccountsList call loadMore with no queryLocator 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={Array []}
+    extraData={
+      Object {
+        "dataSource": Array [],
+        "error": "",
+        "fetchDone": false,
+        "loading": false,
+        "queryLocator": null,
+      }
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "paddingTop": 5,
+        },
+        Object {
+          "backgroundColor": "#f2f2f2",
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              },
+              Object {
+                "minHeight": 80,
+                "paddingVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            nativeID="animatedComponent"
+            style={
+              Object {
+                "height": 24,
+                "opacity": 1,
+                "width": 24,
+              }
+            }
+          >
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": 0,
+                          },
+                          Object {
+                            "rotate": "-165deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              nativeID="animatedComponent"
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": 24,
+                    "transform": Array [
+                      Object {
+                        "rotate": "45deg",
+                      },
+                    ],
+                    "width": 24,
+                  }
+                }
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "height": 12,
+                      "overflow": "hidden",
+                      "top": 12,
+                      "width": 24,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "height": 24,
+                        "transform": Array [
+                          Object {
+                            "translateY": -12,
+                          },
+                          Object {
+                            "rotate": "345deg",
+                          },
+                        ],
+                        "width": 24,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        Object {
+                          "height": 12,
+                          "overflow": "hidden",
+                          "width": 24,
+                        }
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        nativeID="animatedComponent"
+                        style={
+                          Object {
+                            "borderColor": "#0768FD",
+                            "borderRadius": 12,
+                            "borderWidth": 2.4,
+                            "height": 24,
+                            "width": 24,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

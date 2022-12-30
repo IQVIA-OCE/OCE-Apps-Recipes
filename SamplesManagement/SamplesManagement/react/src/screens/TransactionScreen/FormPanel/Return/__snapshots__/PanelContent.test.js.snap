@@ -1,0 +1,1479 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PanelContent should call DateField onChange 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "padding": 15,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRightColor": "rgb(221, 219, 218)",
+        "borderRightWidth": 1,
+        "flex": 1,
+        "marginRight": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+          Object {
+            "marginBottom": 15,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": "100%",
+            },
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": "#000000",
+              },
+            ]
+          }
+        >
+          Shipment Date
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {},
+              Object {
+                "backgroundColor": "#F6F6F6",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              paddingLeft={8}
+              paddingRight={40}
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 40,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              value="Invalid date"
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Tracking Number
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "minHeight": 40,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            value=""
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          Object {
+            "marginBottom": 15,
+          },
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Shipment Carrier
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "minHeight": 40,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Comments
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "minHeight": 80,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            multiline={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 80,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PanelContent should call TextInputs onChange 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "padding": 15,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRightColor": "rgb(221, 219, 218)",
+        "borderRightWidth": 1,
+        "flex": 1,
+        "marginRight": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+          Object {
+            "marginBottom": 15,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": "100%",
+            },
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": "#000000",
+              },
+            ]
+          }
+        >
+          Shipment Date
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {},
+              Object {
+                "backgroundColor": "#F6F6F6",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              paddingLeft={8}
+              paddingRight={40}
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 40,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              value=""
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Tracking Number
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "minHeight": 40,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            value="test"
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          Object {
+            "marginBottom": 15,
+          },
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Shipment Carrier
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "minHeight": 40,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            value="test"
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Comments
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "minHeight": 80,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            multiline={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 80,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            value="test"
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PanelContent should render properly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "marginBottom": 10,
+      "padding": 15,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRightColor": "rgb(221, 219, 218)",
+        "borderRightWidth": 1,
+        "flex": 1,
+        "marginRight": 20,
+        "paddingRight": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+          Object {
+            "marginBottom": 15,
+          },
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "width": "100%",
+            },
+            undefined,
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "marginBottom": 8,
+              },
+              Object {
+                "color": "#000000",
+              },
+            ]
+          }
+        >
+          Shipment Date
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "borderColor": "#D9D9D9",
+                "borderRadius": 4,
+                "borderWidth": 1,
+              },
+              Object {},
+              Object {
+                "backgroundColor": "#F6F6F6",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": 40,
+                "minHeight": 40,
+                "overflow": "hidden",
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              }
+            }
+          >
+            <TextInput
+              editable={true}
+              maxResizableWidth={750}
+              minHeight={60}
+              minWidth={0}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              paddingLeft={8}
+              paddingRight={40}
+              placeholderTextColor="rgba(0, 0, 0, 0.54)"
+              selectionColor="#0768FD"
+              style={
+                Array [
+                  Object {
+                    "margin": 0,
+                    "textAlign": "left",
+                    "zIndex": 5,
+                  },
+                  undefined,
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": undefined,
+                    "height": 40,
+                    "minHeight": 0,
+                    "paddingLeft": 8,
+                    "paddingRight": 40,
+                    "paddingVertical": 5,
+                    "textAlignVertical": "center",
+                    "width": "100%",
+                  },
+                ]
+              }
+              value=""
+            />
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": "50%",
+                  "transform": Array [
+                    Object {
+                      "translateY": -12.5,
+                    },
+                  ],
+                  "zIndex": 5,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 25,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Tracking Number
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "minHeight": 40,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+            value=""
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          Object {
+            "marginBottom": 15,
+          },
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Shipment Carrier
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 40,
+              "minHeight": 40,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 40,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "width": "100%",
+          },
+          undefined,
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 8,
+            },
+            Object {
+              "color": "#000000",
+            },
+          ]
+        }
+      >
+        Comments
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#D9D9D9",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#F6F6F6",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 80,
+              "minHeight": 80,
+              "overflow": "hidden",
+              "paddingBottom": 0,
+              "paddingTop": 0,
+            }
+          }
+        >
+          <TextInput
+            editable={true}
+            maxResizableWidth={750}
+            minHeight={60}
+            minWidth={0}
+            multiline={true}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            paddingLeft={8}
+            paddingRight={8}
+            placeholderTextColor="rgba(0, 0, 0, 0.54)"
+            selectionColor="#0768FD"
+            style={
+              Array [
+                Object {
+                  "margin": 0,
+                  "textAlign": "left",
+                  "zIndex": 5,
+                },
+                undefined,
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                  "fontWeight": undefined,
+                  "height": 80,
+                  "minHeight": 0,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingVertical": 5,
+                  "textAlignVertical": "center",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

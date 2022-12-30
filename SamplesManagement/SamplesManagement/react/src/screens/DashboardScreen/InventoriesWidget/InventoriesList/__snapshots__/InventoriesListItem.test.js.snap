@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InventoriesListItem Should render InventoriesListItem component 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 3,
+              "height": 32,
+              "marginRight": 10,
+              "width": 32,
+            },
+            Object {
+              "backgroundColor": undefined,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontSize": 32,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 13,
+                },
+                Object {
+                  "color": "#0768FD",
+                },
+              ],
+            ]
+          }
+        >
+          1 
+          Product Sample Details
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#595959",
+                  },
+                ],
+              ]
+            }
+          >
+            Date: 
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#000000",
+                  "fontFamily": "System",
+                  "fontWeight": "400",
+                  "textAlign": "left",
+                  "writingDirection": "ltr",
+                },
+                Array [
+                  Object {
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                ],
+              ]
+            }
+          >
+            Mar 13, 2020 04:53 PM
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "borderRadius": 10,
+              "flexDirection": "row",
+              "paddingHorizontal": 6,
+              "paddingVertical": 2,
+            },
+            undefined,
+            Object {
+              "backgroundColor": "#04844b",
+              "marginRight": 5,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 12,
+                "fontWeight": "700",
+              },
+              Object {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          Submitted
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

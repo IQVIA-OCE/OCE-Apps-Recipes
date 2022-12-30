@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuantityCell should render properly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 5,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        undefined,
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#D9D9D9",
+            "borderRadius": 4,
+            "borderWidth": 1,
+          },
+          Object {},
+          Object {
+            "backgroundColor": "#F6F6F6",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 40,
+            "minHeight": 40,
+            "overflow": "hidden",
+            "paddingBottom": 0,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <TextInput
+          editable={true}
+          keyboardType="numeric"
+          maxResizableWidth={750}
+          minHeight={60}
+          minWidth={0}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          paddingLeft={8}
+          paddingRight={8}
+          placeholderTextColor="rgba(0, 0, 0, 0.54)"
+          selectionColor="#0768FD"
+          style={
+            Array [
+              Object {
+                "margin": 0,
+                "textAlign": "left",
+                "zIndex": 5,
+              },
+              undefined,
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontSize": 16,
+                "fontWeight": undefined,
+                "height": 40,
+                "minHeight": 0,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingVertical": 5,
+                "textAlignVertical": "center",
+                "width": "100%",
+              },
+            ]
+          }
+          value="some text"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`QuantityCell should render properly 2`] = `
+<View
+  style={
+    Object {
+      "padding": 5,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        undefined,
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#D9D9D9",
+            "borderRadius": 4,
+            "borderWidth": 1,
+          },
+          Object {},
+          Object {
+            "backgroundColor": "#F6F6F6",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 40,
+            "minHeight": 40,
+            "overflow": "hidden",
+            "paddingBottom": 0,
+            "paddingTop": 0,
+          }
+        }
+      >
+        <TextInput
+          editable={true}
+          keyboardType="numeric"
+          maxResizableWidth={750}
+          minHeight={60}
+          minWidth={0}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          paddingLeft={8}
+          paddingRight={8}
+          placeholderTextColor="rgba(0, 0, 0, 0.54)"
+          selectionColor="#0768FD"
+          style={
+            Array [
+              Object {
+                "margin": 0,
+                "textAlign": "left",
+                "zIndex": 5,
+              },
+              undefined,
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontSize": 16,
+                "fontWeight": undefined,
+                "height": 40,
+                "minHeight": 0,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingVertical": 5,
+                "textAlignVertical": "center",
+                "width": "100%",
+              },
+            ]
+          }
+          value="some text"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
