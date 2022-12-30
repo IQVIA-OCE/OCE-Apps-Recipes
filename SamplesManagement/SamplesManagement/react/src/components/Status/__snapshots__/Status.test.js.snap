@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status Should render Status InProgress 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#ffb75d",
+        "marginRight": 5,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "white",
+          "fontSize": 12,
+          "fontWeight": "700",
+        },
+        Object {
+          "color": "white",
+        },
+      ]
+    }
+  >
+    InProgress
+  </Text>
+</View>
+`;
