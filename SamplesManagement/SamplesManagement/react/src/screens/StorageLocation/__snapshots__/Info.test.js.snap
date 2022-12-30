@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StorageLocation Info Should render Info component other data 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        Created By
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Second user created date
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        Last Modified By
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Second user modified date
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StorageLocation Info Should render Info component user data 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        Created By
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        test user name created date
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "marginBottom": 15,
+            "width": "100%",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        Last Modified By
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "System",
+              "fontWeight": "400",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Object {
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        test user name modified date
+      </Text>
+    </View>
+  </View>
+</View>
+`;

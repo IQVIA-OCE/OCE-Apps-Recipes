@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InventoryScreenContainer should render properly 1`] = `
+<withNavigation(ContextProvider)>
+  <KeyboardAwareScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "height": "100%",
+      }
+    }
+    enableAutomaticScroll={true}
+    enableOnAndroid={false}
+    enableResetScrollToCoords={true}
+    extraHeight={75}
+    extraScrollHeight={0}
+    keyboardOpeningTime={250}
+    keyboardShouldPersistTaps="always"
+    scrollEnabled={true}
+    scrollEventThrottle={10}
+    style={
+      Object {
+        "backgroundColor": "#F6F6F6",
+      }
+    }
+    viewIsInsideTabBar={false}
+  >
+    <InventoryScreenComponent />
+  </KeyboardAwareScrollView>
+</withNavigation(ContextProvider)>
+`;

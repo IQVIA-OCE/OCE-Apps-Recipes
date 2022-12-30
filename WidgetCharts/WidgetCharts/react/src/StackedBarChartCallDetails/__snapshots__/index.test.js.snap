@@ -1,0 +1,1847 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StackedBarChartCallDetails should render properly 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "right": 0,
+        },
+        Object {
+          "position": "relative",
+          "right": 20,
+          "top": 0,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginRight": 5,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                false,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0768FD",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#0768FD",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "color": "#0768FD",
+          "elevation": 0,
+          "fontSize": 16,
+          "minWidth": 64,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onLayout={[Function]}
+        onPressIn={[Function]}
+        onPressOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "borderRadius": 4,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "marginBottom": -1,
+                  "marginLeft": 12,
+                  "marginRight": -4,
+                  "width": 16,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#0768FD",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "letterSpacing": 1,
+                      "textAlign": "center",
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#0768FD",
+                      "fontFamily": "System",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "marginHorizontal": 16,
+                      "marginVertical": 9,
+                    },
+                    Object {
+                      "fontFamily": "System",
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Call
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    horizontal={true}
+  >
+    <View>
+      <View
+        collapsable={false}
+        nativeID="animatedComponent"
+        onLayout={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          className="VictoryContainer"
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={250}
+            bbWidth={750}
+            focusable={false}
+            height={250}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            role="img"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "height": "100%",
+                  "width": "100%",
+                },
+                Object {
+                  "flex": 0,
+                  "height": 250,
+                  "width": 750,
+                },
+              ]
+            }
+            vbHeight={250}
+            vbWidth={750}
+            width={750}
+          >
+            <RNSVGGroup>
+              <RNSVGRect
+                fill={null}
+                height={250}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+                width={750}
+                x={0}
+                y={0}
+              />
+              <RNSVGGroup>
+                <RNSVGLine
+                  fill={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                      "strokeLinecap",
+                      "strokeLinejoin",
+                    ]
+                  }
+                  stroke={4280624421}
+                  strokeLinecap={1}
+                  strokeLinejoin={1}
+                  strokeWidth={1}
+                  vectorEffect={1}
+                  x1={50}
+                  x2={50}
+                  y1={50}
+                  y2={200}
+                />
+                <RNSVGGroup>
+                  <RNSVGLine
+                    fill={null}
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeDasharray",
+                      ]
+                    }
+                    stroke={4293322470}
+                    strokeDasharray={
+                      Array [
+                        3,
+                        3,
+                      ]
+                    }
+                    strokeWidth={1}
+                    vectorEffect={1}
+                    x1={50}
+                    x2={700}
+                    y1={170.00000000300003}
+                    y2={170.00000000300003}
+                  />
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-0-tickLabels-0"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        39,
+                      ]
+                    }
+                    y={
+                      Array [
+                        174.97000000300002,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="0.2"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": "normal",
+                          "textAnchor": "end",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          39,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+                <RNSVGGroup>
+                  <RNSVGLine
+                    fill={null}
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeDasharray",
+                      ]
+                    }
+                    stroke={4293322470}
+                    strokeDasharray={
+                      Array [
+                        3,
+                        3,
+                      ]
+                    }
+                    strokeWidth={1}
+                    vectorEffect={1}
+                    x1={50}
+                    x2={700}
+                    y1={140.000000006}
+                    y2={140.000000006}
+                  />
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-0-tickLabels-1"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        39,
+                      ]
+                    }
+                    y={
+                      Array [
+                        144.970000006,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="0.4"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": "normal",
+                          "textAnchor": "end",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          39,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+                <RNSVGGroup>
+                  <RNSVGLine
+                    fill={null}
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeDasharray",
+                      ]
+                    }
+                    stroke={4293322470}
+                    strokeDasharray={
+                      Array [
+                        3,
+                        3,
+                      ]
+                    }
+                    strokeWidth={1}
+                    vectorEffect={1}
+                    x1={50}
+                    x2={700}
+                    y1={110.000000009}
+                    y2={110.000000009}
+                  />
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-0-tickLabels-2"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        39,
+                      ]
+                    }
+                    y={
+                      Array [
+                        114.970000009,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="0.6"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": "normal",
+                          "textAnchor": "end",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          39,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+                <RNSVGGroup>
+                  <RNSVGLine
+                    fill={null}
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeDasharray",
+                      ]
+                    }
+                    stroke={4293322470}
+                    strokeDasharray={
+                      Array [
+                        3,
+                        3,
+                      ]
+                    }
+                    strokeWidth={1}
+                    vectorEffect={1}
+                    x1={50}
+                    x2={700}
+                    y1={80.00000001199999}
+                    y2={80.00000001199999}
+                  />
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-0-tickLabels-3"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        39,
+                      ]
+                    }
+                    y={
+                      Array [
+                        84.97000001199999,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="0.8"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": "normal",
+                          "textAnchor": "end",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          39,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+                <RNSVGGroup>
+                  <RNSVGLine
+                    fill={null}
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                        "strokeDasharray",
+                      ]
+                    }
+                    stroke={4293322470}
+                    strokeDasharray={
+                      Array [
+                        3,
+                        3,
+                      ]
+                    }
+                    strokeWidth={1}
+                    vectorEffect={1}
+                    x1={50}
+                    x2={700}
+                    y1={50.000000015}
+                    y2={50.000000015}
+                  />
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-0-tickLabels-4"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        39,
+                      ]
+                    }
+                    y={
+                      Array [
+                        54.970000015,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="1.0"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": "normal",
+                          "textAnchor": "end",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          39,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+              </RNSVGGroup>
+              <RNSVGGroup>
+                <RNSVGLine
+                  fill={0}
+                  propList={
+                    Array [
+                      "fill",
+                      "stroke",
+                      "strokeWidth",
+                      "strokeLinecap",
+                      "strokeLinejoin",
+                    ]
+                  }
+                  stroke={4280624421}
+                  strokeLinecap={1}
+                  strokeLinejoin={1}
+                  strokeWidth={1}
+                  vectorEffect={1}
+                  x1={50}
+                  x2={700}
+                  y1={200}
+                  y2={200}
+                />
+                <RNSVGGroup>
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-1-tickLabels-0"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        50,
+                      ]
+                    }
+                    y={
+                      Array [
+                        222.97,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="2001-05-01T00:00:00.000"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": 1,
+                          "textAnchor": "middle",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          50,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+                <RNSVGGroup>
+                  <RNSVGText
+                    content={null}
+                    dx={
+                      Array [
+                        0,
+                      ]
+                    }
+                    dy={Array []}
+                    font={Object {}}
+                    name="chart-axis-1-tickLabels-2"
+                    rotate={Array []}
+                    x={
+                      Array [
+                        483.3333333333333,
+                      ]
+                    }
+                    y={
+                      Array [
+                        222.97,
+                      ]
+                    }
+                  >
+                    <RNSVGTSpan
+                      content="2001-05-01T00:00:00.000"
+                      dx={
+                        Array [
+                          0,
+                        ]
+                      }
+                      dy={
+                        Array [
+                          0,
+                        ]
+                      }
+                      fill={4283256141}
+                      font={
+                        Object {
+                          "fontFamily": "Gill Sans",
+                          "fontSize": 14,
+                          "letterSpacing": 1,
+                          "textAnchor": "middle",
+                        }
+                      }
+                      propList={
+                        Array [
+                          "fill",
+                        ]
+                      }
+                      rotate={Array []}
+                      x={
+                        Array [
+                          483.3333333333333,
+                        ]
+                      }
+                      y={Array []}
+                    />
+                  </RNSVGText>
+                </RNSVGGroup>
+              </RNSVGGroup>
+              <RNSVGGroup>
+                <RNSVGGroup>
+                  <RNSVGPath
+                    d="M 473.3333333333333, 200 
+A 0 0 0 0 1, 473.3333333333333, 200 
+L 473.3333333333333, 54.000000015 
+A 4 4 0 0 1, 477.3333333333333, 50.000000015 
+L 489.3333333333333, 50.000000015 
+A 4 4 0 0 1, 493.3333333333333, 54.000000015 
+L 493.3333333333333, 200 
+A 0 0 0 0 1, 493.3333333333333, 200 
+ z"
+                    fill={4283996634}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                        "strokeWidth",
+                      ]
+                    }
+                    responsible={true}
+                    stroke={4283996634}
+                    strokeWidth={0}
+                  />
+                  <RNSVGGroup>
+                    <RNSVGGroup />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <View
+            pointerEvents="box-none"
+            style={
+              Object {
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "zIndex": 99,
+              }
+            }
+          >
+            <RNSVGSvgView
+              align="xMidYMid"
+              bbHeight={250}
+              bbWidth={750}
+              focusable={false}
+              height={250}
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Object {
+                    "height": "100%",
+                    "overflow": "visible",
+                    "width": "100%",
+                  },
+                  Object {
+                    "flex": 0,
+                    "height": 250,
+                    "width": 750,
+                  },
+                ]
+              }
+              vbHeight={250}
+              vbWidth={750}
+              width={750}
+            >
+              <RNSVGGroup>
+                <RNSVGGroup />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": 5,
+          "paddingHorizontal": 35,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#5899DA",
+            "height": 15,
+            "marginRight": 5,
+            "width": 15,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+          }
+        }
+      >
+        undefined
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StackedBarChartCallDetails should render with fetchDataError 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "right": 0,
+        },
+        Object {
+          "position": "relative",
+          "right": 20,
+          "top": 0,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginRight": 5,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                false,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0768FD",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#0768FD",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "color": "#0768FD",
+          "elevation": 0,
+          "fontSize": 16,
+          "minWidth": 64,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onLayout={[Function]}
+        onPressIn={[Function]}
+        onPressOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "borderRadius": 4,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "marginBottom": -1,
+                  "marginLeft": 12,
+                  "marginRight": -4,
+                  "width": 16,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#0768FD",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "letterSpacing": 1,
+                      "textAlign": "center",
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#0768FD",
+                      "fontFamily": "System",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "marginHorizontal": 16,
+                      "marginVertical": 9,
+                    },
+                    Object {
+                      "fontFamily": "System",
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Call
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingTop": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+        }
+      }
+    >
+      No Data Found
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`StackedBarChartCallDetails should render with no data 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "right": 0,
+        },
+        Object {
+          "position": "relative",
+          "right": 20,
+          "top": 0,
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginRight": 5,
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        centered={true}
+        focusable={true}
+        hitSlop={
+          Object {
+            "bottom": 6,
+            "left": 6,
+            "right": 6,
+            "top": 6,
+          }
+        }
+        onClick={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "margin": 6,
+                  "overflow": "hidden",
+                },
+                Object {
+                  "borderRadius": 22.5,
+                  "height": 45,
+                  "width": 45,
+                },
+                false,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 30,
+                    "width": 30,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "rotate": "0deg",
+                      },
+                    ],
+                  }
+                }
+              >
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#0768FD",
+                        "fontSize": 30,
+                      },
+                      Array [
+                        Object {
+                          "transform": Array [
+                            Object {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      Object {
+                        "fontFamily": "Material Design Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#0768FD",
+          "borderRadius": 4,
+          "borderStyle": "solid",
+          "borderWidth": 1,
+          "color": "#0768FD",
+          "elevation": 0,
+          "fontSize": 16,
+          "minWidth": 64,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onLayout={[Function]}
+        onPressIn={[Function]}
+        onPressOut={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={Object {}}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "overflow": "hidden",
+              },
+              Array [
+                Object {
+                  "borderRadius": 4,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "marginBottom": -1,
+                  "marginLeft": 12,
+                  "marginRight": -4,
+                  "width": 16,
+                }
+              }
+            >
+              <Text
+                accessibilityElementsHidden={true}
+                allowFontScaling={false}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Array [
+                    Object {
+                      "color": "#0768FD",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "scaleX": 1,
+                          },
+                        ],
+                      },
+                      Object {
+                        "backgroundColor": "transparent",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Material Design Icons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </View>
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "System",
+                    "fontWeight": "400",
+                    "textAlign": "left",
+                    "writingDirection": "ltr",
+                  },
+                  Array [
+                    Object {
+                      "letterSpacing": 1,
+                      "textAlign": "center",
+                    },
+                    undefined,
+                    false,
+                    Object {
+                      "color": "#0768FD",
+                      "fontFamily": "System",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "marginHorizontal": 16,
+                      "marginVertical": 9,
+                    },
+                    Object {
+                      "fontFamily": "System",
+                      "fontWeight": "500",
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              Call
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "borderRadius": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "paddingTop": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+        }
+      }
+    >
+      No Data Found
+    </Text>
+  </View>
+</View>
+`;
