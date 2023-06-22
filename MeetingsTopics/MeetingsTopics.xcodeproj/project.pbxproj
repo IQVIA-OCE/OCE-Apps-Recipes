@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91087B4A26BC1F2200AD73F0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91087B4926BC1F2200AD73F0 /* Security.framework */; };
+		91087B4C26BC1F2200AD73F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91087B4B26BC1F2200AD73F0 /* MapKit.framework */; };
+		91087B4F26BC1F2200AD73F0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 91087B4E26BC1F2200AD73F0 /* Podfile */; };
+		91087B5126BC1F2200AD73F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91087B5026BC1F2200AD73F0 /* AppDelegate.swift */; };
+		91087B5426BC1F2200AD73F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91087B5226BC1F2200AD73F0 /* Main.storyboard */; };
+		91087B5626BC1F2200AD73F0 /* react in Resources */ = {isa = PBXBuildFile; fileRef = 91087B5526BC1F2200AD73F0 /* react */; };
+		91087B5826BC1F2200AD73F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91087B5726BC1F2200AD73F0 /* ViewController.swift */; };
+		91087B5A26BC1F2200AD73F0 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 91087B5926BC1F2200AD73F0 /* metroBundler.config.json */; };
+		91087B5D26BC1F2200AD73F0 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = 91087B5C26BC1F2200AD73F0 /* unzip-react.sh */; };
+		91087B5F26BC1F2200AD73F0 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = 91087B5E26BC1F2200AD73F0 /* start-npm.sh */; };
+		91087B6126BC1F2200AD73F0 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = 91087B6026BC1F2200AD73F0 /* install-react-tools.sh */; };
+		91087B6326BC1F2200AD73F0 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91087B6226BC1F2200AD73F0 /* bootconfig.plist */; };
+		91087B6526BC1F2400AD73F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91087B6426BC1F2400AD73F0 /* Assets.xcassets */; };
+		91087B6826BC1F2400AD73F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91087B6626BC1F2400AD73F0 /* LaunchScreen.storyboard */; };
+		91087B6B26BC1F2400AD73F0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91087B6A26BC1F2400AD73F0 /* main.swift */; };
+		D88620A5F3B1C6623E67396F /* Pods_MeetingsTopics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B482ACC32012AAE2BEE277 /* Pods_MeetingsTopics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14D57D001F822BDF5D689BDC /* Pods-MeetingsTopics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsTopics.release.xcconfig"; path = "Target Support Files/Pods-MeetingsTopics/Pods-MeetingsTopics.release.xcconfig"; sourceTree = "<group>"; };
+		91087B4626BC1F2200AD73F0 /* MeetingsTopics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingsTopics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91087B4926BC1F2200AD73F0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		91087B4B26BC1F2200AD73F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		91087B4E26BC1F2200AD73F0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		91087B5026BC1F2200AD73F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91087B5326BC1F2200AD73F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91087B5526BC1F2200AD73F0 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		91087B5726BC1F2200AD73F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91087B5926BC1F2200AD73F0 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		91087B5C26BC1F2200AD73F0 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		91087B5E26BC1F2200AD73F0 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		91087B6026BC1F2200AD73F0 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		91087B6226BC1F2200AD73F0 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		91087B6426BC1F2400AD73F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91087B6726BC1F2400AD73F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91087B6926BC1F2400AD73F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91087B6A26BC1F2400AD73F0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CBBA85F969ACF3D41376D3E2 /* Pods-MeetingsTopics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsTopics.debug.xcconfig"; path = "Target Support Files/Pods-MeetingsTopics/Pods-MeetingsTopics.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B482ACC32012AAE2BEE277 /* Pods_MeetingsTopics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingsTopics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91087B4126BC1F2200AD73F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91087B4C26BC1F2200AD73F0 /* MapKit.framework in Frameworks */,
+				91087B4A26BC1F2200AD73F0 /* Security.framework in Frameworks */,
+				D88620A5F3B1C6623E67396F /* Pods_MeetingsTopics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91087B3B26BC1F2200AD73F0 = {
+			isa = PBXGroup;
+			children = (
+				91087B4D26BC1F2200AD73F0 /* MeetingsTopics */,
+				91087B4826BC1F2200AD73F0 /* Frameworks */,
+				91087B4726BC1F2200AD73F0 /* Products */,
+				F7162E5E1AC16BFDB75F33A6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		91087B4726BC1F2200AD73F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91087B4626BC1F2200AD73F0 /* MeetingsTopics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91087B4826BC1F2200AD73F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91087B4926BC1F2200AD73F0 /* Security.framework */,
+				91087B4B26BC1F2200AD73F0 /* MapKit.framework */,
+				D9B482ACC32012AAE2BEE277 /* Pods_MeetingsTopics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91087B4D26BC1F2200AD73F0 /* MeetingsTopics */ = {
+			isa = PBXGroup;
+			children = (
+				91087B4E26BC1F2200AD73F0 /* Podfile */,
+				91087B5026BC1F2200AD73F0 /* AppDelegate.swift */,
+				91087B5226BC1F2200AD73F0 /* Main.storyboard */,
+				91087B5526BC1F2200AD73F0 /* react */,
+				91087B5726BC1F2200AD73F0 /* ViewController.swift */,
+				91087B5926BC1F2200AD73F0 /* metroBundler.config.json */,
+				91087B6426BC1F2400AD73F0 /* Assets.xcassets */,
+				91087B6626BC1F2400AD73F0 /* LaunchScreen.storyboard */,
+				91087B6926BC1F2400AD73F0 /* Info.plist */,
+				91087B6A26BC1F2400AD73F0 /* main.swift */,
+				91087B5B26BC1F2200AD73F0 /* Supporting Files */,
+			);
+			path = MeetingsTopics;
+			sourceTree = "<group>";
+		};
+		91087B5B26BC1F2200AD73F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91087B5C26BC1F2200AD73F0 /* unzip-react.sh */,
+				91087B5E26BC1F2200AD73F0 /* start-npm.sh */,
+				91087B6026BC1F2200AD73F0 /* install-react-tools.sh */,
+				91087B6226BC1F2200AD73F0 /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7162E5E1AC16BFDB75F33A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA85F969ACF3D41376D3E2 /* Pods-MeetingsTopics.debug.xcconfig */,
+				14D57D001F822BDF5D689BDC /* Pods-MeetingsTopics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91087B4526BC1F2200AD73F0 /* MeetingsTopics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91087B6E26BC1F2400AD73F0 /* Build configuration list for PBXNativeTarget "MeetingsTopics" */;
+			buildPhases = (
+				347460C805CE0B8FCA525542 /* [CP] Check Pods Manifest.lock */,
+				91087B4026BC1F2200AD73F0 /* Sources */,
+				91087B4126BC1F2200AD73F0 /* Frameworks */,
+				91087B4226BC1F2200AD73F0 /* Resources */,
+				91087B4326BC1F2200AD73F0 /* Start npm */,
+				91087B4426BC1F2200AD73F0 /* Bundle React Native code and images */,
+				6AC31D3CF2E2118B9144BA51 /* [CP] Embed Pods Frameworks */,
+				35A46145B8C1024CDE6AF23D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingsTopics;
+			productName = MeetingsTopics;
+			productReference = 91087B4626BC1F2200AD73F0 /* MeetingsTopics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91087B3C26BC1F2200AD73F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					91087B4526BC1F2200AD73F0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 91087B3F26BC1F2200AD73F0 /* Build configuration list for PBXProject "MeetingsTopics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91087B3B26BC1F2200AD73F0;
+			productRefGroup = 91087B4726BC1F2200AD73F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91087B4526BC1F2200AD73F0 /* MeetingsTopics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91087B4226BC1F2200AD73F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91087B5626BC1F2200AD73F0 /* react in Resources */,
+				91087B5F26BC1F2200AD73F0 /* start-npm.sh in Resources */,
+				91087B6126BC1F2200AD73F0 /* install-react-tools.sh in Resources */,
+				91087B6826BC1F2400AD73F0 /* LaunchScreen.storyboard in Resources */,
+				91087B4F26BC1F2200AD73F0 /* Podfile in Resources */,
+				91087B6326BC1F2200AD73F0 /* bootconfig.plist in Resources */,
+				91087B5426BC1F2200AD73F0 /* Main.storyboard in Resources */,
+				91087B5D26BC1F2200AD73F0 /* unzip-react.sh in Resources */,
+				91087B6526BC1F2400AD73F0 /* Assets.xcassets in Resources */,
+				91087B5A26BC1F2200AD73F0 /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347460C805CE0B8FCA525542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingsTopics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35A46145B8C1024CDE6AF23D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingsTopics/Pods-MeetingsTopics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC31D3CF2E2118B9144BA51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingsTopics/Pods-MeetingsTopics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91087B4326BC1F2200AD73F0 /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		91087B4426BC1F2200AD73F0 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91087B4026BC1F2200AD73F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91087B5826BC1F2200AD73F0 /* ViewController.swift in Sources */,
+				91087B5126BC1F2200AD73F0 /* AppDelegate.swift in Sources */,
+				91087B6B26BC1F2400AD73F0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91087B5226BC1F2200AD73F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91087B5326BC1F2200AD73F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91087B6626BC1F2400AD73F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91087B6726BC1F2400AD73F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91087B6C26BC1F2400AD73F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91087B6D26BC1F2400AD73F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91087B6F26BC1F2400AD73F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBA85F969ACF3D41376D3E2 /* Pods-MeetingsTopics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = MeetingsTopics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.MeetingsTopics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91087B7026BC1F2400AD73F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D57D001F822BDF5D689BDC /* Pods-MeetingsTopics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = MeetingsTopics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.MeetingsTopics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91087B3F26BC1F2200AD73F0 /* Build configuration list for PBXProject "MeetingsTopics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91087B6C26BC1F2400AD73F0 /* Debug */,
+				91087B6D26BC1F2400AD73F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91087B6E26BC1F2400AD73F0 /* Build configuration list for PBXNativeTarget "MeetingsTopics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91087B6F26BC1F2400AD73F0 /* Debug */,
+				91087B7026BC1F2400AD73F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91087B3C26BC1F2200AD73F0 /* Project object */;
+}
