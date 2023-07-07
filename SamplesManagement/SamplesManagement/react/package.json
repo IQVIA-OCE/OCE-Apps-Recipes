@@ -1,0 +1,58 @@
+{
+  "name": "OCEPlugin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "oce-apps-scripts build-ios",
+    "start": "oce-apps-scripts start-ios",
+    "start-web": "oce-apps-scripts start-web",
+    "build-web": "oce-apps-scripts build-web",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "@react-navigation/core": "6.4.0",
+    "@react-navigation/native": "6.0.13",
+    "@react-navigation/stack": "6.3.2",
+    "apollo-react-native": "git+https://${USER_NAME}:${APOLLO_TOKEN}@gitlab.ims.io/apollo/apollo-react-native#${APOLLO_VERSION}",
+    "babel-preset-expo": "9.2.0",
+    "base64-js": "1.3.1",
+    "color": "4.2.3",
+    "formik": "2.1.4",
+    "jest": "26.6.3",
+    "jest-file-snapshot": "0.3.8",
+    "moment": "2.24.0",
+    "oce-apps-bridges": "17.0.5",
+    "oce-apps-scripts": "4.0.0",
+    "react": "18.1.0",
+    "react-native": "0.70.3",
+    "react-native-gesture-handler": "2.8.0",
+    "react-native-keyboard-aware-scroll-view": "0.9.5",
+    "react-native-screens": "3.4.0",
+    "react-native-vector-icons": "6.4.2",
+    "react-test-renderer": "18.2.0",
+    "yup": "0.28.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverageFrom": [
+      "App.{js,jsx}",
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/bridge/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@react-native|victory-*|@react-native-community|apollo-react-native|react-navigation|@react-navigation|react-naive-gesture-handler|oce-apps-bridges|react-native-vector-icons)"
+    ],
+    "setupFiles": [
+      "./node_modules/oce-apps-bridges/lib/setupMocks.js",
+      "./node_modules/react-native-gesture-handler/jestSetup.js"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^4.0.4",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/react-native": "9.0.0",
+    "prettier": "^1.19.1"
+  }
+}
