@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF9E69AAC9D4571B1486A80 /* Pods_SampleLotsAllocationReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEC17DEE31490E6C218E291 /* Pods_SampleLotsAllocationReport.framework */; };
+		A426253927D63858009BE0BD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A426253827D63858009BE0BD /* Security.framework */; };
+		A426253B27D63858009BE0BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A426253A27D63858009BE0BD /* MapKit.framework */; };
+		A426253E27D63858009BE0BD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A426253D27D63858009BE0BD /* Podfile */; };
+		A426254027D63858009BE0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426253F27D63858009BE0BD /* AppDelegate.swift */; };
+		A426254327D63858009BE0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A426254127D63858009BE0BD /* Main.storyboard */; };
+		A426254527D63858009BE0BD /* react in Resources */ = {isa = PBXBuildFile; fileRef = A426254427D63858009BE0BD /* react */; };
+		A426254727D63858009BE0BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426254627D63858009BE0BD /* ViewController.swift */; };
+		A426254927D63858009BE0BD /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = A426254827D63858009BE0BD /* metroBundler.config.json */; };
+		A426254C27D63858009BE0BD /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = A426254B27D63858009BE0BD /* unzip-react.sh */; };
+		A426254E27D63858009BE0BD /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = A426254D27D63858009BE0BD /* start-npm.sh */; };
+		A426255027D63858009BE0BD /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = A426254F27D63858009BE0BD /* install-react-tools.sh */; };
+		A426255227D63858009BE0BD /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A426255127D63858009BE0BD /* bootconfig.plist */; };
+		A426255427D6385B009BE0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A426255327D6385B009BE0BD /* Assets.xcassets */; };
+		A426255727D6385B009BE0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A426255527D6385B009BE0BD /* LaunchScreen.storyboard */; };
+		A426255A27D6385B009BE0BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426255927D6385B009BE0BD /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73C940E42791EEE8C9089907 /* Pods-SampleLotsAllocationReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleLotsAllocationReport.release.xcconfig"; path = "Target Support Files/Pods-SampleLotsAllocationReport/Pods-SampleLotsAllocationReport.release.xcconfig"; sourceTree = "<group>"; };
+		A426253527D63858009BE0BD /* SampleLotsAllocationReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleLotsAllocationReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A426253827D63858009BE0BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A426253A27D63858009BE0BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A426253D27D63858009BE0BD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		A426253F27D63858009BE0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A426254227D63858009BE0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A426254427D63858009BE0BD /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		A426254627D63858009BE0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A426254827D63858009BE0BD /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		A426254B27D63858009BE0BD /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		A426254D27D63858009BE0BD /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		A426254F27D63858009BE0BD /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		A426255127D63858009BE0BD /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		A426255327D6385B009BE0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A426255627D6385B009BE0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A426255827D6385B009BE0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A426255927D6385B009BE0BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CBEC17DEE31490E6C218E291 /* Pods_SampleLotsAllocationReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleLotsAllocationReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0770A37CC549A0468532F0 /* Pods-SampleLotsAllocationReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleLotsAllocationReport.debug.xcconfig"; path = "Target Support Files/Pods-SampleLotsAllocationReport/Pods-SampleLotsAllocationReport.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A426253027D63858009BE0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A426253B27D63858009BE0BD /* MapKit.framework in Frameworks */,
+				A426253927D63858009BE0BD /* Security.framework in Frameworks */,
+				0FF9E69AAC9D4571B1486A80 /* Pods_SampleLotsAllocationReport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A426252A27D63858009BE0BD = {
+			isa = PBXGroup;
+			children = (
+				A426253C27D63858009BE0BD /* SampleLotsAllocationReport */,
+				A426253727D63858009BE0BD /* Frameworks */,
+				A426253627D63858009BE0BD /* Products */,
+				D4D70ABE8D2BE4B86F69E1FF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A426253627D63858009BE0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A426253527D63858009BE0BD /* SampleLotsAllocationReport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A426253727D63858009BE0BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A426253827D63858009BE0BD /* Security.framework */,
+				A426253A27D63858009BE0BD /* MapKit.framework */,
+				CBEC17DEE31490E6C218E291 /* Pods_SampleLotsAllocationReport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A426253C27D63858009BE0BD /* SampleLotsAllocationReport */ = {
+			isa = PBXGroup;
+			children = (
+				A426253D27D63858009BE0BD /* Podfile */,
+				A426253F27D63858009BE0BD /* AppDelegate.swift */,
+				A426254127D63858009BE0BD /* Main.storyboard */,
+				A426254427D63858009BE0BD /* react */,
+				A426254627D63858009BE0BD /* ViewController.swift */,
+				A426254827D63858009BE0BD /* metroBundler.config.json */,
+				A426255327D6385B009BE0BD /* Assets.xcassets */,
+				A426255527D6385B009BE0BD /* LaunchScreen.storyboard */,
+				A426255827D6385B009BE0BD /* Info.plist */,
+				A426255927D6385B009BE0BD /* main.swift */,
+				A426254A27D63858009BE0BD /* Supporting Files */,
+			);
+			path = SampleLotsAllocationReport;
+			sourceTree = "<group>";
+		};
+		A426254A27D63858009BE0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A426254B27D63858009BE0BD /* unzip-react.sh */,
+				A426254D27D63858009BE0BD /* start-npm.sh */,
+				A426254F27D63858009BE0BD /* install-react-tools.sh */,
+				A426255127D63858009BE0BD /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4D70ABE8D2BE4B86F69E1FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0770A37CC549A0468532F0 /* Pods-SampleLotsAllocationReport.debug.xcconfig */,
+				73C940E42791EEE8C9089907 /* Pods-SampleLotsAllocationReport.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A426253427D63858009BE0BD /* SampleLotsAllocationReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A426255D27D6385B009BE0BD /* Build configuration list for PBXNativeTarget "SampleLotsAllocationReport" */;
+			buildPhases = (
+				F53B584CEFA92F45CA5C84AD /* [CP] Check Pods Manifest.lock */,
+				A426252F27D63858009BE0BD /* Sources */,
+				A426253027D63858009BE0BD /* Frameworks */,
+				A426253127D63858009BE0BD /* Resources */,
+				A426253227D63858009BE0BD /* Start npm */,
+				A426253327D63858009BE0BD /* Bundle React Native code and images */,
+				EA63588D5D3A563ED1284A7C /* [CP] Embed Pods Frameworks */,
+				AB3A276C42ED6E687451F8DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleLotsAllocationReport;
+			productName = SampleLotsAllocationReport;
+			productReference = A426253527D63858009BE0BD /* SampleLotsAllocationReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A426252B27D63858009BE0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A426253427D63858009BE0BD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A426252E27D63858009BE0BD /* Build configuration list for PBXProject "SampleLotsAllocationReport" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A426252A27D63858009BE0BD;
+			productRefGroup = A426253627D63858009BE0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A426253427D63858009BE0BD /* SampleLotsAllocationReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A426253127D63858009BE0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A426254527D63858009BE0BD /* react in Resources */,
+				A426254E27D63858009BE0BD /* start-npm.sh in Resources */,
+				A426255027D63858009BE0BD /* install-react-tools.sh in Resources */,
+				A426255727D6385B009BE0BD /* LaunchScreen.storyboard in Resources */,
+				A426253E27D63858009BE0BD /* Podfile in Resources */,
+				A426255227D63858009BE0BD /* bootconfig.plist in Resources */,
+				A426254327D63858009BE0BD /* Main.storyboard in Resources */,
+				A426254C27D63858009BE0BD /* unzip-react.sh in Resources */,
+				A426255427D6385B009BE0BD /* Assets.xcassets in Resources */,
+				A426254927D63858009BE0BD /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A426253227D63858009BE0BD /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		A426253327D63858009BE0BD /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+		AB3A276C42ED6E687451F8DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleLotsAllocationReport/Pods-SampleLotsAllocationReport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA63588D5D3A563ED1284A7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleLotsAllocationReport/Pods-SampleLotsAllocationReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53B584CEFA92F45CA5C84AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleLotsAllocationReport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A426252F27D63858009BE0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A426254727D63858009BE0BD /* ViewController.swift in Sources */,
+				A426254027D63858009BE0BD /* AppDelegate.swift in Sources */,
+				A426255A27D6385B009BE0BD /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A426254127D63858009BE0BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A426254227D63858009BE0BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A426255527D6385B009BE0BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A426255627D6385B009BE0BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A426255B27D6385B009BE0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A426255C27D6385B009BE0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A426255E27D6385B009BE0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0770A37CC549A0468532F0 /* Pods-SampleLotsAllocationReport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleLotsAllocationReport/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OceAppsRecipes.SampleLotsAllocationReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A426255F27D6385B009BE0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C940E42791EEE8C9089907 /* Pods-SampleLotsAllocationReport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleLotsAllocationReport/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = OceAppsRecipes.SampleLotsAllocationReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A426252E27D63858009BE0BD /* Build configuration list for PBXProject "SampleLotsAllocationReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A426255B27D6385B009BE0BD /* Debug */,
+				A426255C27D6385B009BE0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A426255D27D6385B009BE0BD /* Build configuration list for PBXNativeTarget "SampleLotsAllocationReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A426255E27D6385B009BE0BD /* Debug */,
+				A426255F27D6385B009BE0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A426252B27D63858009BE0BD /* Project object */;
+}
