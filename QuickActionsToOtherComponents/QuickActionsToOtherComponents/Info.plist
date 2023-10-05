@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>myoceapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>myoceapp</string>
+			</array>
+		</dict>
+	</array>
+	<key>MKDirectionsApplicationSupportedModes</key>
+	<array>
+		<string>MKDirectionsModeCar</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Access to the camera is needed to add images</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Allow the app to access Face ID</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Access to your location allows the app to display route times and distances</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Access to Microphone allows dictation to the app</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Access to your photo library is needed to export images from the app</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Access to your photo library is needed to add images to the app</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Allow the app to access Siri</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>LastSyncTimeIntent</string>
+		<string>MyAppointmentsForTheDayIntent</string>
+		<string>NextAppointmentIntent</string>
+		<string>ShowRecentUnsubmittedCallsIntent</string>
+	</array>
+	<key>OAuthRedirectURI</key>
+	<string>testsfdc:///mobilesdk/detect/oauth/done</string>
+	<key>SFDCOAuthLoginHost</key>
+	<string>test.salesforce.com</string>
+</dict>
+</plist>
