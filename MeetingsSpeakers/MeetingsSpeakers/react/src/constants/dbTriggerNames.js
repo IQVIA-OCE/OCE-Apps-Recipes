@@ -1,0 +1,3 @@
+export const MEETING_DUPLICATE_MEMBER_HANDLER = 'MeetingMemberDuplicateMemberHandler';
+export const MEETING_MEMBER_ACCOUNT_UTILIZATION_HANDLER = 'MeetingMemberAccountUtilizationHandler';
+export const MEETING_ACCOUNT_UTILIZATION_HANDLER = 'MeetingAccountUtilizationHandler';

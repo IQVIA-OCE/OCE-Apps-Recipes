@@ -1,0 +1,5 @@
+div[data-testid="dates-th-scrollview"]::-webkit-scrollbar,
+div[data-testid="horizontal-scrollview-qty"]::-webkit-scrollbar
+{
+    width: 0 !important;
+}
