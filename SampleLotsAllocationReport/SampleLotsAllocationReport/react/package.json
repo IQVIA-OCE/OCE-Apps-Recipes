@@ -19,7 +19,7 @@
     "@oce-apps/apollo-react-native": "latest",
     "jest": "29.7.0",
     "jest-file-snapshot": "0.5.0",
-    "luxon": "2.3.1",
+    "luxon": "2.5.2",
     "@oce-apps/oce-apps-bridges": "latest",
     "@oce-apps/oce-apps-scripts": "latest",
     "react": "18.2.0",
