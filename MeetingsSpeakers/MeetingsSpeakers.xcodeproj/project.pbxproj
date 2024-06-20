@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423529CD26BD1EDB00F64EF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423529CC26BD1EDB00F64EF7 /* Security.framework */; };
+		423529CF26BD1EDB00F64EF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423529CE26BD1EDB00F64EF7 /* MapKit.framework */; };
+		423529D226BD1EDB00F64EF7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 423529D126BD1EDB00F64EF7 /* Podfile */; };
+		423529D426BD1EDB00F64EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423529D326BD1EDB00F64EF7 /* AppDelegate.swift */; };
+		423529D726BD1EDB00F64EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423529D526BD1EDB00F64EF7 /* Main.storyboard */; };
+		423529D926BD1EDB00F64EF7 /* react in Resources */ = {isa = PBXBuildFile; fileRef = 423529D826BD1EDB00F64EF7 /* react */; };
+		423529DB26BD1EDB00F64EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423529DA26BD1EDB00F64EF7 /* ViewController.swift */; };
+		423529DD26BD1EDB00F64EF7 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 423529DC26BD1EDB00F64EF7 /* metroBundler.config.json */; };
+		423529E026BD1EDB00F64EF7 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = 423529DF26BD1EDB00F64EF7 /* unzip-react.sh */; };
+		423529E226BD1EDB00F64EF7 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = 423529E126BD1EDB00F64EF7 /* start-npm.sh */; };
+		423529E426BD1EDB00F64EF7 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = 423529E326BD1EDB00F64EF7 /* install-react-tools.sh */; };
+		423529E626BD1EDB00F64EF7 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 423529E526BD1EDB00F64EF7 /* bootconfig.plist */; };
+		423529E826BD1EDB00F64EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423529E726BD1EDB00F64EF7 /* Assets.xcassets */; };
+		423529EB26BD1EDB00F64EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423529E926BD1EDB00F64EF7 /* LaunchScreen.storyboard */; };
+		423529EE26BD1EDB00F64EF7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423529ED26BD1EDB00F64EF7 /* main.swift */; };
+		931C1B73FD7213C36CED149F /* Pods_MeetingsSpeakers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6FD7DDF047F3399815846D /* Pods_MeetingsSpeakers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		423529C926BD1EDB00F64EF7 /* MeetingsSpeakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingsSpeakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423529CC26BD1EDB00F64EF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		423529CE26BD1EDB00F64EF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		423529D126BD1EDB00F64EF7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		423529D326BD1EDB00F64EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		423529D626BD1EDB00F64EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		423529D826BD1EDB00F64EF7 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		423529DA26BD1EDB00F64EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		423529DC26BD1EDB00F64EF7 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		423529DF26BD1EDB00F64EF7 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		423529E126BD1EDB00F64EF7 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		423529E326BD1EDB00F64EF7 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		423529E526BD1EDB00F64EF7 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		423529E726BD1EDB00F64EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423529EA26BD1EDB00F64EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		423529EC26BD1EDB00F64EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423529ED26BD1EDB00F64EF7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6E943AF5C9689C17418225D8 /* Pods-MeetingsSpeakers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsSpeakers.release.xcconfig"; path = "Target Support Files/Pods-MeetingsSpeakers/Pods-MeetingsSpeakers.release.xcconfig"; sourceTree = "<group>"; };
+		816C0D4954EE1B7C4A0CE2C3 /* Pods-MeetingsSpeakers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsSpeakers.debug.xcconfig"; path = "Target Support Files/Pods-MeetingsSpeakers/Pods-MeetingsSpeakers.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6FD7DDF047F3399815846D /* Pods_MeetingsSpeakers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingsSpeakers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423529C426BD1EDB00F64EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423529CF26BD1EDB00F64EF7 /* MapKit.framework in Frameworks */,
+				423529CD26BD1EDB00F64EF7 /* Security.framework in Frameworks */,
+				931C1B73FD7213C36CED149F /* Pods_MeetingsSpeakers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC8C3C07E87FE42574F09DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				816C0D4954EE1B7C4A0CE2C3 /* Pods-MeetingsSpeakers.debug.xcconfig */,
+				6E943AF5C9689C17418225D8 /* Pods-MeetingsSpeakers.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		423529BE26BD1EDB00F64EF7 = {
+			isa = PBXGroup;
+			children = (
+				423529D026BD1EDB00F64EF7 /* MeetingsSpeakers */,
+				423529CB26BD1EDB00F64EF7 /* Frameworks */,
+				423529CA26BD1EDB00F64EF7 /* Products */,
+				2EC8C3C07E87FE42574F09DC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		423529CA26BD1EDB00F64EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423529C926BD1EDB00F64EF7 /* MeetingsSpeakers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423529CB26BD1EDB00F64EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423529CC26BD1EDB00F64EF7 /* Security.framework */,
+				423529CE26BD1EDB00F64EF7 /* MapKit.framework */,
+				CE6FD7DDF047F3399815846D /* Pods_MeetingsSpeakers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		423529D026BD1EDB00F64EF7 /* MeetingsSpeakers */ = {
+			isa = PBXGroup;
+			children = (
+				423529D126BD1EDB00F64EF7 /* Podfile */,
+				423529D326BD1EDB00F64EF7 /* AppDelegate.swift */,
+				423529D526BD1EDB00F64EF7 /* Main.storyboard */,
+				423529D826BD1EDB00F64EF7 /* react */,
+				423529DA26BD1EDB00F64EF7 /* ViewController.swift */,
+				423529DC26BD1EDB00F64EF7 /* metroBundler.config.json */,
+				423529E726BD1EDB00F64EF7 /* Assets.xcassets */,
+				423529E926BD1EDB00F64EF7 /* LaunchScreen.storyboard */,
+				423529EC26BD1EDB00F64EF7 /* Info.plist */,
+				423529ED26BD1EDB00F64EF7 /* main.swift */,
+				423529DE26BD1EDB00F64EF7 /* Supporting Files */,
+			);
+			path = MeetingsSpeakers;
+			sourceTree = "<group>";
+		};
+		423529DE26BD1EDB00F64EF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				423529DF26BD1EDB00F64EF7 /* unzip-react.sh */,
+				423529E126BD1EDB00F64EF7 /* start-npm.sh */,
+				423529E326BD1EDB00F64EF7 /* install-react-tools.sh */,
+				423529E526BD1EDB00F64EF7 /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423529C826BD1EDB00F64EF7 /* MeetingsSpeakers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423529F126BD1EDB00F64EF7 /* Build configuration list for PBXNativeTarget "MeetingsSpeakers" */;
+			buildPhases = (
+				1077BAD5AC1532BFF02889E2 /* [CP] Check Pods Manifest.lock */,
+				423529C326BD1EDB00F64EF7 /* Sources */,
+				423529C426BD1EDB00F64EF7 /* Frameworks */,
+				423529C526BD1EDB00F64EF7 /* Resources */,
+				423529C626BD1EDB00F64EF7 /* Start npm */,
+				423529C726BD1EDB00F64EF7 /* Bundle React Native code and images */,
+				840B785522231238CA475690 /* [CP] Embed Pods Frameworks */,
+				0B578932A0806BBE433361C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingsSpeakers;
+			productName = MeetingsSpeakers;
+			productReference = 423529C926BD1EDB00F64EF7 /* MeetingsSpeakers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423529BF26BD1EDB00F64EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					423529C826BD1EDB00F64EF7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 423529C226BD1EDB00F64EF7 /* Build configuration list for PBXProject "MeetingsSpeakers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423529BE26BD1EDB00F64EF7;
+			productRefGroup = 423529CA26BD1EDB00F64EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423529C826BD1EDB00F64EF7 /* MeetingsSpeakers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423529C526BD1EDB00F64EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423529D926BD1EDB00F64EF7 /* react in Resources */,
+				423529E226BD1EDB00F64EF7 /* start-npm.sh in Resources */,
+				423529E426BD1EDB00F64EF7 /* install-react-tools.sh in Resources */,
+				423529EB26BD1EDB00F64EF7 /* LaunchScreen.storyboard in Resources */,
+				423529D226BD1EDB00F64EF7 /* Podfile in Resources */,
+				423529E626BD1EDB00F64EF7 /* bootconfig.plist in Resources */,
+				423529D726BD1EDB00F64EF7 /* Main.storyboard in Resources */,
+				423529E026BD1EDB00F64EF7 /* unzip-react.sh in Resources */,
+				423529E826BD1EDB00F64EF7 /* Assets.xcassets in Resources */,
+				423529DD26BD1EDB00F64EF7 /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B578932A0806BBE433361C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingsSpeakers/Pods-MeetingsSpeakers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1077BAD5AC1532BFF02889E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingsSpeakers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		423529C626BD1EDB00F64EF7 /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		423529C726BD1EDB00F64EF7 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+		840B785522231238CA475690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingsSpeakers/Pods-MeetingsSpeakers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423529C326BD1EDB00F64EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423529DB26BD1EDB00F64EF7 /* ViewController.swift in Sources */,
+				423529D426BD1EDB00F64EF7 /* AppDelegate.swift in Sources */,
+				423529EE26BD1EDB00F64EF7 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		423529D526BD1EDB00F64EF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423529D626BD1EDB00F64EF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		423529E926BD1EDB00F64EF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423529EA26BD1EDB00F64EF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423529EF26BD1EDB00F64EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		423529F026BD1EDB00F64EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423529F226BD1EDB00F64EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816C0D4954EE1B7C4A0CE2C3 /* Pods-MeetingsSpeakers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingsSpeakers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCEMeetings.MeetingsSpeakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423529F326BD1EDB00F64EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E943AF5C9689C17418225D8 /* Pods-MeetingsSpeakers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingsSpeakers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCEMeetings.MeetingsSpeakers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423529C226BD1EDB00F64EF7 /* Build configuration list for PBXProject "MeetingsSpeakers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423529EF26BD1EDB00F64EF7 /* Debug */,
+				423529F026BD1EDB00F64EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423529F126BD1EDB00F64EF7 /* Build configuration list for PBXNativeTarget "MeetingsSpeakers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423529F226BD1EDB00F64EF7 /* Debug */,
+				423529F326BD1EDB00F64EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423529BF26BD1EDB00F64EF7 /* Project object */;
+}
