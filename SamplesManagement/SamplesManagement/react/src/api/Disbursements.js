@@ -1,0 +1,5 @@
+import api from '../utils/api';
+import { NAMESPACE } from '../constants/constants';
+
+export const fetchDisbursements = (period) =>
+  api.query(`select ${NAMESPACE}Product__r.Id, ${NAMESPACE}Product__r.Name productName, Sum(${NAMESPACE}Quantity__c) totalQuantity, CALENDAR_YEAR(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c) year, CALENDAR_MONTH(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c) month from ${NAMESPACE}SampleTransactionDetail__c where ${NAMESPACE}SampleTransaction__r.RecordType.Name = 'Disbursement' and ((DAY_ONLY(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c) >= ${period}) and (DAY_ONLY(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c) <= THIS_MONTH)) group by ${NAMESPACE}Product__r.Name, ${NAMESPACE}Product__r.Id, CALENDAR_YEAR(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c), CALENDAR_MONTH(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c) order by CALENDAR_YEAR(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c), CALENDAR_MONTH(${NAMESPACE}SampleTransaction__r.${NAMESPACE}TransactionDateTime__c)`);
