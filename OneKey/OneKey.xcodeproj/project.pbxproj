@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0723A6E1F7239F938EA5EAFB /* Pods_OneKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65549C3D1C4CB003EBDD8CA2 /* Pods_OneKey.framework */; };
+		FFA55CC2250B4EEE0009F2FE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55CC1250B4EEE0009F2FE /* Security.framework */; };
+		FFA55CC4250B4EEE0009F2FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA55CC3250B4EEE0009F2FE /* MapKit.framework */; };
+		FFA55CC7250B4EEE0009F2FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CC6250B4EEE0009F2FE /* Podfile */; };
+		FFA55CC9250B4EEE0009F2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CC8250B4EEE0009F2FE /* AppDelegate.swift */; };
+		FFA55CCC250B4EEE0009F2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CCA250B4EEE0009F2FE /* Main.storyboard */; };
+		FFA55CD0250B4EEE0009F2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CCF250B4EEE0009F2FE /* ViewController.swift */; };
+		FFA55CD2250B4EEE0009F2FE /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD1250B4EEE0009F2FE /* metroBundler.config.json */; };
+		FFA55CD5250B4EEE0009F2FE /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD4250B4EEE0009F2FE /* unzip-react.sh */; };
+		FFA55CD7250B4EEE0009F2FE /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD6250B4EEE0009F2FE /* start-npm.sh */; };
+		FFA55CD9250B4EEE0009F2FE /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CD8250B4EEE0009F2FE /* install-react-tools.sh */; };
+		FFA55CDB250B4EEE0009F2FE /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CDA250B4EEE0009F2FE /* bootconfig.plist */; };
+		FFA55CDD250B4EF00009F2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CDC250B4EF00009F2FE /* Assets.xcassets */; };
+		FFA55CE0250B4EF00009F2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA55CDE250B4EF00009F2FE /* LaunchScreen.storyboard */; };
+		FFA55CE3250B4EF00009F2FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA55CE2250B4EF00009F2FE /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65549C3D1C4CB003EBDD8CA2 /* Pods_OneKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8910089BC4C56CA25EB88333 /* Pods-OneKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKey.release.xcconfig"; path = "Target Support Files/Pods-OneKey/Pods-OneKey.release.xcconfig"; sourceTree = "<group>"; };
+		F484FBD9B8A17F4BF0BF540D /* Pods-OneKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneKey.debug.xcconfig"; path = "Target Support Files/Pods-OneKey/Pods-OneKey.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA55CBE250B4EEE0009F2FE /* OneKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA55CC1250B4EEE0009F2FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFA55CC3250B4EEE0009F2FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FFA55CC6250B4EEE0009F2FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FFA55CC8250B4EEE0009F2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA55CCB250B4EEE0009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFA55CCD250B4EEE0009F2FE /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		FFA55CCF250B4EEE0009F2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFA55CD1250B4EEE0009F2FE /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		FFA55CD4250B4EEE0009F2FE /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		FFA55CD6250B4EEE0009F2FE /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		FFA55CD8250B4EEE0009F2FE /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		FFA55CDA250B4EEE0009F2FE /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		FFA55CDC250B4EF00009F2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFA55CDF250B4EF00009F2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFA55CE1250B4EF00009F2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA55CE2250B4EF00009F2FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA55CB9250B4EEE0009F2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA55CC4250B4EEE0009F2FE /* MapKit.framework in Frameworks */,
+				FFA55CC2250B4EEE0009F2FE /* Security.framework in Frameworks */,
+				0723A6E1F7239F938EA5EAFB /* Pods_OneKey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D986165AFFA3F00A91AC5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F484FBD9B8A17F4BF0BF540D /* Pods-OneKey.debug.xcconfig */,
+				8910089BC4C56CA25EB88333 /* Pods-OneKey.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFA55CB3250B4EEE0009F2FE = {
+			isa = PBXGroup;
+			children = (
+				FFA55CC5250B4EEE0009F2FE /* OneKey */,
+				FFA55CC0250B4EEE0009F2FE /* Frameworks */,
+				FFA55CBF250B4EEE0009F2FE /* Products */,
+				02D986165AFFA3F00A91AC5C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA55CBF250B4EEE0009F2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55CBE250B4EEE0009F2FE /* OneKey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA55CC0250B4EEE0009F2FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55CC1250B4EEE0009F2FE /* Security.framework */,
+				FFA55CC3250B4EEE0009F2FE /* MapKit.framework */,
+				65549C3D1C4CB003EBDD8CA2 /* Pods_OneKey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA55CC5250B4EEE0009F2FE /* OneKey */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55CC6250B4EEE0009F2FE /* Podfile */,
+				FFA55CC8250B4EEE0009F2FE /* AppDelegate.swift */,
+				FFA55CCA250B4EEE0009F2FE /* Main.storyboard */,
+				FFA55CCD250B4EEE0009F2FE /* react */,
+				FFA55CCF250B4EEE0009F2FE /* ViewController.swift */,
+				FFA55CD1250B4EEE0009F2FE /* metroBundler.config.json */,
+				FFA55CDC250B4EF00009F2FE /* Assets.xcassets */,
+				FFA55CDE250B4EF00009F2FE /* LaunchScreen.storyboard */,
+				FFA55CE1250B4EF00009F2FE /* Info.plist */,
+				FFA55CE2250B4EF00009F2FE /* main.swift */,
+				FFA55CD3250B4EEE0009F2FE /* Supporting Files */,
+			);
+			path = OneKey;
+			sourceTree = "<group>";
+		};
+		FFA55CD3250B4EEE0009F2FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA55CD4250B4EEE0009F2FE /* unzip-react.sh */,
+				FFA55CD6250B4EEE0009F2FE /* start-npm.sh */,
+				FFA55CD8250B4EEE0009F2FE /* install-react-tools.sh */,
+				FFA55CDA250B4EEE0009F2FE /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA55CBD250B4EEE0009F2FE /* OneKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA55CE6250B4EF00009F2FE /* Build configuration list for PBXNativeTarget "OneKey" */;
+			buildPhases = (
+				72F48EDB768E9B9E27802039 /* [CP] Check Pods Manifest.lock */,
+				FFA55CB8250B4EEE0009F2FE /* Sources */,
+				FFA55CB9250B4EEE0009F2FE /* Frameworks */,
+				FFA55CBA250B4EEE0009F2FE /* Resources */,
+				FFA55CBB250B4EEE0009F2FE /* Start npm */,
+				FFA55CBC250B4EEE0009F2FE /* Bundle React Native code and images */,
+				761ACCF32E93CD721E12D45E /* [CP] Embed Pods Frameworks */,
+				1BD2E07D210E0D2A38840B08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneKey;
+			productName = OneKey;
+			productReference = FFA55CBE250B4EEE0009F2FE /* OneKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA55CB4250B4EEE0009F2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = OCE;
+				TargetAttributes = {
+					FFA55CBD250B4EEE0009F2FE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FFA55CB7250B4EEE0009F2FE /* Build configuration list for PBXProject "OneKey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA55CB3250B4EEE0009F2FE;
+			productRefGroup = FFA55CBF250B4EEE0009F2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA55CBD250B4EEE0009F2FE /* OneKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA55CBA250B4EEE0009F2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA55CD7250B4EEE0009F2FE /* start-npm.sh in Resources */,
+				FFA55CD9250B4EEE0009F2FE /* install-react-tools.sh in Resources */,
+				FFA55CE0250B4EF00009F2FE /* LaunchScreen.storyboard in Resources */,
+				FFA55CC7250B4EEE0009F2FE /* Podfile in Resources */,
+				FFA55CDB250B4EEE0009F2FE /* bootconfig.plist in Resources */,
+				FFA55CCC250B4EEE0009F2FE /* Main.storyboard in Resources */,
+				FFA55CD5250B4EEE0009F2FE /* unzip-react.sh in Resources */,
+				FFA55CDD250B4EF00009F2FE /* Assets.xcassets in Resources */,
+				FFA55CD2250B4EEE0009F2FE /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BD2E07D210E0D2A38840B08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneKey/Pods-OneKey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F48EDB768E9B9E27802039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneKey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761ACCF32E93CD721E12D45E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneKey/Pods-OneKey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA55CBB250B4EEE0009F2FE /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		FFA55CBC250B4EEE0009F2FE /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA55CB8250B4EEE0009F2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA55CD0250B4EEE0009F2FE /* ViewController.swift in Sources */,
+				FFA55CC9250B4EEE0009F2FE /* AppDelegate.swift in Sources */,
+				FFA55CE3250B4EF00009F2FE /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFA55CCA250B4EEE0009F2FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA55CCB250B4EEE0009F2FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFA55CDE250B4EF00009F2FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA55CDF250B4EF00009F2FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA55CE4250B4EF00009F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA55CE5250B4EF00009F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFA55CE7250B4EF00009F2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F484FBD9B8A17F4BF0BF540D /* Pods-OneKey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.OneKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFA55CE8250B4EF00009F2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8910089BC4C56CA25EB88333 /* Pods-OneKey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OneKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.OneKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA55CB7250B4EEE0009F2FE /* Build configuration list for PBXProject "OneKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA55CE4250B4EF00009F2FE /* Debug */,
+				FFA55CE5250B4EF00009F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA55CE6250B4EF00009F2FE /* Build configuration list for PBXNativeTarget "OneKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA55CE7250B4EF00009F2FE /* Debug */,
+				FFA55CE8250B4EF00009F2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA55CB4250B4EEE0009F2FE /* Project object */;
+}
