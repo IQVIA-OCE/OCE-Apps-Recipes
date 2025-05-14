@@ -1,0 +1,19 @@
+install! 'cocoapods', :disable_input_output_paths => true
+
+post_install do |installer|
+    system("
+      node './Pods/OCE/ocescripts/compareVersionsBetweenPodfileAndPackageJson.js' './Podfile' `find . -maxdepth 3 -iname package.json`
+    ")
+
+	installer.pods_project.build_configurations.each do |config|
+      config.build_settings['SUPPORTS_MACCATALYST'] = 'NO'
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+      config.build_settings['ARCHS'] = '${ARCHS_STANDARD_64_BIT}'
+      config.build_settings['ENABLE_USER_SCRIPT_SANDBOXING'] = 'NO'
+    end
+end
+
+target 'AcceleratedInsights' do
+  use_frameworks!
+  pod 'OCE', :git => "https://uat_dev:WhC73gkyFAeG4HcJ1LoJ@gitlab.ims.io/oce/oce-apps-framework", :tag => "22.0.3"
+end
