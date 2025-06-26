@@ -1,0 +1,11 @@
+platform :ios, '16.0'
+install! 'cocoapods', :disable_input_output_paths => true
+
+post_install do |installer|
+    system("sh './MeetingPulse/Supporting Files/unzip-react.sh' --pods-path='./Pods/OCE'")
+end
+
+target 'MeetingPulse' do
+  use_frameworks!
+  pod 'OCE', :git => "https://${USER_NAME}:${OCE_TOKEN}@iqvia.gitlab-dedicated.com/ims/oce/oce-apps-framework", :tag => "22.0.8"
+end
