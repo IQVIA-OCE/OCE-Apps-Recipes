@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2BB912F321D5C280CF9E855 /* Pods_TerritoryStatusDashboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220BCD12065DDCDE6F84753B /* Pods_TerritoryStatusDashboard.framework */; };
+		F7BD1AC9287EC1E800495521 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BD1AC8287EC1E800495521 /* Security.framework */; };
+		F7BD1ACB287EC1E800495521 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BD1ACA287EC1E800495521 /* MapKit.framework */; };
+		F7BD1ACE287EC1E800495521 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1ACD287EC1E800495521 /* Podfile */; };
+		F7BD1AD0287EC1E800495521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD1ACF287EC1E800495521 /* AppDelegate.swift */; };
+		F7BD1AD3287EC1E800495521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1AD1287EC1E800495521 /* Main.storyboard */; };
+		F7BD1AD5287EC1E800495521 /* react in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1AD4287EC1E800495521 /* react */; };
+		F7BD1AD7287EC1E800495521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD1AD6287EC1E800495521 /* ViewController.swift */; };
+		F7BD1AD9287EC1E800495521 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1AD8287EC1E800495521 /* metroBundler.config.json */; };
+		F7BD1ADC287EC1E800495521 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1ADB287EC1E800495521 /* unzip-react.sh */; };
+		F7BD1ADE287EC1E800495521 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1ADD287EC1E800495521 /* start-npm.sh */; };
+		F7BD1AE0287EC1E800495521 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1ADF287EC1E800495521 /* install-react-tools.sh */; };
+		F7BD1AE2287EC1E900495521 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1AE1287EC1E900495521 /* bootconfig.plist */; };
+		F7BD1AE4287EC1EA00495521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1AE3287EC1EA00495521 /* Assets.xcassets */; };
+		F7BD1AE7287EC1EA00495521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BD1AE5287EC1EA00495521 /* LaunchScreen.storyboard */; };
+		F7BD1AEA287EC1EA00495521 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BD1AE9287EC1EA00495521 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220BCD12065DDCDE6F84753B /* Pods_TerritoryStatusDashboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TerritoryStatusDashboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C7FEC91B83DD68B71C07EA /* Pods-TerritoryStatusDashboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerritoryStatusDashboard.debug.xcconfig"; path = "Target Support Files/Pods-TerritoryStatusDashboard/Pods-TerritoryStatusDashboard.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFA52BD8B18B024D9569A72 /* Pods-TerritoryStatusDashboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TerritoryStatusDashboard.release.xcconfig"; path = "Target Support Files/Pods-TerritoryStatusDashboard/Pods-TerritoryStatusDashboard.release.xcconfig"; sourceTree = "<group>"; };
+		F7BD1AC5287EC1E800495521 /* TerritoryStatusDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerritoryStatusDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BD1AC8287EC1E800495521 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7BD1ACA287EC1E800495521 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F7BD1ACD287EC1E800495521 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		F7BD1ACF287EC1E800495521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7BD1AD2287EC1E800495521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7BD1AD4287EC1E800495521 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		F7BD1AD6287EC1E800495521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7BD1AD8287EC1E800495521 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		F7BD1ADB287EC1E800495521 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		F7BD1ADD287EC1E800495521 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		F7BD1ADF287EC1E800495521 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		F7BD1AE1287EC1E900495521 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		F7BD1AE3287EC1EA00495521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7BD1AE6287EC1EA00495521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7BD1AE8287EC1EA00495521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BD1AE9287EC1EA00495521 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7BD1AC0287EC1E800495521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BD1ACB287EC1E800495521 /* MapKit.framework in Frameworks */,
+				F7BD1AC9287EC1E800495521 /* Security.framework in Frameworks */,
+				C2BB912F321D5C280CF9E855 /* Pods_TerritoryStatusDashboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB13FBEFF2F32AB0978FB9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33C7FEC91B83DD68B71C07EA /* Pods-TerritoryStatusDashboard.debug.xcconfig */,
+				BAFA52BD8B18B024D9569A72 /* Pods-TerritoryStatusDashboard.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7BD1ABA287EC1E800495521 = {
+			isa = PBXGroup;
+			children = (
+				F7BD1ACC287EC1E800495521 /* TerritoryStatusDashboard */,
+				F7BD1AC7287EC1E800495521 /* Frameworks */,
+				F7BD1AC6287EC1E800495521 /* Products */,
+				6FB13FBEFF2F32AB0978FB9A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F7BD1AC6287EC1E800495521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7BD1AC5287EC1E800495521 /* TerritoryStatusDashboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7BD1AC7287EC1E800495521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BD1AC8287EC1E800495521 /* Security.framework */,
+				F7BD1ACA287EC1E800495521 /* MapKit.framework */,
+				220BCD12065DDCDE6F84753B /* Pods_TerritoryStatusDashboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7BD1ACC287EC1E800495521 /* TerritoryStatusDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F7BD1ACD287EC1E800495521 /* Podfile */,
+				F7BD1ACF287EC1E800495521 /* AppDelegate.swift */,
+				F7BD1AD1287EC1E800495521 /* Main.storyboard */,
+				F7BD1AD4287EC1E800495521 /* react */,
+				F7BD1AD6287EC1E800495521 /* ViewController.swift */,
+				F7BD1AD8287EC1E800495521 /* metroBundler.config.json */,
+				F7BD1AE3287EC1EA00495521 /* Assets.xcassets */,
+				F7BD1AE5287EC1EA00495521 /* LaunchScreen.storyboard */,
+				F7BD1AE8287EC1EA00495521 /* Info.plist */,
+				F7BD1AE9287EC1EA00495521 /* main.swift */,
+				F7BD1ADA287EC1E800495521 /* Supporting Files */,
+			);
+			path = TerritoryStatusDashboard;
+			sourceTree = "<group>";
+		};
+		F7BD1ADA287EC1E800495521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7BD1ADB287EC1E800495521 /* unzip-react.sh */,
+				F7BD1ADD287EC1E800495521 /* start-npm.sh */,
+				F7BD1ADF287EC1E800495521 /* install-react-tools.sh */,
+				F7BD1AE1287EC1E900495521 /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7BD1AC4287EC1E800495521 /* TerritoryStatusDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BD1AED287EC1EA00495521 /* Build configuration list for PBXNativeTarget "TerritoryStatusDashboard" */;
+			buildPhases = (
+				6A8D337ADD70FCC3AB1597BA /* [CP] Check Pods Manifest.lock */,
+				F7BD1ABF287EC1E800495521 /* Sources */,
+				F7BD1AC0287EC1E800495521 /* Frameworks */,
+				F7BD1AC1287EC1E800495521 /* Resources */,
+				F7BD1AC2287EC1E800495521 /* Start npm */,
+				F7BD1AC3287EC1E800495521 /* Bundle React Native code and images */,
+				863557824FBFD669E0255188 /* [CP] Embed Pods Frameworks */,
+				35DDAB41832247F07334F753 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerritoryStatusDashboard;
+			productName = TerritoryStatusDashboard;
+			productReference = F7BD1AC5287EC1E800495521 /* TerritoryStatusDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7BD1ABB287EC1E800495521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F7BD1AC4287EC1E800495521 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F7BD1ABE287EC1E800495521 /* Build configuration list for PBXProject "TerritoryStatusDashboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7BD1ABA287EC1E800495521;
+			productRefGroup = F7BD1AC6287EC1E800495521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7BD1AC4287EC1E800495521 /* TerritoryStatusDashboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7BD1AC1287EC1E800495521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BD1AD5287EC1E800495521 /* react in Resources */,
+				F7BD1ADE287EC1E800495521 /* start-npm.sh in Resources */,
+				F7BD1AE0287EC1E800495521 /* install-react-tools.sh in Resources */,
+				F7BD1AE7287EC1EA00495521 /* LaunchScreen.storyboard in Resources */,
+				F7BD1ACE287EC1E800495521 /* Podfile in Resources */,
+				F7BD1AE2287EC1E900495521 /* bootconfig.plist in Resources */,
+				F7BD1AD3287EC1E800495521 /* Main.storyboard in Resources */,
+				F7BD1ADC287EC1E800495521 /* unzip-react.sh in Resources */,
+				F7BD1AE4287EC1EA00495521 /* Assets.xcassets in Resources */,
+				F7BD1AD9287EC1E800495521 /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35DDAB41832247F07334F753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerritoryStatusDashboard/Pods-TerritoryStatusDashboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8D337ADD70FCC3AB1597BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TerritoryStatusDashboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863557824FBFD669E0255188 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TerritoryStatusDashboard/Pods-TerritoryStatusDashboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BD1AC2287EC1E800495521 /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		F7BD1AC3287EC1E800495521 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7BD1ABF287EC1E800495521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BD1AD7287EC1E800495521 /* ViewController.swift in Sources */,
+				F7BD1AD0287EC1E800495521 /* AppDelegate.swift in Sources */,
+				F7BD1AEA287EC1EA00495521 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7BD1AD1287EC1E800495521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BD1AD2287EC1E800495521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7BD1AE5287EC1EA00495521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7BD1AE6287EC1EA00495521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7BD1AEB287EC1EA00495521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7BD1AEC287EC1EA00495521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7BD1AEE287EC1EA00495521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C7FEC91B83DD68B71C07EA /* Pods-TerritoryStatusDashboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerritoryStatusDashboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TerritoryStatusDashboard.TerritoryStatusDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7BD1AEF287EC1EA00495521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFA52BD8B18B024D9569A72 /* Pods-TerritoryStatusDashboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerritoryStatusDashboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TerritoryStatusDashboard.TerritoryStatusDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7BD1ABE287EC1E800495521 /* Build configuration list for PBXProject "TerritoryStatusDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BD1AEB287EC1EA00495521 /* Debug */,
+				F7BD1AEC287EC1EA00495521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BD1AED287EC1EA00495521 /* Build configuration list for PBXNativeTarget "TerritoryStatusDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BD1AEE287EC1EA00495521 /* Debug */,
+				F7BD1AEF287EC1EA00495521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7BD1ABB287EC1E800495521 /* Project object */;
+}
