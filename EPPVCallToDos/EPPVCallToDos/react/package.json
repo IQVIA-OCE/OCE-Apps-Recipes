@@ -1,0 +1,57 @@
+{
+  "name": "OCEPlugin",
+  "description": "Call To-Do Compliance EPPV/MID support",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "oce-apps-scripts build-ios",
+    "build-web": "oce-apps-scripts build-web",
+    "start": "oce-apps-scripts start-ios",
+    "start-web": "oce-apps-scripts start-web",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "@reduxjs/toolkit": "1.9.3",
+    "@testing-library/react-hooks": "7.0.1",
+    "@testing-library/react-native": "12.6.1",
+    "@oce-apps/apollo-react-native": "alpha",
+    "color": "4.2.3",
+    "formik": "2.2.9",
+    "jest": "29.7.0",
+    "jest-file-snapshot": "0.5.0",
+    "luxon": "3.2.1",
+    "@oce-apps/oce-apps-bridges": "alpha",
+    "@oce-apps/oce-apps-scripts": "alpha",
+    "react": "18.3.1",
+    "react-native": "0.75.2",
+    "react-native-vector-icons": "6.4.2",
+    "react-redux": "8.0.5",
+    "react-test-renderer": "18.3.1",
+    "yup": "1.0.2",
+    "@react-native/metro-config": "0.75.2",
+    "react-native-web": "0.19.12",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "11.0.14",
+    "prettier": "2.8.4"
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverageFrom": [
+      "App.{js,jsx}",
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/bridge/",
+      "!src/components/KeyboardSpacer/KeyboardSpacer.js",
+      "!src/components/KeyboardAvoidingModal/KeyboardAvoidingModal.web.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!@react-native|react-native|victory-*|@react-native-community|@oce-apps/apollo-react-native|@oce-apps/oce-apps-bridges)"
+    ],
+    "setupFiles": [
+      "./node_modules/@oce-apps/oce-apps-bridges/lib/setupMocks.js"
+    ]
+  }
+}
