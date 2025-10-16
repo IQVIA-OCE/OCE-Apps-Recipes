@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0D54DA4B0D3C9844342881 /* Pods_LaunchOCERemoteSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39633D034164896215C1F72F /* Pods_LaunchOCERemoteSession.framework */; };
+		44C5F9FA25CAEA78007CDC78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C5F9F925CAEA78007CDC78 /* Security.framework */; };
+		44C5F9FC25CAEA78007CDC78 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C5F9FB25CAEA78007CDC78 /* MapKit.framework */; };
+		44C5F9FF25CAEA78007CDC78 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 44C5F9FE25CAEA78007CDC78 /* Podfile */; };
+		44C5FA0125CAEA78007CDC78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5FA0025CAEA78007CDC78 /* AppDelegate.swift */; };
+		44C5FA0425CAEA78007CDC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA0225CAEA78007CDC78 /* Main.storyboard */; };
+		44C5FA0825CAEA78007CDC78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5FA0725CAEA78007CDC78 /* ViewController.swift */; };
+		44C5FA0A25CAEA78007CDC78 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA0925CAEA78007CDC78 /* metroBundler.config.json */; };
+		44C5FA0D25CAEA78007CDC78 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA0C25CAEA78007CDC78 /* unzip-react.sh */; };
+		44C5FA0F25CAEA78007CDC78 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA0E25CAEA78007CDC78 /* start-npm.sh */; };
+		44C5FA1125CAEA78007CDC78 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA1025CAEA78007CDC78 /* install-react-tools.sh */; };
+		44C5FA1325CAEA78007CDC78 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA1225CAEA78007CDC78 /* bootconfig.plist */; };
+		44C5FA1525CAEA7B007CDC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA1425CAEA7B007CDC78 /* Assets.xcassets */; };
+		44C5FA1825CAEA7B007CDC78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C5FA1625CAEA7B007CDC78 /* LaunchScreen.storyboard */; };
+		44C5FA1B25CAEA7B007CDC78 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5FA1A25CAEA7B007CDC78 /* main.swift */; };
+		44C5FA2525CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5FA2425CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.swift */; };
+		44C5FA3025CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5FA2F25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44C5FA2125CAEA7B007CDC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C5F9EC25CAEA78007CDC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C5F9F525CAEA78007CDC78;
+			remoteInfo = LaunchOCERemoteSession;
+		};
+		44C5FA2C25CAEA7B007CDC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C5F9EC25CAEA78007CDC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C5F9F525CAEA78007CDC78;
+			remoteInfo = LaunchOCERemoteSession;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39633D034164896215C1F72F /* Pods_LaunchOCERemoteSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaunchOCERemoteSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C5F9F625CAEA78007CDC78 /* LaunchOCERemoteSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchOCERemoteSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C5F9F925CAEA78007CDC78 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44C5F9FB25CAEA78007CDC78 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		44C5F9FE25CAEA78007CDC78 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		44C5FA0025CAEA78007CDC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44C5FA0325CAEA78007CDC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44C5FA0525CAEA78007CDC78 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		44C5FA0725CAEA78007CDC78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44C5FA0925CAEA78007CDC78 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		44C5FA0C25CAEA78007CDC78 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		44C5FA0E25CAEA78007CDC78 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		44C5FA1025CAEA78007CDC78 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		44C5FA1225CAEA78007CDC78 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		44C5FA1425CAEA7B007CDC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C5FA1725CAEA7B007CDC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44C5FA1925CAEA7B007CDC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C5FA1A25CAEA7B007CDC78 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		44C5FA2025CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchOCERemoteSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C5FA2425CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchOCERemoteSessionTests.swift; sourceTree = "<group>"; };
+		44C5FA2625CAEA7B007CDC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C5FA2B25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchOCERemoteSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C5FA2F25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchOCERemoteSessionUITests.swift; sourceTree = "<group>"; };
+		44C5FA3125CAEA7B007CDC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B03FECE1590B803441F3291 /* Pods-LaunchOCERemoteSession.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaunchOCERemoteSession.debug.xcconfig"; path = "Target Support Files/Pods-LaunchOCERemoteSession/Pods-LaunchOCERemoteSession.debug.xcconfig"; sourceTree = "<group>"; };
+		86862271E1F7D523491AEEE2 /* Pods-LaunchOCERemoteSession.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaunchOCERemoteSession.release.xcconfig"; path = "Target Support Files/Pods-LaunchOCERemoteSession/Pods-LaunchOCERemoteSession.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C5F9F125CAEA78007CDC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C5F9FC25CAEA78007CDC78 /* MapKit.framework in Frameworks */,
+				44C5F9FA25CAEA78007CDC78 /* Security.framework in Frameworks */,
+				1E0D54DA4B0D3C9844342881 /* Pods_LaunchOCERemoteSession.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C5FA1D25CAEA7B007CDC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C5FA2825CAEA7B007CDC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E6318C5C93FDD87060EC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B03FECE1590B803441F3291 /* Pods-LaunchOCERemoteSession.debug.xcconfig */,
+				86862271E1F7D523491AEEE2 /* Pods-LaunchOCERemoteSession.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44C5F9EB25CAEA78007CDC78 = {
+			isa = PBXGroup;
+			children = (
+				44C5F9FD25CAEA78007CDC78 /* LaunchOCERemoteSession */,
+				44C5FA2325CAEA7B007CDC78 /* LaunchOCERemoteSessionTests */,
+				44C5FA2E25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests */,
+				44C5F9F825CAEA78007CDC78 /* Frameworks */,
+				44C5F9F725CAEA78007CDC78 /* Products */,
+				20E6318C5C93FDD87060EC26 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		44C5F9F725CAEA78007CDC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C5F9F625CAEA78007CDC78 /* LaunchOCERemoteSession.app */,
+				44C5FA2025CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.xctest */,
+				44C5FA2B25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C5F9F825CAEA78007CDC78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44C5F9F925CAEA78007CDC78 /* Security.framework */,
+				44C5F9FB25CAEA78007CDC78 /* MapKit.framework */,
+				39633D034164896215C1F72F /* Pods_LaunchOCERemoteSession.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44C5F9FD25CAEA78007CDC78 /* LaunchOCERemoteSession */ = {
+			isa = PBXGroup;
+			children = (
+				44C5F9FE25CAEA78007CDC78 /* Podfile */,
+				44C5FA0025CAEA78007CDC78 /* AppDelegate.swift */,
+				44C5FA0225CAEA78007CDC78 /* Main.storyboard */,
+				44C5FA0525CAEA78007CDC78 /* react */,
+				44C5FA0725CAEA78007CDC78 /* ViewController.swift */,
+				44C5FA0925CAEA78007CDC78 /* metroBundler.config.json */,
+				44C5FA1425CAEA7B007CDC78 /* Assets.xcassets */,
+				44C5FA1625CAEA7B007CDC78 /* LaunchScreen.storyboard */,
+				44C5FA1925CAEA7B007CDC78 /* Info.plist */,
+				44C5FA1A25CAEA7B007CDC78 /* main.swift */,
+				44C5FA0B25CAEA78007CDC78 /* Supporting Files */,
+			);
+			path = LaunchOCERemoteSession;
+			sourceTree = "<group>";
+		};
+		44C5FA0B25CAEA78007CDC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44C5FA0C25CAEA78007CDC78 /* unzip-react.sh */,
+				44C5FA0E25CAEA78007CDC78 /* start-npm.sh */,
+				44C5FA1025CAEA78007CDC78 /* install-react-tools.sh */,
+				44C5FA1225CAEA78007CDC78 /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44C5FA2325CAEA7B007CDC78 /* LaunchOCERemoteSessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				44C5FA2425CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.swift */,
+				44C5FA2625CAEA7B007CDC78 /* Info.plist */,
+			);
+			path = LaunchOCERemoteSessionTests;
+			sourceTree = "<group>";
+		};
+		44C5FA2E25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44C5FA2F25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.swift */,
+				44C5FA3125CAEA7B007CDC78 /* Info.plist */,
+			);
+			path = LaunchOCERemoteSessionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C5F9F525CAEA78007CDC78 /* LaunchOCERemoteSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C5FA3425CAEA7B007CDC78 /* Build configuration list for PBXNativeTarget "LaunchOCERemoteSession" */;
+			buildPhases = (
+				71C667E9D26CB958006127B3 /* [CP] Check Pods Manifest.lock */,
+				44C5F9F025CAEA78007CDC78 /* Sources */,
+				44C5F9F125CAEA78007CDC78 /* Frameworks */,
+				44C5F9F225CAEA78007CDC78 /* Resources */,
+				44C5F9F325CAEA78007CDC78 /* Start npm */,
+				44C5F9F425CAEA78007CDC78 /* Bundle React Native code and images */,
+				21822139A6F2C50F504EEF15 /* [CP] Embed Pods Frameworks */,
+				EBE4116ABE1DD2C26285DB2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchOCERemoteSession;
+			productName = LaunchOCERemoteSession;
+			productReference = 44C5F9F625CAEA78007CDC78 /* LaunchOCERemoteSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44C5FA1F25CAEA7B007CDC78 /* LaunchOCERemoteSessionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C5FA3725CAEA7B007CDC78 /* Build configuration list for PBXNativeTarget "LaunchOCERemoteSessionTests" */;
+			buildPhases = (
+				44C5FA1C25CAEA7B007CDC78 /* Sources */,
+				44C5FA1D25CAEA7B007CDC78 /* Frameworks */,
+				44C5FA1E25CAEA7B007CDC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C5FA2225CAEA7B007CDC78 /* PBXTargetDependency */,
+			);
+			name = LaunchOCERemoteSessionTests;
+			productName = LaunchOCERemoteSessionTests;
+			productReference = 44C5FA2025CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44C5FA2A25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C5FA3A25CAEA7B007CDC78 /* Build configuration list for PBXNativeTarget "LaunchOCERemoteSessionUITests" */;
+			buildPhases = (
+				44C5FA2725CAEA7B007CDC78 /* Sources */,
+				44C5FA2825CAEA7B007CDC78 /* Frameworks */,
+				44C5FA2925CAEA7B007CDC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C5FA2D25CAEA7B007CDC78 /* PBXTargetDependency */,
+			);
+			name = LaunchOCERemoteSessionUITests;
+			productName = LaunchOCERemoteSessionUITests;
+			productReference = 44C5FA2B25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C5F9EC25CAEA78007CDC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					44C5F9F525CAEA78007CDC78 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					44C5FA1F25CAEA7B007CDC78 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 44C5F9F525CAEA78007CDC78;
+					};
+					44C5FA2A25CAEA7B007CDC78 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 44C5F9F525CAEA78007CDC78;
+					};
+				};
+			};
+			buildConfigurationList = 44C5F9EF25CAEA78007CDC78 /* Build configuration list for PBXProject "LaunchOCERemoteSession" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C5F9EB25CAEA78007CDC78;
+			productRefGroup = 44C5F9F725CAEA78007CDC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C5F9F525CAEA78007CDC78 /* LaunchOCERemoteSession */,
+				44C5FA1F25CAEA7B007CDC78 /* LaunchOCERemoteSessionTests */,
+				44C5FA2A25CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C5F9F225CAEA78007CDC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C5FA0F25CAEA78007CDC78 /* start-npm.sh in Resources */,
+				44C5FA1125CAEA78007CDC78 /* install-react-tools.sh in Resources */,
+				44C5FA1825CAEA7B007CDC78 /* LaunchScreen.storyboard in Resources */,
+				44C5F9FF25CAEA78007CDC78 /* Podfile in Resources */,
+				44C5FA1325CAEA78007CDC78 /* bootconfig.plist in Resources */,
+				44C5FA0425CAEA78007CDC78 /* Main.storyboard in Resources */,
+				44C5FA0D25CAEA78007CDC78 /* unzip-react.sh in Resources */,
+				44C5FA1525CAEA7B007CDC78 /* Assets.xcassets in Resources */,
+				44C5FA0A25CAEA78007CDC78 /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C5FA1E25CAEA7B007CDC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C5FA2925CAEA7B007CDC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21822139A6F2C50F504EEF15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaunchOCERemoteSession/Pods-LaunchOCERemoteSession-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44C5F9F325CAEA78007CDC78 /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		44C5F9F425CAEA78007CDC78 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+		71C667E9D26CB958006127B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaunchOCERemoteSession-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE4116ABE1DD2C26285DB2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LaunchOCERemoteSession/Pods-LaunchOCERemoteSession-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C5F9F025CAEA78007CDC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C5FA0825CAEA78007CDC78 /* ViewController.swift in Sources */,
+				44C5FA0125CAEA78007CDC78 /* AppDelegate.swift in Sources */,
+				44C5FA1B25CAEA7B007CDC78 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C5FA1C25CAEA7B007CDC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C5FA2525CAEA7B007CDC78 /* LaunchOCERemoteSessionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C5FA2725CAEA7B007CDC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C5FA3025CAEA7B007CDC78 /* LaunchOCERemoteSessionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44C5FA2225CAEA7B007CDC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C5F9F525CAEA78007CDC78 /* LaunchOCERemoteSession */;
+			targetProxy = 44C5FA2125CAEA7B007CDC78 /* PBXContainerItemProxy */;
+		};
+		44C5FA2D25CAEA7B007CDC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C5F9F525CAEA78007CDC78 /* LaunchOCERemoteSession */;
+			targetProxy = 44C5FA2C25CAEA7B007CDC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44C5FA0225CAEA78007CDC78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C5FA0325CAEA78007CDC78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44C5FA1625CAEA7B007CDC78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C5FA1725CAEA7B007CDC78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44C5FA3225CAEA7B007CDC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44C5FA3325CAEA7B007CDC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C5FA3525CAEA7B007CDC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B03FECE1590B803441F3291 /* Pods-LaunchOCERemoteSession.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = LaunchOCERemoteSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iqvia.LaunchOCERemoteSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C5FA3625CAEA7B007CDC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86862271E1F7D523491AEEE2 /* Pods-LaunchOCERemoteSession.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = LaunchOCERemoteSession/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iqvia.LaunchOCERemoteSession;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44C5FA3825CAEA7B007CDC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaunchOCERemoteSessionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iqvia.LaunchOCERemoteSessionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchOCERemoteSession.app/LaunchOCERemoteSession";
+			};
+			name = Debug;
+		};
+		44C5FA3925CAEA7B007CDC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaunchOCERemoteSessionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iqvia.LaunchOCERemoteSessionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchOCERemoteSession.app/LaunchOCERemoteSession";
+			};
+			name = Release;
+		};
+		44C5FA3B25CAEA7B007CDC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaunchOCERemoteSessionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iqvia.LaunchOCERemoteSessionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaunchOCERemoteSession;
+			};
+			name = Debug;
+		};
+		44C5FA3C25CAEA7B007CDC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaunchOCERemoteSessionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iqvia.LaunchOCERemoteSessionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaunchOCERemoteSession;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C5F9EF25CAEA78007CDC78 /* Build configuration list for PBXProject "LaunchOCERemoteSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C5FA3225CAEA7B007CDC78 /* Debug */,
+				44C5FA3325CAEA7B007CDC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C5FA3425CAEA7B007CDC78 /* Build configuration list for PBXNativeTarget "LaunchOCERemoteSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C5FA3525CAEA7B007CDC78 /* Debug */,
+				44C5FA3625CAEA7B007CDC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C5FA3725CAEA7B007CDC78 /* Build configuration list for PBXNativeTarget "LaunchOCERemoteSessionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C5FA3825CAEA7B007CDC78 /* Debug */,
+				44C5FA3925CAEA7B007CDC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C5FA3A25CAEA7B007CDC78 /* Build configuration list for PBXNativeTarget "LaunchOCERemoteSessionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C5FA3B25CAEA7B007CDC78 /* Debug */,
+				44C5FA3C25CAEA7B007CDC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C5F9EC25CAEA78007CDC78 /* Project object */;
+}
