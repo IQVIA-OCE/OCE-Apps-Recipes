@@ -1,0 +1,51 @@
+{
+  "name": "OCEPlugin",
+  "description": "Meeting Sign In Sheet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "oce-apps-scripts build-ios",
+    "start": "oce-apps-scripts start-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "*",
+    "@oce-apps/apollo-react-native": "alpha",
+    "@oce-apps/oce-apps-bridges": "alpha",
+    "@oce-apps/oce-apps-scripts": "alpha",
+    "@react-native/metro-config": "0.75.2",
+    "@reduxjs/toolkit": "1.8.2",
+    "@testing-library/react-native": "12.6.1",
+    "babel-preset-expo": "11.0.14",
+    "jest": "29.7.0",
+    "jest-file-snapshot": "0.5.0",
+    "luxon": "2.4.0",
+    "react": "18.3.1",
+    "react-native": "0.75.2",
+    "react-native-signature-canvas": "4.7.1",
+    "react-native-touch-id": "4.4.1",
+    "react-native-vector-icons": "6.4.2",
+    "react-native-webview": "13.12.0",
+    "react-redux": "7.2.8",
+    "react-test-renderer": "18.3.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverageFrom": [
+      "App.{js,jsx}",
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@react-native|victory-*|@react-native-community|@oce-apps/apollo-react-native|react-navigation|@react-navigation|react-naive-gesture-handler|@oce-apps/oce-apps-bridges)"
+    ],
+    "setupFiles": [
+      "./node_modules/@oce-apps/oce-apps-bridges/lib/setupMocks.js",
+      "./__mocks__/EnvironmentData.js",
+      "./__mocks__/LayoutBridge.js"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ]
+  }
+}
