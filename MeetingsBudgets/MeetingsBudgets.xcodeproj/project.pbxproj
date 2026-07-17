@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324EA4D115C869318AA82026 /* Pods_MeetingsBudgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776878B64E142321D0EF6F41 /* Pods_MeetingsBudgets.framework */; };
+		F755DDD626BD88020064EE8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F755DDD526BD88020064EE8F /* Security.framework */; };
+		F755DDD826BD88020064EE8F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F755DDD726BD88020064EE8F /* MapKit.framework */; };
+		F755DDDB26BD88020064EE8F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F755DDDA26BD88020064EE8F /* Podfile */; };
+		F755DDDD26BD88020064EE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755DDDC26BD88020064EE8F /* AppDelegate.swift */; };
+		F755DDE026BD88020064EE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F755DDDE26BD88020064EE8F /* Main.storyboard */; };
+		F755DDE226BD88020064EE8F /* react in Resources */ = {isa = PBXBuildFile; fileRef = F755DDE126BD88020064EE8F /* react */; };
+		F755DDE426BD88020064EE8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755DDE326BD88020064EE8F /* ViewController.swift */; };
+		F755DDE626BD88020064EE8F /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = F755DDE526BD88020064EE8F /* metroBundler.config.json */; };
+		F755DDE926BD88020064EE8F /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = F755DDE826BD88020064EE8F /* unzip-react.sh */; };
+		F755DDEB26BD88020064EE8F /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = F755DDEA26BD88020064EE8F /* start-npm.sh */; };
+		F755DDED26BD88020064EE8F /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = F755DDEC26BD88020064EE8F /* install-react-tools.sh */; };
+		F755DDEF26BD88020064EE8F /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F755DDEE26BD88020064EE8F /* bootconfig.plist */; };
+		F755DDF126BD88050064EE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F755DDF026BD88050064EE8F /* Assets.xcassets */; };
+		F755DDF426BD88050064EE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F755DDF226BD88050064EE8F /* LaunchScreen.storyboard */; };
+		F755DDF726BD88050064EE8F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755DDF626BD88050064EE8F /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23A890C2FE0C9263A6B5B21F /* Pods-MeetingsBudgets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsBudgets.debug.xcconfig"; path = "Target Support Files/Pods-MeetingsBudgets/Pods-MeetingsBudgets.debug.xcconfig"; sourceTree = "<group>"; };
+		52D0FF26037A88B3EEA3FD4E /* Pods-MeetingsBudgets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingsBudgets.release.xcconfig"; path = "Target Support Files/Pods-MeetingsBudgets/Pods-MeetingsBudgets.release.xcconfig"; sourceTree = "<group>"; };
+		776878B64E142321D0EF6F41 /* Pods_MeetingsBudgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingsBudgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F755DDD226BD88020064EE8F /* MeetingsBudgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingsBudgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F755DDD526BD88020064EE8F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F755DDD726BD88020064EE8F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F755DDDA26BD88020064EE8F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		F755DDDC26BD88020064EE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F755DDDF26BD88020064EE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F755DDE126BD88020064EE8F /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		F755DDE326BD88020064EE8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F755DDE526BD88020064EE8F /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		F755DDE826BD88020064EE8F /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		F755DDEA26BD88020064EE8F /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		F755DDEC26BD88020064EE8F /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		F755DDEE26BD88020064EE8F /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		F755DDF026BD88050064EE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F755DDF326BD88050064EE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F755DDF526BD88050064EE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F755DDF626BD88050064EE8F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F755DDCD26BD88020064EE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F755DDD826BD88020064EE8F /* MapKit.framework in Frameworks */,
+				F755DDD626BD88020064EE8F /* Security.framework in Frameworks */,
+				324EA4D115C869318AA82026 /* Pods_MeetingsBudgets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE5AE8E8A70A0F7856A0E6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A890C2FE0C9263A6B5B21F /* Pods-MeetingsBudgets.debug.xcconfig */,
+				52D0FF26037A88B3EEA3FD4E /* Pods-MeetingsBudgets.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F755DDC726BD88020064EE8F = {
+			isa = PBXGroup;
+			children = (
+				F755DDD926BD88020064EE8F /* MeetingsBudgets */,
+				F755DDD426BD88020064EE8F /* Frameworks */,
+				F755DDD326BD88020064EE8F /* Products */,
+				CAE5AE8E8A70A0F7856A0E6C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F755DDD326BD88020064EE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F755DDD226BD88020064EE8F /* MeetingsBudgets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F755DDD426BD88020064EE8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F755DDD526BD88020064EE8F /* Security.framework */,
+				F755DDD726BD88020064EE8F /* MapKit.framework */,
+				776878B64E142321D0EF6F41 /* Pods_MeetingsBudgets.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F755DDD926BD88020064EE8F /* MeetingsBudgets */ = {
+			isa = PBXGroup;
+			children = (
+				F755DDDA26BD88020064EE8F /* Podfile */,
+				F755DDDC26BD88020064EE8F /* AppDelegate.swift */,
+				F755DDDE26BD88020064EE8F /* Main.storyboard */,
+				F755DDE126BD88020064EE8F /* react */,
+				F755DDE326BD88020064EE8F /* ViewController.swift */,
+				F755DDE526BD88020064EE8F /* metroBundler.config.json */,
+				F755DDF026BD88050064EE8F /* Assets.xcassets */,
+				F755DDF226BD88050064EE8F /* LaunchScreen.storyboard */,
+				F755DDF526BD88050064EE8F /* Info.plist */,
+				F755DDF626BD88050064EE8F /* main.swift */,
+				F755DDE726BD88020064EE8F /* Supporting Files */,
+			);
+			path = MeetingsBudgets;
+			sourceTree = "<group>";
+		};
+		F755DDE726BD88020064EE8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F755DDE826BD88020064EE8F /* unzip-react.sh */,
+				F755DDEA26BD88020064EE8F /* start-npm.sh */,
+				F755DDEC26BD88020064EE8F /* install-react-tools.sh */,
+				F755DDEE26BD88020064EE8F /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F755DDD126BD88020064EE8F /* MeetingsBudgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F755DDFA26BD88050064EE8F /* Build configuration list for PBXNativeTarget "MeetingsBudgets" */;
+			buildPhases = (
+				000B094B95DF0EC060AD5E20 /* [CP] Check Pods Manifest.lock */,
+				F755DDCC26BD88020064EE8F /* Sources */,
+				F755DDCD26BD88020064EE8F /* Frameworks */,
+				F755DDCE26BD88020064EE8F /* Resources */,
+				F755DDCF26BD88020064EE8F /* Start npm */,
+				F755DDD026BD88020064EE8F /* Bundle React Native code and images */,
+				519AE2E614C7F3863FCE1FF6 /* [CP] Embed Pods Frameworks */,
+				F95DBAA2E5679E09A84643B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingsBudgets;
+			productName = MeetingsBudgets;
+			productReference = F755DDD226BD88020064EE8F /* MeetingsBudgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F755DDC826BD88020064EE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F755DDD126BD88020064EE8F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F755DDCB26BD88020064EE8F /* Build configuration list for PBXProject "MeetingsBudgets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F755DDC726BD88020064EE8F;
+			productRefGroup = F755DDD326BD88020064EE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F755DDD126BD88020064EE8F /* MeetingsBudgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F755DDCE26BD88020064EE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F755DDE226BD88020064EE8F /* react in Resources */,
+				F755DDEB26BD88020064EE8F /* start-npm.sh in Resources */,
+				F755DDED26BD88020064EE8F /* install-react-tools.sh in Resources */,
+				F755DDF426BD88050064EE8F /* LaunchScreen.storyboard in Resources */,
+				F755DDDB26BD88020064EE8F /* Podfile in Resources */,
+				F755DDEF26BD88020064EE8F /* bootconfig.plist in Resources */,
+				F755DDE026BD88020064EE8F /* Main.storyboard in Resources */,
+				F755DDE926BD88020064EE8F /* unzip-react.sh in Resources */,
+				F755DDF126BD88050064EE8F /* Assets.xcassets in Resources */,
+				F755DDE626BD88020064EE8F /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000B094B95DF0EC060AD5E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingsBudgets-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519AE2E614C7F3863FCE1FF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingsBudgets/Pods-MeetingsBudgets-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F755DDCF26BD88020064EE8F /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		F755DDD026BD88020064EE8F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+		F95DBAA2E5679E09A84643B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetingsBudgets/Pods-MeetingsBudgets-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F755DDCC26BD88020064EE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F755DDE426BD88020064EE8F /* ViewController.swift in Sources */,
+				F755DDDD26BD88020064EE8F /* AppDelegate.swift in Sources */,
+				F755DDF726BD88050064EE8F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F755DDDE26BD88020064EE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F755DDDF26BD88020064EE8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F755DDF226BD88050064EE8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F755DDF326BD88050064EE8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F755DDF826BD88050064EE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F755DDF926BD88050064EE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F755DDFB26BD88050064EE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A890C2FE0C9263A6B5B21F /* Pods-MeetingsBudgets.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingsBudgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.MeetingsBudgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F755DDFC26BD88050064EE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D0FF26037A88B3EEA3FD4E /* Pods-MeetingsBudgets.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeetingsBudgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCE.MeetingsBudgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F755DDCB26BD88020064EE8F /* Build configuration list for PBXProject "MeetingsBudgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F755DDF826BD88050064EE8F /* Debug */,
+				F755DDF926BD88050064EE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F755DDFA26BD88050064EE8F /* Build configuration list for PBXNativeTarget "MeetingsBudgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F755DDFB26BD88050064EE8F /* Debug */,
+				F755DDFC26BD88050064EE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F755DDC826BD88020064EE8F /* Project object */;
+}

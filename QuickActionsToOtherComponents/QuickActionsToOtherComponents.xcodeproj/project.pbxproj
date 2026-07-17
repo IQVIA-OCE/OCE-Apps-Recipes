@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6D3AAF8B2CD424C9964DEE4 /* Pods_QuickActionsToOtherComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5004E40AEB4FF3591C4CF8CD /* Pods_QuickActionsToOtherComponents.framework */; };
+		F750AAED2912488400FD4200 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F750AAEC2912488400FD4200 /* Security.framework */; };
+		F750AAEF2912488400FD4200 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F750AAEE2912488400FD4200 /* MapKit.framework */; };
+		F750AAF22912488400FD4200 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F750AAF12912488400FD4200 /* Podfile */; };
+		F750AAF42912488400FD4200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AAF32912488400FD4200 /* AppDelegate.swift */; };
+		F750AAF72912488400FD4200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F750AAF52912488400FD4200 /* Main.storyboard */; };
+		F750AAFB2912488400FD4200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AAFA2912488400FD4200 /* ViewController.swift */; };
+		F750AAFD2912488400FD4200 /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = F750AAFC2912488400FD4200 /* metroBundler.config.json */; };
+		F750AB002912488400FD4200 /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = F750AAFF2912488400FD4200 /* unzip-react.sh */; };
+		F750AB022912488400FD4200 /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = F750AB012912488400FD4200 /* start-npm.sh */; };
+		F750AB042912488400FD4200 /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = F750AB032912488400FD4200 /* install-react-tools.sh */; };
+		F750AB062912488400FD4200 /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F750AB052912488400FD4200 /* bootconfig.plist */; };
+		F750AB082912488600FD4200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F750AB072912488600FD4200 /* Assets.xcassets */; };
+		F750AB0B2912488600FD4200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F750AB092912488600FD4200 /* LaunchScreen.storyboard */; };
+		F750AB0E2912488600FD4200 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750AB0D2912488600FD4200 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		419D9D84E7DBB3132ACE2E66 /* Pods-QuickActionsToOtherComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickActionsToOtherComponents.release.xcconfig"; path = "Target Support Files/Pods-QuickActionsToOtherComponents/Pods-QuickActionsToOtherComponents.release.xcconfig"; sourceTree = "<group>"; };
+		5004E40AEB4FF3591C4CF8CD /* Pods_QuickActionsToOtherComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickActionsToOtherComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E615C8247DEA6709922C09D2 /* Pods-QuickActionsToOtherComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickActionsToOtherComponents.debug.xcconfig"; path = "Target Support Files/Pods-QuickActionsToOtherComponents/Pods-QuickActionsToOtherComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		F750AAE92912488400FD4200 /* QuickActionsToOtherComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickActionsToOtherComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F750AAEC2912488400FD4200 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F750AAEE2912488400FD4200 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F750AAF12912488400FD4200 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F750AAF32912488400FD4200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F750AAF62912488400FD4200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F750AAF82912488400FD4200 /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		F750AAFA2912488400FD4200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F750AAFC2912488400FD4200 /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		F750AAFF2912488400FD4200 /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		F750AB012912488400FD4200 /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		F750AB032912488400FD4200 /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		F750AB052912488400FD4200 /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		F750AB072912488600FD4200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F750AB0A2912488600FD4200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F750AB0C2912488600FD4200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F750AB0D2912488600FD4200 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F750AAE42912488400FD4200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F750AAEF2912488400FD4200 /* MapKit.framework in Frameworks */,
+				F750AAED2912488400FD4200 /* Security.framework in Frameworks */,
+				E6D3AAF8B2CD424C9964DEE4 /* Pods_QuickActionsToOtherComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F607E9E70CE3D667FD65EBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E615C8247DEA6709922C09D2 /* Pods-QuickActionsToOtherComponents.debug.xcconfig */,
+				419D9D84E7DBB3132ACE2E66 /* Pods-QuickActionsToOtherComponents.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F750AADE2912488400FD4200 = {
+			isa = PBXGroup;
+			children = (
+				F750AAF02912488400FD4200 /* QuickActionsToOtherComponents */,
+				F750AAEB2912488400FD4200 /* Frameworks */,
+				F750AAEA2912488400FD4200 /* Products */,
+				4F607E9E70CE3D667FD65EBD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F750AAEA2912488400FD4200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F750AAE92912488400FD4200 /* QuickActionsToOtherComponents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F750AAEB2912488400FD4200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F750AAEC2912488400FD4200 /* Security.framework */,
+				F750AAEE2912488400FD4200 /* MapKit.framework */,
+				5004E40AEB4FF3591C4CF8CD /* Pods_QuickActionsToOtherComponents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F750AAF02912488400FD4200 /* QuickActionsToOtherComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F750AAF12912488400FD4200 /* Podfile */,
+				F750AAF32912488400FD4200 /* AppDelegate.swift */,
+				F750AAF52912488400FD4200 /* Main.storyboard */,
+				F750AAF82912488400FD4200 /* react */,
+				F750AAFA2912488400FD4200 /* ViewController.swift */,
+				F750AAFC2912488400FD4200 /* metroBundler.config.json */,
+				F750AB072912488600FD4200 /* Assets.xcassets */,
+				F750AB092912488600FD4200 /* LaunchScreen.storyboard */,
+				F750AB0C2912488600FD4200 /* Info.plist */,
+				F750AB0D2912488600FD4200 /* main.swift */,
+				F750AAFE2912488400FD4200 /* Supporting Files */,
+			);
+			path = QuickActionsToOtherComponents;
+			sourceTree = "<group>";
+		};
+		F750AAFE2912488400FD4200 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F750AAFF2912488400FD4200 /* unzip-react.sh */,
+				F750AB012912488400FD4200 /* start-npm.sh */,
+				F750AB032912488400FD4200 /* install-react-tools.sh */,
+				F750AB052912488400FD4200 /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F750AAE82912488400FD4200 /* QuickActionsToOtherComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F750AB112912488600FD4200 /* Build configuration list for PBXNativeTarget "QuickActionsToOtherComponents" */;
+			buildPhases = (
+				86E8470AF10B40CF25C96463 /* [CP] Check Pods Manifest.lock */,
+				F750AAE32912488400FD4200 /* Sources */,
+				F750AAE42912488400FD4200 /* Frameworks */,
+				F750AAE52912488400FD4200 /* Resources */,
+				F750AAE62912488400FD4200 /* Start npm */,
+				F750AAE72912488400FD4200 /* Bundle React Native code and images */,
+				A725E240435407293EA42929 /* [CP] Embed Pods Frameworks */,
+				7853AD3A0CB5DAB138341B5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickActionsToOtherComponents;
+			productName = QuickActionsToOtherComponents;
+			productReference = F750AAE92912488400FD4200 /* QuickActionsToOtherComponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F750AADF2912488400FD4200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F750AAE82912488400FD4200 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F750AAE22912488400FD4200 /* Build configuration list for PBXProject "QuickActionsToOtherComponents" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F750AADE2912488400FD4200;
+			productRefGroup = F750AAEA2912488400FD4200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F750AAE82912488400FD4200 /* QuickActionsToOtherComponents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F750AAE52912488400FD4200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F750AB022912488400FD4200 /* start-npm.sh in Resources */,
+				F750AB042912488400FD4200 /* install-react-tools.sh in Resources */,
+				F750AB0B2912488600FD4200 /* LaunchScreen.storyboard in Resources */,
+				F750AAF22912488400FD4200 /* Podfile in Resources */,
+				F750AB062912488400FD4200 /* bootconfig.plist in Resources */,
+				F750AAF72912488400FD4200 /* Main.storyboard in Resources */,
+				F750AB002912488400FD4200 /* unzip-react.sh in Resources */,
+				F750AB082912488600FD4200 /* Assets.xcassets in Resources */,
+				F750AAFD2912488400FD4200 /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7853AD3A0CB5DAB138341B5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickActionsToOtherComponents/Pods-QuickActionsToOtherComponents-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E8470AF10B40CF25C96463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickActionsToOtherComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A725E240435407293EA42929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickActionsToOtherComponents/Pods-QuickActionsToOtherComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F750AAE62912488400FD4200 /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		F750AAE72912488400FD4200 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F750AAE32912488400FD4200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F750AAFB2912488400FD4200 /* ViewController.swift in Sources */,
+				F750AAF42912488400FD4200 /* AppDelegate.swift in Sources */,
+				F750AB0E2912488600FD4200 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F750AAF52912488400FD4200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F750AAF62912488400FD4200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F750AB092912488600FD4200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F750AB0A2912488600FD4200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F750AB0F2912488600FD4200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F750AB102912488600FD4200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F750AB122912488600FD4200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E615C8247DEA6709922C09D2 /* Pods-QuickActionsToOtherComponents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickActionsToOtherComponents/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QuickActionsToOtherComponents.QuickActionsToOtherComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F750AB132912488600FD4200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419D9D84E7DBB3132ACE2E66 /* Pods-QuickActionsToOtherComponents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickActionsToOtherComponents/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = QuickActionsToOtherComponents.QuickActionsToOtherComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F750AAE22912488400FD4200 /* Build configuration list for PBXProject "QuickActionsToOtherComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F750AB0F2912488600FD4200 /* Debug */,
+				F750AB102912488600FD4200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F750AB112912488600FD4200 /* Build configuration list for PBXNativeTarget "QuickActionsToOtherComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F750AB122912488600FD4200 /* Debug */,
+				F750AB132912488600FD4200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F750AADF2912488400FD4200 /* Project object */;
+}
