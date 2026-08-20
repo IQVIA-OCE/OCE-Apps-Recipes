@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A72653E5CED6B19C56E69A /* Pods_SignInMeetingAttendee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96638C46C668D269345B3DCF /* Pods_SignInMeetingAttendee.framework */; };
+		A4E9CFD926CD20CE0083B5FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E9CFD826CD20CE0083B5FF /* Security.framework */; };
+		A4E9CFDB26CD20CE0083B5FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E9CFDA26CD20CE0083B5FF /* MapKit.framework */; };
+		A4E9CFDE26CD20CE0083B5FF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFDD26CD20CE0083B5FF /* Podfile */; };
+		A4E9CFE026CD20CE0083B5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFDF26CD20CE0083B5FF /* AppDelegate.swift */; };
+		A4E9CFE326CD20CE0083B5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFE126CD20CE0083B5FF /* Main.storyboard */; };
+		A4E9CFE526CD20CE0083B5FF /* react in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFE426CD20CE0083B5FF /* react */; };
+		A4E9CFE726CD20CE0083B5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFE626CD20CE0083B5FF /* ViewController.swift */; };
+		A4E9CFE926CD20CE0083B5FF /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFE826CD20CE0083B5FF /* metroBundler.config.json */; };
+		A4E9CFEC26CD20CE0083B5FF /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFEB26CD20CE0083B5FF /* unzip-react.sh */; };
+		A4E9CFEE26CD20CE0083B5FF /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFED26CD20CE0083B5FF /* start-npm.sh */; };
+		A4E9CFF026CD20CE0083B5FF /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFEF26CD20CE0083B5FF /* install-react-tools.sh */; };
+		A4E9CFF226CD20CE0083B5FF /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFF126CD20CE0083B5FF /* bootconfig.plist */; };
+		A4E9CFF426CD20D00083B5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFF326CD20D00083B5FF /* Assets.xcassets */; };
+		A4E9CFF726CD20D00083B5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E9CFF526CD20D00083B5FF /* LaunchScreen.storyboard */; };
+		A4E9CFFA26CD20D00083B5FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9CFF926CD20D00083B5FF /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39D631A97990193BD514E251 /* Pods-SignInMeetingAttendee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInMeetingAttendee.release.xcconfig"; path = "Target Support Files/Pods-SignInMeetingAttendee/Pods-SignInMeetingAttendee.release.xcconfig"; sourceTree = "<group>"; };
+		5810E9A8D109E578040883A7 /* Pods-SignInMeetingAttendee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInMeetingAttendee.debug.xcconfig"; path = "Target Support Files/Pods-SignInMeetingAttendee/Pods-SignInMeetingAttendee.debug.xcconfig"; sourceTree = "<group>"; };
+		96638C46C668D269345B3DCF /* Pods_SignInMeetingAttendee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInMeetingAttendee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E9CFD526CD20CE0083B5FF /* SignInMeetingAttendee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInMeetingAttendee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E9CFD826CD20CE0083B5FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A4E9CFDA26CD20CE0083B5FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4E9CFDD26CD20CE0083B5FF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		A4E9CFDF26CD20CE0083B5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4E9CFE226CD20CE0083B5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4E9CFE426CD20CE0083B5FF /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		A4E9CFE626CD20CE0083B5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4E9CFE826CD20CE0083B5FF /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		A4E9CFEB26CD20CE0083B5FF /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		A4E9CFED26CD20CE0083B5FF /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		A4E9CFEF26CD20CE0083B5FF /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		A4E9CFF126CD20CE0083B5FF /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		A4E9CFF326CD20D00083B5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E9CFF626CD20D00083B5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4E9CFF826CD20D00083B5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E9CFF926CD20D00083B5FF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E9CFD026CD20CE0083B5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E9CFDB26CD20CE0083B5FF /* MapKit.framework in Frameworks */,
+				A4E9CFD926CD20CE0083B5FF /* Security.framework in Frameworks */,
+				50A72653E5CED6B19C56E69A /* Pods_SignInMeetingAttendee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7377A0F96BE54AEEBF5AA656 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5810E9A8D109E578040883A7 /* Pods-SignInMeetingAttendee.debug.xcconfig */,
+				39D631A97990193BD514E251 /* Pods-SignInMeetingAttendee.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4E9CFCA26CD20CE0083B5FF = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFDC26CD20CE0083B5FF /* SignInMeetingAttendee */,
+				A4E9CFD726CD20CE0083B5FF /* Frameworks */,
+				A4E9CFD626CD20CE0083B5FF /* Products */,
+				7377A0F96BE54AEEBF5AA656 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E9CFD626CD20CE0083B5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFD526CD20CE0083B5FF /* SignInMeetingAttendee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E9CFD726CD20CE0083B5FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFD826CD20CE0083B5FF /* Security.framework */,
+				A4E9CFDA26CD20CE0083B5FF /* MapKit.framework */,
+				96638C46C668D269345B3DCF /* Pods_SignInMeetingAttendee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E9CFDC26CD20CE0083B5FF /* SignInMeetingAttendee */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFDD26CD20CE0083B5FF /* Podfile */,
+				A4E9CFDF26CD20CE0083B5FF /* AppDelegate.swift */,
+				A4E9CFE126CD20CE0083B5FF /* Main.storyboard */,
+				A4E9CFE426CD20CE0083B5FF /* react */,
+				A4E9CFE626CD20CE0083B5FF /* ViewController.swift */,
+				A4E9CFE826CD20CE0083B5FF /* metroBundler.config.json */,
+				A4E9CFF326CD20D00083B5FF /* Assets.xcassets */,
+				A4E9CFF526CD20D00083B5FF /* LaunchScreen.storyboard */,
+				A4E9CFF826CD20D00083B5FF /* Info.plist */,
+				A4E9CFF926CD20D00083B5FF /* main.swift */,
+				A4E9CFEA26CD20CE0083B5FF /* Supporting Files */,
+			);
+			path = SignInMeetingAttendee;
+			sourceTree = "<group>";
+		};
+		A4E9CFEA26CD20CE0083B5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9CFEB26CD20CE0083B5FF /* unzip-react.sh */,
+				A4E9CFED26CD20CE0083B5FF /* start-npm.sh */,
+				A4E9CFEF26CD20CE0083B5FF /* install-react-tools.sh */,
+				A4E9CFF126CD20CE0083B5FF /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E9CFD426CD20CE0083B5FF /* SignInMeetingAttendee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E9CFFD26CD20D00083B5FF /* Build configuration list for PBXNativeTarget "SignInMeetingAttendee" */;
+			buildPhases = (
+				30D3F8CB9097946F7FAF8E85 /* [CP] Check Pods Manifest.lock */,
+				A4E9CFCF26CD20CE0083B5FF /* Sources */,
+				A4E9CFD026CD20CE0083B5FF /* Frameworks */,
+				A4E9CFD126CD20CE0083B5FF /* Resources */,
+				A4E9CFD226CD20CE0083B5FF /* Start npm */,
+				A4E9CFD326CD20CE0083B5FF /* Bundle React Native code and images */,
+				685F7B08345D163393993884 /* [CP] Embed Pods Frameworks */,
+				243ADA2C2128A7FD177C4E9B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignInMeetingAttendee;
+			productName = SignInMeetingAttendee;
+			productReference = A4E9CFD526CD20CE0083B5FF /* SignInMeetingAttendee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E9CFCB26CD20CE0083B5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A4E9CFD426CD20CE0083B5FF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A4E9CFCE26CD20CE0083B5FF /* Build configuration list for PBXProject "SignInMeetingAttendee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E9CFCA26CD20CE0083B5FF;
+			productRefGroup = A4E9CFD626CD20CE0083B5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E9CFD426CD20CE0083B5FF /* SignInMeetingAttendee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E9CFD126CD20CE0083B5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E9CFE526CD20CE0083B5FF /* react in Resources */,
+				A4E9CFEE26CD20CE0083B5FF /* start-npm.sh in Resources */,
+				A4E9CFF026CD20CE0083B5FF /* install-react-tools.sh in Resources */,
+				A4E9CFF726CD20D00083B5FF /* LaunchScreen.storyboard in Resources */,
+				A4E9CFDE26CD20CE0083B5FF /* Podfile in Resources */,
+				A4E9CFF226CD20CE0083B5FF /* bootconfig.plist in Resources */,
+				A4E9CFE326CD20CE0083B5FF /* Main.storyboard in Resources */,
+				A4E9CFEC26CD20CE0083B5FF /* unzip-react.sh in Resources */,
+				A4E9CFF426CD20D00083B5FF /* Assets.xcassets in Resources */,
+				A4E9CFE926CD20CE0083B5FF /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		243ADA2C2128A7FD177C4E9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignInMeetingAttendee/Pods-SignInMeetingAttendee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D3F8CB9097946F7FAF8E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignInMeetingAttendee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		685F7B08345D163393993884 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignInMeetingAttendee/Pods-SignInMeetingAttendee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E9CFD226CD20CE0083B5FF /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		A4E9CFD326CD20CE0083B5FF /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E9CFCF26CD20CE0083B5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E9CFE726CD20CE0083B5FF /* ViewController.swift in Sources */,
+				A4E9CFE026CD20CE0083B5FF /* AppDelegate.swift in Sources */,
+				A4E9CFFA26CD20D00083B5FF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4E9CFE126CD20CE0083B5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E9CFE226CD20CE0083B5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4E9CFF526CD20D00083B5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4E9CFF626CD20D00083B5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4E9CFFB26CD20D00083B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4E9CFFC26CD20D00083B5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E9CFFE26CD20D00083B5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5810E9A8D109E578040883A7 /* Pods-SignInMeetingAttendee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignInMeetingAttendee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OceAppsRecipes.SignInMeetingAttendee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E9CFFF26CD20D00083B5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D631A97990193BD514E251 /* Pods-SignInMeetingAttendee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignInMeetingAttendee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OceAppsRecipes.SignInMeetingAttendee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E9CFCE26CD20CE0083B5FF /* Build configuration list for PBXProject "SignInMeetingAttendee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E9CFFB26CD20D00083B5FF /* Debug */,
+				A4E9CFFC26CD20D00083B5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E9CFFD26CD20D00083B5FF /* Build configuration list for PBXNativeTarget "SignInMeetingAttendee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E9CFFE26CD20D00083B5FF /* Debug */,
+				A4E9CFFF26CD20D00083B5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E9CFCB26CD20CE0083B5FF /* Project object */;
+}
