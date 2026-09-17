@@ -1,0 +1,8 @@
+{
+    "webProtocol" : "http",
+    "port" : "8084",
+    "domain" : "localhost",
+    "path" : "index.bundle?platform=ios&dev=true&minify=false",
+    "_openAs_description" : "Property that specifies how react-native application should be opened. Possible values: \"widget\", \"application\", \"customTab\", \"allTypes\". If property \"openAs\" is missed default value is \"allTypes\".",
+    "openAs": "allTypes"
+}
