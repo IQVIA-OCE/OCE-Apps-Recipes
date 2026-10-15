@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3048BA3FD7E4E8B84681E6FF /* Pods_SampleLimitsReconciliationReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91943541ED3ACBBBC5BCCEA2 /* Pods_SampleLimitsReconciliationReport.framework */; };
+		BEC08C5B27610FCD0005D43E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC08C5A27610FCD0005D43E /* Security.framework */; };
+		BEC08C5D27610FCD0005D43E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC08C5C27610FCD0005D43E /* MapKit.framework */; };
+		BEC08C6027610FCD0005D43E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C5F27610FCD0005D43E /* Podfile */; };
+		BEC08C6227610FCD0005D43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC08C6127610FCD0005D43E /* AppDelegate.swift */; };
+		BEC08C6527610FCD0005D43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C6327610FCD0005D43E /* Main.storyboard */; };
+		BEC08C6727610FCD0005D43E /* react in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C6627610FCD0005D43E /* react */; };
+		BEC08C6927610FCD0005D43E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC08C6827610FCD0005D43E /* ViewController.swift */; };
+		BEC08C6B27610FCD0005D43E /* metroBundler.config.json in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C6A27610FCD0005D43E /* metroBundler.config.json */; };
+		BEC08C6E27610FCD0005D43E /* unzip-react.sh in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C6D27610FCD0005D43E /* unzip-react.sh */; };
+		BEC08C7027610FCD0005D43E /* start-npm.sh in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C6F27610FCD0005D43E /* start-npm.sh */; };
+		BEC08C7227610FCD0005D43E /* install-react-tools.sh in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C7127610FCD0005D43E /* install-react-tools.sh */; };
+		BEC08C7427610FCD0005D43E /* bootconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C7327610FCD0005D43E /* bootconfig.plist */; };
+		BEC08C7627610FCF0005D43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C7527610FCF0005D43E /* Assets.xcassets */; };
+		BEC08C7927610FCF0005D43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC08C7727610FCF0005D43E /* LaunchScreen.storyboard */; };
+		BEC08C7C27610FCF0005D43E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC08C7B27610FCF0005D43E /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91943541ED3ACBBBC5BCCEA2 /* Pods_SampleLimitsReconciliationReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleLimitsReconciliationReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC08C5727610FCD0005D43E /* SampleLimitsReconciliationReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleLimitsReconciliationReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC08C5A27610FCD0005D43E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BEC08C5C27610FCD0005D43E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BEC08C5F27610FCD0005D43E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		BEC08C6127610FCD0005D43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC08C6427610FCD0005D43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC08C6627610FCD0005D43E /* react */ = {isa = PBXFileReference; lastKnownFileType = folder; path = react; sourceTree = "<group>"; };
+		BEC08C6827610FCD0005D43E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC08C6A27610FCD0005D43E /* metroBundler.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metroBundler.config.json; sourceTree = "<group>"; };
+		BEC08C6D27610FCD0005D43E /* unzip-react.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "unzip-react.sh"; sourceTree = "<group>"; };
+		BEC08C6F27610FCD0005D43E /* start-npm.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "start-npm.sh"; sourceTree = "<group>"; };
+		BEC08C7127610FCD0005D43E /* install-react-tools.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-react-tools.sh"; sourceTree = "<group>"; };
+		BEC08C7327610FCD0005D43E /* bootconfig.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bootconfig.plist; sourceTree = "<group>"; };
+		BEC08C7527610FCF0005D43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC08C7827610FCF0005D43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC08C7A27610FCF0005D43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC08C7B27610FCF0005D43E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C54CCECB4004BEB14D2A6835 /* Pods-SampleLimitsReconciliationReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleLimitsReconciliationReport.debug.xcconfig"; path = "Target Support Files/Pods-SampleLimitsReconciliationReport/Pods-SampleLimitsReconciliationReport.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC28E380332179094BBEAC0 /* Pods-SampleLimitsReconciliationReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleLimitsReconciliationReport.release.xcconfig"; path = "Target Support Files/Pods-SampleLimitsReconciliationReport/Pods-SampleLimitsReconciliationReport.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC08C5227610FCD0005D43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC08C5D27610FCD0005D43E /* MapKit.framework in Frameworks */,
+				BEC08C5B27610FCD0005D43E /* Security.framework in Frameworks */,
+				3048BA3FD7E4E8B84681E6FF /* Pods_SampleLimitsReconciliationReport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB09C6CF6F5F09AB8A9FC08E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C54CCECB4004BEB14D2A6835 /* Pods-SampleLimitsReconciliationReport.debug.xcconfig */,
+				EFC28E380332179094BBEAC0 /* Pods-SampleLimitsReconciliationReport.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEC08C4C27610FCD0005D43E = {
+			isa = PBXGroup;
+			children = (
+				BEC08C5E27610FCD0005D43E /* SampleLimitsReconciliationReport */,
+				BEC08C5927610FCD0005D43E /* Frameworks */,
+				BEC08C5827610FCD0005D43E /* Products */,
+				BB09C6CF6F5F09AB8A9FC08E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC08C5827610FCD0005D43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC08C5727610FCD0005D43E /* SampleLimitsReconciliationReport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC08C5927610FCD0005D43E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC08C5A27610FCD0005D43E /* Security.framework */,
+				BEC08C5C27610FCD0005D43E /* MapKit.framework */,
+				91943541ED3ACBBBC5BCCEA2 /* Pods_SampleLimitsReconciliationReport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC08C5E27610FCD0005D43E /* SampleLimitsReconciliationReport */ = {
+			isa = PBXGroup;
+			children = (
+				BEC08C5F27610FCD0005D43E /* Podfile */,
+				BEC08C6127610FCD0005D43E /* AppDelegate.swift */,
+				BEC08C6327610FCD0005D43E /* Main.storyboard */,
+				BEC08C6627610FCD0005D43E /* react */,
+				BEC08C6827610FCD0005D43E /* ViewController.swift */,
+				BEC08C6A27610FCD0005D43E /* metroBundler.config.json */,
+				BEC08C7527610FCF0005D43E /* Assets.xcassets */,
+				BEC08C7727610FCF0005D43E /* LaunchScreen.storyboard */,
+				BEC08C7A27610FCF0005D43E /* Info.plist */,
+				BEC08C7B27610FCF0005D43E /* main.swift */,
+				BEC08C6C27610FCD0005D43E /* Supporting Files */,
+			);
+			path = SampleLimitsReconciliationReport;
+			sourceTree = "<group>";
+		};
+		BEC08C6C27610FCD0005D43E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC08C6D27610FCD0005D43E /* unzip-react.sh */,
+				BEC08C6F27610FCD0005D43E /* start-npm.sh */,
+				BEC08C7127610FCD0005D43E /* install-react-tools.sh */,
+				BEC08C7327610FCD0005D43E /* bootconfig.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC08C5627610FCD0005D43E /* SampleLimitsReconciliationReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC08C7F27610FCF0005D43E /* Build configuration list for PBXNativeTarget "SampleLimitsReconciliationReport" */;
+			buildPhases = (
+				702678577A238916EB88514E /* [CP] Check Pods Manifest.lock */,
+				BEC08C5127610FCD0005D43E /* Sources */,
+				BEC08C5227610FCD0005D43E /* Frameworks */,
+				BEC08C5327610FCD0005D43E /* Resources */,
+				BEC08C5427610FCD0005D43E /* Start npm */,
+				BEC08C5527610FCD0005D43E /* Bundle React Native code and images */,
+				480198DF78A6BEF11D6A9011 /* [CP] Embed Pods Frameworks */,
+				37E1C712912DAB10E8119D79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleLimitsReconciliationReport;
+			productName = SampleLimitsReconciliationReport;
+			productReference = BEC08C5727610FCD0005D43E /* SampleLimitsReconciliationReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC08C4D27610FCD0005D43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BEC08C5627610FCD0005D43E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BEC08C5027610FCD0005D43E /* Build configuration list for PBXProject "SampleLimitsReconciliationReport" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC08C4C27610FCD0005D43E;
+			productRefGroup = BEC08C5827610FCD0005D43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC08C5627610FCD0005D43E /* SampleLimitsReconciliationReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC08C5327610FCD0005D43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC08C6727610FCD0005D43E /* react in Resources */,
+				BEC08C7027610FCD0005D43E /* start-npm.sh in Resources */,
+				BEC08C7227610FCD0005D43E /* install-react-tools.sh in Resources */,
+				BEC08C7927610FCF0005D43E /* LaunchScreen.storyboard in Resources */,
+				BEC08C6027610FCD0005D43E /* Podfile in Resources */,
+				BEC08C7427610FCD0005D43E /* bootconfig.plist in Resources */,
+				BEC08C6527610FCD0005D43E /* Main.storyboard in Resources */,
+				BEC08C6E27610FCD0005D43E /* unzip-react.sh in Resources */,
+				BEC08C7627610FCF0005D43E /* Assets.xcassets in Resources */,
+				BEC08C6B27610FCD0005D43E /* metroBundler.config.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E1C712912DAB10E8119D79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleLimitsReconciliationReport/Pods-SampleLimitsReconciliationReport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480198DF78A6BEF11D6A9011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleLimitsReconciliationReport/Pods-SampleLimitsReconciliationReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702678577A238916EB88514E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleLimitsReconciliationReport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC08C5427610FCD0005D43E /* Start npm */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start npm";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/${PROJECT_NAME}/Supporting Files/start-npm.sh\" --react-folder-path=\"${PROJECT_DIR}/${PROJECT_NAME}/react\" --metro-config-path=\"${PROJECT_DIR}/${PROJECT_NAME}/metroBundler.config.json\"";
+		};
+		BEC08C5527610FCD0005D43E /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\nsh \"${PROJECT_DIR}/${PROJECT_NAME}/react/node_modules/react-native/scripts/react-native-xcode.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC08C5127610FCD0005D43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC08C6927610FCD0005D43E /* ViewController.swift in Sources */,
+				BEC08C6227610FCD0005D43E /* AppDelegate.swift in Sources */,
+				BEC08C7C27610FCF0005D43E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEC08C6327610FCD0005D43E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC08C6427610FCD0005D43E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC08C7727610FCF0005D43E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC08C7827610FCF0005D43E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC08C7D27610FCF0005D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BEC08C7E27610FCF0005D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC08C8027610FCF0005D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54CCECB4004BEB14D2A6835 /* Pods-SampleLimitsReconciliationReport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleLimitsReconciliationReport/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = OCEApps.SampleLimitsReconciliationReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC08C8127610FCF0005D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC28E380332179094BBEAC0 /* Pods-SampleLimitsReconciliationReport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleLimitsReconciliationReport/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = OCEApps.SampleLimitsReconciliationReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC08C5027610FCD0005D43E /* Build configuration list for PBXProject "SampleLimitsReconciliationReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC08C7D27610FCF0005D43E /* Debug */,
+				BEC08C7E27610FCF0005D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC08C7F27610FCF0005D43E /* Build configuration list for PBXNativeTarget "SampleLimitsReconciliationReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC08C8027610FCF0005D43E /* Debug */,
+				BEC08C8127610FCF0005D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC08C4D27610FCD0005D43E /* Project object */;
+}
